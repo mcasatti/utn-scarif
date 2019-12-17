@@ -22,6 +22,7 @@ autores y líneas de investigación.
 ## Archivos del PID
 * [Archivo de proyecto](documentos/PID/Impresion_PIDCenso.pdf)
 * [Resolución de homologación](documentos/PID/Disp.148-homologacion-pids-no-incentivados.pdf)
+* [PID DEFINITIVO ](documentos/PID/PID SIUTNCO0007848 - Cienciometría.pdf)
 
 # Nerd Note
 
