@@ -1,0 +1,73 @@
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+% El comando es-noquoting desactiva el uso de < y > para marcar
+% comentarios en español. Es porque da conflictos con tikz (graficos)
+\usepackage[spanish,es-noquoting]{babel}
+%\usepackage[acronym]{glossaries}
+% Uso de posicionamiento absoluto en figuras 
+\usepackage{float}
+% y cambia el estilo (agrega borde)
+%\floatstyle{boxed} 
+%\restylefloat{figure}
+\usepackage[dvipsnames,svgnames,table,x11names]{xcolor}
+\usepackage[hidelinks,draft]{hyperref}
+\usepackage{graphicx}
+\usepackage{tkz-graph}
+\usepackage[colorinlistoftodos,textsize=tiny]{todonotes}
+\usepackage{cancel}
+%\usepackage{subcaption} % Subcaption rompe algunas cuestiones del formato IEEE
+\usepackage{enumitem}
+\usepackage{tabularx}
+\usepackage{amsmath}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\usetikzlibrary{
+	arrows,
+	decorations.pathmorphing,
+	backgrounds,
+	positioning,
+	calc,
+	fit,
+	petri,
+	quotes,
+	% Este paquete produce errores usado en conjunto con tkz-graph
+	% babel,	
+	arrows.meta,
+	decorations.pathreplacing,
+	shapes,
+	datavisualization,
+	plotmarks
+}
+%----------------------------------------------------------------------------------------
+%	BIBLIOGRAPHY AND INDEX
+%----------------------------------------------------------------------------------------
+\usepackage[
+	%style=alphabetic,
+	%style=IEEEtran,
+	citestyle=numeric,
+	sorting=none,
+	sortcites=true,
+	autopunct=true,
+	babel=hyphen,
+	hyperref=true,
+	abbreviate=false,
+	%backref=true,
+	%backend=biber,
+	bibencoding=utf8,
+	defernumbers=true
+]{biblatex}
+%\addbibresource{bibliografia.bib} % BibTeX bibliography file
+%\bibliography{bibliografia.bib}
+%\defbibheading{bibempty}{}
+%\usepackage[backend=bibtex,defernumbers=true,sorting=none]{biblatex}
+%\DeclareBibliographyCategory{cited}
+%\AtEveryCitekey{\addtocategory{cited}{\thefield{entrykey}}}
+%\addbibresource{bibliografia.bib}
+%\nocite{*}
+
+%\usepackage{caption}
+\usepackage[framemethod=tikz]{mdframed}
+% FUNCION DECLARADA PARA GRAFICAR UNA CAMPANA DE GAUSS
+\pgfmathdeclarefunction{gauss}{2}{%
+	\pgfmathparse{1/(#2*sqrt(2*pi))*exp(-((x-#1)^2)/(2*#2^2))}%
+}

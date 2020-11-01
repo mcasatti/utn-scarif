@@ -1,0 +1,164 @@
+%----------------------------------------------------------------------------------------
+%	DEFINE EL FLAG BORRADOR para imprimir, por ejemplo, la lista de TO-DO
+%----------------------------------------------------------------------------------------
+%\def\borrador{}
+%	\def\peerreview{}
+
+\documentclass[
+	a4paper,
+	journal,
+	compsoc,
+	final
+]{IEEEtran}
+
+%\documentclass{article}
+
+
+% Microtype tiene que preceder a Ragged2e
+\input{packages}
+\usepackage[babel=true,expansion=false,protrusion=true]{microtype}
+\usepackage{ragged2e}
+% Para poder tachar texto con uwave{}, sout{}, \xout{}
+\usepackage[normalem]{ulem} % El parametro normalem es para no alterar el emphasis (italica)
+%\usepackage{draftwatermark}
+\usepackage[most]{tcolorbox}
+\usepackage{booktabs}
+%\captionsetup[table]{belowskip=2pt}
+
+\newcommand{\hl}[2]{
+	\begin{mdframed}[
+		%hidealllines=true,
+		backgroundcolor=#1!30,
+		innerleftmargin=10pt,
+		innerrightmargin=10pt,
+		leftmargin=-3pt,
+		rightmargin=-3pt
+		]
+		#2
+	\end{mdframed}
+}
+\newcommand{\opennuevo}{\hl{yellow}{\centering NUEVO $\Downarrow$}}
+\newcommand{\closenuevo}{\hl{yellow}{\centering NUEVO $\Uparrow$}}
+
+\newcommand{\openidea}{\hl{green}{\centering IDEA $\Downarrow$}}
+\newcommand{\closeidea}{\hl{green}{\centering IDEA $\Uparrow$}}
+
+\newcommand{\revisar}[1]{\todo[backgroundcolor=yellow!50,inline]{#1}}
+\newcommand{\ampliar}{\todo[backgroundcolor=blue!30,inline]{Ampliar}}
+
+\ifdefined\peerreview
+	\newcommand{\utn}{\colorbox{lightgray}{OCULTO PARA BLIND REVIEW}}
+	\newcommand{\frc}{\colorbox{lightgray}{OCULTO PARA BLIND REVIEW}}
+	\newcommand{\cids}{\colorbox{lightgray}{OCULTO PARA BLIND REVIEW}}
+	\newcommand{\depto}{\colorbox{lightgray}{OCULTO PARA BLIND REVIEW}}
+	\newcommand{\proyecto}{\colorbox{lightgray}{OCULTO PARA BLIND REVIEW}}
+\else
+	\newcommand{\utn}{Universidad Tecnológica Nacional}
+	\newcommand{\frc}{Facultad Regional Córdoba }
+	\newcommand{\cids}{CIDS – Centro de Investigación, Desarrollo y Transferencia en Sistemas de Información}
+	\newcommand{\depto}{Departamento de Ingeniería en Sistemas de Información}
+	\newcommand{\proyecto}{(SIUTNCO0007848)}
+\fi
+
+%\newcommand{\revisarcita}{\todo[backgroundcolor=red,noline]{\color{white}\textbf{CITA}}}
+\newcommand{\revisarcita}{\colorbox{red}{\textcolor{white}{\ CITA\ }}}
+\newcommand{\sincita}{\colorbox{red}{\textcolor{white}{\ CITA\ }}}
+
+\newcommand{\faltafigura}{\missingfigure{Falta figura\ldots}}
+\def\arraystretch{1.3}%  1 is the default, change whatever you need
+
+\ifdefined\borrador
+%\usepackage[outer=5cm]{geometry}
+\fi
+
+\defbibheading{bibempty}{}
+\DeclareBibliographyCategory{cited}
+\AtEveryCitekey{\addtocategory{cited}{\thefield{entrykey}}}
+\nocite{*}
+
+%\ifdefined\borrador
+%	\DraftwatermarkOptions{%
+%		text=Borrador,
+%		scale=0.8
+%	}
+%\else
+%	\SetWatermarkText{}
+%\fi
+
+
+
+%\bibliographystyle{IEEEtran}
+%\bibliography{IEEEabrv,./bib/refs}
+%\bibliographystyle{IEEEabrv}
+\bibliography{./refs} % ESTE ANDA
+
+\IEEEoverridecommandlockouts
+
+%\renewcommand{\tabcapfont}{\fontfamily{phv}}
+%\captionsetup[table]{textfont=sf,font=small,position=top}
+
+\begin{document}
+	% Cambiar el titulo ``CUADRO'' que aparece en las tablas por ``TABLA''
+	\renewcommand{\tablename}{Tabla}
+
+    \title{ \{\{TITLE\}\} }
+
+	\ifdefined\peerreview
+		% SI ES PEER REVIEW NO MOSTRAR INFORMACION de AUTORES
+	\else
+	\author{
+		\{\{AUTHOR1\}\}, \{\{AUTHOR2\}\}.
+		\{\{EMAIL\}\}@\{\{URL\}\}
+	} 
+	\fi
+
+	%\href{mailto:pazmalejandra@gmail.com}{pazmalejandra@gmail.com},
+	%\href{mailto:proyale@groppo.com.ar}{proyale@groppo.com.ar},
+	%\href{mailto:marciszack@gmail.com}{marciszack@gmail.com},
+	%\href{mailto:aguzman@sistemas.frc.utn.edu.ar}{aguzman@sistemas.frc.utn.edu.ar},
+	%\href{mailto:karinaligorria@hotmail.com}{karinaligorria@hotmail.com},
+	%\href{mailto:mcasatti@gmail.com}{mcasatti@gmail.com}}
+
+	\ifdefined\peerreview
+		% SI ES PEER REVIEW NO MOSTRAR INFORMACIÓN de AFILIACIÓN
+	\else
+	\IEEEspecialpapernotice{\{\{INFO\}\}}
+	\fi
+
+	\maketitle
+
+	%\IEEEpubid{\makebox[\columnwidth]{978-1-5386-3057-0/17/\$31.00 ©2017 IEEE \hfill} \hspace{\columnsep}\makebox[\columnwidth]{ }}
+
+	%\selectlanguage{english}
+	%\begin{abstract}
+	\section*{ \{\{ABSTRACT\}\} }
+		\emph{ \{\{TXT-ABSTRACT\}\} }
+	%\end{abstract}
+	%\selectlanguage{spanish}
+
+	\bigskip
+
+%	\renewcommand\IEEEkeywordsname{Palabras clave}
+	\begin{IEEEkeywords}
+		\{\{KEY1; KEY2; KEY3\}\}
+	\end{IEEEkeywords}
+	%\revisar{Revisar keywords y pasar al castellano}
+
+
+	\section{ \{\{SECTION\}\} }
+	\{\{TXTSECTION\}\}\cite{bakkalbasi2006three}
+	
+
+	\defbibnote{bibnote}{\emph{El presente material bibliográfico se ha utilizado como material de estudio pero no se ha citado directamente en el texto.}}
+
+	% Material CITADO, entra bajo el titulo REFERENCIAS
+	\section*{\{\{REFERENCES\}\}}
+	\printbibliography[heading=bibempty,category=cited,title={Referencias}]
+
+	% Material NO CITADO, entra bajo el titulo BIBLIOGRAFÍA ADICIONAL
+	%\section*{Bibliografía adicional (no citada)}
+	%\printbibliography[heading=bibempty,title={Bibliografí­a adicional},prenote=bibnote,notcategory=cited,resetnumbers=true,omitnumbers]
+
+	%\listoftodos[Pendientes]
+
+\end{document}
