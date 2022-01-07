@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="es">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main" xml:id="_rRZHcSn"></title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">Pautas para la Integración del Departamento de Tecnología Educativa en la Universidad Valerio Frittelli; Andrés Kabusch; Marina Pindar; Carola Nievas Dirección de Posgrado Facultad Regional Córdoba, Universidad Tecnológica Nacional</note>
+								<orgName type="department" key="dep1">Pautas para la Integración</orgName>
+								<orgName type="department" key="dep2">Departamento de Tecnología Educativa en la</orgName>
+								<orgName type="institution" key="instit1">Universidad Valerio Frittelli; Andrés Kabusch; Marina Pindar</orgName>
+								<orgName type="institution" key="instit2">Carola Nievas Dirección de Posgrado Facultad Regional Córdoba</orgName>
+								<orgName type="institution" key="instit3">Universidad Tecnológica Nacional</orgName>
+							</affiliation>
+						</author>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.7.0-SNAPSHOT" ident="GROBID" when="2021-07-06T01:27+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="595.32" lry="841.92"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="595.32" lry="841.92"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="595.32" lry="841.92"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="595.32" lry="841.92"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="595.32" lry="841.92"/>
+	</facsimile>
+	<text xml:lang="es">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_qKBdcbd">Resumen</head><p xml:id="_69Kv9CD">Este trabajo es presentado desde el proyecto de investigación TEUTNCO0004507 -Diseño, implementación y evaluación de un Entorno Personal de Aprendizaje (EPA) para el grado y posgrado académicos de la UTN -Facultad Regional Córdoba. Se proponen pautas para la creación y puesta en funcionamiento de un Departamento de Tecnología Educativa (DTE) en el contexto universitario, de forma que ese DTE cumpla funciones de soporte y asesoramiento para la incorporación exitosa de las Tecnologías de la Información y la Comunicación (TIC) en la enseñanza universitaria. Se sugiere también la estructura que el DTE podría tener, así como sus principales alcances y funciones operativas.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_JD8fuza">Palabras clave: Tecnologías de la Información y la Comunicación (TIC). Departamento de Tecnología Educativa (DTE).</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1." xml:id="_K6DGcqS">Introducción</head><p xml:id="_jdW6XBA">Con el avance del uso de las Tecnologías de la Información y la Comunicación (TIC) en la Universidad, basado fundamentalmente en la creación y mantenimiento de campus virtuales y espacios para la construcción de Entornos Virtuales de Aprendizaje disponibles para las diferentes cátedras, se suscita la cuestión de pensar qué acciones o políticas deberían plantearse desde los diferentes ámbitos de gestión para facilitar la inclusión de esas tecnologías en el proceso de enseñanza y de aprendizaje <ref type="bibr" coords="1,204.89,729.78,62.40,10.80" target="#b1">(Bates, 2001)</ref>. Una alternativa es la creación y sostenimiento de un Departamento de Tecnología Educativa (DTE) que funcione como mediador permanente, tal que provea conocimientos, asesoramiento y soporte para cubrir las necesidades de implementación de cada área y aprovechar las potencialidades de utilizar las TIC en la Universidad, además de orientar las estrategias de aplicación y detectar las oportunidades que se presenten en el momento de revisar y actualizar las prácticas de la enseñanza mediadas por TIC. En tal sentido, como parte de las actividades propuestas para el proyecto de investigación, se propuso elaborar y pensar estrategias y escenarios que permitan dilucidar pautas básicas de creación, conformación y mantenimiento del Departamento de Tecnología Educativa, atendiendo a diseñar actividades, pensar recursos, revisar estrategias y conformar acciones para llevar adelante las diferentes alternativas de soporte para las áreas académicas que pudiesen requerirlo (como cátedras de carreras de grado, docentes del área de posgrado, equipos de trabajo docente de cursos de extensión universitaria, entre otros). Es importante aclarar, como base para lo que sigue, que se plantea un escenario de trabajo de educación presencial (aunque mediada por TIC), por lo que se apunta a comprender que el trabajo del futuro equipo estaría quizás más relacionado con reforzar y colaborar con estrategias de Blended Learning o B-Learning, sin que esto implique que, una vez conformado el DTE, el mismo no pueda colaborar en la creación y desarrollo de cursos o escenarios de educación virtual no presencial (e-learning) <ref type="bibr" coords="1,433.75,701.10,87.86,10.80" target="#b5">(Hernández, 2003)</ref>. A partir de lo anterior, se plantea como objetivo principal del presente trabajo la elaboración y análisis de diferentes estrategias y definiciones acerca de la constitución del DTE en una institución universitaria.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2." xml:id="_67tzuzV">Contexto</head><p xml:id="_T8kwVmt">Por sus características particulares, en especial la división académica en cátedras y los niveles de jerarquía asociadas a ellas, es razonable pensar que el diseño de un Departamento de Tecnología Educativa debería conformarse transversalmente, a partir de una política concreta que haga clara la posible intervención de ese DTE en el trabajo de las cátedras (o niveles equivalentes en posgrado, extensión, carreras cortas y otras áreas universitarias). Lo anterior es muy sensible si consideramos un principio básico: la libertad de cátedra y las diferentes visiones que pudieran encontrarse en la misma cátedra en relación a las concepciones de enseñanza y de aprendizaje. Ampliando aún más, es importante pensar que además de lo anterior, cada cátedra (y esto es absolutamente dependiente de su coordinador y los demás profesores) va a tener una o varias visiones concretas respecto de lo que significa incluir las TIC en las prácticas de enseñanza y los beneficios u obstáculos que las mismas pueden provocar en el desempeño de la cátedra. Las siguientes pautas son básicas para pensar las estrategias de intervención:  Las cátedras, o algunos de los docentes, pueden presentar resistencias concretas frente al uso de las TIC en el momento de pensar las prácticas de enseñanza <ref type="bibr" coords="2,253.49,551.55,33.61,10.80;2,88.82,565.47,25.80,10.80" target="#b1">(Bates, 2001)</ref>.  El uso de las TIC va a requerir, con seguridad, que se piensen al interior de las cátedras nuevos modos de coordinación y actuación de los docentes debido al trabajo que requerirá la inclusión de herramientas basadas en TIC <ref type="bibr" coords="2,88.82,665.94,198.01,10.80;2,88.82,679.86,25.80,10.80" target="#b2">(Cukierman, Rozenhauz, &amp; Santángelo, 2009)</ref>.  Es importante entender que, en general, las formación de los docentes en relación con la Tecnología Educativa y el uso de herramientas TIC es aún bastante pobre o escasa. En particular, para los diferentes espacios para la creación de entornos virtuales (generalmente Moodle) es muy escaso el conocimiento real de las diferentes potencialidades y alternativas que los mismos presentan y cómo utilizarlos en beneficio de mejores prácticas <ref type="bibr" coords="2,385.99,128.38,77.88,10.80" target="#b6">(Kabusch, 2017)</ref>.  A lo anterior podemos agregar que el uso de tecnología no representa por sí sola una mejora en las prácticas. Pensar que incorporar tecnología implica una mejora automática en las prácticas educativas, es cometer un grave error ya demostrado ampliamente a partir del fracaso de muchas iniciativas <ref type="bibr" coords="2,444.82,242.74,68.75,10.80" target="#b1">(Bates, 2001)</ref>. El carácter predominantemente expositivo y presencial de la enseñanza universitaria, provoca que el uso de las TIC recaiga exclusivamente en prácticas que no aprovechan ampliamente el potencial de las misma o las utilizan en forma periférica. A partir de las consideraciones anteriores, se puede afirmar que el proceso de incorporación de entornos virtuales de aprendizaje (o de entornos personales de aprendizaje como conveniente evolución) requiere de acciones y estrategias que superen el mero hecho de capacitar a los docentes y, quizás, colaborar con ellos en el uso de las herramientas <ref type="bibr" coords="2,460.90,467.55,77.60,10.80;2,322.51,481.35,25.80,10.80" target="#b0">(Área Moreira, 2010)</ref>. Algunas investigaciones han demostrado claramente que, en general, el uso más difundido y mayoritario de aulas virtuales está relacionado con disponer de materiales bibliográficos para que los alumnos dispongan de fuentes de estudio (apuntes, textos, libros digitales, etc.) <ref type="bibr" coords="2,459.10,577.95,73.97,10.80" target="#b7">(Morchio, 2015</ref>) <ref type="bibr" coords="2,322.51,591.75,82.90,10.80" target="#b6">(Kabusch, 2017)</ref>. Ello presupone que la incorporación de tales herramientas no pone en juego ni revisa metodologías de trabajo que podrían replantearse a partir del uso de las herramientas digitales provistas por los entornos.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3." xml:id="_b98TN9E">Creación del Departamento.</head><p xml:id="_ajwhfj3">Teniendo en cuenta las cuestiones anteriores, se pueden delinear las actividades y pasos a cumplir con el fin poner en marcha el DTE y organizar las primeras actividades tendientes a su consolidación. Se enumeran a continuación las pautas que se consideran esenciales para el origen y continuación del funcionamiento del mismo: a. Se requiere que el espacio se constituya como una política institucional de la organización (Facultad, Universidad, Dirección de Posgrado, o área que corresponda), con cierto nivel de prioridad. Ello permitirá que se consolide su inclusión en el espacio de trabajo académico con la autoridad necesaria para poder trazar planes de acción.</p><p xml:id="_RcXfthk">b. Los coordinadores de las diferentes cátedras o espacios afines (y en general el plantel docente de estos espacios) deben ser informados claramente respecto de los objetivos y alcances del DTE.</p><p xml:id="_cEUMMcY">c. Es importante que se provea la infraestructura necesaria para poder desarrollar las acciones del equipo de trabajo del DTE, teniendo en cuenta la necesidad de trabajar con docentes en forma conjunta.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4." xml:id="_NaWfRfv">Alcance y Funciones</head><p xml:id="_R8D22Nb">El Departamento de Tecnología Educativa tendría las siguientes funciones, no excluyentes: a. Propiciar un espacio de asesoramiento relacionado con el diseño, la planificación, la construcción, el seguimiento y la evaluación de Entornos Virtuales de Aprendizaje relacionados con los procesos de enseñanza y de aprendizaje para cátedras, seminarios, cursos o cualquier otra actividad académica a desarrollar en la Universidad (tanto a nivel de grado como de posgrado).</p><p xml:id="_wuVVAsX">b. Propiciar un espacio permanente de capacitación docente en el uso de TIC aplicadas a la actividad educativa.</p><p xml:id="_sZpPcVR">c. Propiciar un espacio de asesoramiento pedagógico y tecnológico respecto de iniciativas relacionadas con la inclusión de otras herramientas TIC en el desarrollo de las prácticas de la enseñanza.</p><p xml:id="_xQG9JpR">d. Plantear y desarrollar un espacio que permita colaborar en la ejecución de planes de inclusión de Tecnología Educativa, tanto a nivel de construcción de herramientas como a nivel de seguimiento de los procesos.</p><p xml:id="_HhEvD8W">e. Evaluar estrategias de inclusión de Tecnologías en las prácticas de enseñanza de las diferentes cátedras. Reforzando las consideraciones que se realizaron previamente, es importante pensar en la transversalidad del trabajo a realizar, la cual podría definirse a partir de los siguientes aspectos:</p><p xml:id="_5eHeXKY">-No tiene implicancias académicas ni disciplinares. Si bien su trabajo presenta características pedagógico-didácticas, no tiene diferencias por tratarse de una u otra disciplina o espacio académico. Se considera que la participación de la cátedra o los docentes es la que permite la especialización disciplinar requerida. -No tiene jerarquía en un sentido de autoridad que determina cursos de acción. Siempre el trabajo se realiza a partir de la colaboración y el acuerdo con las cátedras y los docentes de las mismas. -Permite la interacción entre diferentes estamentos de la Universidad.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5." xml:id="_ySjgbPF">Estructura</head><p xml:id="_tKamQtR">A partir de lo expuesto hasta aquí, surge como razonable que el DTE debería constituirse de manera interdisciplinaria, y se proponen los siguientes roles: a. Coordinación general: Tendría a su cargo la definición de políticas generales del Departamento y la gestión del mismo. Este cargo debería ser asumido por un Tecnólogo Educativo u otro profesional que tuviera la capacidad de poder integrar conocimientos pedagógicos y tecnológicos.</p><p xml:id="_fztEqQt">b. Coordinadores de proyecto: Sería necesario que los proyectos de cátedra (en cada una de sus fases) sea monitoreado y ejecutado por una persona concreta que tenga a su cargo las diferentes estrategias a aplicar.</p><p xml:id="_RdNUg57">c. Asesores pedagógicos: Conformarían el cuadro de profesionales que facilitan o colaboran con el análisis pedagógico (en cuanto a los fines) y didáctico (en cuanto a las formas) de cada estrategia a aplicar, en relación a las diferentes prácticas y actividades planteadas en las cátedras.</p><p xml:id="_6rPvkc8">d. Asesores tecnológicos: Proveen al equipo el análisis y la evaluación de las diferentes herramientas utilizadas y su pertinencia técnica. Realizan además el análisis de factibilidad del uso de las herramientas y la evaluación de tales utilizaciones, una vez implementado el proceso.</p><p xml:id="_tkuSUfr">e. Diseñadores Web, Programadores, Diseñadores gráficos: Facilitan la experticia técnica para favorecer el diseño y la configuración de herramientas TIC relacionadas con los requerimientos planteados en los diferentes proyectos. Es evidente que la constitución de ese equipo no resultaría simple de formalizar en cualquier institución universitaria, debido a la complejidad que representa la asignación presupuestaria de cargos, la designación de esos cargos, la creación de la infraestructura correspondiente, etc. Ello implica que el proceso de creación y consolidación del equipo debe ser paulatino y que muchos de los cargos anteriores pueden ser, quizás, ocupados por las mismas personas (sobre todo en lo que se refiere a la jerarquía establecida). Asimismo, un proceso permitiría que las diferentes actividades que se vayan realizando a medida que el proyecto avanza, sean aprovechadas y evaluadas por la comunidad universitaria, lo que facilitará que puedan distinguirse claramente las potencialidades que ofrece el trabajo del departamento. En cuanto al trabajo interno de las cátedras, si tenemos en cuenta la transversalidad antes planteada, es menester comprender que la inclusión de las TIC en las procesos de enseñanza y de aprendizaje de la Universidad requiere de cátedras activas en tal sentido, comprometidas con el hecho de pensar nuevos escenarios de trabajo académico en el contexto de la Sociedad de la Información, del avance de las TIC y de nuevos paradigmas relacionados con el aprendizaje como el conectivismo, el aprendizaje ubicuo y el aula aumentada, por nombrar algunas de las alternativas <ref type="bibr" coords="4,401.83,59.24,136.82,10.80;4,322.51,73.04,85.07,10.80" target="#b2">(Cukierman, Rozenhauz, &amp; Santángelo, 2009)</ref>. Por lo tanto, es imprescindible que los docentes desarrollen nuevas prácticas que incluyan modelos de intervención que apunten a provocar escenarios de trabajo orientados a procesos de actividad más autónomos por parte de los alumnos <ref type="bibr" coords="4,495.70,155.86,42.95,10.80;4,322.51,169.66,114.71,10.80" target="#b3">(Frittelli, Páez, &amp; Kabusch, 2013)</ref>. Si las TIC se convierten en vehículos para lograr tales fines, es preciso que las cátedras desarrollen un proceso de reconocimiento de tales cuestiones y realicen las pequeñas transformaciones necesarias para revisar las prácticas, tanto desde el punto de vista metodológico, como desde el punto de vista de la utilización contextualizada de nuevas herramientas. Es por ello que es necesario identificar, en las diferentes cátedras, las diferentes posibilidades que cada persona pueda aportar para la gestión de los diferentes proyectos de integración de tecnología en las prácticas. Ello va a depender de una mirada interna y de un acuerdo que facilite el trabajo del DTE en la coordinación horizontal y vertical de programas de inclusión de herramientas, principalmente en lo referido al desarrollo y gestión de Entornos Virtuales de Aprendizaje, tal como se expuso anteriormente.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6." xml:id="_tcdVYgW">Conclusión</head><p xml:id="_yftpTSn">Con el fin de realizar un cierre que permita analizar posibilidades y alternativas de trabajo en relación a la integración de la Tecnología Educativa en la Universidad, sería interesante plantear los siguientes tópicos centrales: -La creación del DTE requiere una fuerte decisión institucional. -La consolidación del DTE requiere de acuerdos entre las diferentes cátedras, a partir del desarrollo de un programa institucional que muestre claramente la factibilidad y la proyección de estrategias y alcances que pueden alcanzarse. -El DTE es de funcionalidad transversal.</p><p xml:id="_2EwDDhQ">-Las estrategias a aplicar deben apuntar a plantear cambios en las metodologías y en los entornos, superando la utilización básica de la tecnología como soporte de un modelo de enseñanza presencial y centrado en el docente.</p></div>		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="5,70.94,141.58,216.06,10.80;5,70.94,157.54,215.94,10.80;5,70.94,173.38,216.00,10.80;5,70.94,189.22,216.08,10.80;5,70.94,205.06,106.92,10.80" xml:id="b0">
+	<monogr>
+		<title level="m" type="main" xml:id="_gPF7FWN">El proceso de integración y uso pedagógico de las TIC en los centros educativos. Un estudio de casos</title>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Área Moreira</surname></persName>
+		</author>
+		<editor>C. y.-E. Ministerio de Educación</editor>
+		<imprint>
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+	<note>Revista de Educación</note>
+	<note type="raw_reference">Área Moreira, M. (2010). El proceso de integración y uso pedagógico de las TIC en los centros educativos. Un estudio de casos. (C. y.-E. Ministerio de Educación, Ed.) Revista de Educación.</note>
+</biblStruct>
+
+<biblStruct coords="5,70.94,230.98,216.19,10.80;5,70.94,246.82,197.55,10.80" xml:id="b1">
+	<monogr>
+		<title level="m" type="main" xml:id="_e6btKff">¿Cómo debo gestionar el riesgo de cambio?</title>
+		<author>
+			<persName coords=""><forename type="first">A</forename><forename type="middle">W</forename><surname>Bates</surname></persName>
+		</author>
+		<idno type="DOI">10.18356/b35cec60-es</idno>
+		<imprint>
+			<date type="published" when="2001-04-23" />
+			<publisher>United Nations Publications</publisher>
+			<pubPlace>Barcelona</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bates, A. W. (2001). Cómo Gestionar el Cambio Tecnológico. Barcelona: Gedisa.</note>
+</biblStruct>
+
+<biblStruct coords="5,70.94,272.77,215.90,10.80;5,70.94,288.61,216.01,10.80;5,70.94,304.45,215.98,10.80;5,70.94,320.29,165.55,10.80" xml:id="b2">
+	<analytic>
+		<title level="a" type="main" xml:id="_X8ffs23">Front Matter</title>
+		<author>
+			<persName coords=""><forename type="first">U</forename><surname>Cukierman</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Rozenhauz</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">H</forename><surname>Santángelo</surname></persName>
+		</author>
+		<idno type="DOI">10.2307/j.ctv105bc93.1</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_k3QMcDY">Metodologías innovadoras y recursos didácticos emergentes desde la investigación educativa.</title>
+				<meeting><address><addrLine>Buenos Aires</addrLine></address></meeting>
+		<imprint>
+			<publisher>Dykinson</publisher>
+			<date type="published" when="2019-12-02" />
+			<biblScope unit="page" from="2" to="3" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cukierman, U., Rozenhauz, J., &amp; Santángelo, H. (2009). Tecnología educativa: Recursos, modelos y metodologías. Buenos Aires: Prentice Hall -Pearson Education.</note>
+</biblStruct>
+
+<biblStruct coords="5,70.94,346.21,216.01,10.80" xml:id="b3">
+	<monogr>
+		<title level="m" type="main" xml:id="_dfenW4r">Frittelli, Gino</title>
+		<author>
+			<persName coords=""><forename type="first">V</forename><surname>Frittelli</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">R</forename><surname>Páez</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Kabusch</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/benz/9780199773787.article.b00068597</idno>
+		<imprint>
+			<date type="published" when="2011-10-31" />
+			<publisher>Oxford University Press</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Frittelli, V., Páez, R., &amp; Kabusch, A. (2013).</note>
+</biblStruct>
+
+<biblStruct coords="5,70.94,362.05,216.11,10.80;5,70.94,378.01,216.06,10.80;5,70.94,393.85,215.89,10.80;5,70.94,409.69,215.89,10.80;5,70.94,425.53,46.55,10.80;5,138.00,425.53,27.95,10.80;5,186.56,425.53,9.11,10.80;5,216.18,425.53,27.00,10.80;5,263.69,425.53,23.26,10.80;5,70.94,441.51,211.48,10.80;5,70.94,457.35,165.47,10.80" xml:id="b4">
+	<analytic>
+		<title level="a" type="main" xml:id="_YY9kHvg">Un marco de cualificaciones para la capacitación y la certificación de competencias laborales en Chile.</title>
+		<author>
+			<persName><forename type="first">Carolina</forename><surname>Solís</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ramón</forename><surname>Castillo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Trinidad</forename><surname>Undurraga</surname></persName>
+		</author>
+		<idno type="DOI">10.31619/caledu.n39.84</idno>
+		<ptr target="http://www.ubp.edu.ar/conferenciaead/files/2013/04/presentacioncongreso.pdf" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_VmzbRrU">Calidad en la Educación</title>
+		<title level="j" type="abbrev">Cal Edu</title>
+		<idno type="ISSN">0717-4004</idno>
+		<idno type="ISSNe">0718-4565</idno>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">39</biblScope>
+			<biblScope unit="page">238</biblScope>
+			<date type="published" when="2013-03-16" />
+			<publisher>Consejo Nacional de Educacion</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Estrategias basadas en la virtualidad para capacitación de Cátedras. Conferencia EAD - Como virtualizar la oferta educatica con calidad. Córdoba: Universidad Blas Pascal. Retrieved Mayo 8, 2013, from http://www.ubp.edu.ar/conferenciaead/files/ 2013/04/presentacioncongreso.pdf</note>
+</biblStruct>
+
+<biblStruct coords="5,70.94,483.15,216.17,10.80;5,70.94,499.11,216.08,10.80;5,70.94,514.95,215.97,10.80;5,70.94,530.79,45.84,10.80;5,70.94,546.63,205.55,10.80" xml:id="b5">
+	<monogr>
+		<title level="m" type="main" xml:id="_CN48T75">Estándares y Especificaciones de E-learning: Ordenando el desorden</title>
+		<author>
+			<persName coords=""><forename type="first">E</forename><surname>Hernández</surname></persName>
+		</author>
+		<ptr target="https://www.uv.es/ticape/docs/eduardo.pdf" />
+		<imprint>
+			<date type="published" when="2003" />
+		</imprint>
+		<respStmt>
+			<orgName>Retrieved from Universitat de Valencia</orgName>
+		</respStmt>
+	</monogr>
+	<note type="raw_reference">Hernández, E. (2003). Estándares y Especificaciones de E-learning: Ordenando el desorden. Retrieved from Universitat de Valencia: https://www.uv.es/ticape/docs/eduardo.pdf</note>
+</biblStruct>
+
+<biblStruct coords="5,70.94,572.55,216.02,10.80;5,70.94,588.39,215.90,10.80;5,70.94,604.23,215.96,10.80;5,70.94,620.22,216.01,10.80;5,70.94,636.06,216.01,10.80;5,70.94,651.90,216.06,10.80;5,70.94,667.74,65.89,10.80" xml:id="b6">
+	<monogr>
+		<title level="m" type="main" xml:id="_dm74fmp">Continuidad y discontinuidad de las prácticas deportivas, físicas y recreativas en la Dirección de Deportes/SAE de la Universidad Nacional de Córdoba</title>
+		<author>
+			<persName><forename type="first">Juan</forename><forename type="middle">Carlos</forename><surname>Lorenzo Quaranta</surname></persName>
+		</author>
+		<idno type="DOI">10.35537/10915/57533</idno>
+		<imprint>
+			<date>2017</date>
+			<publisher>Universidad Nacional de La Plata</publisher>
+		</imprint>
+		<respStmt>
+			<orgName>Universidad Tecnológica Nacional. Córdoba: UTN -FRC (Dirección de Posgrado</orgName>
+		</respStmt>
+	</monogr>
+	<note type="raw_reference">Kabusch, A. (2017). La inclusión de las TIC en las prácticas de enseñaza de los docentes de la carrera de Ingeniería en Sistemas de Información de la Facultad Regional Córdoba de la Universidad Tecnológica Nacional. Córdoba: UTN -FRC (Dirección de Posgrado).</note>
+</biblStruct>
+
+<biblStruct coords="5,70.94,693.66,216.18,10.80;5,70.94,709.50,216.02,10.80;5,70.94,725.34,216.06,10.80;5,70.94,741.30,215.98,10.80;5,70.94,757.14,216.07,10.80;5,70.94,772.98,216.01,10.80;5,322.51,59.36,215.98,10.80;5,322.51,75.34,44.27,10.80" xml:id="b7">
+	<monogr>
+		<title level="m" type="main" xml:id="_wmsSHBM">Análisis de las fortalezas y debilidades de dos dispositivos tecnológicos implementados en las Cátedras de Lengua Inglesa I y de Gramática Inglesa I de la Facultad de Lenguas de la</title>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Morchio</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2015" />
+		</imprint>
+		<respStmt>
+			<orgName>Universidad Nacional de Córdoba. Córdoba: Universidad Tecnológica Nacional -Facultad Regional Córdoba</orgName>
+		</respStmt>
+	</monogr>
+	<note type="raw_reference">Morchio, M. (2015). Análisis de las fortalezas y debilidades de dos dispositivos tecnológicos implementados en las Cátedras de Lengua Inglesa I y de Gramática Inglesa I de la Facultad de Lenguas de la Universidad Nacional de Córdoba. Córdoba: Universidad Tecnológica Nacional -Facultad Regional Córdoba.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="es">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main" xml:id="_9hv3P8x">Enseñanza de conceptos de modelización de sistemas discretos con software de simulación con animación en 3D</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName coords="1,175.94,114.46,90.89,10.80"><forename type="first">Rosana</forename><forename type="middle">M</forename><surname>Portillo</surname></persName>
+							<email>rportill@frsf.utn.edu.ar</email>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">Departamento Ingeniería en Sistemas de Información Universidad Tecnológica Nacional -Facultad Regional Santa Fe Lavaise 610 -S3004EWB Santa Fe -Argentina</note>
+								<orgName type="department">Departamento Ingeniería en Sistemas de Información</orgName>
+								<orgName type="institution">Universidad Tecnológica Nacional -Facultad Regional Santa Fe Lavaise</orgName>
+								<address>
+									<addrLine>610 -S3004EWB Santa Fe</addrLine>
+									<country key="AR">Argentina</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,299.28,114.46,134.28,10.80"><roleName>PhD.</roleName><forename type="first">Ana</forename><forename type="middle">Rosa</forename><surname>Tymoschuk</surname></persName>
+							<email>atymoschuk@frsf.utn.edu.ar</email>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">Departamento Ingeniería en Sistemas de Información Universidad Tecnológica Nacional -Facultad Regional Santa Fe Lavaise 610 -S3004EWB Santa Fe -Argentina</note>
+								<orgName type="department">Departamento Ingeniería en Sistemas de Información</orgName>
+								<orgName type="institution">Universidad Tecnológica Nacional -Facultad Regional Santa Fe Lavaise</orgName>
+								<address>
+									<addrLine>610 -S3004EWB Santa Fe</addrLine>
+									<country key="AR">Argentina</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main" xml:id="_CdM3Xcw">Enseñanza de conceptos de modelización de sistemas discretos con software de simulación con animación en 3D</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.7.0-SNAPSHOT" ident="GROBID" when="2021-07-06T01:28+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="595.32" lry="841.92"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="595.32" lry="841.92"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="595.32" lry="841.92"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="595.32" lry="841.92"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="595.32" lry="841.92"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="595.32" lry="841.92"/>
+	</facsimile>
+	<text xml:lang="es">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_yg8m5CH">Resumen</head><p xml:id="_kwqEDBJ">La asignatura Simulación es materia obligatoria en la carrera de Ing. en Sistemas de Información. Uno de los problemas en ciclos académicos anteriores fue el aprendizaje de la metodología del modelado y la simulación, manifestado por los alumnos, tanto en encuestas como en charlas con los docentes. El método de enseñanza organizaba clases en modo de enciclopedia, con el desarrollo secuencial de cada concepto de la modelización de sistemas discretos. Al momento de realizar la modelización y simulación de un sistema, al final del cursado, se detectaba el grado de comprensión de los alumnos. Como solución se propusieron cambios en el dictado, con técnicas para el modelado conceptual y elementos de animación como material para la enseñanza de conceptos de modelización de sistemas discretos, desde el inicio de las clases. Se utilizó también la metodología de enseñanza y aprendizaje basada en indagación. El presente trabajo explora la utilización de un software de modelización, simulación y animación 3D orientado a objetos y a procesos que permite ayudar en la comprensión y el aprendizaje de conceptos básicos y elementos metodológicos de la materia. De esa forma se facilitó la enseñanza y la comprensión de los contenidos desde el comienzo del dictado.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_HWcbKwZ">Palabras clave: modelización, indagación, simulación 3D</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1." xml:id="_NJWjtc3">Introducción</head><p xml:id="_fB4KWBF">El presente trabajo explora la utilización de un software de modelización, simulación y animación 3D orientado a objetos y a procesos que permite ayudar en la comprensión y el aprendizaje de conceptos básicos y elementos metodológicos presentes en el curso.</p><p xml:id="_Y89uyX5">El software mencionado dispone de elementos de animación que se pueden usar como estrategia didáctica para facilitar la enseñanza de los contenidos correspondientes al curso desde el comienzo del dictado. En el planteo de ejercicios de modelado de sistemas discretos se utiliza la metodología de enseñanza y aprendizaje basada en indagación. La didáctica de clase propuesta se orienta a ayudar a los estudiantes a tener una comprensión más efectiva de cada etapa sin perder el objetivo final de una visión sistémica del estudio. De esta forma se les provee de herramientas conceptuales que les permitan realizar diferentes observaciones y conclusiones. Los docentes de la asignatura al mismo tiempo que sostienen una enseñanza actualizada y con diferentes estrategias, buscan atender a las posibilidades de las TIC y a las eventuales innovaciones en los procesos de enseñanza y aprendizaje.</p><p xml:id="_mBCUqPt">"Los nuevos entornos tecnológicos aparecen entramando los modos en los que el conocimiento se construye, pero también aquellos a través de los cuales se difunde." <ref type="bibr" coords="1,322.51,756.42,95.91,10.80">(Maggio, 2012, p.48</ref> Otros aspectos de importancia para el aprendizaje son las representaciones de los sistemas reales en los modelos, los parámetros de entrada obtenidos a partir de registros y observaciones del mundo real y su correspondiente tratamiento estadístico, la programación del modelo en un lenguaje de propósitos generales o de un simulador, las etapas de verificación y de validación y los experimentos virtuales, cuyas variables de salidas permiten detectar configuraciones favorables para el desempeño del sistema. <ref type="bibr" coords="2,70.94,638.94,92.76,10.80" target="#b0">(Banks et al., 2010)</ref>.</p><p xml:id="_ZkxARXE">El estudiante entonces debe aplicar conocimientos de probabilidad, estadística y programación para simular sistemas y obtener información que debe ser correctamente interpretada. Esto se favorece con una práctica intensiva de modelos y simulaciones de una variedad de sistemas.</p><p xml:id="_AxYvkkT">La planificación de la materia prevé la regularización y la aprobación directa o no mediante una serie de instrumentos que consideran la participación del alumno en forma grupal e individual, abarcando conceptos teóricos y prácticos. En este sentido, los docentes de la cátedra han considerado los resultados de las evaluaciones y las opiniones de los alumnos de cada año para implementar cambios que apunten a mejorar el aprendizaje de los alumnos y establecer una forma dinámica de actualización de contenidos y de aprendizajes. Además de los indicadores convencionales de números de alumnos regularizados y aprobados directamente, y de intercambios informales de opinión, hemos considerado la opinión de los estudiantes sobre los aspectos relacionados con el desarrollo de las unidades, finalizando el cursado, sobre los temas más interesantes, la metodología didáctica, la metodología de evaluación y la principales dificultades encontradas por parte del alumno con el fin de reconocer las fortalezas y detectar las debilidades en el dictado/desarrollo de la materia. Se ha reflexionado sobre las opiniones de los alumnos de cada año para implementar cambios que apunten a mejorar el aprendizaje de los alumnos y establecer una forma dinámica de actualización de contenidos y de aprendizajes.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2." xml:id="_g4mWfMA">Marco teórico</head><p xml:id="_Qx5sqRU">El método de enseñanza tradicional se basa en enseñar definiciones teóricas y metodológicas de los sistemas discretos y cálculos de la simulación de eventos discretos al comienzo del cursado, a través de gráficos y tablas, de manera estática lo que limita la comprensión de los temas bases de la asignatura. El software Simio es un programa de simulación de flujo de procesos por eventos discretos, basado en objetos y procedimientos, con el cual se puede construir modelos animados en 3D. La técnica de animación tiene un gran potencial para cumplir una función pedagógica en la enseñanza de conceptos complejos, especialmente aquellos que no son sencillos de describir verbalmente. De esta forma, ayuda a crear imágenes mentales de sistemas que poseen elementos que cambian en tiempo y espacio. La sencillez con que se pueden implementar elementos de animación mediante el uso de un software de simulación en 3D facilita la presentación de una clase, con características visuales atrayentes, a la vez que facilita la comprensión y el aprendizaje de los conceptos básicos y elementos metodológicos presentes en el curso. De esa forma cumple la doble función: como material de aprendizaje y como estrategia didáctica. Desde el enfoque didáctico, <ref type="bibr" coords="3,215.10,280.09,66.91,10.80" target="#b4">Litwin (2005)</ref>, en su obra Tecnologías educativas en tiempo de Internet, afirma lo siguiente: "Los docentes del nivel superior incluyen los usos de las tecnologías de muy diferente manera, según el campo profesional o académico; en este estadio, son más usuarios de las tecnologías que en los anteriores. Pero el hecho de ser usuarios no significa que los hayan penetrado más en la enseñanza. Cuando las tecnologías han influido en el ejercicio del campo profesional, las enseñanzas que incluyen dicho ejercicio las introducen. Es el caso de la biología, el diseño arquitectónico, la ingeniería, la medicina, las ciencias sociales. Es difícil hallar alguna área profesional que hoy no se vea influida por las tecnologías. Tecnología necesaria que se introduce en la enseñanza como parte del trabajo profesional (p.32)." La incorporación de las nuevas tecnologías en las prácticas educativas instala nuevas preocupaciones en relación con aquellas cuestiones que internet define, redefine o crea. Modos de leer, modos de escribir, criterios de legitimidad de la información, modos de comunicación y de producción se "reinventan e impulsan al mismo tiempo, generando nuevos avances en nuestra posibilidad de imaginar las capacidades y las metas" (Burbules y Callister, 2000, p. 33). Parafraseando reflexiones de la autora <ref type="bibr" coords="3,70.94,721.74,76.23,10.80" target="#b5">Maggio (2012)</ref>, se puede decir que se propone un marco para el abordaje de prácticas de la enseñanza que, mediante la inclusión de tecnologías, se destacan por lo que crean en clase y por lo que dejan de manera perdurable en aquellos que la viven como docentes o como estudiantes. En relación con el modo de aprendizaje y la didáctica propuesta mediante el uso de las tecnologías, rescatamos al autor Perkins (2010) quien afirma que: "El enfoque del aprendizaje Pleno incorpora diferentes teorías del aprendizaje para ofrecer un marco conceptual de diseño. Se trata de una perspectiva integradora que permite tener en cuenta y mantener activas diversas características fundamentales del aprendizaje para lograr una buena educación. (…) El enfoque del aprendizaje pleno es marcadamente constructivista y adhiere a la idea de que, en algún sentido, las personas siempre construyen sus propios significados a partir de sus experiencias de aprendizaje. De hecho, este enfoque brinda, de algún modo, mayor sustancia al constructivismo genérico. El aprendizaje por descubrimiento y por indagación puede entenderse como perspectivas particulares del constructivismo. (p.39)" La animación se define como una visualización gráfica que cambia su estructura u otra propiedad a lo largo del tiempo y que dispara la percepción de cambio continuo <ref type="bibr" coords="3,411.26,487.11,122.09,10.80">(Schnotz y Lowe, 2008)</ref>. En ambientes educativos, se utilizan a menudo animaciones para mejorar la comprensión por parte de los estudiantes de ciertos procesos complejos o de conceptos abstractos que cambian en tiempo y espacio. El movimiento y la trayectoria son características inherentes en una animación. Por lo tanto, no sería imprescindible el uso de elementos de animación si tales características no se encuentran presentes en los contenidos a enseñar. Si el movimiento y la trayectoria están presentes, la animación se justifica si cumple con funciones de clarificación y/o como estrategia de presentación. Implica dar un contexto visual a las ideas, ayudar a la codificación dual y es útil para mostrar ejemplos de sistemas dinámicos o con alto nivel de abstracción. La animación como función de clarificación implica promover el entendimiento de un nuevo concepto o de una nueva relación sin necesidad de agregar información textual adicional. El aprendizaje por indagación es una metodología de enseñanza-aprendizaje a través de la cual los estudiantes deben encontrar soluciones a un problema a partir de un proceso de investigación, usualmente poniendo énfasis en el trabajo cooperativo y en la extracción de ideas a través de la reflexión sobre las actividades realizadas para construir la solución. Se conoce que el enfoque por indagación facilita la participación activa de los estudiantes en la adquisición de conocimiento y ayuda a desarrollar el pensamiento crítico y la capacidad para resolver problemas. <ref type="bibr" coords="4,70.94,307.69,65.23,10.80" target="#b3">Finkel (2000)</ref>, explica que trabajando en el desarrollo de una nueva asignatura observó que la enseñanza basada en la indagación se hacía más potente cuando refuerza la indagación en grupo. El autor sostiene que: "El cambio a enseñanza centrada en la indagación modifica la mayoría de los aspectos de la vida en el aula y permite al profesor enseñar con la boca cerrada. Es la indagación la que enseña. La indagación enseña porque el proceso de indagación induce a uno a aprender. Yo confiaba en aprender de la asignatura que puse en marcha, al igual que mis estudiantes. Y esperábamos compartir los resultados de nuestro aprendizaje con todos los demás. <ref type="bibr" coords="4,70.94,528.39,96.56,10.91">(Finkel, 2000, p.113</ref>)" Teniendo como base el trabajo de Finkel, los docentes reconocen que la tarea principal previa al desarrollo de unidad requiere organizar la indagación desde el inicio, con lo cual se debe trabajar en las actividades de las clases. De esta manera, sin llegar a explicar el significado de un modelo, se plantea presentar la propia comprensión del modelo del sistema con la simulación animada en 3D. Los estudiantes deben ser guiados para que examinen conceptos centrales, sea en forma individual o con la formación de grupos para la discusión mutua. Con esta acción se intenta ayudar a desarrollar competencias necesarias para llevar a cabo la indagación. Una de las cuestiones claves en este proceso es promover la participación en la indagación.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3." xml:id="_QKaP6v4">Objetivos y Metodología</head><p xml:id="_meKWSYF">El software de simulación con animación 3D tiene como propósito presentar a los estudiantes un tratamiento comprensible y rápido de muchos sistemas, como por ejemplo, el de una cola de espera simple con uno o 2 servidores. En etapas iniciales del cursado se procede a trabajar con un ejemplo del tipo antes mencionado, brindado por la cátedra mediante el cual los estudiantes realizan la simulación de entidades que son atendidas por 1 o 2 servidores y que representan el sistema en estudio, para obtener indicadores de comportamientos. Se pretende que el estudiante comprenda los conceptos relacionados a un sistema discreto y su modelización, mediante una representación con elementos del software y al momento de simular, la animación permita observar la evolución del sistema en el tiempo. El caso de estudio de las primeras clases tiene el siguiente enunciado: "Una empresa de comidas rápidas ha detectado problemas en uno de sus locales debido a que los clientes han incrementado sus quejas respecto al tiempo que deben esperar en cola para ser atendidos. La gerencia supone que no es un problema de falta de comida sino de falta de personal. La información sobre el funcionamiento del local se resume en la siguiente tabla 1: Figura 1: representación en 3 D del caso de estudio A continuación se observan las salidas de la simulación del ejemplo del restaurant, como se presentan en el simulador considerando la atención de los clientes por parte de 2 empleados (Figura 2):</p><p xml:id="_PBBGFZW"> % de clientes que esperan en cola menos de 3 minutos:  Tiempo promedio de espera en cola:  Longitud promedio de la cola:  Ocupación promedio del personal: 99 % Preguntas para el método de indagación:  ¿Cuántos clientes fueron atendidos en el tiempo que duró la simulación?</p><p xml:id="_4Za5pmA"> ¿Cuántos clientes se observaron en promedio en el restaurante en cualquier instante de tiempo?  ¿Cuál fue el número máximo de clientes en el restaurante en algún instante de tiempo?  ¿Cuál fue el promedio de tiempo en que los clientes estuvieron en el restaurante?  ¿Cuánto tiempo en promedio se demoró en atender a cada cliente?  ¿Cuál fue el porcentaje de ocupación de cada empleado?</p><p xml:id="_XBbPBry">Figura 2: salidas de simulación del caso de estudio Para ver qué pasa si se cambian el número de empleados de 2 a 4 se analiza la salida de simulación en la siguiente Figura 3: </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4." xml:id="_qRsv8RN">Resultados</head><p xml:id="_JHdsr7T">Con el caso de estudio expuesto ejemplo se puede apreciar la utilidad de la simulación, tanto para estimar variables de interés, como para observar qué cambios se producen en las mismas y si son significativos, experimentando con el modelo y la simulación, en lugar de hacerlo en el sistema real. Los alumnos incorporan desde el inicio los conceptos que luego se desarrollarán en clases posteriores con más detalles, facilitando así la comprensión de los mismos.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5." xml:id="_DSF6kbF">Conclusiones</head><p xml:id="_ESqqTEW">Al analizar las prácticas de la enseñanza encontramos que " no pueden ser analizadas, reconocidas o reconstruidas a partir principalmente del buen uso que se haga o no de las tecnologías. Estas se hallan implicadas en las propuestas didácticas y, por lo tanto, en las maneras en se promueve la reflexión en el aula se abre un espacio comunicacional que permite la construcción del conocimiento y se genera un ámbito de respeto y ayuda frente a los difíciles y complejos problemas de enseñar y aprender" <ref type="bibr" coords="6,70.94,654.42,64.85,10.80" target="#b4">Litwin (2005)</ref>. La didáctica de clase propuesta es una forma de ayudar a los estudiantes que cursan la materia para que puedan comprender de manera más acabada la función de cada actividad en el total y les provee herramientas conceptuales que les permitan realizar diferentes observaciones y conclusiones.</p><p xml:id="_jTkV73d">Con la herramienta animada y en 3D y con el método de indagación se ha logrado que los estudiantes comprendan como los sistemas discretos se pueden representar mediante modelizaciones y además cómo se obtienen e interpretan las salidas de simulación como indicadores de comportamientos en un tiempo determinado. Además, mediante el método de indagación, los estudiantes pueden adquirir conocimiento y manejo de herramientas que permitan predecir comportamientos.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0" coords="1,418.42,756.42,9.33,10.80"><head></head><label></label><figDesc xml:id="_3Y2WsvG">). La materia Simulación es una asignatura obligatoria en el cuarto nivel en la carrera Ingeniería en Sistemas de Información de la UTN. Pertenece al Área Modelos del Plan de Estudios de la Ord. 1150/2007.</figDesc><table coords="2,70.94,114.46,216.28,355.85"><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>Está</cell></row><row><cell cols="5">propuesta como asignatura electiva en la</cell></row><row><cell cols="5">carrera Ingeniería Industrial. Esencialmente</cell></row><row><cell cols="5">en la asignatura se plantea enseñar y aplicar</cell></row><row><cell cols="5">modelos y simulación de sistemas como</cell></row><row><cell cols="3">herramientas de predicción.</cell><cell></cell></row><row><cell cols="5">La asignatura está orientada al aprendizaje</cell></row><row><cell cols="5">de la representación de sistemas del mundo</cell></row><row><cell cols="5">real, mediante una serie de criterios</cell></row><row><cell cols="5">asociados a los sistemas de información y</cell></row><row><cell cols="3">herramientas informáticas.</cell><cell></cell></row><row><cell cols="5">Un aspecto importante para el alumno es</cell></row><row><cell cols="5">aplicar el enfoque sistémico a fin de estimar</cell></row><row><cell cols="5">cuantitativamente comportamiento de casos</cell></row><row><cell cols="5">de estudio. Esta metodología es útil para</cell></row><row><cell cols="5">otras materias como Sistemas de Gestión,</cell></row><row><cell>Inteligencia</cell><cell cols="2">Artificial,</cell><cell cols="2">Investigación</cell></row><row><cell cols="2">Operativa, entre otras.</cell><cell></cell><cell></cell></row><row><cell cols="5">Además del enfoque sistémico, en la materia</cell></row><row><cell cols="5">se enfatizan los comportamientos dinámicos,</cell></row><row><cell cols="5">en forma continua o discreta. Por esa razón</cell></row><row><cell cols="5">son necesarios conceptos de Probabilidad y</cell></row><row><cell>Estadística,</cell><cell cols="2">Matemática</cell><cell cols="2">Discreta,</cell></row><row><cell cols="5">Paradigmas de Programación, y otras,</cell></row><row><cell>favoreciendo</cell><cell>la</cell><cell cols="2">integración</cell><cell>de</cell></row><row><cell cols="4">conocimientos por parte del estudiante.</cell></row></table></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="6,322.51,261.85,192.23,10.80" xml:id="b0">
+	<analytic>
+		<title level="a" type="main" xml:id="_fDgqZMn">Applying the simulation process</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Banks</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">S</forename><surname>Carson</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/wsc.1988.716124</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_525dXMd">1988 Winter Simulation Conference Proceedings</title>
+				<imprint>
+			<publisher>IEEE</publisher>
+			<date>2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Banks, J., Carson, J., Nelson, B. (2010).</note>
+</biblStruct>
+
+<biblStruct coords="6,322.51,277.69,204.61,10.80;6,322.51,293.65,108.55,10.80" xml:id="b1">
+	<analytic>
+		<title level="a" type="main" xml:id="_Nw4esP8">Air Traffic Simulation: An Object Oriented, Discrete Event Simulation on the Intel iPSC/2 Parallel System</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">L</forename><surname>Bain</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/dmcc.1990.555368</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_ykErwy4">Proceedings of the Fifth Distributed Memory Computing Conference, 1990.</title>
+				<meeting>the Fifth Distributed Memory Computing Conference, 1990<address><addrLine>London</addrLine></address></meeting>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date>null</date>
+		</imprint>
+	</monogr>
+	<note>Fifth Edition</note>
+	<note type="raw_reference">Discret-Event System Simulation. London: Pearson, Fifth Edition.</note>
+</biblStruct>
+
+<biblStruct coords="6,322.51,321.37,216.16,10.80;6,322.51,335.17,216.05,10.80;6,322.51,348.97,216.11,10.80;6,322.51,362.77,40.80,10.80" xml:id="b2">
+	<monogr>
+		<title level="m" type="main" xml:id="_H9r3V27">Educación: Riesgos y promesas de las nuevas tecnologías de la información</title>
+		<author>
+			<persName coords=""><surname>Burbules Y Callister</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2000" />
+			<publisher>Granica</publisher>
+			<pubPlace>Barcelona</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Burbules y Callister (2000). Educación: Riesgos y promesas de las nuevas tecnologías de la información. Barcelona: Granica.</note>
+</biblStruct>
+
+<biblStruct coords="6,322.51,388.57,215.94,10.80;6,322.51,402.37,216.17,10.80;6,322.51,416.17,121.59,10.80" xml:id="b3">
+	<monogr>
+		<title level="m" type="main" xml:id="_8cQ9QNq">Dar clase con la boca cerrada</title>
+		<author>
+			<persName coords=""><forename type="first">Don</forename><surname>Finkel</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2000" />
+		</imprint>
+		<respStmt>
+			<orgName>Publicaciones de la Universidad de Valencia</orgName>
+		</respStmt>
+	</monogr>
+	<note type="raw_reference">Finkel, Don (2000). Dar clase con la boca cerrada. Valencia: Publicaciones de la Universidad de Valencia.</note>
+</biblStruct>
+
+<biblStruct coords="6,322.51,441.99,216.23,10.80;6,322.51,455.79,216.13,10.80;6,322.51,469.59,86.52,10.80" xml:id="b4">
+	<monogr>
+		<title level="m" type="main" xml:id="_QRKk7fJ">Tecnologías educativas en tiempos de Internet</title>
+		<author>
+			<persName coords=""><forename type="first">Edith</forename><surname>Litwin</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2005" />
+			<publisher>Amorrortu</publisher>
+			<pubPlace>Buenos Aires</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Litwin, Edith (2005) (comp.). Tecnologías educativas en tiempos de Internet. Buenos Aires: Amorrortu.</note>
+</biblStruct>
+
+<biblStruct coords="6,322.51,495.39,216.10,10.80;6,322.51,509.19,52.91,10.80;6,390.66,509.19,17.38,10.80;6,423.27,509.19,48.70,10.80;6,487.21,509.19,17.28,10.80;6,519.83,509.19,18.71,10.80;6,322.51,522.99,216.27,10.80;6,322.51,536.79,106.32,10.80" xml:id="b5">
+	<monogr>
+		<title level="m" type="main" xml:id="_aH4SssD">Enriquecer la enseñanza. Los ambientes con alta disposición tecnológica como oportunidad</title>
+		<author>
+			<persName coords=""><forename type="first">Mariana</forename><surname>Maggio</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2012" />
+			<publisher>Paidós</publisher>
+			<pubPlace>Buenos Aires</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Maggio, Mariana (2012). Enriquecer la enseñanza. Los ambientes con alta disposición tecnológica como oportunidad. Buenos Aires: Paidós.</note>
+</biblStruct>
+
+<biblStruct coords="6,322.51,564.39,215.98,10.80;6,322.51,578.19,50.00,10.80;6,390.77,578.19,11.33,10.80;6,420.27,578.19,9.34,10.80;6,447.74,578.19,49.91,10.80;6,515.89,578.19,22.67,10.80;6,322.51,591.99,216.09,10.80;6,322.51,605.79,35.04,10.80" xml:id="b6">
+	<monogr>
+		<title level="m" type="main" xml:id="_KBTvJhy">El aprendizaje pleno. Principios de la enseñanza para transformar la educación</title>
+		<author>
+			<persName coords=""><forename type="first">David</forename><surname>Perkins</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2010" />
+			<publisher>Paidós</publisher>
+			<pubPlace>Buenos Aires</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Perkins, David (2010). El aprendizaje pleno. Principios de la enseñanza para transformar la educación. Buenos Aires: Paidós.</note>
+</biblStruct>
+
+<biblStruct coords="6,322.51,631.62,216.15,10.80;6,322.51,645.42,216.18,10.80;6,322.51,659.22,216.26,10.80;6,322.51,673.02,28.28,10.80" xml:id="b7">
+	<monogr>
+		<title level="m" type="main" xml:id="_WSYGnft">A unified view of learning from animated and static graphics</title>
+		<author>
+			<persName coords=""><forename type="first">W</forename><surname>Schnotz</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">R</forename><surname>Lowe</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2008" />
+			<publisher>Cambridge University Press</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Schnotz, W., Lowe, R. (2008). A unified view of learning from animated and static graphics. New York: Cambridge University Press.</note>
+</biblStruct>
+
+<biblStruct coords="6,322.51,698.82,216.27,10.80;6,322.51,712.62,27.00,10.80" xml:id="b8">
+	<analytic>
+		<title level="a" type="main" xml:id="_eg8Myqb">Simio announces release of Simio Express</title>
+		<author>
+			<persName coords=""><forename type="first">Llc</forename><surname>Simio</surname></persName>
+		</author>
+		<idno type="DOI">10.1108/aa.2011.03331daa.007</idno>
+		<idno>165.15447</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_mrKCSH2">Assembly Automation</title>
+		<title level="j" type="abbrev">Assembly Automation</title>
+		<idno type="ISSN">0144-5154</idno>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<date type="published" when="2011-09-27" />
+			<publisher>Emerald</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Simio LLC. Simio version 10.165.15447, 2017.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

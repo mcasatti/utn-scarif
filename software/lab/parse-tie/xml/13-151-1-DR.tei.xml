@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="es">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main" xml:id="_6Fzbq9r">La enseñanza de geotecnia y cimentaciones</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName coords="1,193.92,93.88,122.08,10.80"><forename type="first">Gonzalo</forename><surname>Aiassa Martínez</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">Departamento Ingeniería Civil Facultad Regional Córdoba, Universidad tecnológica Nacional Ciudad Universitaria, Córdoba,</note>
+								<orgName type="department">Departamento Ingeniería Civil Facultad Regional Córdoba</orgName>
+								<orgName type="institution">Universidad tecnológica Nacional Ciudad Universitaria</orgName>
+								<address>
+									<settlement>Córdoba</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,327.43,93.88,87.91,10.80"><forename type="first">Pedro</forename><forename type="middle">Ariel</forename><surname>Arrúa</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">Departamento Ingeniería Civil Facultad Regional Córdoba, Universidad tecnológica Nacional Ciudad Universitaria, Córdoba,</note>
+								<orgName type="department">Departamento Ingeniería Civil Facultad Regional Córdoba</orgName>
+								<orgName type="institution">Universidad tecnológica Nacional Ciudad Universitaria</orgName>
+								<address>
+									<settlement>Córdoba</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main" xml:id="_M7zy568">La enseñanza de geotecnia y cimentaciones</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.7.0-SNAPSHOT" ident="GROBID" when="2021-07-06T00:42+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="595.0" lry="842.0"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="595.0" lry="842.0"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="595.0" lry="842.0"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="595.0" lry="842.0"/>
+	</facsimile>
+	<text xml:lang="es">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_WFc4CVr">Resumen</head><p xml:id="_zPEJzrE">El plan de estudios de ingeniería civil de la UTN, contempla la asignatura de geotecnia en cuarto año, y cimentaciones en quinto. Son asignaturas íntimamente relacionadas, y el objetivo general en la formación se orienta hacia lograr desarrollar habilidad para la solución de problemas de ingeniería geotécnica. Para cumplir este objetivo final, consideramos necesario proporcionar una formación basada en cuatro principios: (1) Teoría, (2) Aplicación, (3) Experimentación, y (4) Proyecto de Ingeniería. En este trabajo se presenta la implementación de las asignaturas en la Facultad Regional Córdoba orientada a formar futuros profesionales con fuerte formación básica y destreza en la solución de problemas en el proyecto y diseño de estructuras geotécnicas.</p><p xml:id="_mS53ecd">Palabras clave: teoría, experimentación, obras.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1." xml:id="_yR2K6MC">Introducción</head><p xml:id="_23zphNj">El perfil del ingeniero tecnológico es claro. Se presenta como un ingeniero capacitado para desarrollar sistemas de ingeniería y paralelamente desarrollar su creatividad en el uso de nuevas tecnologías, con capacidad de innovación al servicio del crecimiento productivo, generando empleos y posibilitando el desarrollo social. El ingeniero civil de hoy está encargado de resolver los problemas de infraestructura para la producción de bienes y servicios del país en general: edificios, fábricas, viviendas, puentes, carreteras, vías ferroviarias y navegables, puertos y aeropuertos, usos hidroeléctricos, sistemas de riego, defensas aluvionales, distribución de agua, desagües pluviales, cloacas, e industriales, entre otros. También entiende en seguridad, mantenimiento y operación, modernización, planificación, control ecológico y eficiente reemplazo de la infraestructura, teniendo en cuenta aspectos técnicos y económicos <ref type="bibr" coords="1,434.29,252.52,60.59,10.80">(UTN, 2004)</ref>. La ingeniería de cimentaciones se considera parte de la ingeniería geotécnica. Podemos decir que la ingeniería geotécnica estudia los problemas referidos a la relación entre las obras de ingeniería y el ámbito que los contiene y soporta. Diferentes autores han propuesto diversas definiciones para esta especialidad de la ingeniería civil. <ref type="bibr" coords="1,496.00,362.92,43.20,10.80;1,322.56,376.84,32.07,10.80" target="#b3">Terzaghi (1949)</ref> define la mecánica de los suelos como la aplicación de las leyes de la mecánica y de la hidráulica a los problemas de ingeniería relacionados con los sedimentos y otros depósitos no consolidados de partículas sólidas producidos por la desintegración mecánica o química de las rocas, prescindiendo de que contengan o no elementos orgánicos. Por otro lado, la ingeniería de fundaciones o cimentaciones puede definirse como la ciencia y arte de aplicar los principios de mecánica de suelos y estructuras, junto al criterio y juicio del ingeniero, para resolver problemas de interfase <ref type="bibr" coords="1,441.22,570.04,74.07,10.80" target="#b0">(Bowles, 1982)</ref>. La ingeniería geotécnica integra a la mecánica de suelo y la ingeniería de fundaciones. En este sentido, se define a la mecánica de suelos como el estudio del comportamiento ingenieril del suelo al ser empleado como material de construcción o fundación. Luego, la aplicación de los principios de la mecánica de suelos para el diseño y construcción de fundaciones de diferentes tipos de estructuras corresponde a la ingeniería de fundaciones o cimentaciones. La ingeniería geotécnica incluye ambas, mecánica de suelos y fundaciones <ref type="bibr" coords="1,322.56,763.24,111.09,10.80" target="#b4">(Venkatramaiah, 2006)</ref>. De alguna manera, la ingeniería geotécnica combina la física y geología, con la hidráulica, estructuras, transporte y construcción <ref type="bibr" coords="2,225.70,86.92,61.24,10.80;2,70.80,100.84,67.90,10.80" target="#b2">(Holtz and Kovacs, 1981)</ref>. Para <ref type="bibr" coords="2,96.02,114.52,52.44,10.80" target="#b1">Das (2010)</ref>, la ingeniería geotécnica es una disciplina de la ingeniería civil que involucra los materiales naturales próximos a la superficie de la Tierra, e incluye la aplicación de principios de la mecánica de suelos y rocas al diseño de fundaciones, estructuras de sostenimiento, y obras de suelo estructural. Las definiciones presentadas permiten pensar en la ingeniería geotécnica como un área de conocimiento que se fundamenta en las ciencias formales y fácticas, y se aplica en combinación con la experticia del ingeniero civil. La propuesta es acercarse a los problemas de la especialidad, integrando teoría y práctica al estilo de trabajo profesional. Es necesario abordar lo teórico y práctico de manera complementaria, y no aislada, a los fines de entrenar un estilo de trabajo profesional racional, metodológico, fundamentado, y abierto a nuevas soluciones.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2." xml:id="_5Tgs68F">Propósitos</head><p xml:id="_gc47aF8">En la actualidad se ha facilitado fuertemente el acceso a la información. Es deseable priorizar la formación por sobre la información. No obstante, prestando cuidado de no caer en un desbarate de contenidos en la estructura de programas analíticos. No resulta imaginable un profesional formado desinformado, y que ignore en absoluto los contenidos. Estamos convencidos de que el desafío actual no es simplemente reducir contenidos. La información, los contendidos básicos, deber estar presentes e internalizados, y sobre esta base, avanzar en una formación que permita un espíritu científico y técnico, crítico, independiente, innovador, creativo y con habilidad de resolver problemas y asimilar nuevos conocimientos a futuro. De esta manera, consideramos apropiado proporcionar una formación basada en cuatro principios:</p><p xml:id="_uPhTRRh">(1) Teoría ( <ref type="formula" coords="2,93.49,753.88,4.69,10.80">2</ref>) Aplicación (3) Experimentación (4) Proyecto Si se logra cumplir estos cuatros principios en la formación de Geotecnia y Cimentaciones, creemos que estamos en camino hacia una formación integral dentro del área de conocimiento.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3." xml:id="_MkaRn9u">Geotecnia</head><p xml:id="_wcMK6mF">Se desarrolla en 13 ejes temáticos, que incluyen el siguiente contenido específico:</p><p xml:id="_yNmMDFE"> Introducción  Propiedades geológicas y formación de depósitos naturales de suelos  Propiedades físicas y químicas de los suelos utilizados en ingeniería. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4." xml:id="_r3gUNPU">Cimentaciones</head><p xml:id="_PXz9CBX">Se desarrolla en 6 ejes temáticos, con el siguiente contenido específico:</p><p xml:id="_Sw4xmm5"> Tipos de cimentaciones.  Cimentaciones superficiales.  Cimentaciones profundas.  Cimentaciones sometidas a acciones vibratorias.  Estructuras sometidas a presión de suelo.  Patología El desarrollo de la asignatura es mediante clases teórico práctica, con resolución de ejercicios y problemas de aplicación. Recientemente, se ensayos experimentales de laboratorio y campo, para la determinación del valor soporte y pruebas de carga de fundaciones. Durante el cursado se desarrolla un trabajo práctico integrador, correspondiente a la solución completa de un sistema de cimentación para un proyecto de ingeniería. Se trabaja en grupos de 2 o 3 integrantes. La presentación del trabajo práctico integrador se realiza mediante un coloquio, y deberá incluir memoria de cálculo, planos de proyecto, y una reseña de la metodología de construcción. Para el desarrollo, cada grupo deberá presentar un proyecto de ingeniería/arquitectura al inicio del cursado, con su respectivo informe de estudio de suelo. Los docentes de la asignatura deberán avalar el mismo. En Cimentaciones se trabaja fundamentalmente en la formación aplicada para la resolución de problemas de proyecto y obras de ingeniería.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5." xml:id="_p3RHAad">La explicación como medio facilitador</head><p xml:id="_nKpkKBb">Uno de los objetivos atribuido a la actividad docente es la aspiración de proporcionar explicaciones. En la ciencia, la conformidad con los hechos observables y la compatibilidad con otros conocimientos aceptados tienen gran peso. El poder explicativo de una teoría constituye un factor importante, y los científicos lo tienen en cuenta en el momento de optar entre teorías rivales.</p><p xml:id="_mcw2N5h">La clasificación de los distintos géneros de explicación se basa a menudo en el hecho de que una explicación se concibe habitualmente como un argumento o razonamiento en el cual las premisas ofrecen un fundamento total o parcial de la conclusión, la cual describe el hecho que se quiere explicar. Los criterios de clasificación suelen apoyarse en la inclusión o la ausencia de leyes científicas entre las premisas y en las diferencias que surgen del carácter deductivo o probabilístico de la conexión inferencial que vincula los componentes de la explicación. Las discusiones generadas en torno de la explicación se inscriben en el debate suscitado alrededor de la cuestión de si existe un método compartido por todas las ciencias fácticas o si los métodos varían conforme la naturaleza de las distintas disciplinas. <ref type="bibr" coords="3,379.96,321.64,90.29,10.80" target="#b1">(Gaeta et al., 1996)</ref>. La forma en que explicamos "contenidos básicos" o "estrategias para resolver problemas" es importante. No basta con saber, sino saber transmitir, y para este propósito los modelos de explicación científica proporcionan una poderosa herramienta que, desafortunadamente, no siempre la aprovechamos en la docencia.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6." xml:id="_BmUvN56">Futuro cercano</head><p xml:id="_ruphByx">La facilidad de acceso a la información y velocidad en las comunicaciones, son dos factores claves para el replanteo de "futuras próximas" modalidades de implementación didáctica. En este sentido migrar de un docentes "dictador de contenidos" hacia un "facilitador de contenidos" es algo que debe ser considerado. El tiempo presencial debería comenzar a destinarse a esclarecer dudas y resolver problemas aplicados. La clase debería ser el disparador de preguntas y búsqueda de soluciones para situaciones problemáticas concretas de ingeniería. Ahora, ¿cuándo los alumnos estudian el tema? La respuesta es simple: debemos procurar facilitar a los estudiantes, a través del portal institucional, material de estudio, vínculos de interés, a fin de que el mismo sea leído en forma previa a la clase. Sólo de esta manera, el esquema presencial propuesto tendrá provecho.</p><p xml:id="_xzCvqRE">Las actividades experimentales básicas, científicas y didácticas en el laboratorio, constituyen un instrumento fundamental e irremplazable en la formación. De esta forma, "ver, tocar, sentir le suelo", así como "instrumentar, medir, reportar", para finalmente pasar en limpio, analizar, concluir y emitir recomendaciones sobre la base de los resultados constituye un proceso valioso en la disciplina de geotecnia y cimentaciones. ¿Cómo debería ser la evaluación? Consideramos que la evaluación deberá estar compuesta de tres etapas:</p><p xml:id="_74DmZVd">(1) Contenido: preguntas a responder y desarrollar. Así se podrá valorar el conocimiento de la teoría básica conceptual de la asignatura. Será bajo la modalidad presencial, individual, escrita, y a "libro cerrado" (2) Aplicación: resolver ejercicios básicos y problemas concretos. Así se podrá valorar la destreza práctica sobre los temas de la asignatura. Será bajo la modalidad presencial, individual, escrita, y a "libro abierto" (3) Proyecto: desarrollar un proyecto completo de ingeniería de la especialidad. Con memorias de cálculo, reglamentaciones vigentes, planos ejecutivos, y demás documentación. Será bajo la modalidad semi-presencial, grupal (2 a 3 integrantes), y un coloquio final. De esta forma, se procura una formación integral en la disciplina.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="7." xml:id="_pQy5fWh">Conclusiones</head><p xml:id="_dVnXysf">La docencia y sus estrategias didácticas se encuentran en un proceso de cambio de paradigma inminente. Esto es impulsado, fundamentalmente por la facilidad de acceso a la información y el incremento en la velocidad de las comunicaciones. Esta facilidad de acceso a la información, o contenido, con frecuencia tienta a incurrir en la frase: "total está en la red", lo busco cuando lo necesite. Esto, si bien en parte es cierto, no sustituye la necesidad de que la formación se base también en la adquisición de contenidos. La facilidad de acceso a la información es una herramienta que debe proporcionar facilidades, pero no sustituir la necesidad de conocimiento de los principios básicos de cualquier disciplina. No obstante, esta facilidad nos permite que modifiquemos la utilización del tiempo presencial hacia actividades donde se ponga a prueba la formación específica parcial previa de los estudiantes, y la habilidad de construir nuevos conocimientos a partir de la necesidad concreta. Los nuevos tiempos nos llevan a la necesidad de "resolver problemas". Esta destreza se logra bajo conocimientos básicos, práctica, habilidad para buscar contenidos complementarios, investigación, y mucha creatividad.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0" coords="2,322.56,274.48,216.56,495.48"><head></head><label></label><figDesc xml:id="_dTvfsyx">Hidráulica de los suelos.</figDesc><table coords="2,322.56,289.12,216.56,480.84"><row><cell cols="4"> Presiones y deformaciones en la</cell></row><row><cell cols="2">masa de suelo.</cell><cell></cell></row><row><cell cols="4"> Compresibilidad y asentamiento en</cell></row><row><cell>los suelos</cell><cell></cell><cell></cell></row><row><cell cols="3"> Resistencia al corte del suelo.</cell></row><row><cell cols="2"> Empuje de suelos.</cell><cell></cell></row><row><cell cols="2"> Compactación de suelos.</cell><cell></cell></row><row><cell cols="2"> Estabilidad de taludes.</cell><cell></cell></row><row><cell cols="2"> Capacidad de carga.</cell><cell></cell></row><row><cell cols="2"> Exploración geotécnica.</cell><cell></cell></row><row><cell cols="2"> Mecánica de rocas</cell><cell></cell></row><row><cell cols="4">El desarrollo de la asignatura es mediante</cell></row><row><cell cols="4">clases teórico práctica, con resolución de</cell></row><row><cell cols="3">ejercicios básicos de aplicación de la teoría.</cell></row><row><cell cols="4">Por otro lado, se realizan actividades de</cell></row><row><cell cols="4">laboratorios ejecutando los ensayos clásicos</cell></row><row><cell cols="4">y de control. Los siguientes, son los ensayos</cell></row><row><cell>que se realizan:</cell><cell></cell><cell></cell></row><row><cell cols="2"> Contenido de humedad.</cell><cell></cell></row><row><cell cols="2"> Peso Unitario.</cell><cell></cell></row><row><cell cols="2"> Límites de consistencia.</cell><cell></cell></row><row><cell cols="4"> Análisis Granulométrico. Tamices e</cell></row><row><cell cols="2">hidrómetro.</cell><cell></cell></row><row><cell cols="2"> Consolidación.</cell><cell></cell></row><row><cell cols="2"> Compresión confinada</cell><cell></cell></row><row><cell cols="3"> Compresión simple y triaxial.</cell></row><row><cell cols="4"> Compactación. Proctor estándar y</cell></row><row><cell cols="2">modificado.</cell><cell></cell></row><row><cell cols="2"> Peso Unitario In situ.</cell><cell></cell></row><row><cell cols="4">En Geotecnia se trabaja fundamentalmente</cell></row><row><cell cols="3">en la formación básica en teoría,</cell><cell>y</cell></row><row><cell>aplicaciones</cell><cell>elementales.</cell><cell cols="2">También</cell></row><row><cell cols="4">experimentación en prácticas de laboratorio</cell></row><row><cell>y campo.</cell><cell></cell><cell></cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_sep7kZP">Agradecimientos</head><p xml:id="_3ykRJxz">Se agradece al apoyo recibido por la Universidad Tecnológica Nacional, Facultad Regional Córdoba (Departamento de Ingeniería Civil -GIGEF).</p></div>
+			</div>
+
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="4,322.56,418.12,216.02,10.80;4,322.56,432.04,162.18,10.80" xml:id="b0">
+	<monogr>
+		<title level="m" type="main" xml:id="_hFj83tQ">Foundation analysis and design</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Bowles</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1982" />
+			<publisher>McGraw-Hill</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bowles J. (1982). Foundation analysis and design, McGraw-Hill, New York.</note>
+</biblStruct>
+
+<biblStruct coords="4,322.56,445.72,216.04,10.80;4,322.56,459.64,205.21,10.80;4,322.56,473.32,216.10,10.80;4,322.56,487.24,11.65,10.80;4,349.69,487.24,34.92,10.80;4,400.08,487.24,41.39,10.80;4,456.73,487.24,11.33,10.80;4,483.38,487.24,55.24,10.80;4,322.56,500.92,216.18,10.80;4,322.56,514.84,28.72,10.80" xml:id="b1">
+	<monogr>
+		<title level="m" type="main" xml:id="_tQ9skDk">Principles of geotechnical engineering</title>
+		<author>
+			<persName coords=""><forename type="first">B</forename><surname>Das</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Cengage Learning</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Stamford</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">R</forename><surname>Gaeta</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">N</forename><surname>Gentile</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Lucero</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">N</forename><surname>Robles</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1996" />
+		</imprint>
+		<respStmt>
+			<orgName>Universitaria de Buenos Aires</orgName>
+		</respStmt>
+	</monogr>
+	<note>Modelos de explicación científica</note>
+	<note type="raw_reference">Das B. (2010). Principles of geotechnical engineering, Cengage Learning, Stamford. Gaeta, R.; Gentile, N.; Lucero, S. y Robles, N. (1996). Modelos de explicación científica. Editorial Universitaria de Buenos Aires.</note>
+</biblStruct>
+
+<biblStruct coords="4,322.56,528.52,216.23,10.80;4,322.56,542.44,215.88,10.80;4,322.56,556.12,127.47,10.80" xml:id="b2">
+	<monogr>
+		<title level="m" type="main" xml:id="_rzDhdpH">An introduction to geotechnical engineering</title>
+		<author>
+			<persName coords=""><forename type="first">R</forename><surname>Holtz</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">W</forename><surname>Kovacs</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1981" />
+			<publisher>Prentice Hall</publisher>
+			<pubPlace>New Jersey</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Holtz R. y Kovacs W. (1981). An introduction to geotechnical engineering, Prentice Hall, New Jersey.</note>
+</biblStruct>
+
+<biblStruct coords="4,322.56,570.04,216.02,10.80;4,322.56,583.72,192.21,10.80;4,322.56,597.64,216.49,10.80;4,322.56,611.32,216.19,10.80;4,322.56,625.24,23.90,10.80" xml:id="b3">
+	<monogr>
+		<title level="m" type="main" xml:id="_raGx52H">Ordenanza 1030. Adecua el diseño curricular de la carrera de ingeniería civil</title>
+		<author>
+			<persName coords=""><forename type="first">K</forename><surname>Terzaghi</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1949" />
+			<publisher>Wiley and Sons</publisher>
+			<pubPlace>New York. UTN</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Theoretical soil mechanics</note>
+	<note type="raw_reference">Terzaghi K. (1949). Theoretical soil mechanics, Wiley and Sons, New York. UTN (2004). Ordenanza 1030. Adecua el diseño curricular de la carrera de ingeniería civil.</note>
+</biblStruct>
+
+<biblStruct coords="4,322.56,638.92,216.26,10.80;4,322.56,652.84,60.12,10.80;4,400.08,652.84,22.60,10.80;4,440.18,652.84,19.74,10.80;4,477.16,652.84,61.94,10.80;4,322.56,666.52,111.10,10.80" xml:id="b4">
+	<monogr>
+		<title level="m" type="main" xml:id="_wuXA4Kh">Geotechnical engineering, New Age International Publishers</title>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Venkatramaiah</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2006" />
+			<pubPlace>New Delhi</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Venkatramaiah C. (2006). Geotechnical engineering, New Age International Publishers, New Delhi.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

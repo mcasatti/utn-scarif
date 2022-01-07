@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="es">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main" xml:id="_fnbBPHP">El juego como una manera de entrenar la mente</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName coords="1,249.53,93.82,110.36,10.80"><forename type="first">Ing</forename><forename type="middle">Marisol</forename><surname>Elorriaga</surname></persName>
+							<email>melorriaga@frd.utn.edu.ar</email>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">Desarrollo de Entornos Virtuales de Enseñanza y Aprendizaje UTN -Facultad Delta Regional -Campana, Buenos Aires, Argentina</note>
+								<orgName type="department">Desarrollo de Entornos Virtuales de Enseñanza y Aprendizaje</orgName>
+								<orgName type="institution">UTN -Facultad Delta Regional -Campana</orgName>
+								<address>
+									<settlement>Buenos Aires</settlement>
+									<country key="AR">Argentina</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,223.73,162.82,120.23,10.80"><roleName>Ms. Ing</roleName><forename type="first">Edelmiro</forename><surname>Mario</surname></persName>
+							<affiliation key="aff1">
+								<note type="raw_affiliation">Desarrollo de Entornos Virtuales de Enseñanza y Aprendizaje UTN -Facultad Delta Regional -Campana, Buenos Aires, Argentina</note>
+								<orgName type="department">Desarrollo de Entornos Virtuales de Enseñanza y Aprendizaje UTN -Facultad Delta Regional -Campana</orgName>
+								<address>
+									<settlement>Buenos Aires</settlement>
+									<country key="AR">Argentina</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,347.08,162.82,38.63,10.80"><surname>Antúnez</surname></persName>
+							<email>antunezm@frd.utn.edu.ar</email>
+							<affiliation key="aff1">
+								<note type="raw_affiliation">Desarrollo de Entornos Virtuales de Enseñanza y Aprendizaje UTN -Facultad Delta Regional -Campana, Buenos Aires, Argentina</note>
+								<orgName type="department">Desarrollo de Entornos Virtuales de Enseñanza y Aprendizaje UTN -Facultad Delta Regional -Campana</orgName>
+								<address>
+									<settlement>Buenos Aires</settlement>
+									<country key="AR">Argentina</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,237.77,231.85,50.03,10.80"><forename type="first">Ing</forename><surname>Carla</surname></persName>
+							<affiliation key="aff2">
+								<note type="raw_affiliation">Departamento de Ingeniería en Sistemas de Información UTN -Facultad Delta Regional -Campana, Buenos Aires, Argentina</note>
+								<orgName type="department">Departamento de Ingeniería en Sistemas de Información UTN -Facultad Delta Regional -Campana</orgName>
+								<address>
+									<settlement>Buenos Aires</settlement>
+									<country key="AR">Argentina</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,290.80,231.85,80.98,10.80"><forename type="first">Daniela</forename><surname>Carrillo</surname></persName>
+							<email>ccarrillo@frd.utn.edu.ar</email>
+							<affiliation key="aff2">
+								<note type="raw_affiliation">Departamento de Ingeniería en Sistemas de Información UTN -Facultad Delta Regional -Campana, Buenos Aires, Argentina</note>
+								<orgName type="department">Departamento de Ingeniería en Sistemas de Información UTN -Facultad Delta Regional -Campana</orgName>
+								<address>
+									<settlement>Buenos Aires</settlement>
+									<country key="AR">Argentina</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,239.09,300.85,51.96,10.80"><forename type="first">Ing</forename><surname>Karen</surname></persName>
+							<affiliation key="aff3">
+								<note type="raw_affiliation">Departamento de Ingeniería en Sistemas de Información UTN -Facultad Delta Regional -Campana, Buenos Aires, Argentina</note>
+								<orgName type="department">Departamento de Ingeniería en Sistemas de Información UTN -Facultad Delta Regional -Campana</orgName>
+								<address>
+									<settlement>Buenos Aires</settlement>
+									<country key="AR">Argentina</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,294.05,300.85,76.30,10.80"><forename type="first">Beatriz</forename><surname>Villalba</surname></persName>
+							<email>kvillalba@frd.utn.edu.ar</email>
+							<affiliation key="aff3">
+								<note type="raw_affiliation">Departamento de Ingeniería en Sistemas de Información UTN -Facultad Delta Regional -Campana, Buenos Aires, Argentina</note>
+								<orgName type="department">Departamento de Ingeniería en Sistemas de Información UTN -Facultad Delta Regional -Campana</orgName>
+								<address>
+									<settlement>Buenos Aires</settlement>
+									<country key="AR">Argentina</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main" xml:id="_qs6mRbZ">El juego como una manera de entrenar la mente</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.7.0-SNAPSHOT" ident="GROBID" when="2021-07-06T01:28+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="595.32" lry="841.92"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="595.32" lry="841.92"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="595.32" lry="841.92"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="595.32" lry="841.92"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="595.32" lry="841.92"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="595.32" lry="841.92"/>
+	</facsimile>
+	<text xml:lang="es">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_zhKBekk">Resumen</head><p xml:id="_7mwJbAM">Con este trabajo se pretende contribuir de una manera simple y positiva con todas aquellas personas vinculadas directas e indirectamente al proceso educativo, ofreciéndoles nociones sobre la importancia que tiene el Juego en la educación permanente, acompañadas de conceptos metodológicos, ventajas y características para su enseñanza y la puesta en marcha de los juegos con contenido pedagógico; además del interés de conservarlos para su proceso formativo como elementos poderosos en la educación intelectual, ética y física. Un estudio preliminar efectuado en dos cursos del seminario de ingreso muestra el incremento de la habilidad comprensiva para resolver situaciones problemáticas en aquellos alumnos que han participado en la experiencia de los juegos de razonamiento. Estos alumnos logran, en menor tiempo las habilidades, necesarias para encarar los cursos universitarios debido a que en los juegos se va profundizando el tema de dimensiones y unidades a través de modelos matemáticos.</p><p xml:id="_ZgybgkN">Estos contenidos se implementarán a través de una aplicación para dispositivos móviles la cual se desarrollará en este proyecto con docentes y alumnos de la facultad.</p><p xml:id="_ZfA9Pjq">Palabras clave: Juego -Aprendizaje -Móvil.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1." xml:id="_yPyB5Eu">Identificación</head><p xml:id="_ZKZgvnh">"El juego como una manera de entrenar la mente" COD.:TEUTNDE0004823 DIRECTOR: ELORRIAGA, MARISOL</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2." xml:id="_mZkDNT6">Introducción</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1" xml:id="_mXAQ3j4">Estado actual de conocimiento del tema</head><p xml:id="_fh6Wn9X">Según el documento del CONFEDI "Nuevos paradigmas como la sociedad del conocimiento, la globalización, las redes y la actual economía conforman un escenario particular que requiere de nuevas formas de intercambio y de comunicación". El antiguo paradigma de formación de profesionales basado en la enseñanza como simple esquema de transferencia de conocimientos que el alumno oportunamente sabrá abstraer, articular y aplicar eficazmente ha ido perdiendo espacio en la realidad actual. Hay consenso en cuanto a que el ingeniero no solo debe saber sino también saber hacer, el saber hacer es el resultado de la puesta en funciones de una compleja estructura de conocimientos, habilidades y destrezas que requiere ser reconocida expresamente en el proceso de aprendizaje para que la propuesta pedagógica incluya las actividades que permitan su desarrollo. Asimismo se deben determinar las competencias de un estudiante de nivel medio que desea continuar sus estudios universitarios. A partir de la información brindada por las diferentes Unidades Académicas, se coincide que los alumnos aspirantes poseen:</p><p xml:id="_p3KdgWf"> Dificultades y carencias en relación a la lecto escritura y a la interpretación de textos  Dificultades para organizar el material informativo, selección de contenidos, distinción entre lo fundamental y los datos accesorios.  Dificultades para aplicar estrategias de profundización, como clasificar, comparar, contrastar, analizar, sintetizar.  Habilidades matemáticas poco desarrolladas para responder a los requerimientos del aprendizaje de la educación superior.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2" xml:id="_7zEnVgQ">Trabajos realizados</head><p xml:id="_JREZbnT">Hasta el momento se han llevado adelante actividades de razonamiento a través de juegos, que permiten al alumno adquirir una serie de habilidades en forma rápida y sobre todo estas actividades le ponen de manifiesto lo que él ya sabe pero no lo tiene internalizado como tal. Estas actividades le permiten mejorar la lectura comprensiva, organizar el material informativo, clasificar, contrastar y comparar debido a que dada una cierta información tiene que resolver actividades repetitivas en torno a ella, y sobre todo mejorar y seleccionar las habilidades matemáticas ya aprendidas en el nivel medio. El juego es una actividad que se utiliza para la diversión y el disfrute de los participantes, en muchas ocasiones, incluso como herramienta educativa. Muchos de los juegos ayudan a desarrollar determinadas habilidades o destrezas y sirven para desempeñar una serie de ejercicios que tienen un rol de tipo educacional, psicológico o de simulación.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3" xml:id="_ehqRawP">Desestructurando la mente</head><p xml:id="_2NfVNzG">Para desestructurarnos usamos los principios de la neuroplasticidad, por lo tanto este trabajo, aparte de relacionar los procesos atencionales con la neuroplasticidad, enlaza con los objetivos educativos. La atención sobre lo que se debe aprender requiere esfuerzo continuo, motivación para ser receptivo y contar con las emociones adecuadas. En ese orden, la dedicación constante requiere autocontrol, lo novedoso y lo relevante facilita nuestra motivación y en un estado relajado nuestra atención (también la memoria) se encuentra en una situación más beneficiosa para facilitar el aprendizaje.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.1" xml:id="_8KqWMYk">Relacionar los procesos atencionales con la neuroplasticidad</head><p xml:id="_83fTJNX">Los juegos de razonamiento, son para resolver en cualquier momento, es un juego, pueden hacer una o dos por día, o más si se entusiasman, y van a ver como con el correr de las horas o días están resolviendo las actividades más rápido, las neuronas están adquiriendo velocidad.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.2" xml:id="_UhqqnRe">Camino a la desestructuración</head><p xml:id="_wbFDSA9">Cuando hablamos a desestructurar, nos referimos a que en este caso, estará todo mezclado, ejercicios de cálculo, ejercicios de lectura comprensiva, ejercicios donde no tengo más que saber leer, escribir y las cuatro operaciones fundamentales. Son ejercicios muy sencillos y esa es la gracia de los mismos, porque todos los ejercicios de razonamiento que generalmente encontramos en los libros o en las revistas son muy difíciles y la mayoría de la gente común no los puede resolver, son para genios y los genios ¿para qué quieren aprender a razonar? Los juegos o actividades de razonamiento van aumentando su dificultad, pero la experiencia en su utilización demuestra que todos van avanzando rápidamente. Esta propuesta parte de varias suposiciones iniciales:</p><p xml:id="_jPwgKCz">• Todas las personas tienen una mínima capacidad lógico-analítica.</p><p xml:id="_uWSMNNQ">• No es cierto que existen personas que se puedan considerar negadas para las ciencias • El estudiante que está terminando el bachillerato, comenzando la Universidad o algún curso superior representa una materia prima maleable en la que los prejuicios que pueda traer son modificables.</p><p xml:id="_txTWk39">• El profesor es quien tiene en su poder la capacidad de enseñar a manejar las herramientas necesarias para lograr los objetivos.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4" xml:id="_d5hxSDw">Grado de avance</head><p xml:id="_CH5yMTe">Hemos trabajado durante muchos años dictando seminarios de ingreso y primer año de la universidad y nos hemos encontrado con gente de todas las edades, con distintos niveles de estudio, con esperanza de conseguir un título y sobre todo con miedo al fracaso. Miedo al olvido de lo aprendido muchos años atrás, miedo a lo desconocido y sobre todo miedo a no poder estar a la altura de las circunstancias. Como siempre les decimos a nuestros alumnos, lo importante no es saber, sino saber utilizar las herramientas que nos dan, pero para saber utilizar esas herramientas hay que aprender a razonar. No importa si estamos estudiando matemática, física, química u otra materia, porque si podemos razonar, tenemos las herramientas y sabemos utilizarlas podremos llegar a resolver cualquier problema que se nos presente. Lo primero que tenemos que hacer es desestructurarnos para poder comenzar a poner en movimiento las neuronas. Un estudio preliminar efectuado en dos cursos del seminario de ingreso muestra el incremento de la habilidad comprensiva para resolver situaciones problemáticas en aquellos alumnos que han participado en la experiencia de los juegos de razonamiento. Estos alumnos logran en menor tiempo las habilidades necesarias para encarar los cursos universitarios debido a que en los juegos se va profundizando el tema de dimensiones y unidades a través de modelos matemáticos.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3." xml:id="_SefEheU">Objetivos, Avances y Resultados</head><p xml:id="_zz5AZuH">A partir del documento del CONFEDI y de la propia experiencia de las carencias y dificultades en cuanto a destrezas y habilidades que traen los alumnos del nivel medio para enfrentar el seminario de ingreso y el posterior estudio universitario se decide comenzar este proyecto de investigación en el cual se estudia en profundidad la implementación de actividades de razonamiento que ayuden de una manera rápida y eficaz a mejorar el manejo de destreza y habilidades de los alumnos ingresantes. Como los nuevos tiempos requieren de nuevas estrategias y los últimos descubrimientos que nos aporta la neurociencia cognitiva develan que la educación actual requiere una profunda reestructuración que no le impida quedarse desfasada ante la reciente avalancha tecnológica se van a desarrollar las actividades de razonamiento en una aplicación para dispositivos móviles. De esta manera estamos integrando a toda la comunidad educativa en un proyecto que significa seguir jugando y disfrutando del aprendizaje continuo.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1" xml:id="_xcDtcSU">Objetivo Principal</head><p xml:id="_zcw9pQ4">Desarrollar una aplicación para dispositivos móviles para utilizar con los alumnos del seminario de ingreso y poder de esta manera mejorar el manejo de destreza y habilidades de los mismos. La aplicación es un juego que consiste en responder preguntas o situaciones problemáticas con opciones. Estas situaciones problemáticas son actividades de razonamiento con las que la persona que juegue va a ir desarrollando rapidez mental y va a ir adquiriendo habilidades en cuanto al uso de herramientas que conoce desde siempre. El proyecto también incluye la inserción en las tiendas de internet, pudiéndose desarrollar la aplicación en Android o IOS según donde se quiera comercializar y de esta manera poder ser utilizada por toda persona que quiera mejorar la neuroplasticidad cerebral, incluso personas de la tercera edad. Es por esto que el proyecto incluye el desarrollo del juego y la investigación de cuál es el mercado y como introducirlo en el mismo. Lo ideal es comenzar con un prototipo y probarlo entre los alumnos de la facultad para luego ir avanzando en el mercado. La idea de desarrollar una aplicación para dispositivos Android de tipo quiz surge a partir de dos realidades de la vida cotidiana: El auge de los móviles como un dispositivo multimedia que ha adquirido una dimensión universal y la de los videojuegos, un fenómeno imparable entre la juventud de hoy en día. De la unión de estos dos puntos, cuya finalidad es generar conocimiento, aparece este proyecto, que intenta de forma ágil, innovadora y divertida dotar a los usuarios de herramientas para aprender por cuenta propia y en cualquier lugar. El proyecto viene a cubrir un vacío que se ha observado entre otras aplicaciones similares en el mercado actual. Por una parte hay muchas aplicaciones focalizadas en aprender una sola materia, como por ejemplo inglés, de forma repetitiva y monótona. Por otra parte otras sólo se concentran en la parte lúdica, dando prioridad a la diversión sin importar si el usuario de verdad llega a dominar la materia sobre la que se pregunta.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2" xml:id="_8uJNqr3">Metodología</head><p xml:id="_BeCfHqN">En el mundo de las aplicaciones educativas hay dos enfoques claramente diferenciados, aplicaciones más serias donde el objetivo es aprender una materia (ya sea un idioma o cualquier otro tipo de conocimiento), o aplicaciones más lúdicas, donde el único objetivo es la diversión a través de preguntas generales. Veamos los dos mayores exponentes de ambos tipos de aplicaciones: a) Duolingo Es una aplicación de aprendizaje de idiomas multiplataforma (Web / Mobile) en la que el único objetivo es aprender el idioma en cuestión, aunque con un enfoque menos tradicional. Utiliza preguntas de tipo de prueba, alocuciones e imágenes para no ser aburrido. Además, la aplicación está Gamificada (uso de experiencia, vidas, etc.) para una experiencia de juego más agradable y adictiva. b) Triviados Es una prueba multiplataforma (web / móvil / tableta) basada en Trivial of life, donde las preguntas de prueba sobre diversos temas son una excusa para jugar en modo multijugador con tus amigos. La apariencia agradable, el modo multijugador y la facilidad de uso y acceso son los puntos fuertes de esta aplicación de entretenimiento. Este proyecto se sitúa en un nivel intermedio de estos dos puntos de vista, combinando la intencionalidad del usuario para aprender con la diversión y la emoción que proporciona el modo multijugador. Estas herramientas se aplican en los cursos iniciales, para todas las especialidades de ingeniería. La aplicación piloto se desarrolló de la siguiente manera: • Situaciones problemáticas simples. • Opción múltiple • Laguna de Textos • Cálculos • Acertijos • Examen Los juegos se encuentran en la plataforma del campus virtual educativo, que fue adaptada para este fin, en la cual se tuvieron en cuenta consideraciones que normalmente están presentes en la gamificación. Estas situaciones problemáticas, consisten en actividades de razonamiento. Los estudiantes que juegan desarrollan las siguientes habilidades: • Rapidez mental.</p><p xml:id="_pGT3zDq">• Habilidades en el uso de herramientas. El proyecto está dividido por categorías y es posible competir por tiempo, preguntas correctas y con otros participantes en la web. La base del juego es: • Mecánica: unirse a los niveles o distintivos del juego.</p><p xml:id="_8gZzu5j">• Estética: el uso de imágenes gratificantes para la vista del jugador.</p><p xml:id="_upeaCSc">• Conexión jugador-juego: ambos buscan un compromiso entre el jugador y el juego.</p><p xml:id="_eKK8Gf8">• Motivación: la predisposición psicológica de la persona para participar en el juego es sin duda un desencadenante. Y a medida que pasa el tiempo, las personas aprenden de la repetición, los desafíos tienen que aumentar gradualmente para mantenerse al día con sus crecientes habilidades.</p><p xml:id="_q23T5TM">• Promover el aprendizaje: la gamificación incorpora técnicas de psicología para fomentar el aprendizaje a través del juego. Técnicas como asignar puntos y comentarios correctivos.</p><p xml:id="_TUq5xeC">• Solución de problemas: se puede entender como el objetivo final del jugador, es decir, alcanzar el objetivo, resolver el problema, cancelar a tu enemigo en combate, superar obstáculos, etc., es una herramienta de entrenamiento eficiente porque incorpora juegos elementos desafíos, fantasía, motivación, medición fácil (nivel, clasificación, puntaje), así como la satisfacción por el logro de la meta. Como resultado de la experiencia y el entusiasmo de los estudiantes que se refleja en el aumento de participantes en la plataforma se decidió desarrollar una aplicación para teléfonos móviles en un proyecto conjunto entre los docentes que usan estas herramientas y el Departamento de Ingeniería en Sistemas de Información donde participan docentes y estudiantes. Por lo tanto, estamos integrando a toda la comunidad educativa en un proyecto que pretende continuar jugando y disfrutando del aprendizaje continuo.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.1" xml:id="_Cvtj4JA">Descripción de la metodología</head><p xml:id="_8e9RZSh">1. Búsqueda bibliográfica. La recopilación de información y búsqueda bibliográfica será de carácter permanente, con el fin de aumentar y complementar la bibliografía existente. 2. Tareas experimentales.</p><p xml:id="_YPBkTeb"> Se capacitará a los investigadores de Ingeniería en Sistemas en el desarrollo de videojuegos.  Se programará el juego en distintos escenarios  Se analizará la base de datos aplicable al diseño y programa de juego  Se cargará la base de datos y se efectuará el primer prototipo Se probará el primer prototipo y en base a los resultados obtenidos se harán las correspondientes Modificaciones Permanentemente se realizarán reuniones interdisciplinarias entre los programadores y los creadores del juego para ir ajustando requerimientos mutuos. Permanentemente se trabajará en la creación de preguntas que van a ser utilizadas en el juego.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4." xml:id="_uPMk5nq">Formación de Recursos Humanos</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1" xml:id="_jfwG9aF">Contribuciones al avance científico, tecnológico, transferencia al medio</head><p xml:id="_VZbhvZf">El presente proyecto fortalecerá las habilidades y herramientas del departamento de Ing. en Sistema de Información en la temática de juegos y aplicaciones móviles. La Transferencia de los resultados, conocimientos y experiencias adquiridas como consecuencia del desarrollo del proyecto se efectuará en distintos ámbitos, seminario de ingreso, docentes de primer año, docentes y alumnos del departamento de Ingeniería en Sistemas. Los resultados obtenidos serán transmitidos en la comunidad científica a través de la presentación de trabajos en Congresos Nacionales y/o Internacionales y de publicaciones en revistas de nivel Nacional y/o Internacional y a través de la organización de seminarios, reuniones técnicas.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2" xml:id="_f6VDVYx">Contribuciones a la formación de Recursos Humanos</head><p xml:id="_Xg4R9Bx">Con el desarrollo del proyecto se espera una contribución a la formación de investigadores docentes y alumnos ampliando sus conocimientos y asimilando metodologías de investigación, multidisciplinariedad donde los profesionales de la informática deben trabajar e interactuar con los profesionales que demandan soluciones desde otras disciplinas. La conformación de un grupo que se irá especializando y formando experiencia acumulada, tendrá un efecto multiplicador a través de la transferencia de metodología y el intercambio de experiencias con investigadores dentro y fuera de institución, y que trabajen en campos similares. Además el proyecto en cuestión implica la articulación entre los Laboratorios de Sistemas de Información, los grupos de investigación de Acceso y Permanencia (GAP), el equipo multidisciplinar del Grupo Desarrollo de Entornos Virtuales de Enseñanza y Aprendizaje (DEVEA) que brinda apoyo a las cátedras de la Facultad regional para el uso del Campus Virtual con la realización de actividades de mutua colaboración, aunando esfuerzos y recursos para el logro de objetivos compartidos. Igualmente se concretarán acciones de articulación con asignaturas de Grado y Posgrado de la carrera Sistemas de Información.</p></div>		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="6,322.51,77.62,215.88,10.91;6,322.51,91.54,82.58,10.80" xml:id="b0">
+	<monogr>
+		<title level="m" type="main" xml:id="_rVfeKns">Argentina</title>
+		<author>
+			<persName coords=""><forename type="first">E</forename><surname>Bachrach</surname></persName>
+		</author>
+		<idno type="DOI">10.1787/rev_fish-2011-36-en</idno>
+		<imprint>
+			<date type="published" when="2012-06-22" />
+			<publisher>Organisation for Economic Co-Operation and Development (OECD)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bachrach, E., &quot;Agilmente&quot; Argentina, Ed.Conecta 2012</note>
+</biblStruct>
+
+<biblStruct coords="6,322.51,119.02,48.23,10.91;6,388.73,119.02,14.66,10.91;6,421.35,119.02,77.96,10.91;6,517.31,119.02,21.34,10.91;6,322.51,132.82,150.19,10.91" xml:id="b1">
+	<monogr>
+		<title level="m" type="main" xml:id="_H7Vczkj">Gammification with Moodle</title>
+		<author>
+			<persName coords=""><forename type="first">N</forename><surname>Demeade</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2015" />
+			<publisher>Pack Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Demeade, N., &quot;Gammification with Moodle&quot; Pack Publishing 2015</note>
+</biblStruct>
+
+<biblStruct coords="6,322.51,160.42,216.01,10.91;6,322.51,174.22,199.54,10.91" xml:id="b2">
+	<monogr>
+		<title level="m" type="main" xml:id="_yN2ayAq">Neuromitos en educación&quot; España</title>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Flores</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Guillen</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note>Plataforma</note>
+	<note type="raw_reference">Flores, A.; Guillen, J., &quot;Neuromitos en educación&quot; España, Ed. Plataforma, 2015</note>
+</biblStruct>
+
+<biblStruct coords="6,322.51,188.02,38.99,10.91;6,377.09,188.02,10.79,10.91;6,403.46,188.02,42.50,10.91;6,461.53,188.02,17.28,10.91;6,494.40,188.02,44.19,10.91;6,322.51,201.94,201.05,10.80;6,322.51,215.74,12.00,10.80" xml:id="b3">
+	<analytic>
+		<title level="a" type="main" xml:id="_PAPynfm">ELIMINANDO O CÉREBRO DEGENERADO COM NANOPARTÍCULAS MAGNÉTICAS</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Guillen</surname></persName>
+		</author>
+		<idno type="DOI">10.15729/nanocellnews.2015.04.06.002</idno>
+		<ptr target="https://escuelaconcerebro.wordpress.com/10" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_E3NQXjB">Nanocell News</title>
+		<title level="j" type="abbrev">Nanocell</title>
+		<idno type="ISSNe">2318-5880</idno>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="NA" to="NA" />
+			<date type="published" when="2015-04-06" />
+			<publisher>Instituto Nanocell</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Guillen, J., &quot;Escuela con Cerebro&quot; https://escuelaconcerebro.wordpress.com/ 10</note>
+</biblStruct>
+
+<biblStruct coords="6,322.51,243.37,215.89,10.80;6,322.51,257.17,216.04,10.80;6,322.51,270.97,216.10,10.80;6,322.51,284.77,173.68,10.80" xml:id="b4">
+	<monogr>
+		<title level="m" type="main" xml:id="_N2KBNMs">The Gamification of Learning and Instruction: Game Based Methods and Strategies for Training and Education</title>
+		<author>
+			<persName coords=""><forename type="first">K</forename><surname>Kapp</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2012" />
+			<publisher>John Wiley &amp; Sons</publisher>
+			<pubPlace>San Francisco</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kapp, K., The Gamification of Learning and Instruction: Game Based Methods and Strategies for Training and Education. San Francisco: John Wiley &amp; Sons.2012</note>
+</biblStruct>
+
+<biblStruct coords="6,322.51,312.25,216.06,10.91;6,322.51,326.17,135.58,10.80" xml:id="b5">
+	<monogr>
+		<title level="m" type="main" xml:id="_9fsrmNE">Usar el Cerebro&quot; Argentina</title>
+		<author>
+			<persName coords=""><forename type="first">F</forename><surname>Manes</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Niro</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Manes, F.; Niro, M. &quot;Usar el Cerebro&quot; Argentina, Ed. Planeta 2015</note>
+</biblStruct>
+
+<biblStruct coords="6,322.51,353.77,60.83,10.80;6,398.81,353.77,11.66,10.80;6,426.03,353.77,6.00,10.80;6,447.26,353.77,64.88,10.80;6,527.52,353.77,11.03,10.80;6,322.51,367.57,216.00,10.80;6,322.51,381.37,216.04,10.80;6,322.51,395.07,190.49,10.91" xml:id="b6">
+	<monogr>
+		<title level="m" type="main" xml:id="_5QhXCyR">Gamification by Design: Implementing Game Mechanics in Web and Mobile Apps</title>
+		<author>
+			<persName coords=""><forename type="first">G</forename><surname>Zichermann</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Cunningham</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2011" />
+			<pubPlace>Cambridge, MA: O&apos;Reilly Media</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zichermann, G. y Cunningham, C. Gamification by Design: Implementing Game Mechanics in Web and Mobile Apps. Cambridge, MA: O&apos;Reilly Media. 2011</note>
+</biblStruct>
+
+<biblStruct coords="6,322.51,422.79,216.02,10.80;6,322.51,436.59,53.23,10.80;6,390.99,436.59,33.26,10.80;6,439.44,436.59,46.69,10.80;6,501.32,436.59,37.28,10.80;6,322.51,450.39,215.95,10.80;6,322.51,464.19,190.73,10.80" xml:id="b7">
+	<monogr>
+		<title level="m" type="main" xml:id="_V4Y6q9j">Game-Based Marketing: Inspire Customer Loyalty Through Rewards , Challenges , and Contest ed</title>
+		<author>
+			<persName coords=""><forename type="first">G</forename><surname>Zichermann</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Linder</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2010" />
+			<publisher>Wiley</publisher>
+			<pubPlace>River Street, GA, USA</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zichermann , G. &amp; Linder , J., Game-Based Marketing: Inspire Customer Loyalty Through Rewards , Challenges , and Contest ed.River Street, GA, USA: Wiley 2010.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

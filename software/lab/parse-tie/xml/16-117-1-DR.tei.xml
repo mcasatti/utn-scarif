@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="es">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main" xml:id="_jxBg7Rw">Evaluación de prácticas de programación mediante el uso de rúbricas</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName coords="1,176.45,114.43,68.28,10.80"><forename type="first">Corso</forename><surname>Cynthia</surname></persName>
+							<email>corso.cynthia@gmail.com</email>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">Departamento de Ingeniería en Sistemas de Información Facultad Regional Córdoba, Universidad Tecnológica Nacional Maestro Marcelo López esq. Cruz Roja Argentina -Ciudad Universitaria -Córdoba</note>
+								<orgName type="department">Departamento de Ingeniería en Sistemas de Información Facultad Regional Córdoba</orgName>
+								<orgName type="institution">Universidad Tecnológica Nacional Maestro Marcelo López esq. Cruz Roja Argentina -Ciudad Universitaria -Córdoba</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,252.88,114.43,72.99,10.80"><forename type="first">Guzmán</forename><surname>Analía</surname></persName>
+							<email>analia.guzman@the-group.com.ar</email>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">Departamento de Ingeniería en Sistemas de Información Facultad Regional Córdoba, Universidad Tecnológica Nacional Maestro Marcelo López esq. Cruz Roja Argentina -Ciudad Universitaria -Córdoba</note>
+								<orgName type="department">Departamento de Ingeniería en Sistemas de Información Facultad Regional Córdoba</orgName>
+								<orgName type="institution">Universidad Tecnológica Nacional Maestro Marcelo López esq. Cruz Roja Argentina -Ciudad Universitaria -Córdoba</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,333.90,114.43,99.11,10.80"><forename type="first">Marciszack</forename><surname>Marcelo</surname></persName>
+							<email>marciszack@gmail.com</email>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">Departamento de Ingeniería en Sistemas de Información Facultad Regional Córdoba, Universidad Tecnológica Nacional Maestro Marcelo López esq. Cruz Roja Argentina -Ciudad Universitaria -Córdoba</note>
+								<orgName type="department">Departamento de Ingeniería en Sistemas de Información Facultad Regional Córdoba</orgName>
+								<orgName type="institution">Universidad Tecnológica Nacional Maestro Marcelo López esq. Cruz Roja Argentina -Ciudad Universitaria -Córdoba</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main" xml:id="_kAf2kV8">Evaluación de prácticas de programación mediante el uso de rúbricas</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.7.0-SNAPSHOT" ident="GROBID" when="2021-07-06T01:28+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term xml:id="_DuaZTsb">rúbrica</term>
+					<term xml:id="_5SvgSJZ">Moodle</term>
+					<term xml:id="_ptqthJK">prácticas de programación</term>
+				</keywords>
+			</textClass>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="595.4" lry="841.8"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="595.4" lry="841.8"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="595.4" lry="841.8"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="595.4" lry="841.8"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="595.4" lry="841.8"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="595.4" lry="841.8"/>
+	</facsimile>
+	<text xml:lang="es">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_HaTgkmB">Resumen</head><p xml:id="_v6zSRae">El objetivo de este trabajo es la presentación de una herramienta dirigida a la evaluación de las prácticas relacionadas a la unidad 4: Paradigma Orientada a Objetos en el contexto de la cátedra de Paradigmas de Programación, del segundo año de la carrera de Ingeniería en Sistemas de Información. Esta herramienta propone una rúbrica que refleja diferentes aspectos y criterios relacionados con el desarrollo de una práctica referida a la unidad temática bajo estudio. Se espera con su implementación que los alumnos puedan analizar el grado de cumplimiento de cada aspecto evaluado y aprender de los errores para tenerlos en cuenta en el desarrollo de las siguientes prácticas y lograr un mejor rendimiento. Además, se espera que los docentes de la cátedra puedan optimizar diferentes aspectos de sus prácticas docentes, como agilizar el proceso de corrección y lograr mayor objetividad en la valoración. Para el desarrollo de esta propuesta se prevé la formación pedagógica del plantel docente en el ámbito del proceso de evaluación lo que facilitará la implementación de la misma. Se pretende extender esta propuesta a las restantes unidades temáticas de la asignatura.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1." xml:id="_cDmKHuk">Introducción</head><p xml:id="_5fmyuPS">En el contexto universitario, el proceso de enseñanza siempre ha estado centrado en la figura del profesor, y el alumno estaba considerado como un receptor pasivo de este proceso, recibiendo retroalimentación al final del proceso. El trabajo del docente no solo consiste en enseñar, sino además guiar, evaluar y dar retroalimentación a sus alumnos continuamente <ref type="bibr" coords="1,440.95,259.45,97.49,10.80;1,322.50,273.28,25.83,10.80">(Grangel y Campos, 2013)</ref>. En este sentido, la retroalimentación o feedback está considerada como un importante elemento con el cual el alumno puede obtener información sobre el grado de logro de los objetivos/competencias dentro de una prueba de evaluación permitiéndole conocer los objetivos logrados y los que le faltan por alcanzar <ref type="bibr" coords="1,444.95,369.88,93.83,10.80;1,322.50,383.70,68.89,10.80">(Bañares, Marco-Galindo,2013;</ref><ref type="bibr" coords="1,421.13,383.70,34.94,10.80;1,485.86,383.70,52.56,10.80;1,322.50,397.50,63.11,10.80">García, Fernández, Terrón,2011;</ref><ref type="bibr" coords="1,393.46,397.50,111.14,10.80">Espasa, Barbera,2011)</ref>. Para conseguir la retroalimentación, diversos autores proponen como alternativa la utilización de rúbrica, como herramienta de evaluación, por su versatilidad y su potencialidad didáctica en los procesos de evaluación <ref type="bibr" coords="1,454.25,480.30,84.17,10.80;1,322.50,494.10,25.83,10.80" target="#b4">Conde, Pozuelos, 2007)</ref>. Mediante las rúbricas se hace más transparente y fácil el proceso de evaluación tanto para el profesor como para el alumno <ref type="bibr" coords="1,322.50,535.52,183.86,10.80" target="#b1">(Antoni, Guerrero, Miró, 2012)</ref>. La motivación de implementar esta alternativa surge como una necesidad de mejorar la calidad del proceso de enseñanza y aprendizaje en el contexto de la cátedra Paradigmas de Programación, del segundo año de la carrera de Ingeniería en Sistemas de Información. Para realizar este trabajo se utilizó como marco de trabajo la unidad N° 4: Paradigma de Programación con Orientación a Objetos, explicitada en la modalidad académica 2017 de la cátedra (2017). El objetivo de este trabajo es que los alumnos conozcan los objetivos que tienen que alcanzar y los criterios que se van a considerar para evaluarlos, para que al concluir el cursado de la asignatura hayan alcanzado estos objetivos en el mayor grado posible.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2." xml:id="_gF8tXNP">Marco teórico</head><p xml:id="_2QxvwD7">Una rúbrica, o matriz de valoración, es una guía de puntuación usada en la evaluación del desempeño de los estudiantes que describen las características específicas de un producto, proyecto o tarea en varios niveles de rendimiento, con el fin de clarificar lo que se espera del trabajo del alumno, de valorar su ejecución y de facilitar la proporción de feedback <ref type="bibr" coords="2,70.83,257.05,77.05,10.80" target="#b0">(Andrade, 2005)</ref>. Algunas de las características de las rúbricas que consideramos más apropiadas a la hora de realizar una evaluación:</p><p xml:id="_kJ465JA">• Facilitan la evaluación al profesor.</p><p xml:id="_Jr7QK5J">• Definen lo que se espera que un alumno demuestre en la realización de un trabajo. • Reducen la ambigüedad que pueda tener un alumno cuando es evaluado. • Garantizan una evaluación más equitativa. Antes de proponer las rúbricas, fue necesario establecer los criterios de evaluación que se esperaban evaluar en los instrumentos de evaluación. Los criterios de evaluación son un marco de referencia tomado por los docentes a la hora de evaluar el rendimiento académico de sus alumnos. Estos criterios aluden a los conocimientos que los estudiantes deben adquirir y a lo que tienen que aprender a hacer con dichos conocimientos <ref type="bibr" coords="2,256.84,560.72,29.99,10.80;2,70.83,574.52,58.45,10.80" target="#b10">(Porto Pérez, 2017)</ref>. Los criterios de evaluación son el principal referente para evaluar los aprendizajes de los alumnos. Describen aquello que se quiere valorar. La necesidad de definir los criterios de evaluación, surgió debido a que no había sido formalizado ningún instrumento de evaluación y además, la modalidad de evaluación unificada de la cátedra, requería una descripción detallada y documentada de lo que se desea valorar. Para definir los criterios de evaluación, se consideraron los objetivos y los contenidos de la unidad. En general, debido a que los instrumentos de evaluación varían en el dominio del problema o en la estructura resolutiva del mismo, se establecieron dos grandes objetivos de evaluación: 1. Implementación del modelo 2. Implementación de comportamientos En los cuales se enmarcaron los criterios de evaluación que se definieron.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3." xml:id="_K9chJqA">Objetivos y Metodología</head><p xml:id="_SuCAFSb">Objetivo General: diseñar e implementar rúbricas para optimizar el proceso de evaluación, correspondiente a la Unidad 4 de la cátedra Paradigmas de Programación. Objetivos Específicos: a) Analizar los fundamentos de la Unidad 4 reflejada en la modalidad académica de la cátedra. b) Definir los objetivos a tener en cuenta en la instancia de evaluación. c) Diseñar los criterios de evaluación a considerar para cada objetivo de evaluación establecido. d) Apoyar el proceso de selección para la herramienta que facilite la automatización de la rúbrica. Cuando se propuso la rúbrica se sugirió instrumentar la misma mediante alguna herramienta de calificación automatizada, que permita brindar la infraestructura adecuada para implementar la misma.</p><p xml:id="_aAEmYvV">La escala de calificación que se utilizó, se basó en la escala de notas de regularidad detallada en la modalidad académica 2017, que considera notas del 1 al 10 con el respectivo porcentaje máximo de 100%.</p><p xml:id="_VSQFk48">Sin embargo para la valoración de la rúbrica se sugirió utilizar una escala de calificación con 6 seis grados de valoración, dos para la desaprobación y cuatro para la aprobación, ellos son: Muy Mal, Mal, Regular, Bien, Muy Bien y Excelente, los cuales servirán para apreciar la cantidad y calidad de los conocimientos de los alumnos y facilitará el proceso de calificación con un rango valorativo manejable para el criterio evaluado. Para obtener un valor de calificación, al final se debe realizar una conversión de los valores de la rúbrica, respecto a la escala de calificación establecida en la cátedra, dicha conversión arrojará un valor de puntaje o un rango predeterminado para cada ítem a evaluar en el instrumento de evaluación.</p><p xml:id="_qKrN83w">La siguiente Tabla 1 ejemplifica los criterios de evaluación usando un modelo de examen parcial correspondiente a la unidad temática bajo estudio: Tabla 1. Criterios de evaluación.</p><p xml:id="_8j96SQm">A continuación, en la Tabla 2 se visualiza el procedimiento de rúbrica para el primer criterio de evaluación, cuya valoración total es de 2.5 puntos sobre 10, la valoración porcentual y la nota equivalente surgen de la escala de notas de la modalidad académica: Tabla 2. Procedimiento de la rúbrica para el primer criterio de evaluación.</p><p xml:id="_fGREq2r">El modelo de rúbrica que se visualiza en la Tabla 3 es el que se propuso para difundir a los alumnos es el que se muestra a continuación:</p><p xml:id="_pb2wAnA">Tabla 3. Modelo de rúbrica propuesto.</p><p xml:id="_yRt2Ab4">La muestra de este estudio se obtuvo de los estudiantes de la Facultad Regional Córdoba, matriculados durante el ciclo lectivo 2016-2017 en la asignatura de Paradigmas de Programación.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4." xml:id="_m3u6xzd">Resultados</head><p xml:id="_bjGRMds">El procedimiento para la implementación de la propuesta de rúbrica, se realizó mediante la utilización de los recursos provistos por la plataforma Moodle. Para diseñar la rúbrica se consideraron los criterios de evaluación y las puntuaciones establecidas.</p><p xml:id="_h5bCtjq">Para realizar la automatización de la rúbrica, en primera instancia, se debe crear en Moodle una Tarea que corresponda al instrumento de evaluación, allí se ingresará el nombre de la tarea, una breve descripción asociada y un archivo adjunto que puede contener el enunciado del instrumento elegido para la tarea, luego se deberán configurar algunas opciones de la misma:</p><p xml:id="_8gDRHEj"> Disponibilidad: Se establecerán las fechas de entrega, las fechas límites, etc.</p><p xml:id="_Q56BR3q"> Tipos de entrega: Se establecerá la forma en que el alumno va a entregar su evaluación, en este caso se optó por usar la opción: archivos enviados, para que el docente pueda evaluar la tarea del alumno en el formato que la cátedra haya especificado.</p><p xml:id="_TBDXNjq"> Tipos de retroalimentación: Si bien esto es opcional, se recomienda seleccionar Comentarios y Archivos para que el alumno reciba los comentarios del docente respecto de la evaluación realizada y permita la retroalimentación de las partes.</p><p xml:id="_z7cty9V"> Calificación: Se establecerán las configuraciones para definir la forma de corrección, la Figura 1 muestra las opciones elegidas para calificar la tarea: Una vez creada la tarea, desde el menú Administración de curso -&gt; calificaciones, se podrán usar las opciones de edición y configuración, que se ofrecen en la vista simple. Para realizar la conversión automática de los valores de la rúbrica, respecto a la escala de calificación establecida en la cátedra, se realiza la configuración personalizada de las letras de calificación, quedando conformada como se muestra en la Figura 1: Figura 1. Configuración de escala para la propuesta de rúbrica.</p><p xml:id="_unz2zJC">Para realizar las configuraciones necesarias, se debe seleccionar la Tarea, a partir de allí se podrán seleccionar y editar los ajustes que facilitarán la visualización referido a cada ítem evaluado.</p><p xml:id="_aaZFPpY">Para definir la nueva rúbrica, se utiliza la opción del menú Administración de tareas -&gt; calificación avanzada -&gt; definir rúbrica. Allí se definirá la nueva rúbrica definiendo un formulario con la matriz de corrección, utilizando los criterios establecidos y la ponderación de cada uno de ellos, como se muestra en la Figura 2:</p><p xml:id="_ek9Tg65">Figura 2. Matriz de corrección de rúbrica.</p><p xml:id="_5RZEf6e">Para finalizar, antes de registrar la nueva rúbrica, se deben especificar las opciones de la misma, como muestra la Figura 3: Figura 3. Opciones de rúbrica.</p><p xml:id="_rJQuPdQ">La implementación de esta propuesta de rúbrica fue posible mediante una instancia de formación pedagógica dirigida al plantel docente de la cátedra. La capacitación tuvo como objetivo difundir y profundizar aspectos relacionados con el proceso de evaluación orientado al diseño, el dominio conceptual para la definición de criterios de evaluación y el contexto instrumental para la construcción de rúbricas.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5." xml:id="_KG5Agbm">Conclusiones</head><p xml:id="_te89ZY2">En este trabajo se ha formalizado el proceso de diseño e implementación de una propuesta de rúbrica, fomentando el uso de las mismas en la confección de instrumentos de evaluación. Se ha expuesto un caso práctico correspondiente a una unidad específica de una cátedra de la carrera de Ingeniería en Sistemas de Información, que se considera que puede ser extrapolado a otras cátedras, sobre todo a cátedras vinculadas con la introducción a la programación de soluciones. Además, se considera que esta experiencia puede resultar de gran utilidad a aquellos docentes e instituciones que están buscando soluciones que les faciliten implementar un sistema de calificaciones de cierta complejidad.</p><p xml:id="_qB4y4y4">El sistema implementado en Moodle ayuda a los docentes a realizar los cálculos para que la calificación final sea ajustada a los pesos que se considera que debe tener cada competencia en la calificación final del estudiante, y al estudiante a comprender mejor cómo ha sido organizada la calificación. Es importante tener en cuenta futuros rediseños de la propuesta con relativa frecuencia, como consecuencia de las actualizaciones realizadas por el centro de cómputos de la facultad sobre la plataforma Moodle.</p><p xml:id="_cuTnak5">Como futura línea de investigación se pretende retroalimentar y ajustar la propuesta de rúbrica, en el caso que sea necesario, con la opinión del alumnado. Para lograr esto se pretende considerar uno de los recursos que ofrece la plataforma Moodle como lo son los cuestionarios como medio para recabar información relacionada con el uso de rúbrica como parte del proceso de evaluación.</p><p xml:id="_SBNbZXU">Actualmente se ha avanzado con el diseño del mismo que consistirá fundamentalmente en solicitar a los estudiantes la valoración sobre el sistema implementado en la evaluación de la unidad 4. Algunos de los aspectos a considerar para el relevamiento son: i) nivel de satisfacción del nuevo sistema de evaluación para la unidad, ii) preferencia de aplicarlo en la demás unidades de la asignatura, iii) preferencia en aplicarlo en otras asignaturas, iv) nivel de información más detallada acerca de su aprendizaje en la unidad, v) grado de conocimiento sobre los aspectos más relevantes de la asignatura con el nuevo sistema de evaluación, vi) nivel de satisfacción respecto a los pesos o ponderación asignada en cada requerimiento vii) nivel de equidad en la corrección respecto al sistema de evaluación anterior, viii) grado de feedback de tipo cualitativo por parte del docente en la evaluación. La escala de valoración propuesta para cada aspecto es: Mal, Regular, Bien, Muy Bien y Excelente.</p><p xml:id="_97nbZ8H">La misma será configurada e implementada en la plataforma Moodle, en el aula virtual correspondiente a cada uno de los cursos de la asignatura por los docentes responsables de la parte práctica. Al finalizar esta instancia los docentes responsables de curso serán los responsables de exportar la información recolectada por el cuestionario y tabularla para obtener información estadística respecto a los aspectos solicitados en el mismo.</p><p xml:id="_6zJr4eT">Por último, decir que para los docentes ha sido sencillo y más objetivo, evaluar las prácticas de la asignatura con la rúbrica diseñada, como así también de muy fácil integración con demás tareas de Moodle que habitualmente se usan. La posibilidad de poder integrar la propuesta de rúbrica a la plataforma Moodle contribuirá a facilitar la calificación, como la recepción de las mismas por parte de los estudiantes logrando mayor coherencia e integración de todo el proceso formativo.</p></div>		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="6,70.83,323.28,215.99,10.80;6,70.83,339.28,196.45,10.80" xml:id="b0">
+	<analytic>
+		<title level="a" type="main" xml:id="_PpKEsPJ">Teaching With Rubrics: The Good, the Bad, and the Ugly</title>
+		<author>
+			<persName coords=""><forename type="first">Heidi</forename><forename type="middle">Goodrich</forename><surname>Andrade</surname></persName>
+		</author>
+		<idno type="DOI">10.3200/ctch.53.1.27-31</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_vme8syJ">College Teaching</title>
+		<title level="j" type="abbrev">College Teaching</title>
+		<idno type="ISSN">8756-7555</idno>
+		<idno type="ISSNe">1930-8299</idno>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="27" to="31" />
+			<date type="published" when="2005-01" />
+			<publisher>Informa UK Limited</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Andrade H. (2005). Teaching with rubrics. (Ed.) College teaching. vol. 53. p. 27-31.</note>
+</biblStruct>
+
+<biblStruct coords="6,70.83,364.88,215.75,10.80;6,70.83,378.68,215.91,10.80;6,70.83,392.50,215.76,10.80;6,70.83,406.30,215.93,10.80;6,70.83,420.10,216.13,10.80;6,70.83,433.90,42.80,10.80" xml:id="b1">
+	<analytic>
+		<title level="a" type="main" xml:id="_c84EaVG">Elaboración de una rúbrica para la evaluación TFG y TFM de informática en la Universitat de les Illes Balears</title>
+		<author>
+			<persName coords=""><forename type="first">J;</forename><surname>Antoni</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C;</forename><surname>Guerrero</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J;</forename><surname>Miró</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Egea</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_e8MYFkv">en Actas Simposio Taller JENUI 2012</title>
+				<meeting><address><addrLine>Ciudad Real</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2012" />
+			<biblScope unit="page" from="17" to="24" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Antoni, J; Guerrero, C; Miró, J; Egea, A. (2012). Elaboración de una rúbrica para la evaluación TFG y TFM de informática en la Universitat de les Illes Balears, en Actas Simposio Taller JENUI 2012, Ciudad Real, p. 17-24.</note>
+</biblStruct>
+
+<biblStruct coords="6,70.83,457.70,216.14,10.80;6,70.83,471.50,215.95,10.80;6,70.83,485.30,216.14,10.80;6,70.83,499.13,174.26,10.80" xml:id="b2">
+	<analytic>
+		<title level="a" type="main" xml:id="_hPKEbuQ">Análisis del retorno personalizado en un entorno virtual de aprendizaje</title>
+		<author>
+			<persName coords=""><forename type="first">D;</forename><surname>Bañares</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Marco-Galindo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_3k3JunZ">en Actas de las XIX JENUI</title>
+				<meeting><address><addrLine>Castellón</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2013" />
+			<biblScope unit="page" from="85" to="92" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bañares, D; Marco-Galindo, M. (2013) .Análisis del retorno personalizado en un entorno virtual de aprendizaje, en Actas de las XIX JENUI, Castellón, p. 85-92.</note>
+</biblStruct>
+
+<biblStruct coords="6,70.83,522.93,216.04,10.80;6,70.83,536.72,216.05,10.80;6,70.83,550.52,216.14,10.80;6,70.83,564.32,215.83,10.80;6,70.83,578.13,200.39,10.80" xml:id="b3">
+	<monogr>
+		<title level="m" type="main" xml:id="_Z4nsw2j">Las rúbricas un instrumento útil en la evaluación de competencias, en la enseñanza universitaria centrada en el aprendizaje: estrategias útiles para el profesorado</title>
+		<author>
+			<persName coords=""><forename type="first">Á</forename><surname>Blanco</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2008" />
+			<publisher>Octaedro</publisher>
+			<pubPlace>Barcelona</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Blanco, Á. (2008) .Las rúbricas un instrumento útil en la evaluación de competencias, en la enseñanza universitaria centrada en el aprendizaje: estrategias útiles para el profesorado, Barcelona: Octaedro.</note>
+</biblStruct>
+
+<biblStruct coords="6,70.83,601.93,215.89,10.80;6,70.83,615.75,215.90,10.80;6,70.83,629.55,215.90,10.80;6,70.83,643.35,216.16,10.80;6,70.83,657.15,215.87,10.80;6,70.83,670.95,178.05,10.80" xml:id="b4">
+	<monogr>
+		<title level="m" type="main" xml:id="_TY8dnkM">Las plantillas de evaluación (rúbrica) como instrumento para la evaluación formativa: un estudio de caso en el marco de la reforma de la enseñanza universitaria en el EEES, en Investigación en la escuela</title>
+		<author>
+			<persName coords=""><forename type="first">Á</forename><surname>Conde</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">F</forename><forename type="middle">J</forename><surname>Pozuelos</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2007" />
+			<biblScope unit="page" from="77" to="90" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Conde, Á; Pozuelos F. J. (2007) .Las plantillas de evaluación (rúbrica) como instrumento para la evaluación formativa: un estudio de caso en el marco de la reforma de la enseñanza universitaria en el EEES, en Investigación en la escuela, p. 77-90.</note>
+</biblStruct>
+
+<biblStruct coords="6,70.83,694.75,215.86,10.80;6,70.83,708.55,215.87,10.80;6,70.83,722.26,215.74,10.91;6,70.83,736.18,216.27,10.80;6,70.83,749.98,21.00,10.80" xml:id="b5">
+	<analytic>
+		<title level="a" type="main" xml:id="_P2m29kZ">Regulative feedback in an online environment in higher education: students&apos; perceptions and design considerations</title>
+		<author>
+			<persName coords=""><surname>Espasa</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">E</forename><surname>Barbera</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_qncGXgd">NOVA Sci. Publ</title>
+		<imprint>
+			<biblScope unit="page" from="177" to="194" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Espasa, A; Barbera E. (2011). Regulative feedback in an online environment in higher education: students&apos; perceptions and design considerations, NOVA Sci. Publ., p. 177- 194.</note>
+</biblStruct>
+
+<biblStruct coords="6,322.50,59.22,215.93,10.80" xml:id="b6">
+	<monogr>
+		<title level="m" type="main" xml:id="_cpkjMM4">Itinerarios, viajes y contactos Japón-Europa</title>
+		<author>
+			<persName coords=""><forename type="first">M;</forename><surname>García</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">L</forename><surname>Fernández</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>; Terrón</surname></persName>
+		</author>
+		<idno type="DOI">10.3726/978-3-0351-0554-4</idno>
+		<imprint>
+			<date type="published" when="2013-05-07" />
+			<publisher>Peter Lang CH</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">García, M; Fernández, L; Terrón, M;</note>
+</biblStruct>
+
+<biblStruct coords="6,322.50,73.02,216.00,10.80;6,322.50,86.83,215.94,10.80;6,322.50,100.63,216.28,10.80;6,322.50,114.43,195.85,10.80" xml:id="b7">
+	<monogr>
+		<title level="m" type="main" xml:id="_kybvVYR">Métodos de evaluación para las competencias generales más demandadas en el mercado laboral, en Actas de las XIV JENUI, Granada</title>
+		<author>
+			<persName coords=""><forename type="first">Y</forename><surname>Blanco</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2008" />
+			<biblScope unit="page" from="265" to="272" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Blanco, Y. (2008). Métodos de evaluación para las competencias generales más demandadas en el mercado laboral, en Actas de las XIV JENUI, Granada, p. 265-272.</note>
+</biblStruct>
+
+<biblStruct coords="6,322.50,138.22,216.07,10.80;6,322.50,152.03,216.06,10.80;6,322.50,165.85,215.74,10.80;6,322.50,179.65,216.08,10.80;6,322.50,193.45,94.42,10.80" xml:id="b8">
+	<analytic>
+		<title level="a" type="main" xml:id="_nWwvPrt">Contratos de aprendizaje y evaluación entre iguales para responsabilizar al alumno de su aprendizaje</title>
+		<author>
+			<persName coords=""><forename type="first">R;</forename><surname>Grangel</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Campos</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_CGF6cES">en Actas de las XIX JENUI</title>
+				<meeting><address><addrLine>Castellón</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2013" />
+			<biblScope unit="page" from="45" to="52" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Grangel, R; Campos, C. (2013). Contratos de aprendizaje y evaluación entre iguales para responsabilizar al alumno de su aprendizaje, en Actas de las XIX JENUI, Castellón, p. 45-52.</note>
+</biblStruct>
+
+<biblStruct coords="6,322.50,217.25,215.89,10.80;6,322.50,231.05,216.10,10.80;6,322.50,244.85,215.95,10.80;6,322.50,258.65,216.15,10.80;6,322.50,272.47,138.64,10.80" xml:id="b9">
+	<analytic>
+		<title level="a" type="main" xml:id="_CFTjmqx">Reactividad de aminas en la acetilación catalizada por ácidos de Lewis e influencia de solventes: estudio teórico</title>
+		<author>
+			<persName><forename type="first">Silvana</forename><surname>Claudia-Caglieri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Héctor</forename><surname>Rubén-Macaño</surname></persName>
+		</author>
+		<idno type="DOI">10.22201/fi.25940732e.2018.19n2.020</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_mWBN2Ma">Ingeniería, investigación y tecnología</title>
+		<title level="j" type="abbrev">IIT</title>
+		<idno type="ISSNe">2594-0732</idno>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="239" to="244" />
+			<date type="published" when="2018-04-01" />
+			<publisher>Universidad Nacional Autonoma de Mexico</publisher>
+		</imprint>
+		<respStmt>
+			<orgName>Universidad Tecnológica Nacional</orgName>
+		</respStmt>
+	</monogr>
+	<note type="raw_reference">Modalidad Académica de la Cátedra Paradigmas de Programación, Carrera Ingeniería en Sistemas de Información, Facultad Regional Córdoba, Universidad Tecnológica Nacional, 2017.</note>
+</biblStruct>
+
+<biblStruct coords="6,322.50,296.28,216.02,10.80;6,322.50,310.07,216.08,10.80;6,322.50,323.87,158.77,10.80" xml:id="b10">
+	<monogr>
+		<title level="m" type="main" xml:id="_8k2KVvC">Definición de criterios de evaluación</title>
+		<author>
+			<persName coords=""><forename type="first">Porto</forename><surname>Pérez</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename></persName>
+		</author>
+		<ptr target="http://definicion.de/criterios-de-evaluacion" />
+		<imprint>
+			<date type="published" when="2017" />
+			<biblScope unit="page">2017</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Porto Pérez J. (2017).Definición de criterios de evaluación. (http://definicion.de/criterios- de-evaluacion/) Publicado: 2017.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

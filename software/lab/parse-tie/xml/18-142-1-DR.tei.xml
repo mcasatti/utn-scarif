@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="es">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main" xml:id="_wDy8KDz">La ingeniería y su relación con la Física</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName coords="1,178.32,94.06,84.06,10.54"><forename type="first">Susana</forename><forename type="middle">N</forename><surname>Roldán</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">Departamento de Materias Básicas-UDB Física Facultad Regional Santa Fe, Universidad Tecnológica Nacional Lavaisse 610,</note>
+								<orgName type="department">Departamento de Materias Básicas</orgName>
+								<orgName type="institution" key="instit1">UDB Física Facultad Regional Santa Fe</orgName>
+								<orgName type="institution" key="instit2">Universidad Tecnológica Nacional Lavaisse 610</orgName>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName coords="1,270.78,94.06,77.46,10.54"><forename type="first">Carlos</forename><forename type="middle">J</forename><surname>Suárez</surname></persName>
+							<email>suarez_cj@yahoo.com.ar</email>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">Departamento de Materias Básicas-UDB Física Facultad Regional Santa Fe, Universidad Tecnológica Nacional Lavaisse 610,</note>
+								<orgName type="department">Departamento de Materias Básicas</orgName>
+								<orgName type="institution" key="instit1">UDB Física Facultad Regional Santa Fe</orgName>
+								<orgName type="institution" key="instit2">Universidad Tecnológica Nacional Lavaisse 610</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,356.33,94.06,68.82,10.54"><forename type="first">Fabián</forename><forename type="middle">R</forename><surname>Gon</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">Departamento de Materias Básicas-UDB Física Facultad Regional Santa Fe, Universidad Tecnológica Nacional Lavaisse 610,</note>
+								<orgName type="department">Departamento de Materias Básicas</orgName>
+								<orgName type="institution" key="instit1">UDB Física Facultad Regional Santa Fe</orgName>
+								<orgName type="institution" key="instit2">Universidad Tecnológica Nacional Lavaisse 610</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main" xml:id="_Gg8Y2m5">La ingeniería y su relación con la Física</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.7.0-SNAPSHOT" ident="GROBID" when="2021-07-06T01:30+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="595.32" lry="841.92"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="595.32" lry="841.92"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="595.32" lry="841.92"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="595.32" lry="841.92"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="595.32" lry="841.92"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="595.32" lry="841.92"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="595.32" lry="841.92"/>
+	</facsimile>
+	<text xml:lang="es">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_V25cpay">Resumen</head><p xml:id="_n7VMB4m">El desarrollo y crecimiento continuo de la óptica ha tenido como consecuencia novedosas aplicaciones en las actividades cotidianas del ser humano. Actualmente las investigaciones comprenden diversas áreas, que se encuentran interrelacionadas: instrumentación óptica, comunicaciones ópticas, metrología óptica y como soporte de estas tres, debe de mencionarse la óptica de frontera. La Física se encuentra aplicada en el quehacer de los ingenieros y es importante que los estudiantes adquieran las competencias que permitan asegurar la calidad de nuestros egresados. Pretendemos, por lo tanto, propiciar un espacio de divulgación de la física y sus aplicaciones en nuestras carreras de ingeniería: civil, eléctrica, industrial, mecánica y en sistemas de información. En este artículo, tomamos el caso de una aplicación de metrología óptica en el análisis de los gases de escape de los motores de combustión interna. Presentamos a continuación el estudio realizado.</p><p xml:id="_XBGCh9F">Palabras clave: Física aplicada, metrología óptica, chopper óptico.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1." xml:id="_WTyEZUE">Introducción</head><p xml:id="_yFsAeWp">Una de las motivaciones para abordar la problemática surgió de observar que, en el proceso de formación, los estudiantes de nuestras carreras de ingeniería no cuentan con una idea clara sobre las diferentes ramas de la física y sus alcances. Nuestro planteo se basa en que el conocimiento temprano de la estructura general de un área de la Física le puede brindar una idea más clara de sus futuros estudios, involucrarlo tempranamente en tareas de investigación, impulsarlo a utilizar de manera efectiva las técnicas y herramientas de aplicación en la ingeniería y contribuir a la generación de desarrollos tecnológicos y/o innovaciones tecnológicas. La Física se encuentra aplicada en el quehacer de los ingenieros y es importante que los estudiantes adquieran las competencias que permitan asegurar la calidad de nuestros egresados. Pretendemos, por lo tanto, propiciar un espacio de divulgación de la física y sus aplicaciones en nuestras carreras de ingeniería: civil, eléctrica, industrial, mecánica y en sistemas de información. Tomamos como ejemplo, en este caso, una aplicación de metrología óptica en el análisis de los gases de escape de los motores de combustión interna. En esta oportunidad, nos centramos en una aplicación accesible especialmente a ingeniería mecánica e industrial.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2." xml:id="_VxpsSgX">Marco teórico</head><p xml:id="_nRNSS3t">El estudio de la Física concierne a dos grandes áreas, la Física Teórica y la Física Experimental, ambos estudios no son excluyentes. Dentro de las ramas de la Física teórico -experimental encontramos a la óptica. La óptica es la parte de la física que involucra el estudio y el comportamiento de la luz, incluidas sus interacciones con la materia, así como la construcción de instrumentos que se sirven de ella o la detectan. Desde el punto de vista académico, la óptica podría clasificarse para su estudio en dos grandes grupos, la óptica básica y la fotónica. La óptica básica se encarga de estudiar los fenómenos fundamentales, como la propagación de la luz de un medio a otro, la polarización, la difracción, y la coherencia de la luz, etc. La fotónica se refiere al estudio de fenómenos más complejos de la óptica, donde se entrelazan fenómenos básicos y complejos. Podemos realizar una clasificación de las aplicaciones en la óptica separándolas en cuatro grandes áreas en las cuales inciden las investigaciones que actualmente se realizan: instrumentación óptica, comunicaciones ópticas, metrología óptica. La instrumentación óptica incluye el estudio y diseño de elementos, y sistemas ópticos que se utilizan principalmente para colectar imágenes. Entre los temas relacionados con la instrumentación óptica podemos citar: trazo de rayos, aberraciones, análisis de Fourier, difracción. Se incluyen en esta área de aplicación: cristales especiales, fibras ópticas, detectores, fuentes de luz (láseres), procesamiento de señales, holografía, óptica no lineal, entre otros. Una aplicación importante de la óptica en comunicaciones, es el empleo de fibra óptica para envío de información a través de lo que conocemos como " internet ". Al hablar de metrología óptica nos referimos al monitoreo de parámetros físicos, usando sistemas y métodos de no contacto, utilizando luz, lo cual lleva a realizar pruebas no destructivas. La metrología óptica ha tenido un gran impacto en la solución de problemas industriales y de ingeniería, igualmente se han implementado técnicas de monitoreo en el área médica. La óptica de frontera investiga fenómenos relacionados con radiación luminosa de alta potencia, la rápida detección y transmisión de información generada con luz, nuevos materiales ópticos, fuentes de radiación y detección luminosa. La comprensión de nuevos fenómenos en este campo son empleados para mejorar la solución de algunos problemas ya existentes y para solucionar algunos otros considerados con anterioridad. En consecuencia, podemos sintetizar, que las aplicaciones más sobresalientes de estas áreas de la Física se manifiestan, por ejemplo, en las diversas ramas de la ingeniería, en la industria, la medicina, la biología, entre otros.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3." xml:id="_3cbrG2J">Objetivos y Metodología</head><p xml:id="_ru4j8Ad">Nuestro objetivo primordial en esta etapa, fue buscar algunas experiencias que involucrasen a la Física pero que mostraran una relación más cercana con las especialidades. De esta manera, propusimos a los estudiantes de las ingenierías mecánica e industrial esta aplicación de óptica dedicada en principio a la calibración de instrumentos. En esta primera parte de nuestra propuesta, trabajamos con aquellos que voluntariamente accedieron a participar, específicamente a la calibración de filtros ópticos utilizados a su vez para la calibración de opacímetros, para luego poder realizar los controles de los equipos de medición y control de gases de escape de los motores. Se sondearon los saberes previos y se propuso una búsqueda de información y una posterior puesta en común del material recopilado y de las conclusiones arribadas hasta el momento. Con esto, los alumnos, junto con el docente moderador llegaron a la siguiente recapitulación:  Según lo que establece la ley 24449, capítulo II, artículo 34 (Revisión técnica obligatoria). Existen talleres de revisión técnica vehicular, los cuales poseen equipos para los distintos controles que deben realizar los vehículos automotores para estar en condiciones de circular. Dentro de estos se encuentran, por ejemplo, frenómetros, alineadoras al paso, analizadores de gases, opacímetros. a.</p><p xml:id="_7UzmMR9">Fundamentos básicos del análisis de gases de escape de un motor de combustión interna Del resultado del proceso de combustión del motor se obtienen diversos gases y productos, entre ellos los más importantes son el monóxido de carbono (CO), el dióxido de carbono (CO2), el oxígeno (O2), hidrocarburos no quemados (HC), nitrógeno (N), agua (H2O) y bajo ciertas condiciones, óxidos de Nitrógeno (NOx). Un correcto análisis de las proporciones de los gases puede dar lugar a diagnósticos muy importantes del funcionamiento del motor.</p><p xml:id="_6pUd4cT">El analizador de gases de escape analiza la química de estos gases y nos dice en que proporciones se encuentran los mismos. Todos estos productos se obtienen a partir del aire y del combustible que ingresa al motor, el aire tiene aproximadamente un 80 % de Nitrógeno y un 20 % de Oxígeno. (1)</p><formula xml:id="formula_0" coords="3,90.24,184.97,194.90,12.73">NOx N O H HC O CO CO       2 2 2 2</formula><p xml:id="_TbTHVd5">Una combustión completa, donde el combustible y el oxígeno se queman por completo solo produce CO2 (dióxido de carbono) y H2O (agua). Este proceso de una combustión completa y a fondo muy pocas veces se lleva a cabo y entonces surge el CO (monóxido de carbono) y consiguientemente aparece O2 (Oxigeno) y HC (Hidrocarburos), tengamos en cuenta que la aparición de los mismos es porque al no completarse la combustión "siempre queda algo sin quemar." A continuación, brindamos los valores normales que se obtienen a partir de la lectura de un analizador de gases conectado a un motor de un vehículo de inyección electrónica:</p><formula xml:id="formula_1" coords="3,114.48,447.71,172.51,27.35">% 2 % 2 2   O CO (2) ppm HC CO 400 % 12   (3)</formula><p xml:id="_BVWax3s">El nitrógeno, normalmente, así como entra en el motor, sale del mismo y en la medida que el motor no esté bajo una carga importante no forma óxidos de nitrógeno. Los óxidos de nitrógeno son perjudiciales para los seres vivos y su emisión en muchos lugares del mundo se encuentra reglamentada. Surgen de la combinación del oxígeno y el nitrógeno del aire, y se forman a altas temperaturas y bajo presión.</p><p xml:id="_S74MZqm">Este fenómeno se lleva a cabo cuando el motor se encuentra bajo carga, y con el objetivo de disminuir dicha emisión de gases, los motores incorporan el sistema de recirculación de gas de escape (EGR). El sistema EGR disminuye las emisiones de óxidos de nitrógeno, por una baja significativa en la temperatura de la cámara de combustión, como consecuencia del ingreso del gas de escape a la misma.</p><p xml:id="_Emf6dTc">Existe un gran número de instrumentos para medir el humo, los cuales están diseñados para medir la opacidad, por lo que son llamados opacímetros. b. Opacímetros Los opacímetros son clasificados en tres tipos:  Opacímetros de flujo total en línea, analiza el total del humo que pasa por el tubo de escape. La medición es realizada dentro del tubo de escape.  Opacímetros de flujo total tipo estela o fin de línea, analiza el total del humo que sale del escape en forma de estela. La medición es realizada a la salida del escape.  Opacímetros de flujo parcial o muestreo, analiza una fracción del humo que pasa por el escape. La medición es realizada en una cámara especialmente diseñada. El opacímetro sirve para la captación del coeficiente de absorción "K" [m-1] o su valor equivalente del grado de enturbiamiento (%), que son medidas de la cantidad de luz absorbida por el gas de escape en motores de encendido por compresión (diésel). Estas constantes son obtenidas gracias a la ley de Bourguer-Lambert-Beer <ref type="bibr" coords="3,395.40,462.34,125.73,10.54" target="#b0">(Atkins y de Paula, 2008)</ref>. A tal fin, durante la libre aceleración del vehículo, una parte del gas de escape se suministra al opacímetro mediante una sonda de toma de gases. Para calcular este valor, un emisor led emite una luz que es absorbida en parte por el gas de escape presente en la cámara de medición, la luz no absorbida llega al receptor (sensor de intensidad de luz), este toma esa señal lumínica y la emplea como información. Como el haz de luz que atraviesa la cámara, donde se encuentra el humo, posee una longitud de onda específica, la proporción incidente que alcanza el receptor se utiliza para obtener las propiedades de oscurecimiento del medio y, de esta manera, conocer si los gases se hallan en una proporción que contamina el medio ambiente o no. En la siguiente ecuación se observa la relación entre ambos: </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_PUEYQdw">c. Chopper óptico</head><p xml:id="_mFRH6Mz">En el laboratorio, se buscó construir un instrumento que permita la calibración y que garantizase la trazabilidad de los filtros ópticos utilizados para la calibración de los opacímetros. Para lograr un valor de opacidad estable y confiable se utilizó un equipo que posee como estructura base partes de un Opacímetro DGA 6000 (nombre comercial del equipo fabricado por Control vehicular argentino S.A.), y ensamblado a este, los elementos del chopper óptico desarrollado por el laboratorio. Este chopper servirá para calibrar el equipo de calibración, el cuál será utilizado posteriormente para determinar el valor de cada lente. El disco chopper posee paletas radiales que se alternan con espacios sin material, existiendo en nuestro caso diferentes diseños que permiten observar una relación entre espacio libre y obstrucción del 40%, 50% y 80%. Al girar el chopper a una velocidad determinada parte de la luz emitida por el emisor es obstruida por el chopper y el resto llega al receptor para que este convierta esa señal óptica en información que será captada por el software del Opacímetro DGA 6000 utilizado. De esta manera logra simularse el funcionamiento de un opacímetro reemplazando la cantidad de luz que es absorbida por el gas de escape en la cámara de medición por los rayos radiales del chopper óptico calibrado. Se realizó una experiencia en el laboratorio para poder verificar algunos valores y arribar a conclusiones. Para la misma se utilizó un ordenador que permite ejecutar el software del opacímetro DGA 6000, un regulador de voltaje (para variar las velocidades del motor de corriente continua ya que las mismas responden de manera lineal como se puede observar en la Figura 4), un emisor y receptor del haz de luz fijados en unos pequeños tubos que simulan la cámara de humo del opacímetro convencional (pintados de color negro mate en su interior, con un resorte para evitar cualquier tipo de reflexión en las paredes internas del tubo).</p><p xml:id="_2SWcnp5">FIGURA 4. Resultados de la experiencia, Voltaje en función de las revoluciones por minuto.</p><p xml:id="_uj2Qkvv">Con los elementos que se observan en la Figura 5 se procedió a tomar mediciones para un mismo chopper (equivalente a una opacidad del 50%), a distintas velocidades y observar por medio de una comparación entre los valores prácticos y los obtenidos de los datos teóricos para esa misma opacidad. De esta manera se logró analizar el rango de velocidades para el cual se estabilizaban las mediciones y era el recomendable para realizar la calibración.</p><p xml:id="_YtsEJqH">FIGURA 5. Instrumental y equipo empleado en la experiencia: chopper, notebook, regulador de voltaje y amperaje.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4." xml:id="_Cvrr6N9">Resultados</head><p xml:id="_CmnzYgM">En la Tabla I se indican los valores de opacidad (expresados en [m -1 ]) obtenidos en el experimento realizado. Con estos valores, se puede decir, que en primera instancia, la propuesta, además de resultar interesante a los alumnos ha brindado datos suficientemente confiables como para avanzar con esta propuesta en otros ámbitos de la facultad.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5." xml:id="_GAFan2E">Discusión</head><p xml:id="_rF4jUXw">Si nos basamos en los resultados empíricos obtenidos se puede observar que el sistema funciona de una manera estable y confiable a partir de las 500 rpm y que los valores obtenidos experimentalmente son muy próximos a los valores teóricos. En futuras experiencias deberíamos enfocarnos en determinar el límite superior de velocidades para el cual la medición deja de ser confiable y pierde la exactitud requerida por el laboratorio. También en ver cómo influye la desalineación del emisor con el receptor, la influencia de la longitud de la cámara entre otras causas posibles de análisis. Si se pudiera validar el método y procedimiento de medición, serviría no solo para poder calibrar los filtros ópticos con los cuales se verifica el correcto funcionamiento de los opacímetros, sino también para corroborar a través de los mismas la opacidad de los vidrios tonalizados de fábrica para que estos se enmarquen dentro de lo que establece la ley para vehículos automotores. Este aspecto se tomará en cuenta para reforzar y ampliar el horizonte que inicialmente nos propusimos.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6." xml:id="_rVD9h42">Conclusiones</head><p xml:id="_YqvkNPY">Esta práctica de Física aplicada ha resultado una muy buena experiencia para mostrar la importancia de la disciplina en algunas áreas de la ingeniería, en especial, mecánica e industrial. Cuestión que nos ha servido para interesar a los alumnos en la divulgación de esta relación. Por otro lado, no podemos dejar de lado que a partir de este método sería posible realizar una calibración de filtros ópticos. El uso de los mismos, permitiría calibrar los opacímetros de los talleres de revisión técnica, equipos que son fundamentales para poder verificar y tener conocimiento del nivel de contaminación que emiten los vehículos al medio ambiente. Además, sería posible desarrollar nuevos métodos para la calibración de los cristales tonalizados de los vehículos automotores, ley que está en vigencia en nuestro país y que regula este aspecto de los vehículos. Establecemos el compromiso de continuar adelante con el estudio de estas potenciales aplicaciones, así como a buscar otras aplicaciones de la Física que resulten interesantes para nuestros estudiantes en el resto de las carreras de nuestra unidad académica.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1" coords="4,322.44,59.50,216.28,716.38"><head></head><label></label><figDesc xml:id="_DWGyuNd">de aplicación del instrumento, en los que se varía la cantidad de ranuras o su forma. En la Figura 2 se puede observar el disco utilizado en el experimento.</figDesc><table coords="4,322.44,59.50,216.28,716.38"><row><cell cols="14">] Entonces, considerando el ejemplo del [ 33 , 52 60 500 2 1    s rpm   (8) chopper elegido, para un sector del mismo debería recorrer: t Larc r Vt r Vt     .   (9) ] [ 01499 , 0 8 , 45 . 33 , 52 95 , 35 1 s mm s mm t    (10) Donde Vt es la velocidad lineal y t es el</cell><cell>Existen distintos tipos dependiendo del campo FIGURA 2. Disco ranurado (50% de opacidad) de discos,</cell></row><row><cell cols="14">tiempo empleado en recorrer un espacio del</cell></row><row><cell cols="14">arco del chopper a la velocidad mínima</cell><cell>d. Análisis numérico y cálculo de</cell></row><row><cell cols="12">considerada como estable.</cell><cell></cell><cell>variables chopper óptico</cell></row><row><cell cols="14">Ya que el tiempo estimado de la</cell></row><row><cell cols="14">comunicación entre emisor -receptor (T) es</cell></row><row><cell cols="14">de 3[μs], según el fabricante del opacímetro,</cell></row><row><cell cols="4">calcularemos</cell><cell></cell><cell></cell><cell></cell><cell cols="4">cuantas</cell><cell></cell><cell cols="2">veces</cell><cell>está</cell></row><row><cell cols="14">comprendido T en t, y lo llamaremos N.</cell></row><row><cell>N</cell><cell></cell><cell>t T</cell><cell></cell><cell cols="2">, 1</cell><cell cols="3">10 . 3 10 . 499 6 </cell><cell>2 s </cell><cell>s</cell><cell></cell><cell cols="2">[ 4966</cell><cell>veces</cell><cell>]</cell><cell>(11)</cell></row><row><cell cols="14">Es decir que en el tiempo que lleva recorrer los 35,95 [mm] de cada arco, el emisor</cell><cell>FIGURA 3. Disco ranurado (50% de opacidad), y longitud de desarrollo utilizada.</cell></row><row><cell cols="14">realizará 4966 lecturas, pero si consideramos que para que lea el 50% de intensidad de luz, debe leer de ambos sectores circulares del hueco y del relleno. Es necesario cubrir el doble de distancia por lo que llevará el</cell><cell>Para calcular las mediciones que se realizarán utilizando el chopper partiremos del cálculo del perímetro, observe la Figura 3:</cell></row><row><cell cols="9">doble del tiempo, así:</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>P</cell><cell></cell><cell>r  2</cell><cell>(5)</cell></row><row><cell></cell><cell></cell><cell></cell><cell cols="2">N</cell><cell cols="2"></cell><cell>4966</cell><cell>.</cell><cell>2</cell><cell></cell><cell cols="2">[ 9933</cell><cell>veces</cell><cell>]</cell><cell>(12)</cell><cell>Tomando el radio del chopper utilizado</cell></row><row><cell cols="14">Así entonces, el equipo realizará un total de 9933 lecturas. Al realizar en ese tiempo</cell><cell>para el análisis como r = 45,80 [mm], tenemos que:</cell></row><row><cell cols="14">múltiples lecturas que varían en un rango</cell><cell>P</cell><cell>2  </cell><cell>.</cell><cell>80 , 45</cell><cell>mm</cell><cell></cell><cell>, 287</cell><cell>mm 643</cell><cell>(6)</cell></row><row><cell cols="14">entre 100% y 0%, esas lecturas que son captadas por el sensor y transferidas al software del equipo, realizarán el cálculo del</cell><cell>Calculando el perímetro para cada sector, donde hay 4 blancos y 4 negros:</cell></row><row><cell cols="14">valor medio, el cual es considerado finalmente como el valor de transmitancia</cell><cell>P 8</cell><cell></cell><cell>287</cell><cell>,</cell><cell>mm 643 8</cell><cell></cell><cell>96 , 35</cell><cell>mm</cell><cell></cell><cell>Larc</cell><cell>(7)</cell></row><row><cell cols="14">del chopper o filtro óptico medido.</cell></row><row><cell cols="14">e. Experiencia de funcionamiento.</cell><cell>Teniendo la longitud que recorre por cada</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>espacio, debemos calcular el tiempo que</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>transcurre al recorrer dicho intervalo. Para</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>esto se determinó experimentalmente el</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>valor mínimo de revoluciones por minuto</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>(rpm) para que el sistema sea estable, dando</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>como resultado 500 rpm. Considerándolo en</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>velocidad angular:</cell></row></table></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="6,322.44,726.46,216.20,10.54;6,322.44,740.26,151.07,10.54;6,322.44,754.06,163.97,10.54;6,322.44,767.86,205.29,10.54;7,70.92,59.50,172.53,10.54;7,70.92,73.30,163.33,10.54" xml:id="b0">
+	<monogr>
+		<title level="m" type="main" xml:id="_wr5jQ9p">Química-Física</title>
+		<author>
+			<persName coords=""><forename type="first">P</forename><surname>Atkins</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>De Paula</surname></persName>
+		</author>
+		<ptr target="http://www.cise.com/portal/notas-tecnicas/item/302-an%C3%A1lisis-de-los-gases-de-escape-de-los-motores-de-combusti%C3%B3n-interna.html" />
+		<imprint>
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Atkins, P. y de Paula, J. (2008). Química- Física. Editorial Panamericana. http://www.cise.com/portal/notas- tecnicas/item/302-an%C3%A1lisis-de-los- gases-de-escape-de-los-motores-de- combusti%C3%B3n-interna.html.</note>
+</biblStruct>
+
+<biblStruct coords="7,70.92,87.10,215.96,10.54;7,70.92,100.90,124.50,10.54;7,211.02,100.90,75.96,10.54;7,70.92,114.70,36.22,10.54;7,128.40,114.70,158.70,10.54;7,70.92,128.50,169.29,10.54" xml:id="b1">
+	<analytic>
+		<title level="a" type="main" xml:id="_44aGpty">Presos políticos y presos Conintes: las investigaciones en la Cámara de Diputados de la Nación durante el frondicismo (1958-1962)</title>
+		<author>
+			<persName><forename type="first">Sabrina</forename><surname>Castronuovo</surname></persName>
+		</author>
+		<idno type="DOI">10.24215/2314257xe077</idno>
+		<idno>LEY 24449</idno>
+		<ptr target="http://www.seguridadvial.gov.ar.Sitioconsultadoenmarzode" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_azwtrKP">Anuario del Instituto de Historia Argentina</title>
+		<title level="j" type="abbrev">Anu. Inst. Hist. Argent.</title>
+		<idno type="ISSN">1668-950X</idno>
+		<idno type="ISSNe">2314-257X</idno>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">e077</biblScope>
+			<date type="published" when="2018-09-18" />
+			<publisher>Universidad Nacional de La Plata</publisher>
+		</imprint>
+		<respStmt>
+			<orgName>El Senado y Cámara de Diputados de la Nación Argentina</orgName>
+		</respStmt>
+	</monogr>
+	<note type="raw_reference">El Senado y Cámara de Diputados de la Nación Argentina. LEY 24449. Boletín Oficial. http://www.seguridadvial.gov.ar. Sitio consultado en marzo de 2018.</note>
+</biblStruct>
+
+<biblStruct coords="7,70.92,142.30,216.06,10.54;7,70.92,156.10,216.08,10.54;7,70.92,169.90,216.10,10.54;7,70.92,183.70,216.10,10.54;7,70.92,197.50,27.00,10.54" xml:id="b2">
+	<monogr>
+		<title level="m" type="main" xml:id="_fnFxBgX">Introduction to Optics</title>
+		<author>
+			<persName><forename type="first">Frank</forename><forename type="middle">L</forename><surname>Pedrotti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Leno</forename><forename type="middle">M</forename><surname>Pedrotti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Leno</forename><forename type="middle">S</forename><surname>Pedrotti</surname></persName>
+		</author>
+		<idno type="DOI">10.1017/9781108552493</idno>
+		<editor>Hecht, Eugene. Óptica. 3ª ed. Madrid: Addison-Wesley Iberoamericana, cop. 2000. Pedrotti, F.L.</editor>
+		<editor>Pedrotti, L.S.</editor>
+		<imprint>
+			<date type="published" when="2017-12-21" />
+			<publisher>Cambridge University Press</publisher>
+			<pubPlace>New Jersey</pubPlace>
+		</imprint>
+	</monogr>
+	<note>2nd ed</note>
+	<note type="raw_reference">Hecht, Eugene. Óptica. 3ª ed. Madrid: Addison-Wesley Iberoamericana, cop. 2000. Pedrotti, F.L.; Pedrotti, L.S. Introduction to optics. 2nd ed. New Jersey: Prentice-Hall, 1993.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="es">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main" xml:id="_T9jVNku">&quot;UBICUIDAD EN LA EDUCACIÓN UNIVERSITARIA Y LA CONSTRUCCIÓN DEL CONOCIMIENTO MEDIADO POR REDES SOCIALES Y LAS HERRAMIENTAS DE LA WEB 2.0&quot;</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName coords="1,238.01,226.42,119.17,10.80"><forename type="first">Mario</forename><forename type="middle">Osvaldo</forename><surname>Bressano</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">Departamento Ingeniería en Sistemas de Información Universidad Tecnológica Nacional -Facultad Regional Rosario Rosario -Santa Fe -Argentina Zeballos 1341 -</note>
+								<orgName type="department">Departamento Ingeniería en Sistemas de Información</orgName>
+								<orgName type="institution">Universidad Tecnológica Nacional -Facultad Regional Rosario Rosario -Santa Fe</orgName>
+								<address>
+									<postCode>1341</postCode>
+									<country>Argentina Zeballos</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main" xml:id="_x8Esaqt">&quot;UBICUIDAD EN LA EDUCACIÓN UNIVERSITARIA Y LA CONSTRUCCIÓN DEL CONOCIMIENTO MEDIADO POR REDES SOCIALES Y LAS HERRAMIENTAS DE LA WEB 2.0&quot;</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.7.0-SNAPSHOT" ident="GROBID" when="2021-07-05T15:25+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="595.32" lry="842.04"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="595.32" lry="842.04"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="595.32" lry="842.04"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="595.32" lry="842.04"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="595.32" lry="842.04"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="595.32" lry="842.04"/>
+	</facsimile>
+	<text xml:lang="es">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_gkVtYNM">Resumen</head><p xml:id="_XtYzpBZ">La tecnología por sí sola, no posee potencialidad propia. En educación, la propuesta educativa que la acompaña es quién se la otorga. Por ello, la intervención de una cátedra universitaria mediante el uso de una red social para lograr minimizar las dificultades en la construcción de conocimiento, mejorar la guía, contención y acompañamiento de los alumnos que se incorporan por primera vez a una carrera universitaria, va en ese sentido.</p><p xml:id="_AagNTTV">El uso de Google+, en el formato de Comunidad cerrada y el conjunto de aplicaciones que involucra, permite ejercitar la participación activa, colaboratividad y la construcción de conocimiento colectivo al acompañar al alumno en su recorrido diario por la cátedra.</p><p xml:id="_q7fWnUR">La modalidad, le permite en todo tiempo y lugar, el acceso a la asignatura, convirtiéndose en una posibilidad palpable de mejora en la construcción del conocimiento, pudiéndose hablar de una clase ubicua, según palabras de Nicholas Burbules. <ref type="bibr" coords="1,151.58,659.34,81.40,10.80" target="#b0">[Burbules, 2001]</ref> No existe costo de implementación alguno, debiendo el docente acostumbrarse a la modalidad, administrando, creando, acompañando y colaborando a llevar adelante la propuesta.</p><p xml:id="_Tpw7YHH">Los resultados observados, son alentadores, pues permiten indicar una mejora en las calificaciones y la disminución en la cantidad de alumnos que abandonan el cursado de la asignatura a la cual se aplica.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_fwqJ4bD">Palabras clave: innovación, educación, ubicuidad</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1." xml:id="_WFTP2Hk">Introducción</head><p xml:id="_GYFJxvP">Los entornos ubicuos se han difundido y popularizado en actividades básicas, que van desde las económicas hasta las de entretenimiento, apoyados en el acceso a tecnología celular 4G y smartphones cada vez más capaces y no muy costosos que hacen a la democratización de la tecnología. Es aquí donde debemos cuestionarnos: ¿por qué no se puede acceder a entornos de aprendizaje del mismo modo? La educación cambia con las épocas y con los entornos socio -económicos en los cuales se desarrolla. Lo efímero e inmediatez del conocimiento prima. Muchos docentes reniegan del uso de los equipos celulares en clase, pero debemos comprender que el mismo debe ser tomado como una herramienta potencial, un "enganche pedagógico", a la cual no le debemos dar la espalda, pues perderemos la oportunidad de llegar a nuestros alumnos de una forma innovadora y democrática.</p><p xml:id="_mKaeQmn">Uno de los factores más persuasivos es la reducción de la vida media del conocimiento. La "vida media del conocimiento es el lapso de tiempo que transcurre entre el momento en el que el conocimiento es adquirido y el momento en el que se vuelve obsoleto". La mitad de lo que es conocido hoy no era conocido hace diez años. La cantidad de conocimiento en el mundo se ha duplicado en los últimos diez años y se duplica cada dieciocho meses de acuerdo con la Sociedad Americana de Entrenamiento y Documentación (ASTD, por sus siglas en inglés).</p><p xml:id="_YHsWas9">Para combatir la reducción en la vida media del conocimiento, las organizaciones han sido obligadas a desarrollar nuevos métodos para llevar a cabo la capacitación del personal". <ref type="bibr" coords="2,56.64,253.30,83.22,10.80">[González, 2004]</ref> Podemos agregar, como colación, algunas tendencias en los aprendizajes indicadas por Siemens:</p><p xml:id="_3MwnU43">• El aprendizaje informal es un aspecto significativo de nuestra experiencia de aprendizaje. La educación formal ya no constituye la mayor parte de nuestro aprendizaje. El aprendizaje ocurre ahora en una variedad de formas -a través de comunidades de práctica, redes personales, y a través de la realización de tareas laborales. • El aprendizaje es un proceso continuo, que dura toda la vida. El aprendizaje y las actividades laborales ya no se encuentran separados. En muchos casos, son lo mismo. • La tecnología está alterando (recableando) nuestros cerebros. Las herramientas que utilizamos definen y moldean nuestro pensamiento. • La organización y el individuo son organismos que aprenden. El aumento en el interés por la gestión del conocimiento muestra la necesidad de una teoría que trate de explicar el lazo entre el aprendizaje individual y organizacional. • Muchos de los procesos manejados previamente por las teorías de aprendizaje (en especial los que se refieren al procesamiento cognitivo de información) pueden ser ahora realizados, o apoyados, por la tecnología. • Saber cómo y saber qué están siendo complementados con saber dónde (la comprensión de dónde encontrar el conocimiento requerido) <ref type="bibr" coords="2,185.06,769.02,78.67,10.80" target="#b9">[Siemens, 2004]</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2." xml:id="_QzcKzVy">Marco Teórico</head><p xml:id="_dw6C7rD">Variados trabajos coinciden en reconocer la necesidad de realizar propuestas diferenciadoras por parte de los docentes, ya que no se espera que todos aprendan lo mismo, a igual tiempo, e idéntico plazo, debido a que los alumnos poseen diferentes marcos referenciales que hacen que no pueden aprender de la misma forma y con idénticos materiales. Las dificultades en el aprendizaje no son un castigo ni una culpa por la que se debe abonar con el fracaso o la marginación y, por ende, el desinterés y la resistencia. Es necesario que el alumno tenga acceso a descubrir sus posibilidades, reconociendo sus virtudes y debilidades. Además, pareciera que, para los estudiantes existe un desinterés cada vez más acentuado, a medida que pasan los años, por la aprehensión de conocimientos, o entre lo que el profesor enseña y lo que él desea conocer, lo que para ambos es dificultoso de sobrellevar. Estas causas y otras son puestas en evidencia por el Programa para la Evaluación Internacional de Alumnos (PISA) de la Organización para la Cooperación y el Desarrollo Económicos (OCDE), por diversos estudios universitarios, y publicaciones periodísticas.</p><p xml:id="_YzBsRan">"La escuela debe hacer todo lo posible por mantener la asistencia regular de sus estudiantes a clases. Muchas veces, la decisión de abandonar la escuela nace del aburrimiento que producen las clases, ya que los alumnos sienten que lo que se les enseñan no vale la pena, que no tiene relevancia en su vida", aplicándose este postulado también a la educación superior. <ref type="bibr" coords="2,408.75,585.15,72.11,10.80" target="#b7">[Muñoz, 2011]</ref> Estamos en un período de crisis, el cual, no debe dramatizarse, ya que significa cambio y todo cambio trae aparejado mejoras, una permanente evolución y transformación de las estructuras mentales y sociales. La esencia es el cambio y las acciones que se deben tomar para lograrlo. En tal sentido, las herramientas actuales de las redes sociales y de la Web 2.0 permiten al docente abrir un abanico de posibilidades que pueden ayudar a reducir algunos de los efectos mencionados en los párrafos anteriores, orientando y acompañando en la facilitación e inspiración del aprendizaje, favoreciendo su entorno, para que surja la creatividad del estudiante, asistiendo la construcción de los fundamentos necesarios para los formatos actuales de trabajo y la aprehensión de saberes en la era digital, dándole la posibilidad de implementar tareas que le demanden un rol más activo, desde actividades que impliquen la necesidad de poner en juego la creatividad en la resolución de situaciones de toma de saberes, impulsando una mayor interacción.</p><p xml:id="_5EXntCW">"El aprendizaje cooperativo es una línea de investigación que tiene importantes raíces en el campo de la Pedagogía y de la Psicología, particularmente es un área de intersección entre la Psicología Social y la Psicología Evolutiva. Como principales antecedentes dentro de Pedagogía pueden citarse J.J. Rousseau, F. Ferrer i Guardia, C. Freinet, donde sus ideas no especificaban el término en sentido amplio, pero sí de forma indirecta.</p><p xml:id="_TCGCkKH">En el campo de la psicología, Piaget, Vygostky y Mead realizaron estudios donde se pudo afirmar que se trata de una técnica que permite mejorar el rendimiento académico de los alumnos y potencias las capacidades intelectuales y sociales, debido al principal papel que tiene la interacción con las otras personas en el desarrollo de la inteligencia académica y la competencia social". <ref type="bibr" coords="3,238.34,460.23,45.01,10.91;3,56.64,474.15,28.02,10.80" target="#b6">[Maenza, 1998]</ref> El trabajo colaborativo, por otro lado, le permite al individuo que participa, adquirir más conocimiento de lo que asimilaría si lo hiciera solo, privilegiando el trabajo entre pares frente al trabajo en solitario. Por su parte, Guitert y Giménez sostienen que éste, "es un proceso en el que cada individuo aprende más de lo que aprendería por sí solo, fruto de la interacción de los integrantes del equipo" <ref type="bibr" coords="3,99.23,611.91,68.22,10.92">[Guiter, 2000]</ref>, donde "no cabe duda de que la naturaleza de la práctica educativa es fundamentalmente social, un proceso en el que las personas discurren e interactúan mutuamente como parte de una red de influencias sociales definidas y deliberadas". [Suárez <ref type="bibr" coords="3,96.22,694.86,77.36,10.80" target="#b8">Guerrero, 2003]</ref> La cultura del siglo XXI exige una nueva forma de trabajo, donde las prácticas educativas involucran el uso de lo digital pero que también lo excede, ya que involucra fundamentalmente al significado profundo de la cultura contemporánea y de las condiciones en las que se produce, para comprender nuestro lugar en el mundo. En realidad, se trata de preguntarse por un discurso en el que cobren sentido las prácticas educativas que exige la cultura contemporánea, ya sea por medio de fines socioafectivos, de manera que los alumnos se ayuden entre sí para lograr una meta (aprendizaje cooperativo) o mediante el desarrollo de habilidades personales y sociales, por medio del aporte de los integrantes del grupo (aprendizaje colaborativo) Somos nosotros, los docentes, aquellos que debemos lograr salir de la inercia de la vieja escuela, de los relatos desactualizados, a fin de poder entrelazarnos con las nuevas generaciones de alumnos, generando espacios áulicos propicios para la creatividad, para la curiosidad, para la pregunta, para aprender con pasión, variables estrechamente vinculadas con la construcción del conocimiento, con que los alumnos encuentren el sentido y la significación de aprender.</p><p xml:id="_gAfsAw3">Gewerc y Agra Pardiñas refieren también, que la estructuración de la actividad docente e investigadora puede abordarse en el siguiente eje: "La situación de enseñar/aprender como una forma de arte colaborativa. Y sobre esta idea el profesor se convierte también en artista e investigador" <ref type="bibr" coords="3,398.05,460.23,140.61,10.92;3,311.93,474.15,25.85,10.80" target="#b1">[Gewerc -Agra Pardiñas, 2008]</ref>. Este arte colaborativo, implica no solamente una colaboración docenteestudiante, sino también, docente -docente, como lo dice Gudmundsdottir, S.: "Se aprende ante todo observando, conversando y trabajando con los colegas. La tradición provee los modelos narrativos, en los que es posible apoyarse para comprender y construir el presente; y se mantiene por el sentido de práctica acumulativa que es también compartida por los otros." <ref type="bibr" coords="3,452.99,611.91,85.79,10.91;3,311.93,625.86,26.13,10.80" target="#b3">[Gudmundsdottir, 1998]</ref>; de esta manera, utilizando las distintas herramientas tecnológicas que poseemos, adaptándonos a nuestros relatos, de manera que atraigan al nuevo "público", lograremos el tan mentado cambio que atravesará nuestra práctica, provocando como resultado, una mejora en la calidad de la educación con la consabida mejora en la adquisición de conocimiento de nuestros educandos.</p><p xml:id="_WxwBywS">Como agrega Jackson: "(…) todo se relaciona con lo que queremos que los estudiantes sean como seres humanos, es decir, con los atributos que esperamos que posean cuando terminan de estudiar, por encima y más allá de lo que podamos querer que sepan. Esos atributos incluirían los valores que queremos que sustenten, los rasgos de personalidad que deseamos que posean, la visión del mundo y de ellos mismos que pretendemos que cultiven…" <ref type="bibr" coords="4,115.55,170.38,76.03,10.92" target="#b5">[Jackson, 1998]</ref> Este proyecto, intenta tomar las propuestas de aprendizaje cooperativo y del colaborativo para ser implementadas con el uso de las tecnologías de la información y la comunicación considerando anteriores trabajos en la temática.</p><p xml:id="_WpFAc6a">Lo diferencial de esta propuesta consiste en su aplicación en asignaturas del nivel superior que antes empleaba otra metodología con otros recursos didácticos que permiten validar nuevas propuestas para el aprendizaje, en donde las nuevas tecnologías benefician el desarrollo de las capacidades, por medio del trabajo colaborativo, generando una fuerte relación de interdependencia entre los miembros del grupo, provocando motivación y deseo de alcanzar el objetivo propuesto, estableciendo relaciones simétricas y recíprocas, imponiendo la responsabilidad individual compartida como condición necesaria para el logro del objetivo, logrando heterogeneidad en relación a las características de las personas que conforman el grupo, permitiendo asignar tareas a cada uno de los miembros en función de sus conocimientos, habilidades y posibilidades, accediendo al manejo de habilidades comunicacionales, para citar algunas características positivas importantes.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3." xml:id="_xQxR8g6">Objetivos y Metodología</head><p xml:id="_GmujJMj">Los objetivos de la propuesta son:</p><p xml:id="_kbHktDR">• Lograr la participación activa de los alumnos en la construcción del conocimiento necesario para comprender la asignatura, atenuar la deserción en la misma y finalmente lograr su aprobación a través de una propuesta mediada por TIC • Promover las bondades del trabajo colaborativo mediado por TIC en los alumnos para valorar su utilización en la vida laboral y profesional.</p><p xml:id="_EwAtHct">Por su parte, los objetivos específicos que permiten llevar a cabo a los anteriores son:</p><p xml:id="_8QyAjXq">• Privilegiar el trabajo entre pares frente al trabajo en solitario mediante el diseño de estrategias de trabajo colaborativo, afines a las necesidades del alumnado. • Lograr como premisa fundacional el desarrollo de la construcción de conocimiento y las habilidades comunicacionales, tan necesarias en el mundo actual.</p><p xml:id="_CZCXQgm">• Analizar la incidencia en los resultados obtenidos al intervenir una cátedra universitaria usando como apoyatura una red social Google+ y las utilidades de Google basadas en la Web 2.0 para el desarrollo de esta. • Evaluar las secuencias diseñadas y generar un repositorio digital, para socializar las mismas con los docentes de la carrera.</p><p xml:id="_N2gXbqY">Desde el punto de vista metodológico, la experiencia consiste en el uso de la red social Google+ y las facilidades de las aplicaciones de Web 2.0 que posee incluida para la interacción entre los actores involucrados.</p><p xml:id="_NZVsTVs">El empleo de estas herramientas TIC proporciona una apoyatura mediáticadidáctica para el desarrollo de la cátedra nunca antes usado y está sentando las bases de un nuevo esquema formal de trabajo dentro del Instituto educativo en el cual trabajo.</p><p xml:id="_CjTrUEE">El proyecto se garantiza en cuanto a implementación, puesto que los alumnos cada vez más están empleando dispositivos móviles de última generación, con lo cual se asegura que puedan estar conectados a Internet, a cada momento y en cada lugar. Así podremos hablar de una clase ubicua, según palabras de Nicholas Burbules. <ref type="bibr" coords="4,406.87,645.30,81.41,10.80" target="#b0">[Burbules, 2001]</ref> Se trabaja con Google+ en la modalidad Comunidad privada, una por curso. En este espacio de red social, se establece la bitácora de la clase, donde, los alumnos, divididos en cursos, acceden al material dado como documento de texto de Drive y otros formatos, contando con contenidos teórico-prácticos de seguimiento autónomo.</p><p xml:id="_MmRxKs5">El uso de Drive centraliza la elaboración y almacenado de archivos para la comunidad contando con complementos como Draw.IO y Lucida Chart para las gráficas. Gmail y el Calendario concentran la comunicación personal y la publicación de eventos o fechas importantes.</p><p xml:id="_ybuxput">El docente, por su parte, induce a los participantes a la construcción de conocimiento mediante la exploración, discusión, negociación y debate, facilitado por este entorno, permitiendo a que los estudiantes refuercen sus habilidades en la investigación y construcción de su propio aprendizaje.</p><p xml:id="_kzUbjc6">El alumno, se apropia, de esta manera, de un ámbito donde explayar los temas trabajados en clase, pues se podrán incorporar accesos a nueva información explicativa, sumando la posibilidad de realizar foros de consulta, comentarios o "subida" de archivos con información, en forma bidireccional (profesor alumno), entrega de actividades, correos electrónicos, conversacioneshangouts-, haciendo mucho más rica la interacción, lo que beneficia la construcción de un conocimiento colectivo y democrático.</p><p xml:id="_qH3PnP9">De esta forma se implementan tareas que le demandan un rol más activo, desde actividades que implican la necesidad de poner en juego la creatividad en la resolución de situaciones de aprendizaje, impulsando una mayor interacción reuniendo en un solo espacio la oferta de seguimiento, guía, contención y construcción de conocimiento que demandan los alumnos.</p><p xml:id="_NQ8yWNW">La posibilidad de seguimiento de los temas trabajados para los alumnos que no pueden concurrir a clase, teniendo el material dictado, comentarios y otros a disponibilidad con la utilización de otras apps para el trabajo diario, hace que esta implementación, dirigida a un materia de un instituto secundario, permite por un lado mejorar la práctica docente y por el otro, trabajar, facilitando e inspirando el aprendizaje y la creatividad del estudiante, promoviendo el desarrollo de competencias modelándolo para el trabajo y la aprehensión de conocimiento en la era digital.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4." xml:id="_AJDQ6gG">Resultados</head><p xml:id="_zsd72j9">Esta propuesta se está desarrollando en la actualidad, con resultados alentadores que permiten visualizar que la misma es factible y aceptada por los actores participantes. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5." xml:id="_TZTTRjv">Conclusiones</head><p xml:id="_k7JcQQK">Al llegar a esta instancia, muchos incurren en comparar qué está bien y qué está mal, siendo este un gran error, debido a que evaluar va más allá: "es buscar lo que se está haciendo bien para mejorar y descubrir lo que se está haciendo mal para corregir". La evaluación debe ser un instrumento utilizado para detectar necesidades, identificar problemas, conocer y analizar el estado de una situación, es un proceso de mejora continua que ayuda a incrementar la calidad de otros procesos a través del uso correcto de herramientas para la obtención, procesamiento y entrega de información relevante para la correcta toma de decisiones , es poder conocer las fortalezas o debilidades de un proceso implica adoptar un sistema o modelo que ayude a realizar de manera adecuada una evaluación.</p><p xml:id="_tARkmcn">La evaluación es pues, utilizada para mejorar procesos, por tanto, en el sistema educativo la evaluación deberá estar enfocada en la transformación de metodologías utilizadas en el proceso de la enseñanza y el aprendizaje, puesto que una evaluación aplicada al estudiante no solo puede definir si aprueba o no el estudiante, sino que también nos da la pauta para establecer un juicio sobre la práctica docente y el procedimiento de enseñanza, ya que estos tal vez no son los adecuados. Podemos así observar que hay una mejora sustancial en entender las ventajas del trabajo en grupo y la importancia de cada individuo en una organización básica como lo es un grupo de trabajo, preparándolo para el futuro laboral.</p><p xml:id="_nSmR6XM">Puedo destacar que esta intervención está innovando la forma de trabajo en una asignatura universitaria, permitiendo por un lado obtener datos fehacientes, que considero, permite mejorar la práctica docente, tomando nuevas decisiones didácticas respecto de los objetivos, los contenidos, las actividades, los materiales, la forma de distribuir el tiempo, de utilizar el espacio y de regular las interacciones entre los miembros de la clase y por el otro trabajó la necesidad de facilitar e inspirar el aprendizaje y la creatividad del estudiante, desarrollando las capacidades y competencias para el trabajo y el aprendizaje en la era digital, dándole la posibilidad de implementar tareas que le demanden un rol más activo, desde actividades que impliquen la necesidad de poner en juego la creatividad en la resolución de situaciones de aprendizaje, impulsando una mayor interacción, promoviendo las bondades del trabajo colaborativo y/o cooperativo mediado por TIC en los alumnos para valorar su utilización en su futuro como ser social/laboral y de estudio.</p><p xml:id="_2vdjtW8">De aquí en más se podrá seguir evaluando la propuesta, retroalimentándola a fin de extenderá a la totalidad de las comisiones de la cátedra socializándose la misma al resto de la universidad con el fin de que se aproveche como herramienta para lograr el objetivo para el que se ha propuesto.</p></div>		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="6,56.64,678.42,226.74,10.80;6,56.64,692.10,226.77,10.92;6,56.64,706.02,226.92,10.80;6,56.64,719.82,95.48,10.80" xml:id="b0">
+	<analytic>
+		<title level="a" type="main" xml:id="_rxCEpG3">Educación: Riesgos y promesas de las nuevas tecnologías de la información</title>
+		<author>
+			<persName coords=""><forename type="first">Nicholas</forename><forename type="middle">Y</forename><surname>Burbules</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Thomas</forename><surname>Callister</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_mQyGHhU">Barcelona. Granica</title>
+		<imprint>
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Burbules, Nicholas y Callister, Thomas (2001). &quot;Educación: Riesgos y promesas de las nuevas tecnologías de la información&quot; Barcelona. Granica.</note>
+</biblStruct>
+
+<biblStruct coords="6,56.64,733.62,226.75,10.80;6,56.64,747.30,101.27,10.91;6,173.26,747.30,20.11,10.91;6,208.69,747.42,36.58,10.80;6,260.64,747.42,22.67,10.80;6,56.64,761.22,226.56,10.80;6,56.64,774.90,226.81,10.92;6,311.93,73.76,226.77,10.92;6,311.93,87.70,226.80,10.80;6,311.93,101.38,226.75,10.92;6,311.93,115.30,41.96,10.80;6,510.77,115.30,28.00,10.80" xml:id="b1">
+	<analytic>
+		<title level="a" type="main" xml:id="_QeMMMPn">Un espacio para dialogar con las emociones donde otra alfabetización es posible</title>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Gewerc</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><forename type="middle">J</forename><surname>Agra Pardiñas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_gSJSRvS">En J. Cabero Almenara y P. Román Graván (Coords.)</title>
+		<imprint>
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note>Eactividades. Un referente básico para la formación en Internet</note>
+	<note type="raw_reference">Gewerc, A.y Agra Pardiñas, M. J.(2008) Digitalemocion.com. &quot;Un espacio para dialogar con las emociones donde otra alfabetización es posible&quot;. En J. Cabero Almenara y P. Román Graván (Coords.), &quot;E- actividades. Un referente básico para la formación en Internet&quot;. Sevilla, España: Editorial MAD</note>
+</biblStruct>
+
+<biblStruct coords="6,311.93,142.78,226.77,10.92;6,311.93,156.70,226.97,10.80;6,311.93,170.50,226.70,10.80;6,311.93,184.30,184.30,10.80" xml:id="b2">
+	<monogr>
+		<title level="m" type="main" xml:id="_A7vqPMJ">The Role of Blended Learning in the World of Technology</title>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Gonzalez</surname></persName>
+		</author>
+		<ptr target="http://www.unt.edu/benchmarks/archives/2004/september04/eis.htm" />
+		<imprint>
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+	<note>Recuperado de</note>
+	<note type="raw_reference">Gonzalez, C. (2004) &quot;The Role of Blended Learning in the World of Technology&quot;. Recuperado de: http://www.unt.edu/benchmar ks/archives/2004/september04/eis.htm</note>
+</biblStruct>
+
+<biblStruct coords="6,311.93,211.78,226.83,10.92;6,311.93,225.70,226.66,10.80;6,311.93,239.38,226.62,10.92;6,311.93,253.18,226.58,10.92;6,311.93,267.01,226.67,10.92;6,311.93,280.93,51.20,10.80;6,414.75,280.93,51.36,10.80;6,517.78,280.93,21.00,10.80" xml:id="b3">
+	<analytic>
+		<title level="a" type="main" xml:id="_8CqSRhr">Sobre los autores</title>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Gudmundsdottir</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">H</forename><surname>En</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Mcewan</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">K</forename><surname>Hunter Y</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Egan</surname></persName>
+		</author>
+		<idno type="DOI">10.31819/9783954877522-011</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_6XUzu8n">La impronta autoficcional</title>
+				<meeting><address><addrLine>Buenos Aires, Argentina</addrLine></address></meeting>
+		<imprint>
+			<publisher>Iberoamericana Vervuert</publisher>
+			<date type="published" when="2018-12-31" />
+			<biblScope unit="page" from="179" to="182" />
+		</imprint>
+	</monogr>
+	<note>La narrativa en la enseñanza, el aprendizaje y la investigación</note>
+	<note type="raw_reference">Gudmundsdottir, S. (1998) &quot;La naturaleza narrativa del saber pedagógico sobre los contenidos&quot;. En H. McEwan, Hunter y K. Egan, &quot;La narrativa en la enseñanza, el aprendizaje y la investigación&quot;. Buenos Aires, Argentina: Amorrortu Eds.</note>
+</biblStruct>
+
+<biblStruct coords="6,311.93,308.41,226.72,10.92;6,311.93,322.33,49.28,10.80;6,387.03,322.33,28.63,10.80;6,441.48,322.33,14.62,10.80;6,481.91,322.33,56.78,10.80;6,311.93,336.01,226.74,10.92;6,311.93,349.93,223.39,10.80;6,311.93,363.73,148.98,10.80" xml:id="b4">
+	<analytic>
+		<title level="a" type="main" xml:id="_DQ2xB26">De la informatización del archivo de Marcos Jiménez de la Espada a la recreación virtual del viaje de la Comisión Científica del Pacífico</title>
+		<author>
+			<persName coords=""><forename type="first">Montse</forename><surname>Guitert</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Jiménez</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Ferran</surname></persName>
+		</author>
+		<idno type="DOI">10.31819/9783964565266-003</idno>
+		<ptr target="http://especializacion.una.edu.ve/Telematicaeducativa/paginas/Lecturas/UnidadIII/TCEV.pdf" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_hgGcsYX">Lecturas y ediciones de crónicas de Indias</title>
+				<imprint>
+			<publisher>Vervuert Verlagsgesellschaft</publisher>
+			<date type="published" when="2004-12-31" />
+			<biblScope unit="page" from="19" to="22" />
+		</imprint>
+	</monogr>
+	<note>Recuperado de</note>
+	<note type="raw_reference">Guitert, Montse Jiménez, Ferran. (2000) &quot;La dimensión social del aprendizaje colaborativo&quot; Recuperado de: http:// especializ acion.una.edu.ve/Telematicaeducativa/paginas /Lecturas/UnidadIII/TCEV.pdf</note>
+</biblStruct>
+
+<biblStruct coords="6,311.93,391.21,226.86,10.92;6,311.93,405.01,226.77,10.92;6,311.93,418.81,226.54,10.91;6,311.93,432.61,226.57,10.91;6,311.93,446.55,51.20,10.80;6,414.75,446.55,51.36,10.80;6,517.68,446.55,21.00,10.80" xml:id="b5">
+	<analytic>
+		<title level="a" type="main" xml:id="_E4MPNSe">LA INVESTIGACIÓN EN EL ÁMBITO DE LA ENSEÑANZA ESPECIALIZADA DE LA MÚSICA</title>
+		<author>
+			<persName coords=""><forename type="first">P</forename><surname>Jackson</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">H</forename><surname>En</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">K</forename><surname>Mcewan</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Egan</surname></persName>
+		</author>
+		<idno type="DOI">10.2307/j.ctv17hm92w.8</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_nTtJdke">El docente en el ámbito de la enseñanza especializada de la música</title>
+				<meeting><address><addrLine>Buenos Aires, Argentina</addrLine></address></meeting>
+		<imprint>
+			<publisher>Dykinson</publisher>
+			<date type="published" when="2020-08-03" />
+			<biblScope unit="page" from="56" to="126" />
+		</imprint>
+	</monogr>
+	<note>Sobre el lugar de la narrativa en la enseñanza</note>
+	<note type="raw_reference">Jackson, P. (1998). &quot;Sobre el lugar de la narrativa en la enseñanza&quot;. En H. McEwan y K. Egan, &quot;La narrativa en la enseñanza, el aprendizaje y la investigación&quot;. Buenos Aires, Argentina: Amorrortu Eds,</note>
+</biblStruct>
+
+<biblStruct coords="6,311.93,474.03,226.83,10.92;6,311.93,487.95,226.61,10.80;6,311.93,501.75,20.66,10.80;6,349.24,501.75,47.96,10.80;6,413.91,501.75,22.79,10.80;6,453.36,501.75,9.34,10.80;6,479.39,501.75,59.27,10.80;6,311.93,515.55,226.69,10.80;6,311.93,529.23,226.54,10.92;6,311.93,543.03,226.48,10.80;6,311.93,556.83,58.56,10.80;6,422.92,556.83,11.33,10.80;6,486.73,556.83,51.88,10.80" xml:id="b6">
+	<monogr>
+		<title level="m" type="main" xml:id="_WeFBj8b">Redes telemáticas como recurso para el trabajo cooperativo: Una propuesta para la Universidad Tecnológica Nacional de la República Argentina</title>
+		<author>
+			<persName coords=""><forename type="first">Rosa</forename><forename type="middle">R</forename><surname>Maenza</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1998" />
+		</imprint>
+		<respStmt>
+			<orgName>Universidad de Salamanca</orgName>
+		</respStmt>
+	</monogr>
+	<note>Tesis presentada para optar al título de Master en tecnología de la educación</note>
+	<note type="raw_reference">Maenza, Rosa R. (1998) &quot;Redes telemáticas como recurso para el trabajo cooperativo: Una propuesta para la Universidad Tecnológica Nacional de la República Argentina&quot;. Tesis presentada para optar al título de Master en tecnología de la educación. Universidad de Salamanca</note>
+</biblStruct>
+
+<biblStruct coords="6,311.93,584.31,226.81,10.91;6,311.93,598.11,226.83,10.92;6,311.93,612.03,225.28,10.80" xml:id="b7">
+	<analytic>
+		<title level="a" type="main" xml:id="_6pPn6s8">Chubut Province, Argentina : J. and C. Muñoz</title>
+		<author>
+			<persName coords=""><forename type="first">Rosa</forename><surname>Muñoz</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Rosario</surname></persName>
+		</author>
+		<idno type="DOI">10.5040/9781472597489.ch-014</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_eMVSdTM">Flamingos</title>
+				<imprint>
+			<publisher>Poyser</publisher>
+			<date>2011</date>
+			<biblScope unit="page">4</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Muñoz, Rosa Rosario (2011) &quot;Deserción escolar en la argentina&quot;. Diputada Provincial Parlamento Patagónico Chubut-Argentina, p. 4</note>
+</biblStruct>
+
+<biblStruct coords="6,311.93,625.74,226.72,10.91;6,311.93,639.66,226.63,10.80;6,311.93,653.34,226.83,10.92;6,311.93,667.26,114.95,10.80" xml:id="b8">
+	<monogr>
+		<title level="m" type="main" xml:id="_67BR9PW">La interacción cooperativa: condición social de aprendizaje</title>
+		<author>
+			<persName coords=""><forename type="first">Suárez</forename><surname>Guerrero</surname></persName>
+		</author>
+		<ptr target="http://roderic.uv.es/handle/10550/44365" />
+		<imprint>
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+	<note>Recuperado de</note>
+	<note type="raw_reference">Suárez Guerrero, Cristóbal (2003) &quot;La interacción cooperativa: condición social de aprendizaje&quot;. Recuperado de: http://roderic.uv .es/handle/10550/44365</note>
+</biblStruct>
+
+<biblStruct coords="6,311.93,694.74,226.81,10.92;6,311.93,708.66,226.97,10.80;6,311.93,722.46,226.75,10.80;6,311.93,736.26,226.80,10.80;6,311.93,750.06,172.90,10.80" xml:id="b9">
+	<monogr>
+		<title level="m" type="main" xml:id="_PJ2pDEt">Conectivismo: Una teoría de aprendizaje para la era digital</title>
+		<author>
+			<persName coords=""><forename type="first">George</forename><surname>Siemens</surname></persName>
+		</author>
+		<ptr target="http://www.comenius.cl/recursos/virtual/minsal_v2/Modulo_1/Recursos/Lectura/conectivismo_Siemens.pdf" />
+		<imprint>
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+	<note>Recuperado de</note>
+	<note type="raw_reference">Siemens, George.(2004) &quot;Conectivismo: Una teoría de aprendizaje para la era digital&quot;. Recuperado de: http://www.comenius.cl/recur sos/ virtual/ minsal_v2/Modulo_1/Recursos /Lectura/conectivismo_Siemens.pdf</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

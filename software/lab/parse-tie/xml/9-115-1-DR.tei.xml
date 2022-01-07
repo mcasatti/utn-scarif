@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="es">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main" xml:id="_9QVXGzn">Décrire l’exil. Vivre l’exil. Les auteurs algériens de langue française et la Ghorba des années 1950 à la fin de la décennie 1980</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>OpenEdition</publisher>
+				<availability status="unknown"><p>Copyright OpenEdition</p>
+				</availability>
+				<date type="published" when="2017-03-01">2017-03-01</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName coords="1,196.25,109.90,71.60,10.80"><forename type="first">Olga</forename><surname>Scagnetti</surname></persName>
+							<email>oscagnetti@frsf.utn.edu.ar</email>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">Materias Básicas Facultad Regional Santa Fe, Universidad Tecnológica Nacional Lavaise 610,</note>
+								<orgName type="institution" key="instit1">Materias Básicas Facultad Regional Santa Fe</orgName>
+								<orgName type="institution" key="instit2">Universidad Tecnológica Nacional Lavaise 610</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,270.85,109.90,17.88,10.80"><surname>Etel</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">Materias Básicas Facultad Regional Santa Fe, Universidad Tecnológica Nacional Lavaise 610,</note>
+								<orgName type="institution" key="instit1">Materias Básicas Facultad Regional Santa Fe</orgName>
+								<orgName type="institution" key="instit2">Universidad Tecnológica Nacional Lavaise 610</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,296.21,109.90,77.63,10.80"><forename type="first">Sandra</forename><surname>Ramirez</surname></persName>
+							<email>scramirez@frsf.utn.edu.ar</email>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">Materias Básicas Facultad Regional Santa Fe, Universidad Tecnológica Nacional Lavaise 610,</note>
+								<orgName type="institution" key="instit1">Materias Básicas Facultad Regional Santa Fe</orgName>
+								<orgName type="institution" key="instit2">Universidad Tecnológica Nacional Lavaise 610</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,376.84,109.90,39.46,10.80"><surname>Cristina</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">Materias Básicas Facultad Regional Santa Fe, Universidad Tecnológica Nacional Lavaise 610,</note>
+								<orgName type="institution" key="instit1">Materias Básicas Facultad Regional Santa Fe</orgName>
+								<orgName type="institution" key="instit2">Universidad Tecnológica Nacional Lavaise 610</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main" xml:id="_AWa325A">Décrire l’exil. Vivre l’exil. Les auteurs algériens de langue française et la Ghorba des années 1950 à la fin de la décennie 1980</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main" xml:id="_HV3j26A">Revue européenne des migrations internationales</title>
+						<title level="j" type="abbrev">remi</title>
+						<idno type="ISSN">0765-0752</idno>
+						<idno type="eISSN">1777-5418</idno>
+						<imprint>
+							<publisher>OpenEdition</publisher>
+							<biblScope unit="volume">33</biblScope>
+							<biblScope unit="issue">1</biblScope>
+							<biblScope unit="page" from="49" to="63"/>
+							<date type="published" when="2017-03-01" />
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.4000/remi.8578</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.7.0-SNAPSHOT" ident="GROBID" when="2021-07-06T01:29+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term xml:id="_Z6ChMkR">límite</term>
+					<term xml:id="_KEysSe9">material para la enseñanza</term>
+					<term xml:id="_vWxWKu3">comprensión</term>
+				</keywords>
+			</textClass>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="595.32" lry="841.92"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="595.32" lry="841.92"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="595.32" lry="841.92"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="595.32" lry="841.92"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="595.32" lry="841.92"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="595.32" lry="841.92"/>
+	</facsimile>
+	<text xml:lang="es">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_FtgmR7S">Resumen</head><p xml:id="_CKYecXa">Cuando un alumno ingresa a la universidad debe adaptarse a las nuevas maneras de abordar los conocimientos, incluso cambiando su lenguaje cotidiano por un lenguaje específico. Como docente buscamos constantemente nuevas estrategias pedagógicas para que los alumnos lleguen a entender y luego comprender los nuevos saberes. Creamos un material para la enseñanza usando la tecnología para formar modelos mentales en los alumnos que les faciliten la comprensión de la definición formal de límite puntual, desarrollando un conocimiento generador, produciendo luego una aprehensión del mismo. Nuestra experiencia se realizó con alumnos de primer año de dos carreras de Ingeniería, proporcionándoles un programa junto con una guía que les servía como andamiaje. Esta experiencia nos permitió acercar a los alumnos una definición con lenguaje matemático, que muchas veces les es difícil de comprender. Los resultados obtenidos nos demostraron que todavía les cuesta entender la formalidad del enunciado y el significado de cada elemento del mismo. También destacamos un pequeño grupo predispuestos a experimentar con el material. Pero por más "atractivo" que hagamos el material, deben entender que la decisión de involucrarse está en ellos ya que son los responsables de la organización y el desarrollo de su trabajo académico.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1." xml:id="_4Qn2RBd">Introducción</head><p xml:id="_QASmwq9">Son muchos los cambios que transita un alumno cuando cambia de la escuela secundaria a la universidad. Incluso puede ser difícil en sus comienzos ya que debe asumir responsabilidades en la organización y desarrollo de su trabajo académico. Este cambio también implica tener que incorporar lenguaje específico de las distintas ciencias. En nuestro caso, la experiencia fue realizada en el primer cuatrimestre del primer año con alumnos de las carreras de Ingeniería en Sistemas de Información e Ingeniería Mecánica de la Facultad Regional Santa Fe de la Universidad Tecnológica Nacional. Propiciamos el acercamiento del lenguaje específico matemático de una manera en la que ellos pudieran visualizar cada elemento de la definición de límite puntual para luego de trabajarlo pudieran comprenderlo y aprehenderlo.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2." xml:id="_cspuvZP">Marco teórico</head><p xml:id="_P3caxbC">En la era del internet, de la comunicación instantánea con todo el mundo y de la realidad virtual, la educación y sobre todo la educación matemática en muchos casos aún hoy, permanece apegada a las prácticas de enseñanzas tradicionales donde los materiales siempre fueron la tiza y el pizarrón. Muchas veces la presión sobre los docentes para la incorporación de la tecnología en sus prácticas resulta ser una inclusión efectiva <ref type="bibr" coords="1,418.87,647.10,78.18,10.80">(Maggio, 2012)</ref>, donde el docente no reconoce su valor para la enseñanza ni la integra con sentido didáctico. En nuestro caso la inclusión es genuina ya que reconocemos que es muy importante la incorporación de la tecnología en nuestras prácticas para que en el momento de dar una interpretación geométrica de algún concepto los alumnos puedan visualizar de mejor manera la situación.</p><p xml:id="_ErNAEvA">La tecnología interactiva es muy eficaz para ayudar a los alumnos a manejar la complejidad de los conceptos y lograr un conocimiento más profundo. ''Al manipular y explicar modelos dinámicos, los estudiantes llegan a entender las relaciones entre sistemas y a descubrir los puntos fuertes y débiles de sus concepciones'' <ref type="bibr" coords="2,152.25,197.14,75.46,10.91">(Kozma, 2000)</ref>. Es difícil para los alumnos sin lenguaje matemático asimilar las definiciones de límite, derivadas e integral definida, por ejemplo. Estos modelos dinámicos generan buenas explicaciones ya que ayudan a concretar ideas abstractas y las relaciona con los contenidos teóricos dados en clase. También ayuda a plantear preguntas genuinas y a generar ejemplos que los podemos relacionar con situaciones concretas de la vida cotidiana.</p><p xml:id="_fsMKgfR">La tecnología nunca va a reemplazar al docente pero puede facilitarles algunas tareas. Ya que les permite formarse modelos mentales más precisos de las situaciones, facilitando así su comprensión. Pero '' el uso de medios tecnológicos no garantiza per se que los alumnos desarrollen estrategias para aprender a aprender, ni fomentar el desarrollo de las habilidades cognitivas de orden superior. La calidad educativa de estos medios de enseñanza depende, más que de sus características técnicas, del uso o explotación didáctica que realice el docente y del contexto en el que se desarrolle'' <ref type="bibr" coords="2,132.11,579.75,74.66,10.91">(Liguori, 1995)</ref>. No porque los alumnos estén en contacto directo con la tecnología van a aprender, el resultado va a depender del tratamiento que les demos a estas tecnologías.</p><p xml:id="_pktfE7m">La idea de crear este material es para desarrollar lo que Perkins llama el conocimiento generador, es el conocimiento que no se acumula sino que sirve enriqueciendo la vida de las personas y ayudándolas a comprender el mundo y a desenvolverse en él. Tiene tres reglas generales: Retención del conocimiento, los alumnos pueden saber las definiciones a la hora de los exámenes pero no sirve de nada si no las recuerdan a la hora en que realmente los necesitan usar. Comprensión del conocimiento, no sirve de mucho tener los conocimientos si no se comprenden. Y la tercera, uso activo del conocimiento, es cuando realmente ponemos en la práctica esos conocimientos. Perkins (1995) resume esto en un simple enunciado: ''El aprendizaje es una consecuencia del pensamiento. Sólo es posible retener, comprender y usar activamente el conocimiento mediante experiencias de aprendizaje en las que los alumnos reflexionan sobre lo que está aprendiendo y con lo que están aprendiendo''.</p><p xml:id="_M5Z649V">Junto con el material les propusimos a los alumnos una actividad que funciona como andamiaje, es decir, son preguntas orientadoras que brindan un soporte cognitivo a los alumnos que carecen de conocimiento sobre los temas. Ayuda a reflexionar sobre cuál es el significado de cada elemento de la definición y cuál es el rol de cada uno de ellos. Este andamiaje les permite a los alumnos emprender tareas más complejas que las que ellos pueden hacer solos, es decir, el alumno es capaz de realizar en colaboración mucho más que por sí mismo, lo que Vigotsky (1934) llama la zona del desarrollo próximo. Estas actividades se hacen en grupos ya que alimentan la diversidad, promueven las discusiones que llevan a reflexiones y argumentaciones donde es necesario buscar razones, explicar intentando defender su verdad o falsedad, forjando a demás vínculos entre pares.</p><p xml:id="_PH2x64t">Se trata de atraerlos captando su atención, despertando el entusiasmo auténtico, cultivando la curiosidad constante y el espontáneo esfuerzo de comprensión de todo lo nuevo, para que la matemática no sea un tema lejano a ellos. Ya que Dewey (1989) afirma: ''Cuando los alumnos estudian temas demasiado ajenos a su experiencia, esto no despierta su curiosidad activa ni supera su capacidad de comprender''.</p><p xml:id="_wuaQkzx">En matemática, muchas veces, los conocimientos son ingenuos (Perkins) ya que los alumnos captan de manera superficial las definiciones y los teoremas. Otras veces los conocimientos son inertes ya que cuando tienen que hacer la práctica o problemas relacionados a dichos conocimientos no los saben usar porque no saben hacer ese traspaso de la teoría a la práctica.</p><p xml:id="_gVwcv63">Es por eso que con estos materiales queremos reorganizar los conocimientos vistos en la teoría de una manera diferente tendiendo puentes para favorecer la comprensión. Haciéndolos de una forma más atractiva y tratando de estimular el interés, generando actitudes de mentalidad abierta, entusiasmo y responsabilidad. Con el objetivo de que surja un interés genuino, porque ningún individuo puede reflexionar a no ser que esté personalmente animado por ciertas actitudes dominantes de su propio carácter.</p><p xml:id="_G62jp9p">Como docentes queremos que los alumnos aprendan a aprender (Jackson, Perkins), es decir, a crear conceptos y comportamientos que sirvan al aprendizaje en sí mismo, equipándolos con instrumentos que les sirvan para el autoaprendizaje, autogobierno y autocuestionamiento. Cuando lo realizan satisfactoriamente se obtienen dos resultados: uno intelectual, es decir, a razonar y a crear pensamientos lógicos matemáticos. El otro más relacionado con el carácter total de la persona, es decir, equipar al alumno con los atributos actitudinales y emocionales que lo predispone a usar la razón. El individuo ingenuo y atropellado aborda directamente una tarea, en cambio, el individuo inteligente es astuto, sagaz, sutil, habilidoso, artificioso, intrigante. A este segundo tipo de alumno Perkins lo define dentro de la categoría aprender por incrementos.</p><p xml:id="_tDGBGmq">Cuando decimos "hacia un aprendizaje aprehendido" estamos hablando de aprehender los conceptos. Aprehender en el sentido de Dewey (1989), ''Aprehender el significado de una cosa, un acontecimiento o una situación es contemplarlo en sus relaciones con otras cosas, observar cómo opera o funciona, qué consecuencias se sigue de él, qué lo produce, qué utilidad puede dársele''. Aprehender un conocimiento es hacerlo propio, es construirlo con sentido para sí mismos, es asimilarlo o comprenderlo por completo, dándole sentido o lógica y sobre todo siendo un agente activo en su propio proceso de aprendizaje. Resumiendo, el alumno debe ser intelectualmente responsable adquiriendo hábito de pensamiento reflexivo, es decir, el alumno tiene que aprender a aprender.</p><p xml:id="_Fq22G2m">Es por eso que los docentes estamos en la búsqueda constante de nuevos materiales para la enseñanza, para que los alumnos realmente aprehendan los conocimientos y aprendan a aprender.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3." xml:id="_zQQc8yj">Objetivos y Metodología</head><p xml:id="_2ggdUbY">Creamos un material para la enseñanza con el objetivo de que los alumnos ejerciten su pensamiento y estimulen la comprensión de una de las definiciones medulares del cálculo. Vemos constantemente que los alumnos estudian de memoria las definiciones, sin siquiera pensarlas y mucho menos interpretarlas. Para el caso de la definición de límite puntual, primero dimos ejemplos de manera gráfica acentuando la forma intuitiva de la definición. No usamos palabras específicas del lenguaje matemático sino que tratamos de usar un lenguaje cotidiano para ir familiarizándose con la idea del límite puntual. Luego pasamos a hacer ejemplos de forma gráfica y analítica de algunas funciones elementales. Una vez que detectamos que los alumnos captaron la idea de dicha definición pasamos a formalizarla. Previamente en la materia se habían dado algunos símbolos matemáticos y ejemplo del uso de ellos. Dicha definición es:</p><p xml:id="_gBkEj63">(1) Explicamos qué son y dónde se ubican en el plano. Como es arbitrario lo hacemos lo más pequeño posible y mostramos cómo depende de y no al revés.</p><p xml:id="_HMmTRh5">El material fue creado en el software GeoGebra que es específicamente matemático. El material está disponible en la página del software donde se pueden manipular desde allí sin la necesidad de descargarlo. Es libre y compatible con cualquier dispositivo digital. El objeto de aprendizaje es interactivo, cuenta con casillas de entradas y deslizadores, donde los alumnos pueden colocar la función que ellos deseen analizar y mover los deslizadores para visualizar mejor el concepto en cuestión. En nuestro material el deslizador, que se puede mover arbitrariamente, se relaciona con que es independiente. Los alumnos pueden mover dicho deslizador y ver cómo cambia a dependiendo del valor de . . La actividad fue subida al campus virtual de la cátedra donde los alumnos tienen libre acceso desde cualquier dispositivo digital y en cualquier momento. En dicha actividad estaba el enlace del objeto de aprendizaje junto con una serie de consignas. La primera parte les pedía que eligieran una función elemental estudiada en clase y un punto donde existiera el límite. Luego le debían realizar una traslación y una reflexión sobre el eje y a la función elegida. Debían visualizar y analizar dónde se encontraban y qué relación encontraban entre ellos, justificando de forma gráfica haciendo capturas de pantallas y exponiendo sus observaciones. En la segunda parte de la actividad pedía que eligieran otra función y otro punto pero que no existiera el límite. Debían observar y argumentar la existencia o no de y justificarlo de forma analítica. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4." xml:id="_f3ndmBS">Resultados</head><p xml:id="_AuRcpSy">Esta experiencia se realizó con 104 alumnos de primer año de las carreras de Ingeniería en Sistemas de Información e Ingeniería Mecánica. El tamaño de muestra fue grande gracias a que lo hicimos a mediados de abril del primer cuatrimestre de una materia anual y todavía no había un índice de deserción grande. Luego del mes de junio este índice aumenta a un 30%. El trabajo lo realizaron en grupos de hasta 3 integrantes y fue entregado en formato papel. Observamos que en un 27% tuvieron problemas para interpretar la definición formal. Tuvieron serios problemas para identificar donde se ubican , los entornos generados por ellos y la relación de dependencia. Generando un conocimiento frágil como consecuencia de un pensamiento pobre. En la figura 2 se puede apreciar dos respuestas de grupos diferentes, que no sólo no interpretaron la definición, sino que evidencia la falta de coherencia y mal manejo de uso del lenguaje matemático.  El 55% logró superar los objetivos respondiendo bien a lo que se les preguntaba pero no razonaron sobre la definición. Sólo el 18% pudo ir más allá de la consigna, experimentar con distintas funciones e investigar en el material para la enseñanza los distintos casos de la no existencia del límite. También trabajaron con la definición formal del límite de la función elegida demostrando la existencia del mismo de forma analítica. Lograron superar lo pedido e hicieron un uso activo del conocimiento consiguiendo aprehender el concepto de límite. En la figura 4 se puede ver como usaron los recursos que tenía para demostrar la relación de para esa función en particular.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5." xml:id="_QPqzgzQ">Conclusiones</head><p xml:id="_hWqEqAS">En la búsqueda de nuevas estrategias para abordar un tema tan complejo como es la definición formal del límite. Recurrimos a la creación de un material para la enseñanza que facilite la comprensión del mismo ya que este consta de un lenguaje puramente matemático.</p><p xml:id="_FWqJRWG">Observamos que los alumnos realizaron esta actividad como algo obligatorio y que no le dedicaron el tiempo necesario para la interpretación del mismo. Hubo pocos alumnos realmente involucrados en la actividad que decidieron manipular el material y generarse imágenes mentales que ayudaron a la comprensión genuina del concepto.</p><p xml:id="_pCpVzmd">Es nuestro trabajo como docente generar nuevas formas de transformar los saberes en saberes comprensibles para los alumnos. Continuamente estamos creando nuevos materiales para la enseñanza para la aprehensión del conocimiento. En esta búsqueda, realizamos otros materiales sobre los conceptos de derivada puntual, sumas de Riemann y series de Taylor, los cuales implementaremos en nuestras futuras prácticas. Pero por más "atractivo" que hagamos el material, deben entender que la decisión de involucrarse está en ellos ya que son los responsables de la organización y el desarrollo de su trabajo académico. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_VyystXx">Referencias</head></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0" coords="4,339.67,177.90,181.56,8.96;4,377.95,189.42,105.01,8.96"><head>Fig. 1 :</head><label>1</label><figDesc xml:id="_K6BpAfu">Fig. 1: Construcción dinámica con GeoGebra Concepto formal de límite</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1" coords="4,334.39,635.66,192.05,8.96;4,338.23,647.06,184.38,8.96;4,332.23,664.98,205.86,10.80;4,322.51,678.78,215.41,10.80;4,322.51,692.58,215.68,10.80;4,322.51,706.38,29.03,10.80;4,376.03,706.38,162.71,10.80;4,322.51,720.18,19.33,10.80;4,358.33,720.18,28.75,10.80;4,403.62,720.18,11.51,10.80;4,431.54,720.18,47.69,10.80;4,495.73,720.18,42.41,10.80;4,322.51,733.98,159.94,10.80;4,500.74,733.98,37.80,10.80;4,322.51,747.78,215.59,10.80"><head>Fig. 2 :</head><label>2</label><figDesc xml:id="_k7uvkyQ">Fig. 2: Dos casos de la mala interpretación de la definición y mal uso del lenguaje matemático. Los alumnos debían elegir una función donde no existiera el límite. La figura 3 a) muestra un error común concluyen que no existe en la no existencia del límite y este grupo en particular tampoco comprendió la dependencia de . En la parte b) Concluye igual que el grupo</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2" coords="5,82.82,188.22,192.12,8.96;5,138.86,199.74,80.09,8.96"><head>Fig. 3 :</head><label>3</label><figDesc xml:id="_jTFr8fn">Fig. 3: Dos casos de la mala conclusión en la no existencia de límite.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3" coords="5,78.98,743.89,199.74,8.96;5,166.10,755.41,25.64,8.96"><head>Fig. 4 :</head><label>4</label><figDesc xml:id="_MgdjrqM">Fig. 4: Demostración analítica de la existencia del límite.</figDesc></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

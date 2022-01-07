@@ -12,6 +12,7 @@ file = '/home/mcasatti/data/scarif/data-papers/17-150-1-DR.pdf'
 #file = '/home/mcasatti/data/scarif/data-papers/caedi.docx'
 # Parse data from file
 file_data = parser.from_file(file,xmlContent=True)
+print(file_data)
 # Get files text content
 text = file_data['content']
 print(text)
