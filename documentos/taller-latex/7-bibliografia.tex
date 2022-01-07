@@ -1,0 +1,56 @@
+% paper=a4paper (default),letterpaper,a5paper,b5paper,executivepaper,legalpaper
+% font=
+% fontsize=10pt, 11pt, 12pt (10pt por defecto)
+% documentclass=article,report,book,letter,"ieeetran"
+% draft=draft (no carga imagenes, pero indica lugares)
+% columns=onecolumn(default), twocolumn
+% margenes=oneside,twoside
+\documentclass[
+    a4paper,
+    12pt
+]{article}
+
+\usepackage{times}
+%\usepackage[options]{paquete}
+%\usepackage[spanish]{babel}
+%\usepackage[utf8]{inputenc}
+%\usepackage[T1]{fontenc}
+%\usepackage{graphicx}
+%\usepackage{amsmath}
+
+\title{Titulo del trabajo}
+\date{\today}
+\author{Autor o autores}
+
+\usepackage{lipsum}
+
+\usepackage[
+backend=biber,
+style=ieee,
+sorting=none
+]{biblatex}
+\addbibresource{biblio.bib}
+
+\begin{document}
+	\maketitle
+%	\begin{abstract}
+%		\lipsum[1-2]
+%	\end{abstract}
+	%\clearpage
+
+    \tableofcontents
+
+    En un texto cualquiera se puede incluir una cita a un autor\cite{ARTICLE:1}, con cualquier tipo de referencia\cite{DUMMY:1} y el lenguaje se encarga de enumerar y ordenar las referencias bibliográficas.
+    
+    En donde se quiera generar la tabla de referencias bibliograficas se debe indicar el comando
+    
+    Es posible citar las mismas referencias bibliográficas\cite{ARTICLE:1} en distintos lugares\cite{ARTICLE:1}, simplemente incluyendo el mismo tag de referencia\cite{ARTICLE:1}.
+    
+    Todas las veces que se cite algo\cite{DUMMY:1} va a tener el mismo número de referencia que va asociado al texto. La misma cita se puede utilizar de diferentes maneras, por ejemplo solamente el autor\autocite{DUMMY:1}.
+    
+    Un cambio en el estilo utilizado cambia completamente la forma de generar las referencias.
+    
+    
+    \printbibliography
+
+\end{document}

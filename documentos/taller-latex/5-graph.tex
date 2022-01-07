@@ -1,0 +1,51 @@
+% paper=a4paper (default),letterpaper,a5paper,b5paper,executivepaper,legalpaper
+% font=
+% fontsize=10pt, 11pt, 12pt (10pt por defecto)
+% documentclass=article,report,book,letter,"ieeetran"
+% draft=draft (no carga imagenes, pero indica lugares)
+% columns=onecolumn(default), twocolumn
+% margenes=oneside,twoside
+\documentclass[
+    a4paper,
+    12pt
+]{report}
+
+\usepackage{times}
+\usepackage{amsmath}
+%\usepackage[options]{paquete}
+%\usepackage[spanish]{babel}
+%\usepackage[utf8]{inputenc}
+%\usepackage[T1]{fontenc}
+%\usepackage{graphicx}
+%\usepackage{amsmath}
+
+\title{Titulo del trabajo}
+\date{\today}
+\author{Autor o autores}
+
+\usepackage{lipsum}
+\usepackage{graphicx}
+
+\begin{document}
+	\maketitle
+	\begin{abstract}
+		\lipsum[1-2]
+	\end{abstract}
+	%\clearpage
+
+    %Como parte de un texto cualquiera puedo hacer referencia al número de una figura simplemente referenciando su etiqueta. Por ejemplo acá hago referencia a la imagen de la cabeza digital (Figura \ref{cabeza}), no importa donde esté.
+
+%    \begin{figure}
+    \includegraphics[scale=0.2]{ship1}
+%    \caption{Navecita}
+%    \label{navecita}
+%    \end{figure}
+
+%    \begin{figure}
+        \includegraphics[width=250px]{tech1}
+%        \caption{Inteligencia artificial}
+%        \label{cabeza}
+%    \end{figure}
+	
+
+\end{document}
