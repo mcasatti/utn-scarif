@@ -1,0 +1,8 @@
+pypdf2
+pdfminer.six
+bs4
+python-docx==0.8.10
+colorama 
+termcolor
+six
+pyfiglet
