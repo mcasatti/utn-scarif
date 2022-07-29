@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="es">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Análisis y detección de patrones en un grafo conceptual construido a partir de respuestas escritas en forma textual a preguntas sobre un tema específico</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">María</forename><surname>Alejandra</surname></persName>
+							<email>pazmalejandra@gmail.com</email>
+							<affiliation key="aff0">
+								<orgName type="department">Departamento de Ingeniería en Sistemas de Información CIDS -Centro de Investigación Desarrollo y Transferencia de Sistemas de Información</orgName>
+								<orgName type="institution">Facultad Regional Córdoba -Universidad Tecnológica Nacional Maestro Marcelo López esq</orgName>
+								<address>
+									<postCode>0351 -4686385</postCode>
+									<country>Cruz Roja Argentina -Córdoba</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Paz</forename><surname>Menvielle</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Departamento de Ingeniería en Sistemas de Información CIDS -Centro de Investigación Desarrollo y Transferencia de Sistemas de Información</orgName>
+								<orgName type="institution">Facultad Regional Córdoba -Universidad Tecnológica Nacional Maestro Marcelo López esq</orgName>
+								<address>
+									<postCode>0351 -4686385</postCode>
+									<country>Cruz Roja Argentina -Córdoba</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Cynthia</forename><forename type="middle">Lorena</forename><surname>Corso</surname></persName>
+							<email>corso.cynthia@gmail.com</email>
+							<affiliation key="aff0">
+								<orgName type="department">Departamento de Ingeniería en Sistemas de Información CIDS -Centro de Investigación Desarrollo y Transferencia de Sistemas de Información</orgName>
+								<orgName type="institution">Facultad Regional Córdoba -Universidad Tecnológica Nacional Maestro Marcelo López esq</orgName>
+								<address>
+									<postCode>0351 -4686385</postCode>
+									<country>Cruz Roja Argentina -Córdoba</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>Martín</roleName><forename type="first">Analía</forename><surname>Guzmán</surname></persName>
+							<email>analia.guzman@the-group.com.ar</email>
+							<affiliation key="aff0">
+								<orgName type="department">Departamento de Ingeniería en Sistemas de Información CIDS -Centro de Investigación Desarrollo y Transferencia de Sistemas de Información</orgName>
+								<orgName type="institution">Facultad Regional Córdoba -Universidad Tecnológica Nacional Maestro Marcelo López esq</orgName>
+								<address>
+									<postCode>0351 -4686385</postCode>
+									<country>Cruz Roja Argentina -Córdoba</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Gustavo</forename><surname>Casatti</surname></persName>
+							<email>mcasatti@gmail.com</email>
+							<affiliation key="aff0">
+								<orgName type="department">Departamento de Ingeniería en Sistemas de Información CIDS -Centro de Investigación Desarrollo y Transferencia de Sistemas de Información</orgName>
+								<orgName type="institution">Facultad Regional Córdoba -Universidad Tecnológica Nacional Maestro Marcelo López esq</orgName>
+								<address>
+									<postCode>0351 -4686385</postCode>
+									<country>Cruz Roja Argentina -Córdoba</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Karina</forename><surname>Ligorria</surname></persName>
+							<email>karinaligorria@hotmail.com</email>
+							<affiliation key="aff0">
+								<orgName type="department">Departamento de Ingeniería en Sistemas de Información CIDS -Centro de Investigación Desarrollo y Transferencia de Sistemas de Información</orgName>
+								<orgName type="institution">Facultad Regional Córdoba -Universidad Tecnológica Nacional Maestro Marcelo López esq</orgName>
+								<address>
+									<postCode>0351 -4686385</postCode>
+									<country>Cruz Roja Argentina -Córdoba</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Análisis y detección de patrones en un grafo conceptual construido a partir de respuestas escritas en forma textual a preguntas sobre un tema específico</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">DD4EE90FB69170CE9AD40A49CCFDEE8E</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.7.0" ident="GROBID" when="2022-04-09T01:35+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="es">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Resumen</head><p>En este trabajo se presenta un proyecto que busca descubrir patrones asociados a una base de conocimiento representada como una base de datos orientada a grafos. La misma contiene respuestas de exámenes en formato de texto de redacción libre relacionadas a un dominio específico, utilizada para realizar el análisis de texto en respuestas a preguntas de exámenes en la cátedra de Paradigmas de Programación, con el objetivo de detectar el grado de acierto de las respuestas de los alumnos, a la forma de representación de las preguntas de los docentes, entre otras. Hasta el momento se ha realizado el estudio teórico de diferentes patrones, el estudio y la elección de la forma en que se implementa el diseño de un sistema de reconocimiento de los mismos, finalizando en el análisis e identificación de diferentes patrones que puedan servir para mejorar el dictado de la materia y mejorar el aprendizaje, objetivo este central en cualquier proceso educativo.</p><p>Palabras clave: evaluación -grafospatrones.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Identificación</head><p>Código del PID: PIDEIUTNCO0004812. Tema en que se inserta: Investigación aplicada en Sistemas de Información e informática, en el campo de aplicación del desarrollo de la educación y de la promoción general del conocimiento. Fecha de Inicio: 01/01/2018 Fecha de Fin: 31/12/2019</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Introducción</head><p>El proyecto utiliza como caso testigo a la cátedra de Paradigmas de Programación, perteneciente a la carrera Ingeniería en Sistemas de Información, dictada en la Facultad Regional Córdoba, de la Universidad Tecnológica Nacional. El trabajo que aquí se presenta es la continuación de los trabajos realizados durante el desarrollo del PID EIUTNCO0003592 "Metodología para determinar la exactitud de una respuesta, escrita en forma textual, a un interrogatorio sobre un tema específico". Durante el transcurso de dicho proyecto se generó una base de conocimiento modelada como grafo dirigido, que posee preguntas y respuestas de exámenes escritas en forma textual, así como cualquier otro concepto contenido en el programa de estudios de la materia Paradigmas de Programación. Dicho grafo es una base de conocimientos amplia y extensible, generada inicialmente por los docentes de la cátedra, utilizada para evaluar a los alumnos y que pueda ser alimentada con las respuestas que no hayan sido consideradas aún y que aporten mayor variedad a la base de conocimiento. En el presente proyecto se propone complementar la funcionalidad del proyecto anteriormente mencionado, creando un segundo grafo, obtenido a partir de las respuestas de todos los alumnos que realizan los exámenes y que almacene el historial de las respuestas de los alumnos, para poder cotejarlo después con el grafo inicial y así poder realizar la búsqueda, el análisis y la propuesta de patrones frecuentes en el grafo conceptual.</p><p>Con el análisis de patrones se pretende descubrir algunas características importantes que se relacionen con las respuestas de los alumnos y que puedan reflejar la evaluación y el aprendizaje de los mismos. También que se pueda determinar el nivel de profundidad con el que se evalúa cada tema, si los distintos exámenes son consistentes en alcance y profundidad de evaluación de conceptos, entre otros. En relación a los contenidos de la materia, se pretende identificar si hay áreas de conocimiento evaluadas con mayor frecuencia, si hay temas que no se están evaluando, qué conceptos de la materia son mejor conocidos por los alumnos y cuáles lo son en menor medida. Esto permitirá, en última instancia, mejorar los materiales didácticos empleados como así también ajustar los instrumentos de evaluación.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1">Patrones y grafos</head><p>Un patrón es una entidad a la que se le puede dar un nombre y que está representada por un conjunto de propiedades medidas y las relaciones entre ellas (vector de características) <ref type="bibr">(Watanabe,1985)</ref>.</p><p>En el dominio utilizado como caso testigo, por ejemplo, un patrón puede ser la ruta resultante de una respuesta de un alumno, de las cuales se extrae el vector de características formado por un conjunto de valores numéricos que pueden representar nivel de exactitud de la respuesta, la puntuación de la misma, la cantidad utilizada de conceptos y de relaciones, etc. El reconocimiento automático, descripción, clasificación y agrupamiento de patrones son actividades importantes en una gran variedad de disciplinas científicas, como la biología, psicología, medicina, visión por computadora, inteligencia artificial, teledetección, etc. Lo importante de detectar patrones en los datos es que se pueden inferir causas para la agrupación de los mismos (en el caso de que se estén detectando patrones ya conocidos y ya estudiados). Este trabajo, tiene paralelos con el llamado SNA (Social Network Analysis, Análisis de Redes Sociales) que es una disciplina cuyo objetivo es "Analizar la estructura de una red social para 'inferir conocimiento' de un individuo, un grupo, o las relaciones entre ellos" <ref type="bibr" target="#b4">(Scott y Carrington, 2011)</ref>. Un grafo conceptual <ref type="bibr" target="#b5">(Sowa, 1992)</ref> es un sistema de notación simbólica y de representación del conocimiento. Presentado por John F. Sowa, se basa en los gráficos existenciales <ref type="bibr" target="#b3">(Peirce, 1909)</ref> de Charles Sanders Peirce, en las estructuras de redes semánticas y en datos de la lingüística, la filosofía y la psicología.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2">Patrones en Grafos</head><p>El reconocimiento o detección de patrones dentro de grafos busca detectar un subgrafo (patrón) en un grafo (objetivo). Debemos considerar que esta búsqueda de coincidencias se puede descomponer en dos partes:</p><p>1. Una concordancia estructural, en donde los nodos y relaciones del patrón conforman una estructura existente en el grafo objetivo 2. Una concordancia a nivel de elementos, en donde los nodos y relaciones, a nivel de sus atributos particulares, tiene los mismos valores que en la estructura encontrada en el grafo objetivo.</p><p>Muchas veces la búsqueda de estas dos concordancias se ejecuta de forma separada para optimizar los algoritmos o reducir el espacio de búsqueda <ref type="bibr" target="#b2">(Fan ,2012)</ref>.</p><p>En el dominio bajo estudio, la detección de un subgrafo (patrón), se realizará en los grafos (objetivos) que representan los contenidos de la materia y las respuestas de los alumnos en las instancias de exámenes. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.">Métricas en grafos</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Objetivos, Avances y Resultados</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1">Objetivos</head><p>El objetivo del proyecto es analizar, detectar y evaluar patrones topológicos frecuentes en un grafo conceptual construido para determinar la exactitud de las respuestas, escritas en forma textual sobre un tema específico, utilizando una base de conocimientos diseñada como un grafo dirigido. Para ello se han identificado los siguientes objetivos particulares: 1. Explorar patrones topológicos de grafos que contengan información relevante para la identificación de estructuras dentro de la base de conocimientos de la materia Paradigmas de Programación. 2. Analizar la existencia de patrones recurrentes o subyacentes en los grafos generados a partir de las respuestas base de los docentes y los obtenidos de las respuestas dadas por los alumnos.</p><p>3. Proponer algoritmos que permitan detectar patrones conocidos en la teoría de grafos como son las "comunidades", "pares", "rutas principales" y otros patrones comunes, por medios del análisis de las métricas sobre la base de conocimiento. 4. Identificar características como exactitud, coherencia y consistencia, entre otras, de las respuestas escritas en forma textual, en la base de conocimiento diseñada como un grafo dirigido.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2">Avances</head><p>Al momento de la confección de este trabajo se ha podido cumplir con los dos primeros objetivos particulares del proyecto. Para comenzar se realizó la exploración de diferentes patrones topológicos de grafos que pudieran ser relevantes para la identificación de estructuras dentro de la base de conocimientos de la materia Paradigmas de Programación. Luego se analizaron diferentes formas de diseñar un sistema de reconocimiento de patrones, llegando a establecer dicho diseño a través de tres fases (Alonso Romero y Calonge Cano, 2001):</p><p>1. Adquisición y preproceso de datos. 2. Extracción de características.</p><p>3. Toma de decisiones o agrupamiento.</p><p>1 Adquisición y preproceso de datos.</p><p>En la introducción del presente trabajo, se mencionó que se cuenta con la base de conocimiento de la materia, donde están almacenados en un grafo, los datos adquiridos y procesados relacionados a los contenidos, las preguntas y las respuestas, tanto las provistas por los docentes como las respondidas por los alumnos. Para el manejo de la base de datos de grafos se utilizó el producto OrientDB Community Edition, es una aplicación de código abierto, con licencia Apache 2 y gratuita para todo tipo de uso. Esta base de datos de grafos implementa de forma nativa dos características que son centrales en el planteo del método de corrección. La implementación se realizó en el lenguaje Java, utilizando librerías de corrección ortográfica y de visualización de la base de grafos. Para poder generar la segunda base de grafos, que contiene las respuestas de los alumnos, se realizó el análisis y diseño de la registración automática, cuando el sistema califica las respuestas de los alumnos en las distintas instancias de los exámenes.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2">Extracción de características y agrupamiento</head><p>Para las dos siguientes fases, extracción de características y toma de decisiones o agrupamiento, se consideraron los objetivos y contenidos de la materia, las necesidades de los docentes de la cátedra, respecto a la información que les podría brindar el prototipo de calificación y en general, las características que son de interés para evaluar o estudiar los mecanismos de evaluación de la materia y el grado de aprendizaje de los alumnos. También se consideraron algunas métricas mencionadas en el apartado anterior, relacionadas a los patrones inicialmente identificados. Se identificaron dos grandes clases de patrones, aquellos relacionados a la evaluación y aquellos relacionados al aprendizaje de los alumnos, a partir de allí se definieron los conjuntos de patrones asociados a cada uno.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2">Resultados</head><p>El reconocimiento de patrones es un ámbito de gran auge en la actualidad, si bien la mayoría de las aplicaciones se orientan al reconocimiento de patrones sobre imágenes u otro tipo de información bidimensional, el reconocimiento sobre grafos está cobrando cada vez mayor importancia debido en gran medida al auge de las redes sociales, naturalmente modeladas como grafos, principalmente en la búsqueda de información valiosa que ya existe en la estructura de datos y que se pueda aprovechar. En el caso particular de este proyecto de investigación se busca detectar patrones subyacentes tanto en la información del programa de la materia como de los exámenes elaborados por los docentes o en los conocimientos aprehendidos por los estudiantes, de forma tal que se pueda mejorar el dictado de la materia y mejorar el aprendizaje, objetivo este central en cualquier proceso educativo. Se estima que los patrones previamente detectados brindarán a la cátedra de Paradigmas de Programación un sustento fáctico sobre el cual basar las posibles modificaciones a los materiales de estudio a los métodos de dictado y a los instrumentos de evaluación, así como una herramienta tecnológica eficaz para evaluar, en un tiempo relativamente breve, el impacto de esas modificaciones sobre el cursado y la evaluación. Se proseguirá la investigación de forma tal que los docentes cuenten con herramientas informáticas para realizar consultas sobre la base de datos de grafos, que ayuden a detectar patrones diferentes a los actualmente planteados. El objetivo final es que los propios docentes puedan indicarle al sistema, a modo de aprendizaje supervisado, qué se debe buscar de acuerdo a los objetivos de la cátedra y tener una realimentación inmediata que posibilite el análisis de diversos escenarios a la hora de plantear herramientas de evaluación y planificar el dictado.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Formación de Recursos Humanos</head><p>La estructura del equipo de investigación está conformada por un director, un codirector, dos investigadores tesistas, un investigador de apoyo, un becario BINID, un becario alumno SAE y un becario alumno UTN-SCYT. Relacionado con el tema del proyecto, hasta el momento se ha presentado y aprobado el trabajo integrador en la Especialidad en Sistemas de Información de uno de los investigadores tesistas. Se estima que en el transcurso del mes de agosto también presentará el plan de tesis para la Maestría en Sistemas de Información. En el transcurso de los meses siguientes el otro investigador tesista presentará el trabajo integrador en la Especialidad en Sistemas de Información y el plan de tesis para la Maestría en Sistemas de Información. Los becarios se incorporan con la finalidad de que inicien su formación en investigación científica y tecnológica, quienes también colaborarán en la recolección, manipulación y desarrollo de este marco metodológico. En el marco del proyecto los estudiantes tendrán la posibilidad de hacer la Práctica Supervisada de quinto año. Los avances, propuestas y herramientas construidas, estarán disponibles para su transferencia y aplicación en el Centro de Investigaciones, Desarrollo y Transferencia de Sistemas de Información -CIDS. Del mismo modo la detección de patrones sobre el dominio de conocimiento de la materia Paradigmas de Programación continuará beneficiando a los integrantes de la cátedra y a los estudiantes.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Publicaciones relacionadas con el PID</head><p>Desde el comienzo del proyecto se realizó la difusión de las actividades a través de la participación en congresos. Para la difusión del nuevo proyecto se presentó un trabajo en formato <ref type="bibr">de paper, en WICC 2018</ref><ref type="bibr">(WICC, 2018</ref>, en el cual se aprobó y se realizó la presentación resumen en formato de Poster. Para la difusión del primer resultado de los avances, se confeccionó un trabajo en formato de paper, presentado en CADI y CAEDI (4º CADI y 10º CAEDI, 2018), con aprobación sin objeciones.</p></div>		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Congreso Argentino de Ingeniería -CADI 2018 -y 10mo. Congreso Argentino de la Enseñanza de la Ingeniería -CAEDI -, 19, 20 y 21 de septiembre de</title>
+	</analytic>
+	<monogr>
+		<title level="m">4º CADI y 10º CAEDI</title>
+				<imprint>
+			<date type="published" when="2018" />
+		</imprint>
+		<respStmt>
+			<orgName>en Hotel Holiday Inn de la Ciudad de Córdoba -ARGENTINA</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<author>
+			<persName><forename type="first">Alonso</forename><surname>Romero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L. Y Calonge</forename><surname>Cano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename></persName>
+		</author>
+		<title level="m">Redes neuronales y reconocimiento de patrones</title>
+				<imprint>
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Graph pattern matching revised for social network analysis</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Fan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 15th International Conference on Database Theory</title>
+				<meeting>the 15th International Conference on Database Theory</meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2012" />
+			<biblScope unit="page" from="8" to="21" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title level="m" type="main">Existential graphs, Collected Papers of Charles Sanders Peirce 4</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Peirce</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1909" />
+			<biblScope unit="page" from="1" to="7" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title level="m" type="main">The SAGE handbook of social network analysis</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Carrington</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2011" />
+			<publisher>SAGE publications</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<title level="m" type="main">Conceptual graph summary, Conceptual Structures: Current Research and Practice</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sowa</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1992" />
+			<publisher>Ellis Horwood</publisher>
+			<biblScope unit="page" from="3" to="66" />
+			<pubPlace>New York London Toronto</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title level="m" type="main">An Introduction to Graph Theory and Complex Networks</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Van Steen</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+	<note>Copyrighted material</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<author>
+			<persName><forename type="first">S</forename><surname>Watanabe</surname></persName>
+		</author>
+		<title level="m">Pattern Recognition: Human and Mechanical</title>
+				<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Wiley</publisher>
+			<date type="published" when="1985" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">26 y 27 de abril de</title>
+	</analytic>
+	<monogr>
+		<title level="m">20° edición del workshop</title>
+				<meeting><address><addrLine>Corrientes, Argentina</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2018" />
+		</imprint>
+		<respStmt>
+			<orgName>organizado por Red de Universidades Nacionales con Carreras de Informática (RedUNCI) y la Facultad de Ciencias Exactas y Naturales y Agrimensura de la Universidad Nacional del Nordeste</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

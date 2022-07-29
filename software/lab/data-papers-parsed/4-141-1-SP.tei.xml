@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="es">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">V</forename><forename type="middle">I</forename><surname>Jornada</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>La</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Enseñanza</forename><surname>De</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Ingenieria-Jein</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Comercio</forename><surname>Globalización</surname></persName>
+						</author>
+						<author>
+							<persName><surname>Internacional</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Ambiente</forename><surname>Medio</surname></persName>
+						</author>
+						<author>
+							<persName><surname>Specchia</surname></persName>
+						</author>
+						<author>
+							<persName><surname>Nelsón</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Lanza</forename><surname>Castelli</surname></persName>
+						</author>
+						<author>
+							<persName><surname>Silvia</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Valeria</forename><surname>Funes</surname></persName>
+							<email>valeriafunes1@gmail.com</email>
+						</author>
+						<author>
+							<persName><surname>Caminos</surname></persName>
+							<email>coty_caminos@hotmail.com</email>
+						</author>
+						<author>
+							<persName><surname>Constanza</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Maestro</forename><forename type="middle">M</forename><surname>López</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Esq</forename><surname>Cruz</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Roja</forename><surname>Argentina</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="institution">Universidad Tecnológica de Córdoba</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="institution">Universidad Tecnológica de Córdoba</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="institution">Universidad Tecnológica de Córdoba</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff3">
+								<orgName type="department">Blanca, Universidad Tecnológica de Córdoba</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff4">
+								<orgName type="institution">Universidad Tecnológica de Córdoba</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff5">
+								<orgName type="department">DEPARTAMENTO DE INGENIERÍA INDUSTRIAL Facultad, Regional Córdoba</orgName>
+								<orgName type="institution">Universidad Tecnológica Nacional</orgName>
+							</affiliation>
+						</author>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">884BD52C52265215003D118B2822F8D2</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.7.0" ident="GROBID" when="2022-04-09T01:35+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="es">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Resumen</head><p>En el marco de un escenario internacional globalizado se procura investigar acerca de la interdependencia de los distintos factores que hoy tensionan a la arquitectura regulatoria en los campos económicos y comerciales en los altos niveles de gobernanza internacional (instituciones de Bretton Woods en particular: FMI/ exGATT-OMC) . Se procura analizar cómo las regiones del mundo y en particular, América del Sur, trabajan en distintos procesos de integración que le otorga la capacidad a los Estados miembros de negociar en bloque para lograr un mejor posicionamiento internacional. Esto debe contextualizarse en el marco de una gran preocupación por la sustentabilidad del planeta y las reformas necesarias que hoy se negocian en la agenda internacional en general y en el comercio internacional en particular. Hoy el MERCOSUR trabaja para lograr una normativa vinculante a todos los países miembros, que los comprometa en lograr mecanismos de Producción y Consumo Sustentable. En este sentido, analizar acerca de los objetivos internacionales, regionales y nacionales sobre la incidencia que las nuevas normativas y compromisos que Argentina ha adquirido, como por ejemplo los de la COP 21, son fundamentales para generar el know how necesario para asesorar al ámbito público y privado de la temática.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Palabras clave:</head><p>Comercio Internacional, Medio Ambiente, Producción y Consumo Sustentable</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Identificación</head><p>Código del PID : MSUTICO0005327TC Tema prioritario del Programa de Tecnología Educativa y Enseñanza de la Ingeniería en que se inserta: La educación para el desarrollo sustentable (EDS) y la responsabilidad social universitaria (RSU) Fechas de inicio:01/01/2019 Fecha de finalización: 31/12/2021 2. Introducción La recopilación de los estudios y experiencias realizadas por otros autores acerca del tema seleccionado demostró que se encuentra una amplia literatura actual. Por tal motivo, a continuación se hace una primera exposición del tratamiento del tema a escala internacional, prestando especial atención a los paradigmas y acciones de la Organización Mundial del Comercio (OMC) sobre regulaciones y políticas concretas del medio ambiente a escala global, y en un segundo momento se analizan las investigaciones que estudian la temática en cuestión específicamente en el Mercado Común del Sur (MERCOSUR), Argentina y la Provincia de Córdoba. En primer lugar, el texto de Burnete y Chomta (2015 -2016) es central para el análisis del tratamiento del comercio internacional con el medio ambiente porque desde una perspectiva histórica que comienza con la primera revolución industrial, mide el perjuicio ocasionado hasta la actualidad y va un poco más allá, llegando a contemplar objetivos trazados para el 2020 a escala global. No obstante, es necesario complementar este análisis con otros análisis que investiguen acerca de prácticas concretas. En ese sentido, el texto de Jean-Frédéric Morin and Myriam Rochette (2017) analiza las cláusulas existentes en los Acuerdos de Comercio Preferencial establecidos por los Estados Unidos y la Unión Europea. Este artículo científico ha sido de gran utilidad porque presenta los puntos que actualmente son considerados centrales en las políticas de comercio exterior de estos países orientadas al medio ambiente. Por tal motivo, y analizando las diferencias que existen en esta materia por todos los países que actualmente componen a la comunidad internacional de estados. Se encontró que es fundamental trabajar con lo que la Organización Mundial del Comercio (OMC) establece. Considerando entonces que, la OMC es la Organización Internacional por excelencia que regula las normas que rigen en el comercio entre países. Se analiza los aportes académicos desarrollados por este Organismo y se estudia acerca de las regulaciones de políticas de protección y preservación del medio ambiente que se han llevado a cabo entre 1995 -2017. El Comité de Comercio y Medio Ambiente (CCMA) nace en el año 1994 por decisión ministerial y luego con la creación de la OMC comienza a trabajar dentro de su marco institucional. Es creado especialmente para estudiar los problemas que surgen cuando las políticas en materia de medio ambiente tienen efectos importantes en el comercio, el mismo se denomina y actualmente trabaja en cuestiones relativas al medio ambiente y al desarrollo sostenible. Entre los documentos principales se han encontrado los diferentes informes anuales que versan sobre los temas de (a) desarrollo sostenible, (b) exigencias ambientales y acceso a los mercados, (c) etiquetado y (d) exámenes medioambientales. Es importante destacar que una de las limitaciones que se encuentra sobre la OMC, es que la misma no tiene competencias en las cuestiones ambientales y sólo estudia los problemas que surgen cuando las mismas afectan al comercio en busca de soluciones. No obstante, La Secretaria tiene "(...) una versión actualizada de la matriz [y] de las medidas relacionadas con el comercio, adoptadas en el marco de determinados acuerdos multilaterales sobre el medio ambiente " (2017). Tal actualización se hace teniendo en cuenta la realidad internacional y las medidas domésticas que los estados miembros informan. Por último se relevaron los documentos internacionales que desarrolla el Programa de Naciones Unidas para el Medio Ambiente (PNUMA), en los cuales se vislumbro que posee una extensa bibliografía que investiga acerca del camino hacia una economía verde. Habiendo presentado el tratamiento del tema a escala internacional, se procede a estudiar a exponer acerca del comercio verde sustentable en el MERCOSUR, Argentina y la Provincia de Córdoba, durante los años 1992-2017. En una primera aproximación, se encontró como limitación que la bibliografía actualizada (2012 -2018) es escasa. Sobre el tratamiento del comercio verde sustentable a escala regional Sebastián Gillet hace un " (...) relevamiento crítico de las políticas medioambientales del MERCOSUR específicamente la gestión en materia de Producción y Consumo Sustentable (PyCS) y una propuesta para el desarrollo de un instrumento aún no explorado por el bloque: un sistema de ecoetiquetado de alcance regional" (2014: 5). Por otra parte, Amalia Stuhldreher justifica el recorte temporal aquí establecido partiendo del esfuerzo temprano que los países del Cono Sur hacen con la Declaración de Canela en 1992 previa a la "Conferencia de Naciones Unidas sobre el Medio Ambiente y el desarrollo" para tener un documento que plasme un interés común por parte de la región. En cuanto al análisis del tratamiento de esta temática en el MERCOSUR, en 1995 se lleva a cabo la Declaración de Taranco que reúne a los Ministros de Medio Ambiente del Mercosur (2012: 195). Los aportes de Mata Diz son fundamentales para analizar los avances normativos de la cuestión medio ambiental del Mercosur ya que analiza los instrumentos y órganos creados para tal fin y las consecuencias de los impactos medioambientales sobre las políticas nacionales de los países de la región (2015-2016: 75). Para el análisis de las políticas públicas y las prácticas concretas de Argentina en la materia, se encuentra que "(...) el país carece aún de una política integral " (Aponte Tinao, Godio &amp; Strada;2012: 45). En el estado actual de la situación, estos autores analizan la posibilidad de una producción sostenible "green industry", concluyendo que una política dirigida a tal fin ayuda a mejorar la competitividad de las PYMEs argentinas. Por su parte la CEPAL realiza un informe en el año 2014 titulado "Innovación sustentable: espacios para mejorar la competitividad de las pymes argentinas" donde analiza los distintos sectores de la economía y las estrategias que deben ser tomadas para enfrentar los desafíos futuros. En el caso de Córdoba, se encuentra que hay dos aristas para el análisis del tema en cuestión: (a) el tratamiento en la esfera privada; y (b) los marcos regulatorios y de control por parte del ámbito público. En cuanto al primer tema planteado, se puede decir que existe una mayor concientización sobre la interacción entre comercio y ambiente en los últimos años a partir de la promoción de una agenda común del sector privado en aras de fortalecer la responsabilidad social empresaria. En esta línea Amatto, Buraschi &amp; Peretti destacan que si bien el tratamiento del tema ha tenido un gran auge en los últimos años, no se ha plasmado el compromiso en prácticas concretas, tanto en su cantidad como calidad (2015: 103). En segundo lugar, Romero destaca que el desarrollo sustentable es un gran desafío porque implica "esfuerzos de coordinación de distintos actores de la sociedad" (2017:1). En el caso del gobierno provincial se encuentra que todavía queda un largo camino por recorrer en cuanto a los avances legislativos y de control. Para concluir, se considera que existe un tratamiento sobre el tema comercio y medio ambiente a escala internacional, extensamente desarrollado y que cuenta con un histórico avance sobre dicha cuestión que comienza con artículos, organización y áreas específicas de trabajo en diferentes Organismos Internacionales. A pesar de ello, no se haya una relación directa entre los avances que se han llevado a cabo en la gobernanza global con las políticas públicas y prácticas concretas del Mercosur, Argentina y la Provincia de Córdoba. No obstante dados los objetivos de la agenda internacional, es importante generar investigaciones que analicen la interacción entre comercio y medio ambiente para poder contribuir al acervo bibliográfico y a una futura toma de decisiones sobre esta temática desde el Mercosur, Argentina y la Provincia de Córdoba.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Objetivos, Avances y Resultados</head><p>Objetivos 1. Analizar, describir y evaluar la relación entre el tratamiento de las regulaciones medioambientales basadas en la Producción y el Consumo Sustentable con las prácticas concretas llevadas a cabo en el comercio internacional desde 1995 al 2017. 2. Establecer la evolución de las regulaciones sobre el medioambiente y en particular sobre la Producción y Consumo Sustentable en el MERCOSUR, Argentina y la Provincia de Córdoba desde 1992 -2017.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Objetivos Específicos</head><p>a. Producir informes sobre las regulaciones internacionales que se han generado desde 1995 al 2017 que garantizan la preservación del medio ambiente; b. Describir las regulaciones existentes sobre los mecanismos de Producción y Consumo Sustentable que se llevan a cabo en el comercio internacional desde 1995 al 2017; c. Evaluar el grado de avance de las regulaciones medioambientales que se llevan a cabo en el MERCOSUR con las que actualmente rigen en el comercio internacional. d. Comparar los avances normativos en materia medioambiental y en particular sobre la Producción y Consumo Sustentable llevadas a cabo por los países que hoy son miembros del MERCOSUR: Argentina, Brasil, Paraguay y Uruguay. e. Investigar acerca de los efectos positivos y negativos para el ámbito privado puede tener trabajar sobre la base de la Producción y Consumo Sustentable. f. Tabular las empresas nacionales que hoy en día cuentan con certificaciones eco amigables. g. Analizar los procesos de innovación llevados a cabo por las PyME de Córdoba para generar una Producción Sustentable.</p><p>Este proyecto de Investigación titulado "Globalización, Comercio Internacional y Medio Ambiente" tiene como finalidad presentar un análisis integral sobre el tratamiento de los temas medioambientales trabajados de manera específica en la disciplina del comercio internacional. DE manera general se analizará la evolución de la agenda ecológica a nivel internacional y en un segundo momento, se analiza su tratamiento en el MERCOSUR, con el objeto de analizar (a) cómo se llegó a la situación actual, y (b) los límites y las posibilidades futuras para generar políticas concretas en la Producción y el Consumo Sustentable. Habiendo encontrado que en la actualidad existe un gran vació legal que debe en un futuro próximo comenzar a regularse, se considera como una necesidad principal analizar no sólo lo que repercute en el área regional (MERCOSUR) sino también los marcos regulatorios de los países que integran el bloque (Argentina, Brasil, Paraguay y Uruguay). Por último debe prestarse especial atención al marco normativo existente en Argentina y Córdoba en particular, como así también a las prácticas privadas de las empresas nacionales y provinciales. Se considera fundamental el desarrollo de este proyecto, dado que Argentina se ha comprometido a contribuir con los objetivos de la COP 21. Lo que no sólo implica un cambio de políticas públicas orientadas a tal fin, sino también la creación de una legislación que en el largo plazo afectará a la matriz productiva e industrial del país. En vistas a ello, se procura hacer un relevamiento de las empresas nacionales para saber cuál es el porcentaje actual que ha desarrollado prácticas eco amigables y cuales tienen por delante invertir en la innovación de sistemas de producción que logren las nuevas metas a las cuales el gobierno apunta a cumplir para el 2030.</p><p>En cuanto a los avances logrados en el tema y el estado actual del conocimiento, a continuación se detalla lo alcanzado en el tratamiento del comercio verde sustentable en el escenario internacional y en el Mercado Común del Sur (MERCOSUR) en particular durante los años 1992-2017. En 1992 se lleva a cabo la Cumbre de la Tierra celebrada en Río de Janeiro, donde se acuerdan los 27 principios que tienen como objeto "(...) la creación de nuevos niveles de cooperación entre los Estados, los sectores claves de las sociedades y las personas" [9]. Es a partir de la misma que las distintas regiones empiezan a trabajar en acuerdos marco sobre el tratamiento del comercio verde . En el caso de América del Sur, los países se nuclean en torno a dos procesos de integración: (a) Comunidad Andina de Naciones (CAN) y el MERCOSUR. En el presente trabajo solo se hace alusión al segundo, el cual se constituye en 1991 mediante la firma y posterior ratificación del Tratado de Asunción por parte de Argentina, Brasil, Paraguay y Uruguay. Si bien, el mismo "desde su creación tuvo como objetivo principal propiciar un espacio común que generará oportunidades comerciales y de inversiones a través de la integración competitiva de las economías nacionales al mercado internacional" (MERCOSUR). En el instrumento jurídico que le da origen, no se encuentra un tratamiento prioritario de la cuestión ambiental, sólo en el preámbulo se hace alusión a que los objetivos de la Organización deben lograrse mediante "el eficaz aprovechamiento de los recursos disponibles, la preservación del medio ambiente, el mejoramiento de las interconexiones físicas, la coordinación de las políticas macroeconómicas y la complementación de los diferentes sectores de la economía, con base en los principios de gradualidad, flexibilidad y equilibrio" <ref type="bibr" target="#b5">[5]</ref>. En el caso de Argentina, en el año 2015 se lleva a cabo la "Conferencia de Naciones Unidas Sobre Cambio Climático" (COP 21), donde este país se compromete a disminuir la cantidad de gases que producen el efecto invernadero pero, manteniendo un crecimiento económico sostenido. En vistas a este objetivo, es necesario investigar acerca de los cambios que deberán hacerse en la matriz productiva nacional y de las empresas locales para lograr mecanismos de Producción y Consumo Sustentable.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Los avances internacionales en el comercio verde</head><p>En este apartado se propone presentar los antecedentes sobre el tratamiento del comercio verde sustentable a escala global y algunas precisiones terminológicas para en un segundo momento focalizarse en el desarrollo de está problemática en el ámbito regional, nacional y provincial desde 1992 a la actualidad. En primer lugar, la Cumbre de la Tierra celebrada en Rio de Janeiro en 1992 representa el acuerdo marco en el cual se proclaman los veintisiete principios que procuran proteger la integridad del sistema ambiental y el desarrollo mundial que rigen hasta la actualidad. En el marco de la misma se desarrolla el Programa 21, más conocido como Agenda 21 que tiene como fin lograr la sostenibilidad medioambiental, la justicia social y el equilibrio económico mediante un plan de acción exhaustivo que busca ser adoptado a nivel universal, nacional y local por la Organización de Naciones Unidas, los gobiernos nacionales y las administraciones locales <ref type="bibr">[9]</ref>. En este marco se generaron acuerdos que (a) dan un tratamiento integral a los temas ambientales mundiales; (b) se comienza a analizar crítica y reflexivamente sobre la sustentabilidad a escala global, (c) se elaboran estrategias con el fin de detener y revertir la pérdida de recursos y la degradación ambiental, por último (d) se promueve el desarrollo sustentable respecto del medio ambiente. Según Guimarães y Bárcena <ref type="bibr" target="#b0">[1]</ref>, la realidad es que para mediados de la década de los años noventa, la discusión sobre estos temas y la conciencia mundial sobre la interdependencia entre los países respecto a problemas ambientales, registró inicialmente tímidos avances en las políticas concretas de los organismos internacionales. Hacia fines de la década mencionada, y con vistas al inicio del nuevo siglo comienza a vislumbrar una leve evolución sobre las temáticas ambientales en los países desarrollados. La sensibilización creciente de las sociedades avanzadas acerca de los problemas asociados al desequilibrio ecológico, provoca un cambio de agenda y de dirección en torno a la intensidad de los esfuerzos para disminuir los daños ambientales en las economías y se fortalece la percepción del medio ambiente como acervo productivo. En este proceso evolutivo, los países desarrollados toman mayor conciencia y generan estrategias, políticas e instrumentos ambientales para concertar sobre mecanismos e instrumentos voluntarios que tiendan a introducir y/o modificar las conductas de la sociedad a favor de la protección y conservación de los recursos y la calidad del medio ambiente. El objeto es desarrollar nuevas herramientas en el diseño de estrategias dirigidas a generar un cambio de patrones en la producción y el consumo que contemplen la sustentabilidad y la economía verde.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Precisiones terminológicas y prácticas específicas de la economía verde y el comercio verde internacional.</head><p>La economía verde es un modelo de producción integral e incluyente que considera variables ambientales y sociales, porque tiene como objetivo producir bajas emisiones de carbono, utilizar los recursos de forma eficiente y procura ser socialmente incluyente. Según Melina Campos <ref type="bibr" target="#b6">[6]</ref>, una economía verde, no sólo es acertada para economías más desarrolladas, sino que también puede ser un indicador del crecimiento y de erradicación de la pobreza en países en desarrollo "La transición a una economía verde será muy diferente en cada nación, ya que depende de la configuración específica del capital natural y humano de los países y de su grado relativo de desarrollo."Es importante destacar que tal como lo afirma el Programa de Naciones Unidas para el Medio Ambiente (PNUMA) <ref type="bibr" target="#b7">[7]</ref>, el concepto de economía verde no sustituye al de desarrollo sostenible, sino que es una ruta a tomar para alcanzarlo. El camino, no es igual para todos los países, sino que depende de la situación y perspectivas específicas de cada uno, por lo que no sería correcto establecer instrumentos o programas globales. Por otro lado, los mercados verdes refieren a aquellos mercados de productos y servicios ambientalmente amigables y de aquellos derivados del aprovechamiento sostenible del medio ambiente. En cuanto al comercio verde, al mismo lo constituyen un grupo de actuales y potenciales compradores de un bien o servicio, que responden a una preferencia o necesidad, en la cual se involucran aspectos ambientales que impulsan el crecimiento de este sector económico. En el mismo se tienen en cuenta la reutilización o eliminación de residuos, manifiesta una actitud positiva y activa hacia el reciclaje o hacia la compra de productos menos contaminantes.</p><p>En la práctica la regulación por parte de los estados se lleva a cabo mediante distintos instrumentos, normas y procedimientos. El que ha sido ampliamente implementado es el de las certificaciones de gestión ambiental en la producción, y comercio de determinados bienes y servicios. Un ejemplo es el del etiquetado ecológico, el cual es un procedimiento voluntario por el que un organismo independiente acredita públicamente, con la concesión de una etiqueta (ecoetiqueta), que el producto cumple con un conjunto de criterios que hacen que su impacto medioambiental sea menor a lo normal en su categoría de producto. Mera y Palacios <ref type="bibr" target="#b7">[7]</ref>, ponen como ejemplo el caso de la Flor Europea que representa la eco etiqueta de la Unión Europea. "Esta ecoetiqueta fue creada en 1992 con la aprobación del Reglamento 880/92, posteriormente modificado por el Reglamento 1980/2000. La coordinación de la Flor depende de la Dirección General de Medio Ambiente de la Comisión Europea, quien delega su administración a los distintos órganos competentes de cada Estado miembro. Es importante destacar que a pesar de que la Unión Europea cuenta con este mecanismo. Cada país puede generar su propio programa, y es por ello que coexisten varias etiquetas ecológicas, las cuales dependen de las industrias y las estrategias empresariales. No obstante a ello, se encuentra una visión holística e integral en la aplicación de la gestión ambiental.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>El tratamiento del Comercio Verde en el MERCOSUR</head><p>Dado que se desarrolló con anterioridad, al conformarse el MERCOSUR el proceso preparatorio a la Cumbre de Río estaba en pleno desarrollo, por tal motivo es que la cuestión ambiental no fue prioritaria en la definición de la agenda política del bloque en 1991 y el tratamiento del tema sólo se basó en la reducción de las barreras del bloque. Durante la década de los años noventa se sucedieron distintas resoluciones que trabajaron sobre cuestiones medioambientales. Ahora bien, no va ser hasta el año 2001 que en Asunción, se crea el Acuerdo Marco sobre Medio Ambiente del Mercosur, que según Mata Diz "representa un avance singular en favor de una reglamentación común sobre el medio ambiente en la región. Este acuerdo ya se encuentra debidamente incorporado por Argentina (Ley Nº 25841 del 26/11/03), Brasil (Decreto Nº5208 del 20/09/04), Paraguay (Ley N° 2068/03 del 28/01/03) y Uruguay (Ley Nº 17712 del 19/12/2003)" <ref type="bibr" target="#b5">[5]</ref>. Es importante resaltar que tal como se mencionó en el primer apartado, la capacidad de los estados para afianzar una economía verde está supeditada a su condición de país en vías de desarrollo. En este sentido se cita nuevamente a Mata Diz <ref type="bibr" target="#b5">[5]</ref> que explica que los objetivos de las políticas públicas y las normativas del bloque, como de cada uno de los países que integran el MERCOSUR está supeditado a: a) La promoción de la protección del medio ambiente y del aprovechamiento más eficaz de los recursos disponibles mediante la coordinación de políticas sectoriales, sobre la base de los principios de gradualidad, flexibilidad y equilibrio. b) La incorporación del componente ambiental en las políticas sectoriales e inclusión de las consideraciones ambientales en la toma de decisiones que se adopten en el ámbito del Mercosur para el fortalecimiento de la integración. c) La promoción del desarrollo sustentable por medio del apoyo recíproco entre los sectores ambientales y económicos, evitando la adopción de medidas que restrinjan o distorsionen, de manera arbitraria o injustificada, la libre circulación de bienes y servicios en el ámbito del Mercosur. "Tras este incipiente comienzo, el bloque empieza a incorporar políticas medioambientales relacionadas con la promoción del desarrollo sustentable y específicamente trabaja en el área de Producción y Consumo Sostenible (PyCS). Como lo define Sebastina Gillet <ref type="bibr" target="#b4">[4]</ref>, este término refiere al " (...) uso de servicios y productos que responden a las necesidades básicas, mejoran la calidad de vida y, a la vez, minimizan el uso de recursos naturales y materiales tóxicos así como las emisiones de desechos y contaminantes durante el ciclo de vida del servicio o producto; para así no poner en peligro las necesidades de las generaciones venideras." En cuanto al consumo sostenible, se puede decir que el mismo procura satisfacer las necesidades de las generaciones presentes y futuras, mientras el daño ambiental y los riesgos para la salud humana disminuyen. Para lograrlo, deben integrarse una serie de componentes, entre los que se destacan: satisfacción de necesidades; mejora de la calidad de vida; eficiencia en el uso de los recursos; incremento de la participación de las energías renovables; reducción de desperdicios; adopción de una perspectiva de ciclo de vida; y consideración de la equidad <ref type="bibr" target="#b4">[4]</ref>. En cuanto a la producción sustentable, la misma responde a la necesidad de reducir los impactos, por medio de la aplicación de mejoras en los procesos productivos y en el diseño de los productos. Pretende optimizar el desempeño ambiental de sectores clave de la economía, ofreciendo los mismos bienes y servicios, o incluso más y mejores <ref type="bibr" target="#b4">[4]</ref>. Para lograr dichos objetivos el bloque debe guiarse por el artículo 6 del Acuerdo Marco que establece la imbricación entre procesos productivos y medioambiente hasta la adopción de mecanismos que promuevan la innovación y el diseño ecológico, la educación eco-ambiental y la cooperación e intercambio de experiencias entre los Estados <ref type="bibr" target="#b5">[5]</ref>. Cabe destacar que el mayor desafío actual en el marco de la Producción y el Consumo Sustentable, se encuentra en lograr un sistema de eco-etiquetado regional. Para lograr dicho objetivo, los países miembros deben trabajar en los problemas actuales que detienen los avances en esta materia. En primer lugar, Argentina, Brasil, Paraguay y Uruguay han encarado las negociaciones multilaterales ambientales de forma individual, sin lograr coordinar sus posiciones, y menos aún, consolidar una posición regional. En la política interna de cada uno de los estados partes, según Gudynas <ref type="bibr" target="#b4">[4]</ref> se encuentra que los países del bloque poseen un marco institucional poco desarrollado. Los gobiernos de estos países justifican este debilitamiento porque consideran que a partir del mismo se pueden garantizar altos niveles de exportaciones e inversión extranjera. Además, agrega que existe una retórica en el discurso de éstos sobre la economía verde, marcada por una disociación existente entre las demandas internacionales y la gestión medioambiental local (Gudynas; 2012). Por último, pero no por ellos menos importante establece que los escasos avances logrados en los últimos años en el ámbito multilateral demuestran que los temas ambientales son trabas o barreras al desarrollo y no se ha llegado profundizar suficiente en el logro de instrumentos regionales que puedan ser incorporados por los diferentes sectores productivos. Para finalizar, si se hace un análisis de política comparada sobre los cuatro países que forman parte de este proceso de integración, se encuentra que Brasil es el estado más avanzado en cuanto a sistemas de ecoetiquetado, ya que posee el rótulo ABNT Qualidade Ambiental en funcionamiento. En el resto de los países los mismos tienen que acceder a dichos estandartes mediante la contratación de empresas privadas que evalúan sus procesos productivos a un alto costo.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Nuevas necesidades regulatorias en el comercio exterior del MERCOSUR políticas de medio ambiente que garantizan la sustentabilidad de los recursos</head><p>Los regímenes comerciales que actualmente se llevan a cabo en América del Sur y particularmente en el bloque del MERCOSUR, por incluir a una extensa área territorial, tiene la deuda pendiente de contribuir a preservar la integridad ambiental al identificar y respetar los límites de la capacidad regenerativa de los ecosistemas, y a evitar los daños irreversibles de las especies de plantas y animales que hoy corren un gran peligro.</p><p>Un eje teórico sobre el cual se puede analizar el estado actual y las políticas concretas a seguir, se basa en los principios de Winnipeg sobre Comercio y Desarrollo Sustentable <ref type="bibr" target="#b2">[2]</ref>. El punto central sobre el cual debe estar dirigido el análisis, es que el mismo no sugiere simplemente menos contaminación o un fin al crecimiento, sino un compromiso con una forma distinta de crecimiento. Con el argumento legítimo de proteger el ambiente, en la práctica se utilizan medidas que restringen el comercio y que no resultan las más efectivas para lograr el objetivo ambiental deseado. Algunas de ellas corresponden al ámbito de la política comercial mientras que otras forman parte de los instrumentos de la política ambiental. Este conjunto de medidas se ha denominado "proteccionismo ambiental" (Laplante y Garbutt, 1992) o "proteccionismo verde". <ref type="bibr" target="#b3">[3]</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sistema de certificación ambiental</head><p>Con el proceso de globalización, la competitividad es un factor esencial para alcanzar objetivos como el desarrollo económico y social de un país, o bien el crecimiento de una rama de la economía o un conjunto de empresas. Existe una percepción creciente de que la sustentabilidad ambiental aparece como una preocupación económica a mediano y largo plazo, no sólo a causa de la necesidad de no degradar las bases para el desarrollo, sino también porque ella puede ser un requisito indispensable para mantener o ganar mercados de exportación. En algunos casos se insiste en la capacidad de las empresas para incorporar progresos técnicos, mejorar su eficiencia y ampliar su participación en el mercado. En otros casos se destaca la capacidad de una economía para crecer y elevar el nivel de vida de la población en un marco de apertura comercial. En la práctica la regulación por parte de los estados se lleva a cabo mediante distintos instrumentos, normas y procedimientos. El que ha sido ampliamente implementado es el de las certificaciones de gestión ambiental en la producción, y comercio de determinados bienes y servicios. Sobre el tratamiento del comercio verde sustentable a escala regional Sebastián Gillet hace un " (...) relevamiento crítico de las políticas medioambientales del MERCOSUR específicamente la gestión en materia de Producción y Consumo Sustentable (PyCS)-y una propuesta para el desarrollo de un instrumento aún no explorado por el bloque: un sistema de ecoetiquetado de alcance regional" (2014: 5). <ref type="bibr" target="#b8">[8]</ref> Un ejemplo es el del etiquetado ecológico o ecoetiqueta, el cual es un procedimiento voluntario por el que un organismo independiente acredita públicamente, con la concesión de una etiqueta que el producto cumple con un conjunto de criterios que hacen que su impacto medioambiental sea menor a lo normal en su categoría de producto. <ref type="bibr" target="#b8">[8]</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusiones y recomendaciones</head><p>El presente trabajo de investigación fue realizado con el objetivo de analizar la información actualizada y publicada en bibliografías respecto a los avances y retrocesos en políticas y prácticas llevadas a cabo en el ámbito internacional y en el MERCOSUR en particular y en la provincia de Córdoba. Para garantizar la calidad ambiental de las exportaciones regionales, se fomenta una mejora de la reputación internacional de la producción del MERCOSUR, lo que tiene que contar en un futuro con una certificación que posicione y garantice el comercio verde. A lo largo de la investigación queda en evidencia las deficiencias actuales sobre la aplicación de medidas de producción y consumo sostenible en el MERCOSUR. Es por ello que se sostiene que el tratamiento de las cuestiones ambientales en la región debe realizarse de manera coordinada entre los estados partes del proceso. Para finalizar los países del MERCOSUR deben reducir los impactos de su actividad económico-productiva sobre la naturaleza en el corto plazo, y comenzar la transición hacia un nuevo modelo de desarrollo regional. Actualmente se está avanzando en la investigación de políticas públicas vigentes en la jurisdicción nacional y particular de la Provincia de Córdoba. Por lo cual ponemos en foco de análisis las prioridades regulatorias establecidas para el comercio exterior en el MERCOSUR, detalladas a continuación:  Los regímenes comerciales deben contribuir a preservar la integridad ambiental al identificar y respetar los límites de la capacidad regenerativa de los ecosistemas y a evitar los daños irreversibles de las especies de plantas y animales que hoy corren un gran peligro.</p><p> Del mismo modo, los sistemas productivos deben garantizar la disminución de la contaminación de gases de efecto invernadero y la facilitación de la comercialización de productos ecológicos intra bloque.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Formación de Recursos Humanos</head><p>Se considera que es imprescindible generar Recursos Humanos idóneos en la temática elegida, dado que son los que tendrán en un corto plazo el know how para asesorar en el ámbito público y privado las políticas y prácticas concretas para generar patrones de Producción y Consumo Sustentable a nivel local, nacional e internacional. Dada las características de la propuesta se prevé trabajar de manera multidisciplinaria, no sólo con los docentes de la Cátedra de Comercio Internacional de Ingeniería Industrial sino con todas aquellas especialidades que puedan aportar conocimientos acerca de las prácticas concretas a desarrollar en el ámbito de la Producción Sustentable. En vistas a ello, se procura trabajar con el sistema de becas de investigación para estudiantes y graduados de la Universidad Tecnológica Nacional y trabajar de manera complementaria con otros grupos de investigación de índole provincial, nacional e internacional, para fortalecer las competencias que se deben generar tanto para los docentes investigadores como para la transferencia de conocimiento a los alumnos El equipo de investigadores actualmente está formado por 6(seis) integrantes en su mayoría con postgrados obtenidos o en curso, 5 docentes investigadores y 1 alumno becario.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Publicaciones relacionadas con el PID</head><p>Primera aproximación a la práctica se presentó la primera publicación y exposición en el IV Congreso Argentino de Ingeniería -X Congreso Argentino de Enseñanza de la Ingeniería 19 al 21 de septiembre de 2018ciudad de Córdoba bajo el título "Interacción entre comercio y ambiente: El tratamiento del comercio verde sustentable desde el MERCOSUR hasta la Provincia de Córdoba (1992 -2017)"</p></div>		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title/>
+		<author>
+			<persName><surname>Guimaräes Y Bercerna</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">El desarrollo sustentable en América latina y el Caribe desde Rio 1992 y los nuevos imperativos de institucionalidad</title>
+	</analytic>
+	<monogr>
+		<title level="j">Instituto Nacional de Ecología</title>
+		<imprint>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="15" to="34" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Construir una economía verde para la Argentina</title>
+		<author>
+			<persName><forename type="first">Joe</forename><surname>Kaestner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="s">La Nación. Argentina. s/d</title>
+		<imprint>
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">El proteccionismo comercial verde: un análisis de tres nuevas cuestiones que afectan a los países en desarrollo</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Lottici</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Victoria</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Carlos</forename><forename type="middle">Y</forename><surname>Galperín</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Julia</forename><surname>Hoppstock</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Revista Argentina de economía internacional</title>
+		<imprint>
+			<biblScope unit="page" from="39" to="64" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title level="m" type="main">Reglas de Comercio y Sustentabilidad en las Américas. Instituto Internacional para el Desarrollo Sustentable</title>
+		<author>
+			<persName><forename type="first">Marie-Claire Cordonier</forename><surname>Segger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mindahi</forename><surname>Bastida Muñoz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Paulo</forename><surname>Ribeiro Meireles</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jorge Zalles Taurel Y Virgina</forename><surname>Paul</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2001" />
+			<publisher>Canadá</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<author>
+			<persName><surname>Mata Diz</surname></persName>
+		</author>
+		<title level="m">La normativa medioambiental del Mercosur. Papeles del Centro de Investigación</title>
+				<imprint>
+			<biblScope unit="page" from="69" to="102" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title level="m" type="main">Economía verde. Éxito empresarial 151</title>
+		<author>
+			<persName><surname>Campos Melina</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2011" />
+			<biblScope unit="page" from="1" to="4" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">La industria española y el etiquetado ecológico. Boletín económico de ICE</title>
+		<author>
+			<persName><surname>Mera &amp; Palacios</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Información Comercial Española</title>
+		<imprint>
+			<biblScope unit="page" from="13" to="22" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Eco-etiquetado en el mercosur potencialidades del enfoque regional en la adopción de modalidades de producción y consumo sustentables</title>
+		<author>
+			<persName><forename type="first">Sebastián</forename><surname>Gillet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">NACIONES UNIDAS</title>
+		<imprint>
+			<date type="published" when="1992" />
+		</imprint>
+	</monogr>
+	<note>Red Latin. Working paper 154 [9. Declaración de Río sobre el Medio Ambiente y el Desarrollo</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

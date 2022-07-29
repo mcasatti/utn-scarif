@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="es">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Análisis de las respuestas al Test de Felder</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Vizcaíno</forename><surname>Verónica</surname></persName>
+							<email>vevizcaino05@gmail.com</email>
+						</author>
+						<author>
+							<persName><forename type="first">Armijo</forename><surname>Daniela</surname></persName>
+							<email>danielaa.armijo@gmail.com</email>
+						</author>
+						<author>
+							<persName><forename type="first">Butni</forename><surname>Sandra</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Solana</forename><surname>González</surname></persName>
+						</author>
+						<author>
+							<persName><surname>Lucas</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Robledo</forename><surname>Santos</surname></persName>
+						</author>
+						<author>
+							<persName><surname>Julián</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Departamento Materias Básicas</orgName>
+								<orgName type="institution" key="instit1">Facultad Regional San Rafael</orgName>
+								<orgName type="institution" key="instit2">Universidad Tecnológica Nacional Urquiza 314</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department">Test de Felder</orgName>
+								<address>
+									<settlement>Permanencia en la universidad</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Análisis de las respuestas al Test de Felder</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">4B6E58E0CA31934688792E615842BDCC</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.7.0" ident="GROBID" when="2022-04-09T01:35+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Este trabajo surge en el marco del Proyecto de Investigación: "Relación entre los estilos de aprendizaje de los estudiantes y permanencia en la universidad en las carreras de ingeniería". Para determinar los estilos de aprendizaje de los alumnos, entre varios instrumentos se seleccionó el Test de Felder, especialmente por haber sido diseñado y aplicado originariamente a estudiantes de ingeniería. Como consecuencia de la aplicación del test se obtuvieron los datos buscados, referidos a los estilos de aprendizaje y además, de las preguntas realizadas en el test se ha obtenido una valiosa información respecto a la generalidad de las preferencias de los alumnos al momento de trabajar en el aula ya sea en lo que respecta a la actividad propia, en trabajo con sus pares o las actividades de los docentes.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="es">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Identificación</head><p>Código del PID: TEUTNSR0004575 Tema prioritario del Programa de Tecnología Educativa y Enseñanza de la Ingeniería en que se inserta: Educación Indicar Fechas de inicio y finalización : 6/2/2017 al 31/12/2018</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Introducción</head><p>Los estilos de aprendizaje han sido ampliamente estudiados y existen muchas teorías y tipologías de estilos de aprendizaje. Etimológicamente, la palabra estilo proviene del término latino "stilus", y éste a su vez del griego "punzón" que es un instrumento de escritura utilizado antiguamente. Se infiere que la palabra se utilizaría más que para denotar a la herramienta, a quien lo usase, identificando una forma particular de uso del punzón, propia e identificable y es la acepción con la que utilizamos el concepto hoy: la de una forma particular, característica y distintiva, que describe la conducta de un individuo dado. <ref type="bibr" target="#b5">(Hederich Martínez, 2013)</ref>. Existen muchas definiciones de los estilos de aprendizaje y de la misma manera se han creado una variedad de tipologías. Myers y Briggs relacionan los estilos de aprendizaje con la personalidad, y tomando como base la teoría de Jung proponen cuatro orientaciones que se ordenan bipolarmente con sus opuestos:</p><p>extroversión-introversión, sensación-intuición, pensamiento sentimiento y juicio-percepción <ref type="bibr" target="#b8">(Salas, 2008</ref><ref type="bibr">en Arias Gallegos, 2011</ref>. Sin embargo, <ref type="bibr">Keefe (1988)</ref> en (Salas Silva, 2008) encontró que las dimensiones de personalidad definidas por Myers se diferencian de los estilos de aprendizaje. Los ítems del test de Myers y Briggs de indicador de tipos miden la personalidad pero no son una medición directa del estilo de aprendizaje, según los resultados obtenidos por algunas investigaciones. Aunque <ref type="bibr">Given et al. (1999</ref><ref type="bibr">Given et al. ( -2000</ref> citado en <ref type="bibr" target="#b8">(Salas Silva, 2008)</ref> encontraron que la superposición entre personalidad y estilos de aprendizaje es tan grande que pueden utilizarse por igual para predecir el éxito académico. Otra tipología que se basa en constructos bipolares de los estilos de aprendizaje es la de Felder y Silverman, quienes clasifican los estilos de aprendizaje a partir de cuatro dimensiones: activo -reflexivo, sensorial -intuitivo, visual-verbal y secuencial-global. El modelo de Programación Neurolingüística (PNL) de Blander y Grinder se basa en la percepción sensorial de la información que luego codificamos y almacenamos, en definitiva, aprendemos. Aunque todos utilizamos los cinco sentidos, "nos apoyamos con mayor énfasis en alguno de ellos generando así un sistema representacional sensorial preferente, de manera que esto tiene una influencia determinante y decisiva en la forma en la que recibimos, codificamos y almacenamos internamente la información que nos llega del exterior" <ref type="bibr" target="#b1">(Fernández Fernández, Camus Díez, &amp; López Maza, 2012)</ref>. En contraposición al paradigma de la existencia de una inteligencia única, Howard Gardner y sus colaboradores de la Universidad de Harvard, identificaron y definieron hasta ocho tipos de inteligencia distintas. Esto ha servido para plantear la existencia de diversos estilos de aprendizaje en función de estas inteligencias múltiples que propuso Gardner en 1983. Los ocho tipos de inteligencia identificados son: lingüístico -verbal, lógico -matemática, visual -espacial, corporal -kinestésica, musical, naturalista, intrapersonal e interpersonal. En la actualidad, gracias a la teoría de las Inteligencias Múltiples, se plantea la necesidad del cambio en el paradigma educativo, llevándolo hacia una enseñanza personalizada, más aún teniendo en cuenta la irrupción de las TIC (Tecnologías de la Información y la Comunicación). <ref type="bibr" target="#b3">(Gardner, 2011)</ref> Un modelo que se sustenta en las neurociencias es el de los Cuadrantes Cerebrales de Herrmann, que percibe el cerebro compuesto por cuatro cuadrantes, entrecruzando el modelo de Sperry de los hemisferios izquierdo y derecho y el de McLean de los cerebros límbico y cortical.</p><p>Estos cuatro cuadrantes especializados pueden caracterizarse como: lógico, organizado, experimental y sentimental. Las personas con dominancia de la primera nombrada son lógicas y analíticas, tienen preferencias por los números y las verbalizaciones. Tienen además, aptitud para carreras de ingenierías y ciencias. El tipo organizado se caracteriza por ser secuencial, estructurado y detallado, su procesamiento es lineal. Las carreras de administración y contabilidad son ideales para estas personas. El tipo experimental son personas imaginativas, sintetizadoras, artísticas y creativas. Su procesamiento es holístico y prefiere carreras relacionadas con el manejo de empresas, la planificación y el arte. Por último el sentimental es emocional, le interesa la música, es muy sociable y espiritual. Le interesan las carreras donde existe riqueza de relaciones interpersonales como docencia, enfermería, psicología, etc. (Salas, 2008) en (Arias Gallegos 2011) Sin embargo, el modelo más difundido es el de David Kolb de aprendizaje basado en experiencias. David Kolb, distingue cuatro estilos de aprendizaje: el divergente, el convergente, el asimilador y el acomodador. Kolb investigó cómo aprendían las personas según la profesión que tenían y elaboró una teoría de base piagetiana, identificando dos dimensiones principales del aprendizaje: la percepción y el procesamiento. Sostenía que el aprendizaje es el resultado de la forma como las personas perciben y luego procesan lo que han percibido. Describió dos tipos opuestos de percepción: las personas que perciben a través de la experiencia concreta, y las personas que perciben a través de la conceptualización abstracta. A medida que iba explorando las diferencias en el procesamiento, Kolb también encontró ejemplos de ambos extremos: algunas personas procesan a través de la experimentación activa (la puesta en práctica de las implicaciones de los conceptos en situaciones nuevas), mientras que otras a través de la observación reflexiva. La yuxtaposición de las dos formas de percibir y las dos formas de procesar es lo que llevó a Kolb a describir un modelo de cuatro cuadrantes para explicar los estilos de aprendizaje. Propone una secuencia de aprendizaje de cuatro fases: actuación (experiencia concreta), reflexión (observación reflexiva), teorización (conceptualización abstracta) y experimentación (experimentación activa). Cada una determina un modo característico de aprender que encuentra su contrario en un continuo de polos opuestos que genera cuatro cuadrantes. Una primera dimensión es conceptualización abstracta y su antónimo es la experiencia concreta, mientras que la otra dimensión contrapone la observación reflexiva con la experimentación activa (CA-EC-OR-EA) <ref type="bibr">(Kolb, 1999)</ref>. A su vez, la intersección de cada modo de aprender genera un estilo de aprendizaje. También postula que el que aprende necesita, si ha de ser eficaz, cuatro clases diferentes de capacidades: Capacidad de experiencia concreta (EC); de observación reflexiva (OR); conceptualización abstracta (CA) y experimentación activa (EA). Kolb argumenta que los profesores deberían alentar a sus estudiantes a desenvolverse en los cuatro tipos diferentes de este ciclo de aprendizaje. Resultados utilizando el Inventario de Estilos de Aprendizajes de Kolb (1976) en <ref type="bibr" target="#b4">(Healey &amp; Jenkins, 2000)</ref> han mostrado un cierto grado de acuerdo acerca de los grupos de disciplinas basadas en los estilos de aprendizaje predominantes entre sus alumnos.</p><p>Trabajos técnicos, como ingenieros, que requieren técnicas de resolución de problemas, precisan de un estilo de aprendizaje predominantemente convergente <ref type="bibr" target="#b7">(Muñoz-Seca &amp; Sánchez, 2001)</ref>. Esta afirmación viene en apoyo de la hipótesis de Liam Hudson <ref type="bibr" target="#b9">(Wall &amp; Varma, 1975)</ref> de que en los científicos predomina el pensamiento convergente. Debido a las características de este estilo que combina las modalidades de conceptualización abstracta y experimentación activa, las personas que se inclinan por este tipo de aprendizaje tienden a ser menos emocionales y prefieren lidiar con cosas antes que con personas. Sus fortalezas son el encontrar el uso práctico de las ideas y las teorías. Poseen la capacidad para resolver problemas y tomar decisiones. Estas personas organizan el conocimiento a través del razonamiento hipotéticodeductivo. Podría haber una relación entre este modo de aprendizaje y la permanencia en carreras de ingeniería, de modo que a una mayor predominancia del estilo convergente, mayor permanencia en la Universidad. Una corriente cada vez más importante enfatiza la posible relación entre el rendimiento académico y estilos de aprendizaje. Por ejemplo, en 250 estudiantes de Hong Kong se encontró que los estilos de aprendizaje predicen el rendimiento académico en 16 asignaturas excepto música, arte y diseño <ref type="bibr">(Núñez et al., 2006)</ref>. Partiendo de la hipótesis de que el rendimiento académico está relacionado con la permanencia de los alumnos en la Universidad (hipótesis corroborada por varias investigaciones), encontrar que realmente existe relación entre los estilos de aprendizaje, específicamente el que utilizan mayormente los ingenieros, y el rendimiento académico podría orientarnos hacia una respuesta interesante al problema analizado.</p><p>A partir del interés en determinar cuáles son los Estilos de Aprendizaje de los estudiantes de primer año de Ingeniería, se seleccionó el Test de Felder como instrumento cuantitativo. Éste clasifica las tendencias de aprendizaje en cuatro dimensiones: activo-reflexivo, sensorial-intuitivo, visual-verbal y secuencial-global. El presente artículo es una síntesis de las respuestas de alumnos a algunas de las preguntas del Test de Felder, independientemente de los estilos de aprendizaje que hayan resultado sobre la aplicación del Test de Felder de los Estilos de aprendizaje. El Test de Felder fue aplicado a la cohorte ingresante 2017 a primer año de las carreras de ingeniería, a la totalidad de los alumnos con el objetivo de determinar si la permanencia de los alumnos en la facultad está relacionada o no con los estilos de aprendizaje.</p><p>Sin bien el Test de Felder tiene como finalidad Determinar los Estilos de Aprendizaje de las personas (independientemente de que sean docente o alumnos), se ha realizado una lectura pormenorizada de algunas de las preguntas con el fin de poder comprender cómo aprenden nuestros estudiantes y poder proponer acciones conforme a ello. Los resultados muestran claramente una predisposición al aprendizaje con preeminencia de los estímulos visuales. Sin embargo, también se observa que los alumnos prefieren las explicaciones orales. También muestran que son más activos que reflexivos, prefiriendo la realización de ejercicios repetitivos y el trabajo en equipo. Las respuestas más significativas son las siguientes:</p><p>1. El 84% de alumnos entiende mejor algo si lo practica que si piensa en ello. 2. Al 62% le ayuda hablar de algo que está aprendiendo, mientras que el resto prefiere pensar. 3. El 80% de los alumnos considera que es más posible que, en un grupo de estudio que trabaja con material difícil participe y contribuya con ideas, mientras que el 20% considera que es más probable que no participe y sólo escuche. 4. El 63% de los alumnos considera saber cómo son muchos de los estudiantes. 5. El 68% de alumnos, cuando empieza a resolver un problema de tarea, es más probable que primero trate de entenderlo y el 32% que comience inmediatamente a trabajar en la solución. 6. El 56% de los alumnos prefiere estudiar en un grupo de estudio, mientras que el 44% prefiere hacerlo solo. 7. El 75% de los alumnos se considera realista y no innovador. 8. El 79% de los alumnos, si fuera profesor, preferiría dar un curso sobre hechos y situaciones reales de la vida y no uno que trate con ideas y teorías. 9. Para el 68% de los alumnos es más fácil aprender hechos que conceptos. 10. El 52% de los alumnos prefiere, cuando lee temas que no son de ficción algo que le enseñe hechos nuevos o le diga cómo hacer algo, mientras que el 48% prefiere alguna cosa que le de nuevas ideas para pensar. 11. El 79% de los alumnos prefiere la idea de certeza a la de teoría. 12. El 69% de los alumnos se considera cuidadoso en los detalles de su trabajo y el 31% creativo en la forma que hace su trabajo. 13. El 75 % de los alumnos piensa en lo realizado el día anterior basándose en una imagen y el 25% en palabras. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Objetivos, Avances y Resultados</head><p>Siendo el objetivo general del PID, "Analizar en qué medida se corresponden los estilos de aprendizaje y la permanencia de los estudiantes de las carreras de Ingeniería en la Facultad Regional", uno de los objetivos específicos para lograr el general, consiste en "Identificar los estilos de aprendizaje de los estudiantes", motivo de la presente publicación. A partir del interés en determinar cuáles son los Estilos de Aprendizaje de los estudiantes de primer año de Ingeniería, se seleccionó el Test de Felder como instrumento cuantitativo. Éste clasifica las tendencias de aprendizaje en cuatro dimensiones: activo-reflexivo, sensorial-intuitivo, visual-verbal y secuencial-global. Utilizando la herramienta Formularios de Google, se recabó información de 190 alumnos de primer año de Ingeniería. El resultado obtenido queda descrito en el artículo.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Formación de Recursos Humanos</head><p>En este proyecto ha trabajado un equipo conformado por docentes investigadores de primer y segundo nivel de la facultad y alumnos que están iniciando su formación como investigadores. En el último período se ha incorporado un investigador externo, psicopedagogo, al equipo.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Publicaciones relacionadas con el PID</head><p>Los resultados obtenidos hasta el momento han sido publicados en el Noveno Encuentro de Investigadores y Docentes de Ingeniería EnIDI 2017, Ciudad de Mendoza, Argentina.</p></div>		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Estilos de aprendizaje en estudiantes universitarios y sus particularidades en función de la carrera, el género y el ciclo de estudios</title>
+		<author>
+			<persName><forename type="first">Arias</forename><surname>Gallegos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Estilos de Aprendizaje</title>
+		<imprint>
+			<biblScope unit="page" from="112" to="135" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title level="m" type="main">La programación neurolingüística en el aprendizaje universitario</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Fernández Fernández</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Camus Díez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>López Maza</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2012" />
+		</imprint>
+		<respStmt>
+			<orgName>V Congreso Mundial de Estilos de Aprendizaje. Santander</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title level="m" type="main">Learning and Teaching Styles in Engineering Education</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Felder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Silverman</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1988" />
+			<biblScope unit="page" from="674" to="681" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title level="m" type="main">De las Inteligencias Múltiples a la Educación Personalizada</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Gardner</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2011" />
+			<pubPlace>Punset, Interviewer</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Octubre 18)</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Kolb&apos;s Experiential Learning Theory and Its Application in Geography in Higher Education</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Healey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Jenkins</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Geography</title>
+		<imprint>
+			<biblScope unit="page" from="185" to="195" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Estilística educativa</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Hederich Martínez</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Revista Colombiana de Educación</title>
+		<imprint>
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Las estrategias de aprendizaje en la educación formal: enseñar a pensar y sobre el pensar</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Monereo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Infancia y Aprendizaje</title>
+		<imprint>
+			<biblScope unit="page" from="3" to="25" />
+			<date type="published" when="1990" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Los estilos de aprender</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Muñoz-Seca</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Sánchez</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IESEP BUSINESS SCHOOL</title>
+		<imprint>
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+	<note>Noviembre 8)</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+		<title level="m" type="main">Estilos de aprendizaje a la luz de la neurociencia</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Salas Silva</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2008" />
+			<publisher>Cooperativa Editorial Magisterio</publisher>
+			<pubPlace>Bogotá</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+		<title level="m" type="main">Avances en Psicología de la Educación</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Wall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Varma</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1975" />
+			<publisher>Ediciones Morata</publisher>
+			<pubPlace>Madrid</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

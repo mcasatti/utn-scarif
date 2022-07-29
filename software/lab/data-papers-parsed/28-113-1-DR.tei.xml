@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="es">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Definición de un Objeto de Aprendizaje en base al Trabajo Práctico Integrador de 1º Año: El caso de PregUTNados</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><roleName>María</roleName><forename type="first">Federico</forename><surname>Hauque</surname></persName>
+							<email>fghauque@gmail.com</email>
+							<affiliation key="aff0">
+								<orgName type="department">Departamento de Ingeniería en Sistemas de Información</orgName>
+								<orgName type="institution" key="instit1">Facultad Regional Santa Fe</orgName>
+								<orgName type="institution" key="instit2">Universidad Tecnológica Nacional</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Julia</forename><surname>Blas</surname></persName>
+							<email>mariajuliablas@santafe-conicet.gov.ar</email>
+							<affiliation key="aff0">
+								<orgName type="department">Departamento de Ingeniería en Sistemas de Información</orgName>
+								<orgName type="institution" key="instit1">Facultad Regional Santa Fe</orgName>
+								<orgName type="institution" key="instit2">Universidad Tecnológica Nacional</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Marta</forename><surname>Castellaro</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Departamento de Ingeniería en Sistemas de Información</orgName>
+								<orgName type="institution" key="instit1">Facultad Regional Santa Fe</orgName>
+								<orgName type="institution" key="instit2">Universidad Tecnológica Nacional</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Definición de un Objeto de Aprendizaje en base al Trabajo Práctico Integrador de 1º Año: El caso de PregUTNados</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">395CF1D638F23A3883824641FCE91481</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.7.0" ident="GROBID" when="2022-04-09T01:35+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="es">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Resumen</head><p>En este artículo se describen las acciones de un equipo de docentes-investigadores para facilitar la formación práctica de asignaturas iniciales de la carrera de Ingeniería en Sistemas de Información (ISI) haciendo uso de estrategias de trabajo basadas en problemas de ingeniería. Tales estrategias permiten a los alumnos continuar trabajando sobre los desarrollos a fin de generar aprendizajes significativos extracurriculares por medio de la conformación de objetos de aprendizaje. Se describe un caso de sistematización para la elaboración de un objeto de aprendizaje específico basado en desarrollos producidos por los estudiantes en el marco de trabajos prácticos de cátedra. Se evidencia la forma en la cual un proceso de apoyo a la metodología "aprender haciendo" contribuye a enriquecer los desarrollos de los estudiantes a fin de generar herramientas de software que sean objetos de interés, las cuales los motivan a continuar trabajando en implementaciones más allá de la asignatura.</p><p>Palabras clave: Motivación, enseñanza.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introducción</head><p>Comúnmente en los alumnos que comienzan los estudios universitarios se evidencia una falta de homogeneidad en conocimientos y capacidades previas y, específicamente, a las expectativas con la disciplina en el caso de ISI. Esto requiere llevar adelante estrategias de formación que minimicen el impacto negativo producido por diferentes factores que los estudiantes deben superar (cómo estudiar, cómo conformar equipos, etc.). Distintos estudios <ref type="bibr" target="#b0">(Castellaro, et al., 2016)</ref> plantean la interrelación que existe entre lo cognitivo y lo motivacional en las condiciones del aprendizaje significativo. En estos casos, se plantea que el rendimiento alcanzado por un individuo se encuentra influido tanto por sus conocimientos y capacidades como así también por otros factores que pueden englobarse genéricamente bajo el término de "motivación". Esta realidad requiere estrategias, materiales de trabajo y prácticas docentes elaboradas especialmente a fin de motivar e integrar, atendiendo a la realidad de los grupos de jóvenes que transitan ese período, ampliando el conjunto de recursos básicos con los que se trabaja y generando propuestas que apoyen los aprendizajes y las competencias. Las propuestas deben ser generadoras de interés y desafíos según el contexto de los alumnos (restringido a que recién inician la carrera, por lo que cuentan con poca formación específica). Además, tales propuestas deben diseñarse considerando que los docentes puedan acompañar a los estudiantes más allá de las cátedras, buscando que los alumnos interesados extiendan lo alcanzado para transformar lo que comenzó como ejercicio o trabajo práctico (TP) en herramientas útiles y publicables. En este trabajo se presenta una propuesta de sistematización para la elaboración objetos de aprendizaje (OA) basados en desarrollos producidos por los estudiantes en el marco de trabajos prácticos de cátedra. Se evidencia la forma en la cual un proceso de apoyo a la metodología "aprender haciendo" contribuye a enriquecer los desarrollos de los estudiantes a fin de generar objetos de interés que los motivan a continuar trabajando en implementaciones más allá del cursado de la asignatura. Se toma como referencia un TP específico llevado a cabo por alumnos de primer año de ISI, el cual consistió en la implementación de una herramienta de software basada en un juego de preguntas y respuestas similar a "Preguntados" <ref type="bibr" target="#b1">(Hauque y Saudejaud, 2016)</ref>. En este caso, el entusiasmo que despertó el juego en aquellos alumnos que interactuaron con el mismo en visitas a escuelas secundarias y las consultas de los docentes referidas al empleo de dicho juego como una herramienta didáctica, llevaron a su definición como OA en el marco del trabajo realizado como parte de un proyecto de investigación y desarrollo (PID).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Marco teórico Contexto del PID (Castellaro 2017)</head><p>El PID se denomina "Las intervenciones didácticas y el uso de TIC para la motivación e integración en el inicio de la carrera de ISI" y tiene como objetivo "explorar, diseñar, desarrollar y evaluar intervenciones didácticas que favorezcan la motivación e integración de conocimientos y habilidades en alumnos ingresantes". Este proyecto se encuentra estrechamente vinculado a la cátedra de la asignatura Algoritmos y Estructuras de Datos (AEDD), del primer año de la carrera. En esta cátedra se vienen llevando a cabo desde hace algunos años, propuestas de trabajos prácticos como problemas / proyectos integradores, que se desarrollan en etapas cíclicas de creciente complejidad, llevadas adelante a lo largo del curso, como "proceso de aprendizaje. (Golobisky y Castellaro 2017) Se trata de fortalecer la motivación, acompañar el proceso de aprendizaje en el cursado anual y favorecer la creatividad. Se busca además que estos trabajos trasciendan los límites propios de los contenidos y del curso, promoviendo la integración entre estudiantes y docentes, y su participación en distintas instancias y proyectos. Un ejemplo de esto es el software MatDis <ref type="bibr" target="#b4">(Blas et al. 2009</ref>) de apoyo a la enseñanza de matemática discreta que se integró como material complementario de un libro. En este contexto, durante el ciclo lectivo 2018 se decidió comenzar a trabajar en la definición y difusión de OA vinculados a los desarrollos realizados por los alumnos.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Objeto de Aprendizaje</head><p>Los OA son entidades informativas digitales, desarrolladas para la generación de conocimientos, habilidades y actitudes <ref type="bibr" target="#b5">(Brito J., 2009)</ref>. Estos objetos se corresponden con una realidad concreta y pueden clasificarse de acuerdo a dos criterios: i) según utilidad pedagógica y ii) según aspectos tecno-pedagógicos. En el primer caso, los OA se dividen en: -Objetos de instrucción: Se sustentan en variados recursos como textos, imágenes y videos para generar instancias de aprendizaje interactivo. -Objetos de colaboración: Fomentan la cooperación y el intercambio de información en una tarea de aprendizaje. -Objetos de prácticas: Permiten simular de forma sencilla tareas complejas, brindando al estudiante la posibilidad de practicar y evaluar resultados dentro de un entorno controlado. -Objetos de evaluación: Se encargan de poner a prueba los conocimientos del usuario en las etapas del aprendizaje. De acuerdo a aspectos tecno-pedagógicos y alcance, los OA se clasifican en: -Objetos informativos: Contiene los elementos de conocimiento junto con su evaluación en sus aspectos básicos. -Objetos generativos: Es capaz de producir más objetos a partir de plantillas tecno-pedagógicas. -Objetos de simulación: Contienen la instrumentación de partes de simulación de diversos tipos. -Objetos colaborativos: Permite el aprendizaje grupal por medio de componentes propios del OA. El recurso mismo no puede ser considerado OA sino está acompañado de una estructura de información llamada metadato que facilite su identificación, almacenamiento y recuperación. Uno de los estándares propuestos para estos fines es el estándar IEEE LOM "Learning Object Metadata" (IEEE 2009), el cual describe un esquema conceptual que abarca 47 características del objeto analizado. El mismo estándar aclara que no siempre es necesario completar todos los campos para describir el objeto, sino que se debe evaluar cuales son los datos pertinentes para cada OA particular. En <ref type="bibr">(Santos J.L. et al., 2011)</ref> se detalla que son 19 los metadatos más utilizados para los objetos definidos en un repositorios específico. El título, lenguaje y tipo de recurso son algunos de los más frecuentes. Los OA son concebidos como mecanismos de utilidad para el aprendizaje, por lo que uno de los objetivos fundamentales luego de que el objeto ha sido definido e implementado, es su difusión. Los OA se difunden por medio de repositorios que permiten, entre otras cosas, almacenar, buscar, consultar y descargar OA de muy diversas áreas de conocimiento. Los metadatos cobran una mayor importancia en relación con estos repositorios, pues permiten identificar e indexar los distintos OA por medio de atributos estandarizados.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Objetivos y Metodología</head><p>La construcción de OA no es una tarea simple. Usualmente este tipo de elementos surge de forma natural ante una necesidad educativa para la cual se requiere de algún instrumento que contribuya al aprendizaje, pero no siempre son difundidos de forma adecuada ya que no es usual que los desarrolladores identifiquen al OA en términos de los metadatos requeridos para concretar un objeto de interés para la comunidad en general. El proceso propuesto en este trabajo inicia como TP a desarrollar por los estudiantes en una cátedra y, luego, plantea una continuidad como parte de un trabajo extracurricular (apoyado por los docentes). Es fundamental mantener el interés de los estudiantes a lo largo de todo el proceso, proponiéndoles desafíos reales pero factibles de ser alcanzados en un tiempo prudente (para no producir frustración ni ansiedad). A continuación se presentan las actividades propuestas a fin de que los docentes guíen a los estudiantes a lo largo de todo el proceso.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Definición del Problema / Proyecto</head><p>Los docentes de la cátedra interesada deben trabajar en la formulación de un enunciado apropiado para la construcción del TP. Este enunciado debe generar interés en los alumnos a fin de consolidar las distintas unidades temáticas a modo de aprendizajes por medio de la construcción de la solución requerida. Además, debe brindar cierta libertad a los estudiantes a fin de permitirles explorar aspectos propios del problema planteado e innovar sobre las soluciones permitidas. Para esto, el problema base del TP debe ser bien conocido por los alumnos. 3.2. Selección de TP con Potencial de OA En función de los desarrollos realizados por los estudiantes, los docentes deben seleccionar del conjunto de entregas realizadas, aquellas que se destacan por algún factor en particular; por ejemplo originalidad, personalización, agregado de características, escenarios, etc. No es necesario seleccionar una única solución. Los docentes tienen la facultad de evaluar las soluciones a fin de, luego, proponer una estrategia de trabajo acorde al subconjunto de entregas seleccionado.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.">Definición del OA en base a los TP</head><p>El grupo de docentes debe evaluar las cualidades de cada uno de los desarrollos seleccionados a fin de guiar a los estudiantes en la definición del OA. En este punto es importante destacar que de un mismo TP, pueden construirse múltiples OA (por ejemplo, presentando un nuevo desafíodistinto-para que cada estudiante -o grupo de estudiantes-extienda su trabajo actual). También puede proponerse una combinación de las soluciones existentes a fin de obtener un desarrollo de mayor envergadura. En esta actividad es fundamental la definición del alcance del OA y de las tareas requeridas para su formulación. Además, se debe tener en cuenta que no debe perderse la esencia del desarrollo realizado en el marco del TP. De ser posible, se debe continuar trabajando con las mismas herramientas a fin de garantizar una continuidad en el desarrollo. Los docentes involucrados deben tener en cuenta que al respetar este lineamiento pueden introducir limitaciones al OA resultante. Por este motivo, se deben evaluar cuidadosamente tales decisiones.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4.">Construcción y Uso del OA</head><p>Una vez implementado el OA, se deben identificar los metadatos asociados a fin de caracterizarlo. Además se puede dar a los alumnos la posibilidad de interactuar con usuarios reales para evaluar su adecuación.</p><p>En este sentido, es importante que los docentes faciliten situaciones en las cuales se pueda probar el OA en instancias reales, de manera que se genere una validación, experiencia y retroalimentación.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.5.">Publicación y Distribución del OA</head><p>Los esfuerzos no deben centrarse únicamente en la creación del OA sino también en su publicación y distribución. Tal como se ha establecido con anterioridad existen múltiples repositorios especialmente destinados a almacenar OA acompañados de un conjunto de metadatos que los describen (a fin de facilitar los procesos de búsqueda, evaluación y adquisición). Entre los más destacados se encuentran repositorios generales como Ariadne (que almacena más de 380000 OA de las más diversas áreas temáticas) o más específicos como Openstax CNX (que se enfoca más en contenidos escolares reusables). En la actualidad, muchas universidades han desarrollado repositorios de OA (como es el caso del Repositorio Institucional Digital de la Universidad Nacional de Quilmes), mientras que otras instituciones han optado por proveer los OA en forma libre como material didáctico de diversos cursos (como es el caso de la Open Learning Initiative, de Carnegie Mellon). La Universidad Tecnológica Nacional (UTN) también dispone de un Repositorio Institucional Abierto (RIA) destinado a la difusión de producciones académicas como OA.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Resultados</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1.">El TP: PregUTNados</head><p>PregUTNados se formuló como una adaptación del juego Preguntados a C++, propuesta como TP de AEDD durante 2015, bajo un esquema de 3 etapas de desarrollo (cada etapa de 2 meses de duración). Jugar una partida en PregUTNados consiste en responder diez preguntas elegidas aleatoriamente por una ruleta que gira entre cinco categorías que corresponden a asignaturas de 1º año de ISI, a saber: Análisis Matemático, Física, Arquitectura de computadoras, Matemática Discreta y AEDD. Para cada pregunta se imprime en pantalla su texto junto con cuatro opciones (una opción es correcta). Hay un tiempo máximo de 30 segundos para responder cada pregunta. En cada partida participan dos jugadores, ganando quien obtenga más respuestas correctas o, en caso de empate, quien haya respondido en menos tiempo. Una vez realizadas las entregas por parte de los estudiantes, se utilizó uno de los desarrollos presentados en diversas instancias como ejemplo de motivación para alumnos aspirantes e ingresantes a la universidad. Dadas las características propias incluidas por el grupo de trabajo, este desarrollo fue elegido para ser refinado en las siguientes actividades.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.">Extensión de la Herramienta Inicial</head><p>A pesar del potencial de la herramienta desarrollada por los estudiantes, la versión original no podía ser usada en distintos contextos porque las preguntas del juego se limitaban a categorías y temas predefinidos que no podrían ser alterados por el usuario. En este contexto, en el marco del PID se propuso realizar cambios al juego con el objetivo de permitir que tanto las preguntas como las categorías que las agrupan sean completamente personalizables. La propuesta de permitir la alteración de los nombres de las categorías implicó efectuar modificaciones en el código fuente del juego para que, en lugar de imprimir nombres predefinidos, los mismos sean leídos de un archivo de texto. De esta manera, cualquier cambio en el contenido del archivo se refleja en las pantallas del juego final. Respecto a la personalización de las preguntas, dado que el juego original se encontraba diseñado para leerlas directamente desde un archivo externo, no fue necesario realizar cambios. Luego, el contenido de las preguntas no se ve afectado por la herramienta en sí misma, sino por el contenido del archivo. Sin embargo, aunque la edición manual de los archivos de configuración permite personalizar el juego, dado que se tiene un formato de texto a ser respetado, no es conveniente modificarlos con un editor de texto convencional. Por este motivo se implementó un aplicativo complementario que asiste al usuario proveyéndole una interfaz que, siguiendo una secuencia de pasos, le permite elegir una pregunta, modificar su texto y opciones, e incluso elegir una nueva opción como correcta. Además puede modificar las categorías. El aplicativo complementario se limita a recibir como entrada los datos de cada pregunta o categoría y se encarga de darles el formato adecuado para almacenarlos en los archivos de configuración asociados. De esta manera, el juego original ha sido transformado para formular preguntas sobre cualquier área temática y agruparlas en categorías que el usuario haya decidido, sin necesidad de conocer su funcionamiento. Es importante destacar que se realizaron la menor cantidad de cambios posibles al juego original, de modo que siga siendo mayoritariamente un desarrollo de alumnos de primer año. Esto contribuye también a que pueda ser usando como ejemplo de primer desarrollo de programación. De este modo, además de contribuir al aprendizaje en múltiples áreas temáticas, el código del juego puede facilitarse a los alumnos sabiendo que podrán comprenderlo, analizarlo e incluso modificarlo. Sin embargo, esto también trajo aparejado ciertas limitaciones al intentar construir una herramienta multipropósito. Dado que el juego original se encuentra diseñado para trabajar con 5 categorías, y considerando que la adición y/o eliminación de categorías supondría un rediseño completo de la herramienta, se mantuvo esta cantidad fija. Lo mismo sucede con la cantidad de preguntas mínimas que el juego necesita para operar, ya que cada partida debe formular 10 preguntas diferentes y, si no se alcanza esa cifra, el juego no funcionará. Tanto las modificaciones efectuadas en el juego como el aplicativo complementario contribuyeron a convertir un programa que había sido concebido inicialmente como TP, en una herramienta didáctica cuyas ventajas puedan ser aprovechadas en diversos contextos. Esta ampliación enriquece el valor del juego, incrementando su potencial como herramienta didáctica que, ahora, de ser publicada y distribuida, sería accesible para todos los interesados.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3.">OA: "PregUTNados Adaptable"</head><p>El juego PregUTNados junto con su aplicativo complementario se enmarcan correctamente en el concepto de OA ya que, en conjunto, constituyen una herramienta que se puede abordar de diferentes formas en lo pedagógico (ya sea empleándolo dentro del aula, como herramienta de auto evaluación personal o, incluso, como código fuente para analizar). Además, cumple con la propiedad de ser reutilizable, pues el aplicativo complementario asiste al usuario para personalizar las preguntas y categorías de modo que cualquier interesado pueda configurarlo para formular preguntas del área temática que prefiera. Asimismo, el juego puede combinarse con otros OA en múltiples secuencias didácticas. Dentro de las clasificaciones propuestas (Sección 2), se puede clasificar a PregUTNados respecto a su utilidad pedagógica como un objeto de evaluación, pues permite al usuario poner a prueba sus conocimientos de un área específica. En cuanto a su clasificación tecno-pedagógica, se podría ubicar al juego en la categoría de objeto informativo, siendo que el mismo permite evaluar al jugador en base al conocimiento que el docente haya volcado en la base de preguntas que se formulan. Una vez identificado el OA, se debe proceder a la definición de la información que lo representa (metadatos asociados). Para esto, se resumieron sus propiedades en una plantilla que incluye las características del estándar IEEE LOM relevantes para este objeto. Los metadatos identificados fueron:</p><p>-Nombre: PregUTNados Adaptable -Fecha de desarrollo: 2017 -Objetivo: Aplicativo lúdico para evaluar y reforzar aprendizajes. -Origen: Parte de un TP integrador propuesto en un primer curso de programación de ISI que luego es refinado en el marco de un PID. -Descripción: Se compone de: a) Aplicación de juego: Permite jugar partidas con rondas de 10 preguntas entre 2 jugadores. Gana quien responde mayor cantidad de preguntas correctas. b) Aplicación para la configuración del juego: Permite redactar y modificar preguntas, agrupándolas en categorías según el interés del docente. -Modo de uso: Se definen dos guías: a) Guía del juego. b) Guía del aplicativo complementario.</p><p>-Secuencia ejemplo: En clase se puede utilizar para que los alumnos afiancen conceptos. Además, los alumnos pueden utilizar el juego fuera de clase con el objetivo de realizar revisiones individuales. También pueden participar en la configuración permitiéndoles elaborar preguntas y respuestas "desafío" en base a una revisión de los contenidos.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.4.">Difusión del OA: Repositorio RIA</head><p>Para la difusión se optó por publicar el OA en RIA. El mismo funciona como un archivo digital que brinda acceso abierto a las producciones científicas y académicas elaboradas por los docentes, investigadores y alumnos de la UTN. Fue creado con el objetivo de difundir cualquier tipo de contenido creado en la actividad docente, de investigación y extensión desarrolladas en la UTN (RIA-UTN, 2015). Su facilidad de uso y capacidad de difusión dentro de la comunidad de educadores fueron los principales motivos que nos hizo inclinarnos por utilizar RIA como medio para difundir PregUTNados a todos los usuarios interesados. Para consultar el OA resultante, visitar la URL http://ria.utn.edu.ar/PregUTNados.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Conclusiones</head><p>En este artículo se presenta un proceso de enseñanza/aprendizaje/investigación en el ámbito universitario, donde los autores dan a conocer la integración de las actividades e intervenciones realizadas durante el desarrollo de un curso de primer año, con las acciones docentes de acompañamiento a los alumnos en la autogestión de nuevos aprendizajes posterior al curso y el apoyo de iniciación a la investigación. Se parte de la actividad docente dirigida a la elaboración de escenarios de trabajos prácticos como problemas abiertos de ingeniería. Finalizado el curso los docentes promueven que los alumnos puedan seguir mejorando esas soluciones y trabajan en la búsqueda de oportunidades y el acompañamiento necesario para que puedan difundir estas herramientas y transformar sus soluciones en elementos de utilidad.</p><p>Sobre los resultados alcanzados y ante las posibilidades identificadas, se los motiva para trabajar en investigación, extendiendo esa aplicación de manera que constituya una pieza educativa. Por último, se lo acompaña para analizar los metadatos correspondientes y transformar ese producto en un objeto de aprendizaje publicado en un repositorio, de manera que pueda ser útil a toda la comunidad. Actualmente se está trabajando en la revisión del OA y la producción de una nueva versión teniendo en cuenta estándares actuales y repositorios alternativos.</p></div>		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title level="m" type="main">Factores motivadores e integradores en la formación experimental</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Castellaro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Torresan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Ambort</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2016" />
+		</imprint>
+		<respStmt>
+			<orgName>XI Congreso de Educación en Tecnología y Tecnología en Educación</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title level="m" type="main">Una experiencia integradora: PregUTNados como herramienta de soporte al aprendizaje</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Hauque</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Saudejaud</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+	<note>4º CoNaIISI</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<author>
+			<persName><forename type="first">M</forename><surname>Castellaro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">;</forename><surname>Proyecto De Investigación Y Desarrollo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Utn</forename><surname>Scyt</surname></persName>
+		</author>
+		<ptr target="https://bit.ly/2jqHbGc" />
+		<title level="m">Las intervenciones didácticas y el uso de TIC para la motivación e integración en el inicio de la carrera Ing. Sistemas de Información</title>
+				<imprint>
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title level="m" type="main">El Desafío de Trabajar la Resolución de Problemas de Ingeniería desde el Inicio de la Carrera de Grado</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename><surname>Golobisky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Castellaro</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+	<note>5º CoNaIISI</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title level="m" type="main">MatDis: Software para aprender temas de Matemática Discreta</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Blas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Gaspoz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Herrera</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note>IV EJI</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<title level="m" type="main">Modulo I: Fundamentos del Enfoque de Objetos de Aprendizaje</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Brito</surname></persName>
+		</author>
+		<ptr target="https://bit.ly/2vKviAP" />
+		<imprint>
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<ptr target="https://bit.ly/2LWWirR" />
+	</analytic>
+	<monogr>
+		<title level="m">IEEE Standard for Learning Object Metadata</title>
+				<imprint>
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">La experiencia de ARIADNE: creando una red de reutilización de objetos de aprendizaje a través de estándares y especificaciones</title>
+		<author>
+			<persName><forename type="first">Santos</forename><surname>Odriozola</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Ochoa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Parra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Duval</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE-RITA</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+		<title level="m" type="main">Preguntas Frecuentes sobre el RIA</title>
+		<author>
+			<persName><surname>Ria -Utn</surname></persName>
+		</author>
+		<ptr target="https://bit.ly/2KuW4CO" />
+		<imprint>
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

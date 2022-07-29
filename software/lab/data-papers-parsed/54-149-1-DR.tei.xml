@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="es">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Semánticas para las Buenas Prácticas en el Diseño de Datos en Bases de Datos Relacionales</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Muñoz</forename><surname>Roberto</surname></persName>
+							<email>robertmunioz@gmail.com</email>
+							<affiliation key="aff0">
+								<orgName type="department">Departamento Ingeniería en Sistemas de Información Facultad Regional Córdoba</orgName>
+								<orgName type="institution">Universidad Tecnológica Nacional Maestro Marcelo López esq. Cruz Roja Argentina -Ciudad Universitaria -Córdoba</orgName>
+								<address>
+									<postCode>0351 -4686385</postCode>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Damiano</forename><surname>Luis</surname></persName>
+							<email>luis.damiano@gmail.com</email>
+							<affiliation key="aff0">
+								<orgName type="department">Departamento Ingeniería en Sistemas de Información Facultad Regional Córdoba</orgName>
+								<orgName type="institution">Universidad Tecnológica Nacional Maestro Marcelo López esq. Cruz Roja Argentina -Ciudad Universitaria -Córdoba</orgName>
+								<address>
+									<postCode>0351 -4686385</postCode>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Esteban</forename><forename type="middle">;</forename><surname>Maldonado</surname></persName>
+							<email>calixtomaldonado@gmail.com</email>
+							<affiliation key="aff0">
+								<orgName type="department">Departamento Ingeniería en Sistemas de Información Facultad Regional Córdoba</orgName>
+								<orgName type="institution">Universidad Tecnológica Nacional Maestro Marcelo López esq. Cruz Roja Argentina -Ciudad Universitaria -Córdoba</orgName>
+								<address>
+									<postCode>0351 -4686385</postCode>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Calixto</forename><forename type="middle">;</forename><surname>Romero</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Departamento Ingeniería en Sistemas de Información Facultad Regional Córdoba</orgName>
+								<orgName type="institution">Universidad Tecnológica Nacional Maestro Marcelo López esq. Cruz Roja Argentina -Ciudad Universitaria -Córdoba</orgName>
+								<address>
+									<postCode>0351 -4686385</postCode>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">María</forename><surname>Soledad</surname></persName>
+							<email>romeroma.soledad@gmail.com</email>
+							<affiliation key="aff0">
+								<orgName type="department">Departamento Ingeniería en Sistemas de Información Facultad Regional Córdoba</orgName>
+								<orgName type="institution">Universidad Tecnológica Nacional Maestro Marcelo López esq. Cruz Roja Argentina -Ciudad Universitaria -Córdoba</orgName>
+								<address>
+									<postCode>0351 -4686385</postCode>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Sergio</forename><surname>Quinteros</surname></persName>
+							<email>ser.quinteros@gmail.com</email>
+							<affiliation key="aff0">
+								<orgName type="department">Departamento Ingeniería en Sistemas de Información Facultad Regional Córdoba</orgName>
+								<orgName type="institution">Universidad Tecnológica Nacional Maestro Marcelo López esq. Cruz Roja Argentina -Ciudad Universitaria -Córdoba</orgName>
+								<address>
+									<postCode>0351 -4686385</postCode>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">;</forename><surname>Ramón</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Departamento Ingeniería en Sistemas de Información Facultad Regional Córdoba</orgName>
+								<orgName type="institution">Universidad Tecnológica Nacional Maestro Marcelo López esq. Cruz Roja Argentina -Ciudad Universitaria -Córdoba</orgName>
+								<address>
+									<postCode>0351 -4686385</postCode>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Matías</forename><forename type="middle">;</forename><surname>Bueno</surname></persName>
+							<email>matiasbueno@gmail.com</email>
+							<affiliation key="aff0">
+								<orgName type="department">Departamento Ingeniería en Sistemas de Información Facultad Regional Córdoba</orgName>
+								<orgName type="institution">Universidad Tecnológica Nacional Maestro Marcelo López esq. Cruz Roja Argentina -Ciudad Universitaria -Córdoba</orgName>
+								<address>
+									<postCode>0351 -4686385</postCode>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Juan</forename><forename type="middle">;</forename><surname>Peretti</surname></persName>
+							<email>peretti.juan@gmail.com</email>
+							<affiliation key="aff0">
+								<orgName type="department">Departamento Ingeniería en Sistemas de Información Facultad Regional Córdoba</orgName>
+								<orgName type="institution">Universidad Tecnológica Nacional Maestro Marcelo López esq. Cruz Roja Argentina -Ciudad Universitaria -Córdoba</orgName>
+								<address>
+									<postCode>0351 -4686385</postCode>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Andrea</forename><surname>Guevara</surname></persName>
+							<email>andrezza77@gmail.com</email>
+							<affiliation key="aff0">
+								<orgName type="department">Departamento Ingeniería en Sistemas de Información Facultad Regional Córdoba</orgName>
+								<orgName type="institution">Universidad Tecnológica Nacional Maestro Marcelo López esq. Cruz Roja Argentina -Ciudad Universitaria -Córdoba</orgName>
+								<address>
+									<postCode>0351 -4686385</postCode>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Semánticas para las Buenas Prácticas en el Diseño de Datos en Bases de Datos Relacionales</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">57B0ECA8970E4FCB9C26638922226CC1</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.7.0" ident="GROBID" when="2022-04-09T01:35+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="es">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Resumen</head><p>El proyecto de investigación, que da origen a este artículo, tiene entre sus metas lograr una coherencia discursiva en el ambiente áulico, para el dictado de clases en asignaturas que imparten conocimientos de base de datos relacionales. La propuesta es generar un conjunto de normas y reglas de buenas prácticas que den luz en temas que se tratan habitualmente y que no se encuentran taxativamente delineados en la bibliografía actual. El equipo investigador ha observado que en el espacio temático normalización de modelos de datos no hay suficiente claridad y definiciones respecto del desarrollo de la estructura de datos. Surgen entonces algunos interrogantes que no tienen respuesta con fundamento bibliográfico: ¿Cuántas soluciones de normalización (modelo conceptual) se pueden alcanzar para un problema de almacenamiento de datos? ¿Cuáles son las formas aconsejables de construcción de un modelo de datos? Por ello la hipótesis de investigación planteada es "el diseño de un modelo conceptual de base de datos relacional, para un problema determinado y acotado, tiene una solución única". Para trabajar en este proyecto, el equipo considera imprescindible la participación de docentes y profesionales informáticos, que se desempeñan en distintos ámbitos y con distintas competencias, para validar o refutar la hipótesis.</p><p>Palabras clave: normalización, modelo relacional, diseño bases de datos.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Identificación</head><p>Código del PID: "SIUTNCO0004979". Título: "Buenas prácticas en el diseño de estructuras de datos en bases de datos relacionales". Tema prioritario del Programa de Tecnología Educativa y Enseñanza de la Ingeniería: "La enseñanza de la ingeniería y la formación de los ingenieros". Fecha de inicio: 01/01/2018. Fecha de finalización: 31/12/2019.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Introducción</head><p>Este proyecto homologado por la Universidad Tecnológica Nacional (UTN) surge en el seno de la cátedra Gestión de Datos (GDA), de tercer año de la carrera de Ingeniería en Sistemas de Información de la Facultad Regional Córdoba (FRC). Está conformada por más de diez docentes, donde se suelen suscitar discusiones referidas a los resultados o soluciones de diseño de bases de datos, sin lograr una postura generalizada. Los expertos en base de datos, de renombre global y local, han publicado una gran variedad de libros que dan fundamentos sobre el tema que se plantea en el proyecto. La bibliografía, incluso la considerada obligatoria en la cátedra, describe en detalle al modelo relacional, respecto a: estructura del modelo, integridad, manipulación de datos, alcances y limitaciones, pero no se encontró respuesta en ninguno de ellos al interrogante: Ante un requerimiento de diseño de base de datos relacional y considerando que es provista por distintos arquitectos de datos, ¿puede ser única la estructura de datos normalizada? Esta pregunta puede merecer mayor atención con el fin de generar conocimiento. La normalización, como técnica para crear estructuras de bases de datos relacionales en estado óptimo y deseable (normalizado), evitando redundancia de datos y futuras inconsistencias, ha sido abordada por múltiples autores como C.J. Date en su libro "Introducción a los Sistemas de Base de Datos" <ref type="bibr" target="#b0">[1]</ref>, donde ha enfocado su atención en aspectos técnicos que marcan una tendencia clara en el conocimiento y opinión de los arquitectos de datos. «...En otras palabras, "normalizada" y "1FN" significan exactamente lo mismo; aunque debe tener presente que el término "normalizado" se usa a menudo para indicar uno de los niveles más altos de normalización (por lo regular a la tercera forma normal, 3FN)...» <ref type="bibr" target="#b0">[1]</ref> (Página 349). Ramez Elmasri y Shamkant B. Navathe expresan en su libro "Fundamentos de Sistemas de Bases de Datos" [2] «... Así, el diseño de base de datos, tal y como se realiza en la actualidad en la industria, presta especial atención a la normalización hasta la 3FN, la BCNF o la 4FN...» <ref type="bibr" target="#b1">[2]</ref> (Página 300). Ambos autores expresan una aproximación a los límites prácticos del concepto "Normalización", desde lo observado en el campo de la Industria del Software. No hay una estricta coincidencia en el alcance, pero sí expresan una conceptualización con algún grado de aproximación, en función del criterio de cada uno. En ambos casos los autores coinciden que se logra la Normalización a partir de la 3FN, como mínimo. A su vez Silberschatz trata el concepto Normalización con la misma visión de Date y Elmasri, en el capítulo 7 de su libro "Fundamentos de Bases de Datos" <ref type="bibr" target="#b2">[3]</ref>. Cabe destacar que se permite expresar un singular punto de vista sobre la Normalización que expresa: «...Cuando se define con cuidado un diagrama E-R, identificando correctamente todas las entidades, las tablas generadas a partir del diagrama E-R no necesitan más normalización. No obstante, puede haber dependencias funcionales entre los atributos de una entidad...» <ref type="bibr" target="#b2">[3]</ref> (Página 183), y en la misma página también expresa «… De manera alternativa, la normalización puede dejarse a la intuición del diseñador durante el modelado E-R, y puede hacerse formalmente sobre las relaciones generadas a partir del modelo E-R...». En el material de Silberschatz no se percibe que acentúe su mirada pragmática desde la observación de la industria informática sobre el tema normalización, como lo hicieron los otros dos autores citados y que les permitió expresar que la Normalización de una estructura de datos requiere que ésta alcance al menos la 3FN (tercera forma normal). Cuando se permite expresar su singular punto de vista, respecto de la Normalización, entiende que los aspectos intuitivos de un arquitecto de datos pueden llevarlo al diseño Normalizado de una estructura de datos. Este tipo de conceptos, vertidos por los autores Date y Elmasri, han sido asimilados como una pieza de conocimiento que no tiene discrepancia por la gran mayoría de los especialistas que diseñan estructuras de datos, por lo que no existen controversias. Sin embargo, no se pudo encontrar aún, entre los autores estudiados, que alguno de ellos haya orientado su análisis y explicación de la Normalización sobre seguir una metodología que permita realizar esta acción, demostrando que la estructura resultante es única, partiendo de una relación universal (entidad primera que reúne todos los atributos observados) como lo expresa Silberschatz, en el "El enfoque de la relación universal" en el libro ya citado «… El segundo enfoque del diseño de bases de datos es comenzar con un solo esquema de relación que contenga todos los atributos de interés y descomponerlo…» <ref type="bibr" target="#b2">[3]</ref> (Página 183). El grupo de investigación propone, en función de su experiencia de campo y en la docencia, demostrar que el modelo conceptual para un problema de almacenamiento de datos es único, en el marco de base de datos relacionales y cumpliendo con las reglas de la normalización. Dicho de otra manera, dada una situación, con requerimientos a igual nivel de detalle, el conjunto solución de relaciones normalizado al que arriban distintos grupos de trabajo es único. Se ha realizado una intensa búsqueda bibliográfica para encontrar opiniones, discusiones, afirmaciones o negaciones del problema planteado. En dicha búsqueda, en los materiales abordados, detallados en referencia bibliográfica, no se hallaron resultados que conformen un antecedente. Las búsquedas también incluyeron anales de congresos Argentinos (WICC, CoNaIISI, JAIIO) y sitios de internet, sin hallar resultados favorables sobre la temática específica. Hay que destacar que existe unanimidad conceptual en el material de todos los autores, sobre las definiciones referidas al modelo relacional. Algunos con mayor énfasis en aspectos de principios, otros con más desarrollo en las características de las formas normales, pero en términos generales sin desacuerdos importantes. Integrantes del equipo de investigación, a su vez, son docentes de la cátedra, donde trabajan los conceptos y aplicaciones de las bases de datos, que conforman los contenidos mínimos de la asignatura y constituyen el eje central de estudio. Los conocimientos son homogéneos entre los integrantes, sobre los conceptos inherentes a base de datos, modelo relacional y normalización de una estructura de datos. Esta tarea docente ha sido desempeñada durante más de veinte años, trabajando con estos conocimientos. Han presentado diversos artículos en congresos de alcance nacional, sobre distintas temáticas que involucran estos saberes. Esta participación involucra la actitud atenta al análisis del tema de hipótesis, siendo un factor importante para afirmar que el problema no está siendo tratado en este momento y no presenta antecedentes expuestos en el pasado.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Objetivos, Avances y Resultados</head><p>El objetivo general del proyecto es: proponer un conjunto de reglas de buenas prácticas para el diseño del modelo conceptual de datos, normalizado, para bases de datos relacionales, tendientes a explicar las restricciones y características que fundamentan que el modelo conceptual de una base de datos relacional puede ser único, para un dominio dado. A partir del objetivo seguido, el material a generar desde el proyecto aportará documentación de referencia, dando soporte a la actividad áulica en la temática. Se pretende elaborar guías que colaboren en: -Identificar y caracterizar las estructuras típicas que se utilizan en una solución.</p><p>-Identificar cuando aplique, diferentes estructuras que pueden ser equivalentes, resaltando similitudes, ventajas y diferencias de esas estructuras.</p><p>-Entender y explicar la forma en que implementan una estructura de datos válida los arquitectos de datos.</p><p>-Sugerir un método de normalización, en la búsqueda de estandarizar el proceso.</p><p>-Definir y aplicar reglas de buenas prácticas. Actualmente el equipo ha avanzado en la recolección de información a través de encuestas y experimentos para demostrar o refutar la hipótesis. La mirada se enfoca en una conclusión final que surja del análisis de toda la información obtenida en el transcurso de los años de investigación. Es prematuro en este momento poder dar una tendencia u opinión de los temas tratados, visto que hace poco tiempo que se están recolectando datos y experiencias. Las encuestas están direccionadas a observar el pensamiento y forma en que un arquitecto de datos resuelve un problema de estructuras datos. También se trabaja en caracterizar las estructuras que intervienen en las soluciones de diseño de bases de datos. En este punto se ha detectado que las mismas son un número reducido de opciones, más allá que se sigue indagando, con la particularidad que ninguna estructura compite con otra, en relación al desempeño en el resultado. En otras palabras, una estructura no tiene otra estructura que la sustituya. En este tema de caracterizar estructuras el grupo de trabajo ya cuenta con un camino recorrido, en la actividad profesional y en el trabajo de cátedra. Esto permite vislumbrar una tendencia, pero el propósito es continuar consultando y encuestando a profesionales. Se considera un avance significativo poder establecer claridad conceptual en torno del problema de la hipótesis, pues en el ámbito de la docencia brindará una posición clara el poder afirmar o negar la hipótesis planteada. También subyace en forma encubierta una hipótesis derivada de la propuesta en el proyecto de investigación: "Una solución de diseño de estructuras de datos, para base de datos relacionales y para un mismo problema, es distinta a otra si la interpretación del problema, por parte de los arquitectos de datos de datos, también lo es". Esta hipótesis aún no declarada encontraría respuesta con los resultados de esta investigación.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Formación de Recursos Humanos</head><p>El equipo de investigación está compuesto por: un director, un co-director, cuatro investigadores de apoyo, cuatro técnicos de apoyo y tres estudiantes becarios. Cabe aclarar que ocho de los integrantes se desempeñan como docentes en la FRC y en particular en la asignatura GDA. El resultado final de este proyecto de investigación será un documento que plasme los conocimientos logrados. La principal utilidad consistirá en señalar un camino recomendado de buenas prácticas en la construcción de estructuras de datos para base de datos relacionales; incluyendo la demostración o rechazo de la hipótesis, en virtud de las evidencias prácticas que se hayan logrado recolectar. Si se logra demostrar que para un problema acotado existe un conjunto determinado de estructuras, iguales en todas las soluciones observadas y que conforman una solución satisfactoria al problema de almacenamiento de datos, la demostración conformará una caracterización consensuada (ontológica). La documentación a generar tendrá toda la información recogida, con la ejemplificación explicativa, dando sustento a las explicaciones que devengan de la investigación. Se confía en que el producto obtenido será de aprovechamiento en el medio educativo. Brindará una metodología para la construcción de una estructura de datos, sugiriendo cuales deben ser los principios de buenas prácticas para este ámbito de la informática. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Publicaciones relacionadas con el PID</head></div><figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head></head><label></label><figDesc>Workshop de Investigadores en Ciencia de la Computación (WICC). -Paz Menvielle, María Alejandra et al. (2014) Una Estrategia de Aprendizaje Autónomo para Sistemas Expertos, con Aplicación Concreta al Proyecto -Generador Automático de Modelos de Datos Normalizados en Bases de Datos Relacionales. 2do.Congreso Nacional de Ingeniería en Informática / Sistemas de Información (CoNaIISI). -Muñoz Roberto Miguel, Maldonado Calixto, Damiano Luis Esteban, Romero María Soledad, Bueno Matías, Quinteros Sergio Ramón, Guevara Andrea, Peretti Juan Pablo, Carrasco Agustín (2018) Buenas Prácticas En El Diseño De Estructuras De Datos En Bases De Datos Relacionales. Workshop de Investigadores en Ciencia de la Computación (WICC). -Roberto Miguel Muñoz, Calixto Maldonado, Luis Esteban Damiano, María Soledad Romero, Sergio Ramón Quinteros, Andrea Guevara y Agustín Carrasco (2017) Implementación de la Plataforma Web MultiDB para enseñanza y aprendizaje del Lenguaje SQL. V Jornada de Enseñanza de la Ingeniería (JEIN) -Roberto Miguel Muñoz, Luis Esteban Damiano, Calixto Maldonado, Maria Soledad Romero, Sergio Ramón Quinteros, Andrea Guevara, Agustín Carrasco (2017)</figDesc><table><row><cell cols="4">Algunas publicaciones relacionadas, donde</cell></row><row><cell cols="4">integrantes del equipo han participado, son:</cell></row><row><cell cols="4">-Paz Menvielle Alejandra, et al. (2015)</cell></row><row><cell cols="4">Desarrollo de un Sistema Experto para el</cell></row><row><cell cols="4">Proyecto de Investigación "Generador</cell></row><row><cell cols="4">Automático de Modelos de Datos</cell></row><row><cell cols="4">Normalizados en Bases de Datos</cell></row><row><cell>Relacionales". Implementación</cell><cell>de</cell><cell>Plataforma</cell><cell>de</cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0" />
+			</div>
+
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title level="m" type="main">Introducción a los Sistemas de Bases de Datos Volumen 1 -Quinta Edición -Edit</title>
+		<author>
+			<persName><forename type="first">Christopher</forename><surname>Date</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1993" />
+			<publisher>Addison Wesley Iberoamericana</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title level="m" type="main">Fundamentos de Sistemas de Bases de Datos-5ta Edición -Edit</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Elmasri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Navathe</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2007" />
+			<publisher>Pearson</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title level="m" type="main">Fundamentos de Bases de Datos. Quinta Edición-Edit</title>
+		<author>
+			<persName><surname>Silberschatz</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2006" />
+			<publisher>Mc Graw Hill</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title level="m" type="main">Bases de Datos -Edit.: AlfaOmega Editores Otro material consultado: -Abraham Silberschatz Bell Laboratories et al. (2007) Fundamentos de Bases de Datos</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Reinosa</surname></persName>
+		</author>
+		<ptr target="hĥp://digeset.ucol.mx/tesis_posgrado/Pdf/Sergio%20Antonio%20Becerra%20Zepeda.pdf.Accedidoenfebrero2012" />
+		<editor>Mcgraw-hill/Interamericana -Becerra Zepeda, Sergio Antonio</editor>
+		<imprint>
+			<date type="published" when="1999" />
+			<pubPlace>México</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Ciencias Área Computación -Edit.: Universidad de Colima</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Bases de Datos Inteligentes-Tesis para Maestro en</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Database Fundamentals Ideal for application developers and administrator -Editorial: Copyright IBM -Rafael Camps Paré et al</title>
+		<author>
+			<persName><forename type="first">Dolores Costal</forename><surname>Costa</surname></persName>
+		</author>
+		<ptr target="http://ocw.uoc.edu/computer-science-technology-and-mulĕmedia/bases-de-datos/Course_lisĕng(sept.2015" />
+	</analytic>
+	<monogr>
+		<title level="m">Gedisa -Mario Bunge</title>
+				<editor>
+			<persName><forename type="first">I</forename><surname>Publicacions De La Universitat Jaume</surname></persName>
+			<persName><forename type="first">. -Neeraj</forename><surname>Servei De Comunicació I Publicacions</surname></persName>
+			<persName><surname>Sharma</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>Pearson -Mercedes Marqués</publisher>
+			<date type="published" when="2007" />
+		</imprint>
+		<respStmt>
+			<orgName>Databases -Edit.: Universitat Oberta de Catalunya ; Universitat Oberta de Catalunya</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Bases de Datos -Edit</note>
+	<note>Ale (2000) Introducción a las Base de Datos Relacionales. Software Libre Base de Datos -Edit</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="es">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Implementación de Objetos de Aprendizaje para fortalecer la formación de ingenieros desde la escuela secundaria</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Ferrando</forename><surname>Álvarez</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Carzolio</forename><surname>Agustín</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Nahuel</forename><surname>Gianfranco</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Giandini</forename><surname>Leopoldo</surname></persName>
+						</author>
+						<author>
+							<persName><surname>Roxana</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Departamento Ingeniería en Sistemas de Información Grupo de Investigación y</orgName>
+								<orgName type="institution">Sistemas informáticos y computacionales Facultad Regional La</orgName>
+								<address>
+									<settlement>Plata</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="institution">Universidad Tecnológica Nacional Calle</orgName>
+								<address>
+									<addrLine>60 y 125 s/n</addrLine>
+									<settlement>Berisso, Buenos Aires</settlement>
+									<country key="AR">Argentina</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Implementación de Objetos de Aprendizaje para fortalecer la formación de ingenieros desde la escuela secundaria</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">5045206040380BCFE529FF38E57543CE</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.7.0" ident="GROBID" when="2022-04-09T01:35+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="es">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Resumen</head><p>Aprender a programar requiere de habilidades cognitivas específicas que pueden cultivarse desde estadíos anteriores a la formación universitaria. El nivel de conocimientos previos determina la selección de los contenidos y la forma de abordarlos desde una cátedra. Como los contenidos son de carácter prescriptivo y se ajustan a un diseño curricular ya pautado, para fortalecer su aprendizaje conviene presentarlos, con su correspondiente transposición didáctica, en el último año de la educación secundaria. Frecuentemente los tiempos académicos no son suficientes para equipararse con las necesidades pedagógicas de los estudiantes, lo que incrementa no sólo el nivel de dificultad de aquello que se quiere aprender, sino también el riesgo de abandono por la frustración que provoca no llegar a un nivel aceptable de conocimiento.</p><p>En primer lugar elegimos investigar Objetos de Aprendizaje (OA) porque comparten muchas características con el paradigma de Programación Orientado a Objetos (POO) tales como encapsulamiento, modularidad, reusabilidad. Por otro lado su relativa facilidad de implementación en plataformas e-learning aumenta sus posibilidades de aceptación dentro de la comunidad educativa del nivel medio.</p><p>Finalmente, luego de sopesar ventajas y desventajas de estas herramientas, se presentará un conjunto de buenas prácticas para el uso y creación de OA.</p><p>Palabras clave: Objetos de aprendizaje, Programación orientada a objetos, formación de ingenieros.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Identificación</head><p>Este documento de avance se encuentra enmarcado en un Proyecto de Investigación y Desarrollo que reviste de los siguientes datos: </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Introducción</head><p>En el 2015, el Gobierno Nacional declaró la importancia estratégica para el Sistema Educativo Argentino la enseñanza y aprendizaje de la programación (a través de la Resolución N°263/15 del Consejo Federal de Educación), donde resalta "Que hay abundante evidencia científica que indica que los niños/as y adolescentes que aprenden programación, mejoran su desempeño en otras áreas disciplinares, entre ellas matemática y lenguas extranjeras". Por lo tanto existe una necesidad concreta de acercar la universidad, en sus carreras relacionadas con la informática, a las escuelas secundarias con la intención de fortalecer las asignaturas que allí se desarrollan. En virtud de ello la FRLP ha iniciado gestiones de vinculación con las escuelas técnicas de la región a través de sus grupos de investigación.</p><p>Los entornos virtuales de enseñanza y aprendizaje (EVEA), están siendo cada vez más utilizados por las universidades de todo el país. Las escuelas de educación secundaria, aunque más lentamente, comenzaron el proceso de modernización tecnológica encontrando en éstos una oportunidad interesante para mejorar la motivación en sus aulas.</p><p>Para lograr que docentes y estudiantes cuenten con una alternativa digital para desarrollar los procesos de enseñar y aprender, la comunidad educativa se ha lanzado en la búsqueda de recursos didácticos que puedan convivir en lo que se conoce como tercer entorno (J. <ref type="bibr" target="#b3">Echeverría, 1999)</ref> donde la sociedad de la información sienta sus bases (M. Castells, 1999).</p><p>Los materiales multimedia tales como fotos, video, audios, lecciones interactivas, presentaciones digitales y hasta realidad aumentada forman parte de nuevas modalidades de enseñanza que pueden ir desde aquellas que son íntegramente a distancia, semi-presencial o blended learning hasta de aula extendida o extended learning (P. A. <ref type="bibr" target="#b5">Muñoz, 2012)</ref>. Cada 1 docente bajo algún criterio didáctico elige qué recursos utilizar y cómo utilizarlos. Algunos, los más aventureros, se animan a crear sus propios contenidos digitales.</p><p>La selección de contenidos y su secuenciación forman parte de una de las actividades más importantes que tiene un docente. Sin embargo la inmensa cantidad de recursos digitales y herramientas de autor junto con sus limitaciones técnicas terminan desorientándolo.</p><p>En este contexto nacen los Objetos de Aprendizaje (OA), concepto novedoso y aún sin consenso por la comunidad de investigadores de TICs y Educación sobre su definición y alcance. Se puede acuñar el término a Wayne Hodgins quién en 1992 (D. A. <ref type="bibr" target="#b9">Wiley, 2002)</ref> utilizó la metáfora del juego Lego para representar a los materiales educativos que tiene la propiedad de reutilizarse y acoplarse a nuevos módulos para generar otros objetos más complejos. Esta noción de construcción de conocimiento a partir de otros, no es nueva, Vygotsky en su teoría del constructivismo ya lo advertía por el año 1978.</p><p>1 Espacio de comunicación e interacción docente-alumno que complementa las actividades presenciales a través de algunas herramientas o materiales existentes en la plataforma virtual.</p><p>Siendo rigurosos un Objeto de Aprendizaje es un tipo de material educativo digital , que se caracteriza por tener un concreto objetivo de aprendizaje para abordar una temática o concepto relacionado con dicho objetivo, actividades para problematizar el contenido abordado y una autoevaluación para que el alumno conozca si pudo comprender el contenido presentado. No obstante todo OA debe contar con un conjunto de metadatos 2 estandarizados que permitan localizarlo, para ello debe usarse un proceso de empaquetamiento que también respete estándares <ref type="bibr" target="#b7">(Sanz C., Moralejo L., Barranquero F., 2014)</ref>. Resumiendo, todo OA debe contar con un factor pedagógico y otro tecnológico, en particular, informático.</p><p>La dimensión pedagógica de un OA ofrece seguridad a los usuarios docentes porque les permite seleccionar, entre un conjunto de recursos educativos, aquel más acertado según el objetivo didáctico planificado para un grupo de estudiantes. El componente digital de un OA es un atributo excluyente.</p><p>La dimensión tecnológica, por su parte, posiciona al docente como usuario o hasta incluso autor de un OA. Las prestaciones que un OA ofrece a sus usuarios están relacionadas con el conjunto de tecnologías digitales empleadas en su desarrollo. Por ejemplo un OA compuesto con sólo un documento hipertextual tendrá más limitada 3 su capacidad de enseñanza con respecto a uno compuesto con páginas HTML multimediales.</p><p>Los metadatos de un OA son una estructura que describe atributos, propiedades y características distribuidos en diferentes campos que identifican claramente al objeto, con el fin de que pueda encontrarse, ensamblarse, y utilizarse con relativa facilidad. (García <ref type="bibr" target="#b4">Aretio L., 2005)</ref>.</p><p>El IEEE trabaja para el desarrollo y 4 mantenimiento de un estándar de metadatos para OA desde 1997 denominado Learning Object Metadata (LOM). El LOM es uno de los primeros estándares de metadatos que fue diseñado específicamente para describir material educativo, en particular OA.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Objetivos, Avances y Resultados</head><p>Objetivo general : Desarrollar un OA que favorezca el aprendizaje de saberes fundamentales de la programación en los últimos años de la escuela secundaria técnica para retomarlos, luego, con mayor profundidad y nivel de dificultad en el primer año de la carrera ingeniería en sistemas de información (ISI).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Objetivos específicos :</head><p>• Delimitar los saberes fundamentales de programación para primer año de la carrera ISI. ¿Qué conocimientos se espera que sean aprendidos en términos curriculares?. Universidad Tecnológica Nacional, incluso la Facultad Regional La Plata, su compatibilidad con paquetes SCORM y su facilidad de introducción en las escuelas secundarias lo convierten en la plataforma ideal para desplegar los OA desarrollados. 5. Se inició la gestión de un convenio marco entre una escuela y la universidad para formalizar la transferencia y propiciar una prueba piloto. 6. Se realizaron ensayos con grupos reducidos sobre OA relacionados con la programación para medir el nivel de usabilidad y amigabilidad para usuarios tipo estudiantes. Se tomó nota de las dificultades más frecuentes en el uso de la aplicación.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Resultados :</head><p>Luego de una minuciosa búsqueda de OA en diversos repositorios públicos relacionados ➔ Un punto débil detectado está relacionado con la calificación y el seguimiento del estudiante. Si bien eXeLearning permite generar actividades de auto-evaluación y refuerzo, éstas no están pensadas para que fuesen recogidas por parte del autor.</p><p>Los cuestionarios son la única excepción de esta limitación.</p><p>➔ Dado que el fin del eXeLearning es crear recursos digitales no cuenta con una funcionalidad específica para la implementación del OA, el autor deberá contar con alguna instrucción previa.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Formación de Recursos Humanos</head><p>El PID está dirigido por la Dra. Roxana Giandini y codirigido por el Ing. Leopoldo Nahuel, acompañado de un equipo de trabajo abocado a distintas áreas y temas específicos: becarios alumnos, alumnos que realizan desarrollos informáticos basado en planes de trabajo en el marco del PID como parte de sus prácticas profesionales supervisadas (PPS) o proyecto final de grado, tesistas de posgrado, y docentes investigadores del Grupo de I&amp;D UTN -GIDAS.</p><p>Desde el PID nos proponemos vincular la escuela secundaria con la Universidad a través de tecnologías del aprendizaje y conocimiento (TAC) que puedan convivir con herramientas digitales ya conocidas por la comunidad educativa.</p><p>Por otro lado desde el PID promovemos la formación y transferencia de conocimientos y tecnologías hacia los docentes de la universidad, tanto de la carrera de sistemas como de otras ingenierías, y en particular a materias de los primeros años de la carrera dónde se manifiestan las dificultades de aprendizaje más notorias por el cambio que implica comenzar una carrera universitaria. "Agent SocialMetric: una plataforma basada en tecnología web para ambientes de enseñanza y soporte de valoración de conflictos en el aula". <ref type="bibr">Kuz, A., Falco, M., and Giandini, R. (2017)</ref>. Revista Complutense de Educación.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Publicaciones relacionadas con el PID</head></div><figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>prioritario del Programa de Tecnología Educativa y Enseñanza de la Ingeniería en que se inserta</head><label></label><figDesc></figDesc><table><row><cell cols="4">Tìtulo del PID: Innovación Informática en</cell></row><row><cell>Tecnologías</cell><cell>del</cell><cell>Aprendizaje</cell><cell>y</cell></row><row><cell cols="4">Conocimiento aplicado al Mejoramiento de</cell></row><row><cell cols="2">Procesos Educativos</cell><cell></cell><cell></cell></row><row><cell cols="4">Tema : Tecnologías</cell></row><row><cell cols="2">aplicadas en educación.</cell><cell></cell><cell></cell></row><row><cell cols="3">Código del PID : UTI4447</cell><cell></cell></row><row><cell cols="4">Programa de I&amp;D+i en la que se</cell></row><row><cell cols="4">homologó el PID : Electrónica, Informática</cell></row><row><cell cols="2">y Comunicaciones</cell><cell></cell><cell></cell></row><row><cell cols="3">Fecha de Inicio : 01/01/2017</cell><cell></cell></row><row><cell cols="3">Fecha de Finalización : 31/12/2019</cell><cell></cell></row><row><cell cols="4">A su vez se desprende como línea de</cell></row><row><cell cols="4">investigación sobre Tecnologías del</cell></row><row><cell cols="4">Aprendizaje y Conocimiento (TAC) dentro</cell></row><row><cell cols="2">del grupo UTN GIDAS.</cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head></head><label></label><figDesc>"Análisis y Detección Temprana de Deserción Estudiantil en UTN FRLP" ISTVAN Romina Mariel; FALCO Mariana; ANTONINI Sergio Andrés. WICC 2017. "Test vocacionales como recurso TIC de orientación estudiantil: un análisis de casos desde la usabilidad". Kuz, Baldin, Castellini, Somincini, Bornes, Fernandez, Giandini, JAIIO 2018. "Student Play: a didactic tool to educate in values" A. Kuz, R. Giandini. WorldCist'18 -6th World Conference on Information Systems and Technologies, to be held at Naples, Italy, 27 -29 March 2018 Combining Software Agents and Gaming through Student Play, an Educational Module in Agent SocialMetric" Kuz, A., Falco, M., Giandini, R . Simposio Latinoamericano de Informática y Sociedad.</figDesc><table /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="2">Conjunto de etiquetas que describe las características que identifican a un objeto. 3 Conjunto de fragmentos de texto relacionados entre sí por enlaces.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="4">El Instituto de Ingeniería Eléctrica y Electrónica es una asociación mundial de ingenieros dedicada a la estandarización y el desarrollo en áreas técnicas.</note>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">F</forename><surname>Alarcón</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Alemany</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Aguado</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Torrente</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Martinez</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">La era de la información</title>
+	</analytic>
+	<monogr>
+		<title level="m">Análisis del Uso del Estándar SCORM para la Integración de Juegos Educativos</title>
+				<editor>
+			<persName><forename type="first">Xxi</forename><surname>Siglo</surname></persName>
+		</editor>
+		<imprint>
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title level="m" type="main">Los señores del aire Ed: Barcelona: Destino</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Echeverría</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<author>
+			<persName><forename type="first">García</forename><surname>Aretio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename></persName>
+		</author>
+		<title level="m">Objetos de aprendizaje. Características y repositorios</title>
+				<imprint>
+			<publisher>BENED</publisher>
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<title level="m" type="main">Elaboración de material didáctico</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Muñoz</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note>Red tercer milenio</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<author>
+			<persName><forename type="first">B</forename><surname>Oliver</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Jörg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ruth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Udo</surname></persName>
+		</author>
+		<title level="m">The Sharable Content Object Reference Model (SCORM) -A Critical Review</title>
+				<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<title level="m" type="main">Materiales del Curso de Doctorado</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Sanz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Moralejo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Barranquero</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2014" />
+		</imprint>
+		<respStmt>
+			<orgName>Diseño y Producción de Objetos de Aprendizaje&quot; UNLP</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+		<title level="m" type="main">la relación entre lenguaje y pensamiento de vigotsky en el desarrollo de la psicolingüística moderna . RLA, Revista de Lingüística Teórica y Aplicada (versión On-line</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Álvarez González</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+		<title level="m" type="main">Connecting learning objects to instructional design theory</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Wiley</surname></persName>
+		</author>
+		<ptr target="http://reusability.org/read/" />
+		<imprint>
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<monogr>
+		<title level="m" type="main">Learning objects y learning designs: conceptos</title>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">M</forename><surname>Sicilia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Sánchez</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note>Presentado en Diseño y Evaluación de contenidos y actividades educativas reutilizables. Information Engineering Research Unit</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<ptr target="http://ltsc.ieee.org/wg12/" />
+	</analytic>
+	<monogr>
+		<title level="m">Systems Interoperability in Education and Training</title>
+				<imprint>
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">D</forename><surname>Romero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">F</forename><surname>Cesteros</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<monogr>
+		<title level="m" type="main">COdA, una herramienta experimentada para la evaluación de la calidad didáctica y tecnológica de los materiales didácticos digitales RELADA</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

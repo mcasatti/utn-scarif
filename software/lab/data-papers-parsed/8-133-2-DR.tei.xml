@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="es">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Análisis de la usabilidad de los sitios web de universidades: elaboración de un conjunto de buenas prácticas aplicables en su diseño y construcción</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Sandra</forename><surname>Olariaga</surname></persName>
+							<email>solariaga@yahoo.com</email>
+							<affiliation key="aff0">
+								<orgName type="department">Departamento de Ingeniería en Sistemas de Información</orgName>
+								<orgName type="laboratory">Laboratorio de Investigación de Software (LIS)</orgName>
+								<orgName type="institution" key="instit1">Universidad Tecnológica Nacional</orgName>
+								<orgName type="institution" key="instit2">Facultad Regional Córdoba (UTN-FRC) Maestro Marcelo López y Cruz Roja Argentina -Ciudad Universitaria -Córdoba</orgName>
+								<address>
+									<country key="AR">Argentina</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">;</forename><surname>Ligorria</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Departamento de Ingeniería en Sistemas de Información</orgName>
+								<orgName type="laboratory">Laboratorio de Investigación de Software (LIS)</orgName>
+								<orgName type="institution" key="instit1">Universidad Tecnológica Nacional</orgName>
+								<orgName type="institution" key="instit2">Facultad Regional Córdoba (UTN-FRC) Maestro Marcelo López y Cruz Roja Argentina -Ciudad Universitaria -Córdoba</orgName>
+								<address>
+									<country key="AR">Argentina</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Di</forename><surname>Gionantonio</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Departamento de Ingeniería en Sistemas de Información</orgName>
+								<orgName type="laboratory">Laboratorio de Investigación de Software (LIS)</orgName>
+								<orgName type="institution" key="instit1">Universidad Tecnológica Nacional</orgName>
+								<orgName type="institution" key="instit2">Facultad Regional Córdoba (UTN-FRC) Maestro Marcelo López y Cruz Roja Argentina -Ciudad Universitaria -Córdoba</orgName>
+								<address>
+									<country key="AR">Argentina</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">;</forename><surname>Colacioppo</surname></persName>
+							<email>nicolas_colacioppo@hotmail.com</email>
+							<affiliation key="aff0">
+								<orgName type="department">Departamento de Ingeniería en Sistemas de Información</orgName>
+								<orgName type="laboratory">Laboratorio de Investigación de Software (LIS)</orgName>
+								<orgName type="institution" key="instit1">Universidad Tecnológica Nacional</orgName>
+								<orgName type="institution" key="instit2">Facultad Regional Córdoba (UTN-FRC) Maestro Marcelo López y Cruz Roja Argentina -Ciudad Universitaria -Córdoba</orgName>
+								<address>
+									<country key="AR">Argentina</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><surname>Nicolás</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Departamento de Ingeniería en Sistemas de Información</orgName>
+								<orgName type="laboratory">Laboratorio de Investigación de Software (LIS)</orgName>
+								<orgName type="institution" key="instit1">Universidad Tecnológica Nacional</orgName>
+								<orgName type="institution" key="instit2">Facultad Regional Córdoba (UTN-FRC) Maestro Marcelo López y Cruz Roja Argentina -Ciudad Universitaria -Córdoba</orgName>
+								<address>
+									<country key="AR">Argentina</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">;</forename><surname>Scandolo</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Departamento de Ingeniería en Sistemas de Información</orgName>
+								<orgName type="laboratory">Laboratorio de Investigación de Software (LIS)</orgName>
+								<orgName type="institution" key="instit1">Universidad Tecnológica Nacional</orgName>
+								<orgName type="institution" key="instit2">Facultad Regional Córdoba (UTN-FRC) Maestro Marcelo López y Cruz Roja Argentina -Ciudad Universitaria -Córdoba</orgName>
+								<address>
+									<country key="AR">Argentina</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">;</forename><surname>Peralta</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Departamento de Ingeniería en Sistemas de Información</orgName>
+								<orgName type="laboratory">Laboratorio de Investigación de Software (LIS)</orgName>
+								<orgName type="institution" key="instit1">Universidad Tecnológica Nacional</orgName>
+								<orgName type="institution" key="instit2">Facultad Regional Córdoba (UTN-FRC) Maestro Marcelo López y Cruz Roja Argentina -Ciudad Universitaria -Córdoba</orgName>
+								<address>
+									<country key="AR">Argentina</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">;</forename><surname>Savorgnano</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Departamento de Ingeniería en Sistemas de Información</orgName>
+								<orgName type="laboratory">Laboratorio de Investigación de Software (LIS)</orgName>
+								<orgName type="institution" key="instit1">Universidad Tecnológica Nacional</orgName>
+								<orgName type="institution" key="instit2">Facultad Regional Córdoba (UTN-FRC) Maestro Marcelo López y Cruz Roja Argentina -Ciudad Universitaria -Córdoba</orgName>
+								<address>
+									<country key="AR">Argentina</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Análisis de la usabilidad de los sitios web de universidades: elaboración de un conjunto de buenas prácticas aplicables en su diseño y construcción</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">4FA9C5186647AB6DD7B1347EBE987369</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.7.0" ident="GROBID" when="2022-04-09T01:35+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="es">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Resumen</head><p>Dentro de la Ingeniería de Software una de las disciplinas que la conforman es el Testing de Software, el cual se ocupa de la validación y verificación del mismo.</p><p>Dentro de este campo se desarrolla el Testing de sitios web universitarios, en el cual se evalúan distintos aspectos de las páginas web a fin de determinar cuáles son favorables y cuáles no lo son. Particularmente en el presente proyecto de investigación se procederá a testear la interfaz de usuario de sitios web universitarios, desde el momento en el que la página esté publicada. El presente proyecto está siendo llevado a cabo en el Laboratorio de Investigación de software del Departamento de Ingeniería en Sistemas de Información de la Universidad Tecnológica Nacional Facultad Regional Córdoba. El resultado de este trabajo tendrá una incidencia directa en los usuarios de sitios web universitarios, ya que como resultado del proceso de investigación se generará un conjunto de buenas prácticas en la construcción de portales universitarios, lo cual facilitará el uso a las personas que necesitan interactuar con dichos sitios web universitarios.</p><p>Palabras Clave: usabilidad, sitios web, evaluación, dimensiones y subdimensiones</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Identificación</head><p>El Código del proyecto es UTN4082 dentro del área de Ciencias de la Computación e Informática, radicado dentro de la Secretaria de Ciencia y Tecnología de la Universidad Tecnológica Nacional Facultad Regional Córdoba. Fecha de inicio: 01/05/2016 Fecha de finalización: 31/12/2018. Se enmarca dentro del eje de Las tecnologías aplicadas en educación (TAE).</p><p>El presente trabajo se realiza en el Laboratorio de Investigación de Software, Departamento de Ingeniería en Sistemas de Información de la Universidad Tecnológica Nacional Facultad Regional Córdoba. (U.T.N.-F.R.C.).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Introducción</head><p>Últimamente han surgido una gran cantidad de recursos Web, para la divulgación de información, educación, comercio e incluso interacciones personales, ya que nos brinda la posibilidad de contar con diversos niveles de información adecuadas a la necesidad del usuario. En los últimos años se han desarrollado una gran cantidad de recursos web, para la divulgación de información, comercio, educación e incluso interacciones personales, ya que les ofrece la posibilidad de contar con diferentes niveles de información dependiendo de las necesidades del usuario. En este entorno web cabe destacar la importancia de la usabilidad en la interacción cada vez más creciente entre el hombre y la máquina. "La usabilidad trata sobre el comportamiento humano; reconoce que el humano es emotivo, no está interesado en poner demasiado esfuerzo en algo, y generalmente prefiere las cosas que son fáciles de hacer contra las que son difíciles de hacer." <ref type="bibr" target="#b2">[ McQuillen, 2003]</ref>. Usabilidad es un término adaptado de la palabra en inglés "usability", para indicar que algo se puede usar. Según Jakob Nielsen, la usabilidad es un atributo de calidad. Evalúa qué tan fáciles de usar son las interfaces de usuario. <ref type="bibr" target="#b3">[ Nielsen et al, 2006]</ref>. Si a esto lo trasladamos a Internet, se puede decir que un sitio web es usable si un usuario, al finalizar la navegación, se ha manifestado satisfecho por el cumplimiento de sus objetivos iniciales. <ref type="bibr">[Morales Martínez, 2010]</ref>. En referencia a esto, la norma ISO 9241-11, expresa que la usabilidad se refiere al alcance en el que un producto puede ser utilizado por usuarios específicos para alcanzar metas específicas con efectividad, eficiencia y satisfacción en un contexto específico de uso <ref type="bibr">[Martínez de la Teja, 2003]</ref>.</p><p>Por otro lado, se debe tener en cuenta que no hay que hacer pensar al usuario en su proceso de interacción con una página web, sino que ésta sea tan clara, obvia y fácil de entender, que implique la acción directa y no la pérdida de tiempo en su intento de exploración y comprensión de lo que se le ofrece por pantalla <ref type="bibr" target="#b1">[Krug, 2006]</ref>. En relación a lo anterior, y teniendo en cuenta la diversidad de actividades y acciones que un usuario puede y debe realizar al interactuar con un sitio web, particularmente si éste pertenece al ámbito educativo, es que se hace necesario su validación y verificación en cada paso de su diseño y construcción, ya que hoy en día, estos sitios son la principal fuente de información de las actividades y ofertas educativas que las universidades e instituciones nos ofrecen, y debemos interactuar con ellos al estar insertos en nuestras actividades académicas. [Revista Edutec-e]</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Objetivos, Avances y Resultados</head><p>Objetivo Principal Elaborar un conjunto de recomendaciones de buenas prácticas al diseñar una página web universitaria, a partir de la evaluación de la usabilidad de sitios web de universidades nacionales que ya están publicadas en internet por las instituciones correspondientes, teniendo en cuenta el punto de vista del usuario. <ref type="bibr">[Sandra Olariaga et al, 2016]</ref> Objetivos específicos * Investigar los estándares y normas establecidas a fin de obtener los parámetros a considerar, para realizar la evaluación de la usabilidad de los sitios web universitarios * Definir el perfil del usuario, es decir quién va a ser el sujeto desde el punto de vista del que va a ser realizada la evaluación, es decir, establecer las características que tendrá el sujeto que va a hacer uso del sitio web y cuyo punto de vista será objeto importante de esta evaluación.</p><p>* Determinar las herramientas a ser utilizadas y los sitios web universitarios a ser evaluados. * Llevar a cabo la evaluación de la interacción de los usuarios con las páginas universitarias seleccionadas a fin de determinar si cumplen con los parámetros de usabilidad que se establezcan, tomando como base las medidas de usabilidad propuestas por Jacob Nielsen. (Heurísticas) <ref type="bibr" target="#b3">[Nielsen et al, 2006]</ref>.</p><p>* Elaborar informes acerca de cuáles son los aspectos a ser considerados a fin de que la página web de los sitios universitarios ofrezca un nivel óptimo de usabilidad.</p><p>Nuestro trabajo se viene desarrollando a través de varias tareas, algunas de ellas se han realizado simultáneamente, dando el punto de partida a otras. En consecuencia, ya se han efectuado tareas de recopilación de información sobre normas y estándares, lo cual permitió obtener los parámetros a considerar, para realizar la evaluación de la usabilidad de los sitios web universitarios. También se ha definido el perfil del usuario, es decir, se han establecido las características que tendrá el sujeto que va a hacer uso del sitio web y cuyo punto de vista será objeto importante de estudio. De igual manera hemos procedido a seleccionar las universidades nacionales a ser evaluadas. En los Sistemas de Información Web existen conjuntos de atributos que son interesantes medir, como son: la usabilidad, la accesibilidad, la navegación, etc. Estos atributos son evaluados una vez que el sistema es desarrollado. <ref type="bibr">[Aguirre, Riesco, Figuereido, 2012]</ref> Actualmente el equipo de docentes abocados al presente proyecto se encuentra realizando una selección de recursos, técnicas y estrategias para determinar y confeccionar la herramienta más adecuada para ser utilizada en este proyecto. Para ello hemos definido dimensiones y subdimensiones, las que se muestran en la siguiente tabla. A partir de ellas se desarrollará la intervención con los usuarios de los sitios a evaluar para conocer sus puntos de vista, interacción, opinión y valoración de los mismos y extraer a partir de ello una serie de conclusiones que nos permitirá elaborar el compendio de buenas prácticas que constituye el objetivo principal del proyecto.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Dimensiones y subdimensiones a analizar</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Dimensión Subdimensión Ítems</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Aspectos generales</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Claridad</head><p>A continuación se muestran como ejemplo los resultados de experiencias de los usuarios finales de una prueba piloto llevada a cabo, en este caso la evaluación de una la página web del Instituto Tecnológico Buenos Aires. de una universidad de Argentina.</p><p>Este gráfico muestra el porcentaje relativo de valoración del sitio web, del Instituto Tecnológico de Buenos Aires en las cinco diferentes dimensiones evaluadas en las encuestas. Se puede apreciar que las dimensiones de orientación para potenciales ingresantes y de identidad, son las mejores valoradas. La implementación de estas pruebas piloto, consisten en encuestas a diferentes usuarios, a fin de poder ajustar la herramienta de recolección de datos, de manera de obtener respuestas para elaborar el conjunto de recomendaciones y buenas prácticas aplicables en el diseño y construcción de los sitios web universitarios</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Formación de recursos humanos</head><p>El desarrollo del Proyecto que engloba este trabajo, tendrá un alto impacto en la formación de RRHH en el área de desarrollo web mediante la determinación de pautas para lograr la eficiencia y la optimización de la usabilidad del diseño de los sitios web universitarios. Los investigadores que recién inician forjarán sus primeras herramientas en I+D lo que les permitirá ampliar conocimientos en el área en cuestión además de incrementar sus antecedentes académicos. El proyecto contribuirá también a consolidar los conocimientos de los integrantes del grupo y a fortalecer la formación de un becario, estudiante de Ingeniería en Sistemas de Información. A su vez induce a la interacción de trabajo en conjunto de investigadores de diferentes ámbitos y departamentos académicos de la Facultad Regional Córdoba tales como el Departamento de Ingeniería en Sistemas de Información y el Departamento de Ciencias Básicas que unirán sus esfuerzos logrando un intercambio de experiencias y conocimientos que enriquecerán su saber.</p></div>		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title level="m" type="main">Evaluación de la Usabilidad en el desarrollo de Sistemas Web dirigido por modelos</title>
+		<author>
+			<persName><forename type="first">Riesco</forename><surname>Aguirre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Figuereido</forename></persName>
+		</author>
+		<idno>WICC 2012</idno>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title level="m" type="main">No me hagas pensar: Una aproximación a la usabilidad en la web</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>-Krug</surname></persName>
+		</author>
+		<ptr target="http://www.semac.org.mx/archivos/6-11.pdf" />
+		<imprint>
+			<date type="published" when="2003" />
+			<biblScope unit="page" from="1" to="08" />
+		</imprint>
+		<respStmt>
+			<orgName>Usabilidad y Accesibilidad en WEB. Sociedad de Ergonomistas de México. Universidad. Fecha de consulta</orgName>
+		</respStmt>
+	</monogr>
+	<note>Martínez de la Teja</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title level="m" type="main">Analítica web para empresas. Arte, ingenio y anticipación</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Mcquillen</surname></persName>
+		</author>
+		<editor>Morales Martínez, M.</editor>
+		<imprint>
+			<date type="published" when="2003-06" />
+			<pubPlace>Darwin Magazine; Barcelona</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Taking Usability Offline. 1º ed</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Usabilidad. Prioridad en el diseño Web</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>-Nielsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Loranger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Gallud Jurado</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Interface de sitios web universitarios: análisis de usabilidad&quot; II JATIC. II Jornadas Argentinas de Tecnología, Innovación y Creatividad</title>
+				<editor>
+			<persName><forename type="first">Anaya</forename><surname>Multimedia-Anaya Interactiva</surname></persName>
+			<persName><forename type="first">-Olariaga</forename><surname>Madrid</surname></persName>
+			<persName><surname>Sandra</surname></persName>
+		</editor>
+		<imprint>
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title level="m" type="main">Evaluación de la usabilidad de un sitio web educativo y de promoción de la salud en el contexto universitario</title>
+		<ptr target="http://www.jatic2016.ucaecemdp.edu.ar/" />
+		<imprint>
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note>-Revista Edutec-e Revista Electrónica de Tecnología Educativa Nro. 37 Septiembre</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

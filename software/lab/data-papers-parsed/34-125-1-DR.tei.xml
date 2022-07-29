@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="es">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Autoevaluación conceptual: una propuesta para afianzar la comprensión de contenidos de Análisis Matemático I</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Romina; Suau</orgName>
+								<orgName type="department" key="dep2">Departamento de Materias Básicas</orgName>
+								<orgName type="institution">Silvana; Ferrando</orgName>
+								<address>
+									<addrLine>Verónica; D´Ippolito</addrLine>
+									<settlement>Barán, Silvina</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="institution" key="instit1">Facultad Regional Santa Fe</orgName>
+								<orgName type="institution" key="instit2">Universidad Tecnológica Nacional Lavaise 610</orgName>
+								<address>
+									<settlement>Santa Fe</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Autoevaluación conceptual: una propuesta para afianzar la comprensión de contenidos de Análisis Matemático I</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">DB06EE456E362F19E7894B3789C3DC09</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.7.0" ident="GROBID" when="2022-04-09T01:35+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="es">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Resumen</head><p>Este artículo describe una experiencia didáctica implementada en la cátedra Análisis Matemático I (AMI) de la UTN-FRSF durante el presente año académico. La misma consistió en realizar un cuestionario online de autoevaluación para el primer parcial, de carácter conceptual y no obligatorio. La propuesta alcanzó a algunas comisiones de AMI y en su diseño se incorporó el uso de tecnología, mediante la herramienta Google Forms (Formularios de Google) incorporada en Google Drive. El objetivo principal de esta experiencia fue ayudar a los alumnos a evaluarse antes del examen, sobre todo en aspectos conceptuales. La configuración didáctica, la comprensión, algunos supuestos fundamentales del sistema educativo actual y la evaluación formativa constituyen el marco teórico de la propuesta de evaluación. El cuestionario contribuyó favorablemente a identificar los conceptos importantes y relacionarlos entre sí, además permitió detectar errores y conceptos que requieren revisión. Se obtuvo un bajo desempeño de los alumnos; esto conlleva a plantear nuevas estrategias en el abordaje de los temas y reforzar el análisis y estudio conceptual.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Palabras clave: cuestionario, autoevaluación, conceptos</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introducción</head><p>Actualmente la tecnología tiene influencia en el proceso de enseñanza-aprendizaje. <ref type="bibr" target="#b1">Ballardini (2000)</ref> sostiene que "los jóvenes están inmersos en una cultura de la velocidad, de la fragmentación y de la imagen, y los adultos enfrentan el desafío de seguir enseñándoles de manera secuencial y en base al texto" (p.344). Por otra parte, se observa que los alumnos se encuentran con dificultades en la comprensión de conceptos de AMI. En particular, a los estudiantes se les presenta un desafío cuando la resolución de ejercicios o problemas implica la aplicación de conceptos. La evaluación de los aprendizajes puede focalizarse en el proceso de aprendizaje y el producto de ese proceso <ref type="bibr" target="#b2">(Mastache, 2009)</ref>. De acuerdo a este criterio se propone la realización de una autoevaluación de carácter formativo, a fin de evaluar la apropiación de saberes por parte de los estudiantes y obtener información para mejorar los procesos de enseñanza y aprendizaje. Esencialmente este tipo de evaluación considera los procesos de construcción del conocimiento más que los resultados. Hasta el momento, en algunas comisiones de AMI se implementaron cuestionarios online valiéndose de la herramienta Google Forms con buenos resultados. Los mismos no forman parte de la evaluación formal de la asignatura, sino que se toman como evaluaciones de seguimiento (por parte de cada profesor en particular) y autoevaluaciones (para los estudiantes). Por lo tanto, no tienen impacto directo en la calificación, nota o aprobación de los alumnos. Dado que el primer parcial de AMI representa una instancia donde los alumnos por primera vez enfrentan el desafío de estudiar la teoría de la materia, la realización previa de una autoevaluación, con la correspondiente devolución por parte del docente al alumno, contribuye a que el estudiante identifique logros y/o dificultades con el objetivo de mejorar el desempeño. Por último, la implementación del cuestionario en forma online (mediante el uso de una tecnología actual) permite procesar la información de manera ágil y efectiva, así también como captar la atención de los alumnos.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Marco teórico</head><p>Como marco teórico de este artículo se destacan principalmente conceptos referidos a la didáctica, la comprensión y algunos supuestos fundamentales del sistema educativo actual. En primer lugar, como menciona Litwin (2000), la "configuración didáctica" es la manera particular que utiliza el profesor para favorecer el proceso de construcción de conocimientos. Esto incluye, entre otros aspectos, formas de relacionarse con los estudiantes, recortes de contenidos, metodologías, supuestos respecto del aprendizaje, relaciones entre la práctica y la teoría. La configuración didáctica evidencia una clara intención de enseñar y favorecer la comprensión en los alumnos. En el caso particular de AMI, la configuración didáctica aplicada mediante la herramienta "cuestionario online", se basa en favorecer la comprensión de los conceptos relacionados con los temas: Funciones, Límites y Derivadas. En este sentido, se hace referencia al concepto de "comprensión" <ref type="bibr">de Perkins (1995)</ref>. Según este autor, comprender implica entender algo en su contexto y concebir el todo en relación a sus partes. La comprensión va más allá de poseer conocimientos, sino que implica pensar a partir de lo que uno sabe. Establecer una configuración didáctica para favorecer la comprensión es desarrollar un desempeño flexible, no sólo centrado en memorizar datos o conceptos, sino en saber y poder utilizarlos. Si un alumno comprende, no sólo sabe, sino que también puede pensar a partir de lo que sabe. "(…) cuando un estudiante no puede ir más allá de la memorización y el pensamiento y la acción rutinarios, esto indica falta de comprensión" <ref type="bibr">(Stone Wiske, 1999, p.5)</ref>.</p><p>En este contexto resulta necesario realizar actividades que obliguen al alumno a ir más allá del conocimiento y las habilidades rutinarias, como por ejemplo el cuestionario aplicado en AMI, que involucra preguntas "para pensar y razonar". Es decir, no son sólo preguntas en las que la respuesta es un dato o un cálculo, sino que implican que el alumno relacione lo que sabe, que conceptualice y que resuelva una situación problemática a partir de su conocimiento. Pérez Gómez (2010) plantea algunos supuestos fundamentales del sistema educativo actual, que fueron considerados en la elaboración de la autoevaluación conceptual propuesta. El primer supuesto expresa que: "existe una relación lineal entre la teoría y la práctica. Esta concepción ingenua y mecanicista a la vez considera que la práctica es una mera y directa aplicación objetiva de la teoría, y que la práctica adecuada se garantiza mediante el aprendizaje declarativo de las teorías pertinentes (…)" (p.40-41). Por otro lado, este autor manifiesta que "los contenidos y habilidades que hay que aprender normalmente se sitúan en la escala inferior del conocimiento: datos y habilidades mecánicas, rutinas y destrezas simples que hay que aprender y dominar mediante repetición y ejercicio. Precisamente los aspectos del conocimiento que en la actualidad están ya al alcance de las máquinas electrónicas y que ellas pueden ejecutar con mucha más facilidad y fiabilidad que los seres humanos" (p.40-41) A la luz de estos supuestos, en las distintas comisiones de AMI se observa que la teoría y la práctica están dadas, generalmente, en forma separada y lineal, si bien Profesores y Auxiliares intentan realizar relaciones entre las mismas a medida que desarrollan sus clases. Esto hace que los alumnos las vean también así, como dos cosas separadas que tienen alguna relación y, "además, como las teorías no tienen para el estudiante-aprendiz, en la mayoría de los casos, la significación auténtica que pueden tener para el investigador, científico o experto, el aprendizaje teórico, declarativo, se convierte por lo general en una mera reproducción verbal de adquisiciones memorísticas sin sentido, sin valor de uso, que el aprendiz intercambia por notas, calificaciones o acreditaciones, pero que en raras ocasiones iluminan u orientan la práctica." <ref type="bibr">(Pérez Gómez, 2010, p.40)</ref> De acuerdo a lo expuesto anteriormente, con la propuesta del cuestionario se buscó mejorar la relación entre la teoría y la práctica, mediante preguntas y ejercicios conceptuales y de razonamiento, en lugar de preguntas con respuestas memorísticas y de resolución de cálculos. Y además, poder orientar a los alumnos en el estudio. Tenutto y otros (2000) sostienen que la evaluación constituye un proceso constante que permite relevar información variada sobre los procesos de enseñanza y aprendizaje que es interpretada en función de una serie de criterios que permiten al docente construir un juicio de valor y orientar sus elecciones pedagógicas vinculadas con el tipo de estrategia adoptada, con la calificación y promoción de los alumnos, entre otras. De este modo, "la evaluación no es ni puede ser un apéndice de la enseñanza ni del aprendizaje; es parte de la enseñanza y del aprendizaje. En la medida en que un sujeto aprende, simultáneamente evalúa, discrimina, valora, critica, opina razona, fundamenta, decide, enjuicia, opta…entre lo que considera que tiene un valor en sí y aquello que carece de él. Esta actitud evaluadora, que se aprende, es parte del proceso educativo que, como tal, es continuamente formativo" <ref type="bibr">(Álvarez Méndez, 1998, p.37)</ref>. Finalmente, frente al marco teórico descripto, surge la necesidad de seguir mejorando las prácticas docentes, orientando las mismas hacia la comprensión de conceptos, la resolución de problemas y hacia la incorporación de las tecnologías en el proceso educativo.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Objetivos y Metodología</head><p>Los principales objetivos de la autoevaluación propuesta fueron:</p><p> Estimar el grado de apropiación de los conocimientos por parte de los alumnos.</p><p> Re-orientar o convalidar el proceso de aprendizaje del alumno.  Proporcionar una instancia para evaluar el rendimiento personal del alumno tendiente a identificar fortalezas y debilidades, como por ejemplo, la forma de estudio.  Reforzar el análisis y el estudio conceptual.  Regular el proceso de enseñanza y realizar ajustes o correcciones en la planificación.  Obtener información para re-organizar las clases, a fin de: reafirmar conceptos y/o procedimientos, analizar los temas desde otro punto de vista, reformular las estrategias para abordarlos.  Incorporar herramientas tecnológicas actuales que faciliten el proceso de enseñanza y aprendizaje.</p><p>En referencia a la implementación del cuestionario online, se decidió que el mismo sea fundamentalmente conceptual, es decir, con el objetivo de hacer razonar a los alumnos a partir de los conceptos que habían estudiado, tratando de relacionarlos entre sí y poner a prueba la comprensión de los mismos.</p><p>Por otro lado, el cuestionario se implementó para ayudar a los alumnos a autoevaluarse y poder reforzar el estudio unos días antes del primer parcial. Siguiendo los objetivos propuestos, el cuestionario se elaboró con la herramienta Google Forms y contó con 50 preguntas de carácter teórico-práctico conceptual. El tipo de preguntas que se incluyeron fueron: de opción múltiple (con una o varias respuestas correctas) y otras en las que se debía indicar la verdad o falsedad de distintas proposiciones. La mayoría de las preguntas tenían como propósito inducir al alumno a razonar a partir de lo que sabe.</p><p>A continuación se muestran algunas de las preguntas implementadas en el cuestionario:</p><p>1) Indicar si las siguientes proposiciones son verdaderas o falsas:</p><formula xml:id="formula_0"> La función     1 1 ln    x cx x r es positiva 0  x , siendo     0 . R c cte c</formula><p>.  Si una función está definida en todos los reales, entonces no tiene asíntota vertical.</p><p>2) Dada la función  </p><formula xml:id="formula_1">          0 0 1 1 x si k x si e e x f x x , donde R cte k   .</formula><p>. Indicar cuáles de las siguientes afirmaciones son correctas:</p><formula xml:id="formula_2">a) Si 0  k ,   x f es continua en 0  o x . b) Para ningún valor de k   x f es continua en 0  o x . c)   x f solo puede presentar alguna discontinuidad en 0  o x . d)   x f posee una asíntota horizontal en 0  y . e)   x f</formula><p>posee una asíntota horizontal por izquierda en 0  y .</p><p>3) A partir de la gráfica de la función</p><formula xml:id="formula_3">  x f y  , indicar las proposiciones correctas: a)   1 lim 1      x f x b)   1 lim 1     x f x c)       x f x 1 lim d)   x f</formula><p>presenta una discontinuidad esencial de salto finito en 1</p><formula xml:id="formula_4">0   x e)   x f presenta una discontinuidad esencial de salto infinito en 1 0  x f)   x f posee una asíntota horizontal en 1  y 4) La recta tangente a la curva ) ( y x f  en el punto )) ( , ( a f a P</formula><p>es la recta que pasa por Al finalizar el cuestionario cada alumno pudo expresar su opinión sobre las clases teóricas y prácticas, la autoevaluación propuesta y el material de estudio en relación a la comprensión de los conceptos a ser evaluados en el primer parcial; así también como ver su puntaje total y las respuestas correctas e incorrectas. Se considera que esta retroalimentación de información enriquece a docentes y alumnos en el proceso de enseñanza y aprendizaje. Además corresponde aclarar que se permitió un solo intento para realizar el cuestionario, y los datos quedaron registrados en gráficos y planillas que las docentes pueden disponer para analizar los resultados generales y por comisión, observar cuáles fueron las preguntas que respondieron correctamente y cuáles tienen más errores en las respuestas, obtener promedios, etc. El cuestionario se habilitó cuatro días antes del primer parcial (durante 24 hs.), de manera que los alumnos ya hubieran estudiado los contenidos del mismo y, además, pudieran re-orientar el estudio a partir de los resultados. La difusión del cuestionario se llevó a cabo con un mes de antelación, a través del campus virtual, donde se indicó a los alumnos la fecha de realización del cuestionario y la importancia de responderlo luego de haber estudiado los temas involucrados.</p><formula xml:id="formula_5">P con pendiente: a) ) ´(x f m T  b) h x f h x f lim m h T ) ( ) ( 0     c) a x a f x f m T   ) ( ) ( d)</formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Resultados</head><p>Luego de la realización del cuestionario por parte de los alumnos, se destacan los siguientes aspectos generales:</p><p> Grado de participación de los alumnos: el 43% de los alumnos que rindieron el parcial respondieron el cuestionario.  Nota promedio de todos los cursos: 48% respecto al puntaje total.  Rango de notas: entre 38% y 61%, respecto al puntaje total.</p><p>Estos resultados ponen en evidencia una baja participación de los alumnos. Además de un bajo grado de apropiación de los conocimientos por parte de los estudiantes, dado el bajo rendimiento mostrado. Entre los resultados de la encuesta de opinión, cabe destacar que el 78% de los alumnos indicó que las clases de teoría y práctica los ayudaron a comprender mejor los temas.</p><p>Por otro lado, en la Figura 1 se presentan las opiniones de los alumnos sobre la contribución de la autoevaluación a: A-Identificar los conceptos importantes y relacionarlos entre sí; B-Plantear una forma distinta de estudio de la asignatura que implique la comprensión de los temas; C-Identificar errores y conceptos que requieren revisión; D-Comprender mejor los temas del Parcial N° 1.</p><p>Figura 1. Opinión de los alumnos, en porcentaje, respecto a la autoevaluación.</p><p>Según se observa en la Figura 1, el 75% de los alumnos que efectuaron la autoevaluación manifestaron que la misma contribuyó a identificar los conceptos importantes e interrelacionarlos. Un 49% consideró conveniente reformular la forma de estudiar a partir de su desempeño en la autoevaluación. Mientras que un 34% y un 17% expresaron "en cierta medida" y "no" respectivamente. Por otro lado, para el 87% de los alumnos, la autoevaluación contribuyó a identificar errores y conceptos que requieren revisión. Por último, se obtuvieron opiniones segregadas en cuanto a cómo contribuyó la autoevaluación propuesta a mejorar la comprensión de los temas incluidos en el primer parcial: 54% se inclinaron por "sí", 36% por "en cierta medida" y 10% por "no". En referencia a los temas a evaluar en el parcial, los alumnos enunciaron que los siguientes temas les presentaron dificultades y requerían revisión:</p><p> Derivadas;  Recta tangente y recta normal;  Problemas de razón de cambio. En particular y a modo de ejemplo, de acuerdo a la información relevada del cuestionario, una de las preguntas de razón de cambio fue respondida satisfactoriamente solo por el 8% de los alumnos. Los temas mencionados por los alumnos fueron los últimos vistos antes del parcial y no fueron evaluados previamente en los Trabajos Prácticos. Por último, respecto al material de estudio brindado por la cátedra: libro, apuntes complementarios y guías de trabajos prácticos, la mayoría de los alumnos lo consideró útil para su estudio, lo cual es positivo. Cabe destacar que dicho material fue revisado, re-elaborado y actualizado por los docentes entre 2014 y 2016.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Conclusiones</head><p>La autoevaluación conceptual implementada mediante la herramienta Google Forms, que se llevó a cabo antes del Primer Parcial de Análisis Matemático I resultó de gran utilidad para obtener información tendiente a mejorar el proceso enseñanza y aprendizaje. Se puede concluir que el cuestionario ayudó a los alumnos a identificar los conceptos importantes y relacionarlos entre sí, así también como a detectar errores y conceptos que requerían revisión antes del Parcial.</p><p>Por otro lado, el bajo desempeño de los alumnos conduce a los docentes a plantear nuevas estrategias en el abordaje de los temas y a reforzar el análisis conceptual. Finalmente, puede plantearse que, mediante la implementación de herramientas similares a la propuesta en este trabajo, es posible propiciar el interés por la materia y lograr que los alumnos resuelvan situaciones problemáticas nuevas, utilicen las tecnologías en el proceso de aprendizaje y aumenten su dedicación al estudio a fin de obtener un mejor rendimiento académico.</p></div>		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title level="m" type="main">En: Camilloni y otros. La evaluación de los aprendizajes en el debate didáctico contemporáneo</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Álvarez Méndez</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Las configuraciones didácticas. Una nueva agenda para la enseñanza superior</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ballardini</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Editorial Clacso. Litwin, E</title>
+		<imprint>
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+	<note>Jóvenes, tecnología, participación y consumo</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title level="m" type="main">Aprender a educar. Nuevos desafíos para la formación de docentes. En: Revista Interuniversitaria de Formación del Profesorado</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mastache</surname></persName>
+		</author>
+		<editor>Pérez Gómez, A.</editor>
+		<imprint>
+			<date type="published" when="2009" />
+			<biblScope unit="page" from="37" to="60" />
+		</imprint>
+		<respStmt>
+			<orgName>Departamento de Didáctica y Organización Escolar, Universidad de Málaga</orgName>
+		</respStmt>
+	</monogr>
+	<note>En: Encuentro Internacional de Derecho Internacional realizado en Córdoba</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title level="m" type="main">La escuela inteligente</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Perkins</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1995" />
+			<publisher>Editorial Gedisa</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title level="m" type="main">La enseñanza para la comprensión</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Stone Wiske</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<title level="m" type="main">Vinculación entre la investigación y la práctica</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tenutto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Brutti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Algarañá</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<title level="m" type="main">Conceptos y propuestas</title>
+		<author>
+			<persName><surname>Planificar</surname></persName>
+		</author>
+		<imprint>
+			<pubPlace>Buenos Aires</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

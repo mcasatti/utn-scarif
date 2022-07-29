@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="es">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">El Taller Educativo como Dispositivo de Vinculación de Espacios Académicos</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Roxana</forename><surname>Del Carmen Córdoba</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Espacio de Vinculación con el Sector de la Orientación Economía y Administración</orgName>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Oscar</forename><forename type="middle">Carlos</forename><surname>Medina</surname></persName>
+							<email>omedina@frc.utn.edu.ar</email>
+							<affiliation key="aff2">
+								<orgName type="department">Departamento Ingeniería en Sistemas de Información Universidad Tecnológica Nacional -Facultad Regional Córdoba Maestro López s/n</orgName>
+								<address>
+									<addrLine>Ciudad Universitaria</addrLine>
+									<settlement>Córdoba</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Roberto</forename><forename type="middle">Miguel</forename><surname>Muñoz</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">Departamento Ingeniería en Sistemas de Información Universidad Tecnológica Nacional -Facultad Regional Córdoba Maestro López s/n</orgName>
+								<address>
+									<addrLine>Ciudad Universitaria</addrLine>
+									<settlement>Córdoba</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">-Asimra -Anexo</forename><surname>B°</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Coronel</forename><surname>Olmedo</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department">Idelfonso Muñecas esq. Victoríca</orgName>
+								<address>
+									<settlement>Córdoba</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff4">
+								<orgName type="department" key="dep1">Facultad Regional Córdoba. Estudiantes</orgName>
+								<orgName type="department" key="dep2">Departamento de Ingeniería en Sistemas de Información de la mencionada Universidad</orgName>
+								<orgName type="laboratory" key="lab1">Espacio de Vinculación con el Sector de la Orientación Economía y Administración&quot;, participaron en el Taller &quot;Plan de negocios de un Emprendimiento: Modelo Canvas&quot;. El mencionado taller fue organizado por el</orgName>
+								<orgName type="laboratory" key="lab2">Científicos con Voz y Vos&quot;, desarrollado por la Dirección de Divulgación y Enseñanza de las Ciencias dependiente del Ministerio de Ciencia y Tecnología del Gobierno de la Provincia de Córdoba. Este espacio de encuentro logró</orgName>
+								<orgName type="institution">Universidad Tecnológica Nacional</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">El Taller Educativo como Dispositivo de Vinculación de Espacios Académicos</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">3AC9F106DD4AA1583EE7FCF4B7BB89EB</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.7.0" ident="GROBID" when="2022-04-09T01:35+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Taller</term>
+					<term>Vinculación</term>
+					<term>Emprendimientos</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>el intercambio de experiencias entre los diferentes actores que pertenecen a instituciones académicas de nivel medio y superior universitario, proponiendo e incentivando la participación activa de los estudiantes con espíritu emprendedor en proyectos innovadores. De esta manera el Taller Educativo fungió como dispositivo de articulación y vinculación, pero también de transferencia de conocimientos y experiencias, entre espacios académicos de instituciones de distintos niveles educativos.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="es">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introducción</head><p>El programa "Mentoreo de Emprendedores ISI" promueve y difunde el emprendedorismo como complemento del perfil profesional de los estudiantes y graduados recientes de la carrera de Ingeniería en Sistemas de Información. Desde el programa se facilitó y organizó el taller, brindando los resultados que se describen en el presente artículo. El Ministerio de Educación, de la Provincia de Córdoba, dispone de 163 Centros Educativos de Nivel Medio para Adultos (C.E.N.M.A.). La experiencia se desarrolló con el Centro Educativo de Nivel Medio para Adultos ASIMRA -Anexo-de Barrio Coronel Olmedo de la Ciudad de Córdoba. En este C.E.N.M.A. los estudiantes en su mayoría trabajan y poseen familiares a cargo. Algunos trabajan en empleos formales, otros informales y también por cuenta propia. Sus edades oscilan entre los 18 y los 72 años de edad. En relación a las trayectorias educativas y de vida de cada estudiante, muchos han abandonado el nivel medio por distintas razones y han decidido retomar y continuar con sus estudios para finalizarlos. El tema "Plan de Negocios de un Emprendimiento: Modelo Canvas" forma parte del contenido de cátedras de la carrera de ingeniería, con aplicación en el Programa de Mentoreo ISI. El coordinador del Programa Mentoreo ISI de la Universidad estableció el contacto con autoridades del C.E.N.M.A., y a través del programa "Científicos con Voz y Vos" se logra llegar a los estudiantes jóvenes y adultos. La actividad se formalizó con un convenio de transferencia, firmado por el Director de la Carrera de Ingeniería en Sistemas de Información y la docente del C.E.N.M.A. Para el taller se fijaron dos objetivos principales:  Ampliar los conocimientos teóricos y prácticos relacionados a un emprendimiento sustentable a través de una metodología de modelado de negocios denominada Canvas por Osterwalder <ref type="bibr">(Osterwalder &amp; Pigneur, 2010)</ref>. Este modelo de plan de negocios implica agrupar y relacionar nueve variables que toda idea de negocio debería tener bien definida, para su implementación y éxito del emprendimiento.  Vincular a los estudiantes de la modalidad jóvenes y adultos del C.E.N.M.A. con la formación en ingeniería, en este caso de la Facultad Regional Córdoba. En ese sentido la facultad desarrolla sus actividades de extensión universitaria y logra su función social hacia la comunidad, transmitiendo conocimientos científicos y facilitando la apropiación colectiva del mismo. En la actualidad se viven cambios acelerados y constantes. La era de la información trae consigo cambios sociales, tecnológicos, culturales, educativos y políticos. Revoluciones que se producen en la sociedad y plantean nuevas formas de trabajo, de vida, de relaciones e interrelaciones sociales y productivas <ref type="bibr">(AlvinToffler, 1980)</ref>. Toffler explicita en cómo debe transformarse la educación y la economía para adaptarse a esta nueva era.</p><p>Esto implica el paso de la economía industrial a la economía basada en el conocimiento. Y es en la nueva economía basada en el conocimiento donde la innovación y el emprendedorismo cobran mayor protagonismo como generadores de desarrollo regional y fuentes de trabajo genuinas."El emprendimiento dinámico y la innovación cobran una importancia de primer orden debido a su mayor potencial de aportar a la creación de empleos de calidad y ayudar a diversificar la estructura productiva de la región" <ref type="bibr">(Kantis et al., 2015)</ref>. Frente a este escenario, el aprendizaje y las nuevas tecnologías de la información y la comunicación realizan requerimientos a la educación formal. Darling Hammond expresa que para "provocar aprendizajes eficaces es necesaria una educación que enseñe a los jóvenes a pensar de manera correcta e independiente, a usar lo que se aprende para producir un trabajo de calidad, a tomar iniciativas y a trabajar de manera efectiva" <ref type="bibr">(Darling Hammond, 1997)</ref>. Por lo mencionado, se requiere de estudiantes ligados a la capacidad de aprender a aprender y con disposición favorable al aprendizaje continuo; para responder a las demandas de la actual economía.</p><p>Con intervenciones y participación activa, otorgando sentido y significado a los conocimientos, para transferirlos en acciones que contribuyan a una mejor calidad de vida de la comunidad. En el año 2017 los alumnos del C.E.N.M.A. desarrollaron una idea de negocio original, que fue la de reutilizar neumáticos y transformarlos en asientos "verdes" de uso cotidiano en el hogar, como se puede apreciar en la Figura 1. Uno de los propósitos del emprendimiento fue la producción a bajo costo y otro fue la reducción de residuos sólidos en la vía pública, con la intención de minimizar impactos negativos en el ambiente.</p><p>El concepto teórico de"Plan de negocios"fue implementado con la herramienta Canvas, con el objetivo de crear, establecer y visualizar de manera global la idea de negocio, para su posterior inserción en el mercado productivo. Es decir que se fomenta el planear la acción antes de actuar, de manera organizada e interrelacionada a elementos que la componen. Todo esto con la intencionalidad de orientar a los estudiantes hacia la apropiación de la importancia del conocimiento científico, como factor clave para el éxito del emprendimiento y ejercicio profesional.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Marco teórico</head><p>El Taller educativo como "dispositivo de enseñanza y aprendizaje, es provocador de cambios por ser una forma de trabajo que permite proponer acciones pedagógicas tendientes a lograr la circulación de significados diversos, la comprensión, la toma de conciencia, la elaboración de interpretaciones y la iniciación de procesos de reflexión" <ref type="bibr">(Sanjurjo et al., 2017)</ref>. El Programa del Gobierno Provincial "Científicos con Voz y Vos" con el fin de divulgar la Ciencia a la sociedad, permitió acceder a un espacio Educativo de Nivel Superior, como es la Universidad Tecnológica Nacional, configurando así una práctica social de trabajo colectivo con el propósito de promover educación con base científica. Generando así una articulación entre estudiantes del C.E.N.M.A., el programa de divulgación de la Ciencia de la Provincia y el Programa de Mentoreo ISI, haciéndose efectivo a través del taller dictado en la Universidad por un docente e investigador científico especializado en la temática (Ver Figura 2). Se reflejó en esta práctica la "concepción del aprendizaje como proceso complejo, en función del reconocimiento de contextos, condiciones y procesos en forma interrelacionada" (Cecilia Ziperovich, 2010). La propuesta planteada, relacionada al "Ser Emprendedor", tiene un peso específico importante en esta dialéctica; ya que emprendedor es aquella persona o grupo de personas con capacidad para traducir sus ideas en acciones. En ese contexto se transmite la necesidad de ser capaces de identificar oportunidades, aprovecharlas y desarrollarlas, a través de la ejecución y puesta en marcha de la idea, incorporando la innovación para generar transformaciones positivas. Para socavaren los estudiantes estas nociones, y las de pensar de manera reflexiva y anticipada, construyendo y reconstruyendo mundos posibles, es necesario un trabajo colectivo y en equipo, para enriquecer la enseñanza y el aprendizaje.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Objetivos y Metodología</head><p>Antes de cada taller se realiza un trabajo previo, entre la docente a cargo del "Espacio de Vinculación con el sector de la orientación" y el docente investigador universitario, haciendo una introducción al tema a abordar, en lo referido a cuestiones teóricas y análisis de casos de éxito. En los artículos del convenio de transferencia firmado se indica la temática abordada y una propuesta para llevar a cabo el intercambio de experiencias entre los diferentes actores, incentivando una mayor participación de los ciudadanos en los procesos que involucren a la ciencia y la tecnología, además que se encuentra prevista la realización de actividades de divulgación científica y de extensión a la Comunidad por parte del Departamento. Finalmente se designan representantes técnicos por cada una de las partes con el fin de establecer canales permanentes y fluidos de comunicación para el cumplimiento del acuerdo. En cumplimiento de lo pactado, se desarrolla el taller en aula de la Facultad, donde el docente investigador universitario expone nuevos conocimientos. Como los estudiantes asistentes disponen de material y conocimientos previos se posibilita un diálogo muy enriquecedor y un intercambio de ideas muy fluido, produciéndose un anclaje de conocimientos realmente válido y vivencial. Esta actividad que se desarrolla facilita la comprensión y la realización de la parte práctica que se propone. La tarea práctica consiste en completar el modelo Canvas y los distintos elementos que lo componen, aplicando lo expuesto por el disertante y las ideas explicitadas de los estudiantes, señalando: segmentos de clientes, propuesta de valor, relación con clientes, canales, fuente de ingresos, recursos clave, actividades clave, sociosclave y estructura de costos. A continuación en la Figura 3 se muestra un esquema del modelo Canvas: Complementan la agenda del taller el desarrollo de temas como Desarrollo de Clientes, Propuesta de Valor y Producto Mínimo Viable basado en la metodología "Lean Startup" según bibliografía de <ref type="bibr">(Ries, 2011</ref><ref type="bibr">) y (Blank&amp; Dorf, 2012</ref>.</p><p>Por definición el Taller educativo debe integrar la teoría con la práctica. Es por ello que se trabaja con un caso de aplicación real, que fue previamente estudiado en clases del C.E.N.M.A. y que se realiza como ejercicio individual y colaborativo en el transcurso del encuentro. Al finalizar la jornada, cada asistente recibe su certificado como es habitual en las capacitaciones organizadas por el Departamento Ingeniería en Sistemas de Información.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Resultados</head><p>Los resultados obtenidos en los talleres fueron muy positivos y favorables. La Sala de Usos Múltiples de la Facultad, donde se dictaron los talleres, sirvió como espacio educativo de vinculación estimulante para los estudiantes del C.E.N.M.A. En ese espacio se logra una "trama singular de relaciones sociales en los que se expresan los significados y los tipos de comportamientos ligados a la institución" <ref type="bibr">(Lidia Fernández, 2013)</ref>. Entre ambas ediciones del Taller educativo participaron 60 estudiantes, además de la Directora del C.E.N.M.A., el docente investigador responsable del programa "Científicos con Voz y Vos" y la docente del Espacio de Vinculación. La experiencia contribuyó al desarrollo del pensamiento reflexivo de cada uno de los estudiantes. Lo que se pudo inferir a través de los interrogantes planteados por los mismos estudiantes. La evaluación, como actividad extra-áulica fue muy motivadora y positiva en ambas ocasiones que se realizó el evento. Hubo intervenciones pertinentes de los estudiantes y se identificó una participación activa en la resolución de las actividades presentadas. Finalizado el taller, surgieron inquietudes en los estudiantes que participaron de los talleres. Algunas de ellas fueron: "¿Qué puedo estudiar en esta Universidad?","¿Hay que pagar en una Universidad pública?", "¡Me dieron ganas de seguir estudiando!¿Profe, Usted cree que pueda seguir estudiando en la Universidad?".</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figura 1 .</head><label>1</label><figDesc>Figura 1.Asientos "verdes" reciclados producidos por alumnos de 3° año 2017 del C.E.N.M.A.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figura 2 .</head><label>2</label><figDesc>Figura 2. Asistentes del taller "Plan de Negocios de un Emprendimiento: Modelo Canvas" Año 2018.</figDesc><graphic coords="3,333.72,98.04,195.00,146.28" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figura 3 .</head><label>3</label><figDesc>Figura 3.Componentes del modelo Canvas.</figDesc><graphic coords="4,72.36,510.24,216.00,152.28" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Conclusiones</head><p>Los autores del presente trabajo concluyen que la experiencia ha sido significativa para el proceso de enseñanza y aprendizaje de los estudiantes en relación al tema, el dispositivo y el contexto. Son relevantes las lecciones aprendidas por cada una de las Instituciones que se articularon, por medio de un dispositivo como lo es el Taller educativo. </p></div>			</div>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

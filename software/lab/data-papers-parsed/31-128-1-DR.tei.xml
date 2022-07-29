@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="es">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Herramientas para el trabajo con Requerimientos No Funcionales que afectan la Arquitectura de Software en la Cátedra de Diseño de Sistemas</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">María</forename><forename type="middle">Cecilia</forename><surname>Massano</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Departamento de Ingeniería en Sistemas Facultad Regional Córdoba</orgName>
+								<orgName type="institution">Universidad Tecnológica Nacional Maestro Marcelo López s/n</orgName>
+								<address>
+									<settlement>Córdoba</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Elizabeth</forename><surname>Jeinson</surname></persName>
+							<email>ejeinson@gmail.com</email>
+							<affiliation key="aff0">
+								<orgName type="department">Departamento de Ingeniería en Sistemas Facultad Regional Córdoba</orgName>
+								<orgName type="institution">Universidad Tecnológica Nacional Maestro Marcelo López s/n</orgName>
+								<address>
+									<settlement>Córdoba</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Herramientas para el trabajo con Requerimientos No Funcionales que afectan la Arquitectura de Software en la Cátedra de Diseño de Sistemas</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">A57AA1CAA6901DC1CA6CF6580C0E6340</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.7.0" ident="GROBID" when="2022-04-09T01:35+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="es">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Resumen</head><p>En este artículo se presentan herramientas para trabajar los requerimientos no funcionales como entrada para el diseño arquitectónico de productos de software, en el contexto de la primera etapa del proceso de diseño arquitectónico. Basándonos en las definiciones de requerimientos no funcionales de Ian Somerville <ref type="bibr" target="#b10">(Sommerville, 2011)</ref> y la ISO 25000 (ISO/IEC, 2014), y el concepto de diseño arquitectónico propuesto por Ian Gorton <ref type="bibr" target="#b3">(Gorton, 2006)</ref> se presentan dos herramientas, a saber: el modelo de calidad de producto propuesto por la ISO 25010:2011 (ISO/IEC, 2011) y una plantilla de especificación de requerimientos no funcionales. El objetivo del artículo es demostrar que los estudiantes abordan el tema con elementos que faciliten la identificación y especificación de los requerimientos no funcionales, así como la vinculación con la arquitectura de un producto de software.</p><p>Palabras clave: diseño de sistemas, requerimientos no funcionales, diseño arquitectónico.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introducción</head><p>La especificación de los requerimientos es una tarea con múltiples dificultades. Aun suponiendo que las actividades anteriores a la especificación (elicitación y análisis de requerimientos) <ref type="bibr" target="#b10">(Sommerville, 2011)</ref> hayan superado las barreras de la comunicación entre analistas y usuarios, y se haya logrado interpretar acertadamente los requisitos, la correcta especificación sigue siendo un reto. Existen múltiples formas de especificar requerimientos, tanto mediante métodos formales como en lenguaje natural más o menos estructurado (casos de uso y otras técnicas). En este sentido, es necesario que se definan de manera específica y consistente, sin ambigüedades posibles <ref type="bibr" target="#b8">(Mannion &amp; Keepence, 1995)</ref>. En esa misma línea, los requerimientos no funcionales deben ser verificables <ref type="bibr">(IEEE, 1998)</ref>, lo que implica que sean específicos, medibles, accesibles, realizables y de tiempo limitado <ref type="bibr" target="#b8">(Mannion &amp; Keepence, 1995)</ref>, estableciendo los criterios de aceptación. Además, es necesario negociar con el cliente requerimientos realizables que su inversión de infraestructura sea capaz de atender <ref type="bibr" target="#b8">(Mannion &amp; Keepence, 1995)</ref>. A partir de esta necesidad, hacemos foco en esta temática en pos de lograr buenas especificaciones en el ámbito profesional. Por ello, a continuación, se presenta una propuesta basada en el modelo de calidad de producto de la ISO 25010:2011 (ISO/IEC, 2011), y bajo el marco teórico que define requerimientos no funcionales <ref type="bibr" target="#b10">(Sommerville, 2011)</ref> y diseño arquitectónico <ref type="bibr" target="#b3">(Gorton, 2006)</ref>. Dicha propuesta consta de dos herramientas a utilizar en el aula, durante el cursado de Diseño de Sistemas (de Información) o materias afines, para la enseñanza de la identificación y especificación de requerimientos no funcionales, y el posterior vínculo con el diseño arquitectónico de productos de software.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Marco teórico</head><p>El proceso del diseño de la arquitectura de un producto de software descripto por Gorton inicia con la determinación de los requerimientos arquitectónicos significativos para la arquitectura. La segunda etapa es el diseño de la arquitectura y la etapa final es la validación de la arquitectura <ref type="bibr" target="#b3">(Gorton, 2006)</ref>. Estos requerimientos arquitectónicos están compuestos por los requerimientos funcionales y los "requerimientos de los involucrados" o necesidades de los involucrados <ref type="bibr" target="#b3">(Gorton, 2006</ref>) (T. de A.). Estos últimos conforman las restricciones al sistema o los atributos de calidad. La funcionalidad es la habilidad del sistema para hacer el trabajo que se espera de él. Debe ser independiente de las estructuras que componen el sistema. Sin embargo, esas estructuras son necesarias para implementar los atributos de calidad que se imponen como necesidades de los involucrados tales como la usabilidad, modificabilidad, desempeño <ref type="bibr" target="#b0">(Bass, Clemens, &amp; Kazman, 2003)</ref>. Los requerimientos no funcionales se definen por la negativa ya que describen las propiedades emergentes del sistema, y no los servicios que ofrece. También definen restricciones sobre el sistema tales como capacidad de dispositivos o las interfaces con otros sistemas <ref type="bibr" target="#b10">(Sommerville, 2011)</ref>. La ISO/IEC 25000:2014 (ISO/IEC, 2014) es una serie denominada SQuaRE (Systems and software Quality Requirements and Evaluation) que presenta un conjunto de modelos de calidad con el objetivo de conformar un marco para la especificación, medición y evaluación de la calidad del software. La serie que se enfoca en los modelos propone los siguientes: Calidad de Producto (ISO/IEC 25010:2011), Calidad en Uso (ISO/IEC 25010:2011), Calidad de Datos (ISO/IEC 25012:2008). La estructura de estos modelos de calidad se basa en categorizar la calidad de un producto en características. Estas características pueden a su vez desglosarse en sub-características. Se genera así una descomposición jerárquica que proporciona una visión completa respecto a la calidad del producto. El modelo aclara que, si bien el agrupamiento pretende ser representativo de una idea de calidad, puede no ser exhaustivo ni único. Es decir, en ocasiones, distintas características, pueden superponerse al concepto de calidad que están interpretando. Cada característica o sub-característica debe tener una o más propiedades de calidad que sean mensurables.</p><p>Luego, identifica las propiedades de calidad en uso, que son aquellas que capturan la percepción del usuario cuando experimenta el uso real o simulado del producto o sistema en cuestión. En el modelo de Calidad de Producto (ISO/IEC, 2011) basamos este trabajo, como base para identificar requerimientos no funcionales.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Objetivos y Metodología</head><p>Presentamos una propuesta vinculada a conceptos de Diseño de Arquitectura aplicados a la práctica. Este tema es contenido mínimo de la cátedra de Diseño de Sistemas en el programa aprobado 2007 de la carrera de Ingeniería en Sistema de Información, en la Universidad Tecnológica Nacional (Consejo Superior Universidad Tecnológica Nacional, 2007). El objetivo de la propuesta es encontrar una forma simple para que los estudiantes encuentren y especifiquen requerimientos no funcionales de manera correcta. Con el propósito de lograr la identificación de los requerimeintos no funcionales, los ejercicios prácticos constan de una descripción de un dominio particular, en donde se incluyen dentro del texto requerimientos no funcionales. Para facilitar dicha identificación previa presentación de estos casos prácticos, se le presenta a los estudiantes el modelo de calidad de producto propuesto por la ISO 25010: 2011 (ISO/IEC, 2011), como muestra la Fig. <ref type="figure" target="#fig_0">1</ref>. Este modelo incluye la descripción de cada una de las características y sub-características del modelo. Este material puede ser utilizado tanto en las clases como en las instancias de evaluación práctica. El objetivo de explicar y entregar este material es que los estudiantes se familiaricen con el concepto de requerimiento no funcional o atributo de calidad, y que cuenten con una herramienta que los ayude a encontrar estos requerimientos. Conociendo el modelo los estudiantes pueden plantearse ante ejercicios prácticos preguntas vinculadas a la identificación de los requerimientos. Cabe aclarar que la característica Adecuación Funcional no se desarrolla en este tema ya que abarca los requerimientos funcionales, que no son foco de la unidad de Diseño de Software. Sumando al modelo de calidad de producto también se le presenta a los alumnos una tabla tipo plantilla para especificar los requerimientos no funcionales identificados. La plantilla ordena la forma en que se identifican los requerimientos no funcionales, de tal forma de asegurar su correcta especificación. La tabla contiene: 1. Número: identificación unívoca de los requerimientos no funcionales. 2. Nombre: Frase para identificar al requerimiento no funcional. 3. Descripción: En este apartado el requerimiento debe quedar claramente especificado, cumpliendo los principios SMART <ref type="bibr" target="#b8">(Mannion &amp; Keepence, 1995)</ref> para asegurar que el requerimiento sea verificable en una etapa de pruebas del software <ref type="bibr">(IEEE, 1998)</ref>. 4. Significativo para la arquitectura: En esta columna se determina si el requerimiento afecta la arquitectura de software indicando SI ó NO. El objetivo de esta columna es que los estudiantes logren identificar los requerimientos que condicionan la arquitectura del software, como primer paso del proceso de diseño arquitectónico. 5. Justificación: La última columna requiere que los estudiantes expliquen porqué indicaron que un requerimiento no funcional afecta o no la arquitectura del software. Para esto pueden utilizar la descripción de las características y subcaracterísticas del modelo de calidad de producto propuesto por la ISO 25010:2011 <ref type="bibr" target="#b10">(Sommerville, 2011)</ref>. Con este formato de plantilla los estudiantes pueden realizar prácticas de identificación y especificación de requerimientos no funcionales, así como identificar los requerimientos que determinan la arquitectura del software, tema que atañe a los contenidos mínimos de la cátedra de Diseño de Sistemas. El propósito de esta propuesta es lograr afianzar los conocimientos obtenidos en las materias de años anteriores vinculados a la temática de requerimientos no funcionales, y generar nuevos conocimientos vinculados al diseño arquitectónico. Esto se debe lograr en no más de dos clases prácticas, ya que la extensión de los contenidos no permite abarcar más horas cátedra. Por esta razón, se buscó implementar una forma simple de enseñar y realizar prácticas de identificación y especificación de requerimientos no funcionales que permitan para avanzar con la disciplina de diseño arquitectónico. A continuación, se presenta un caso de aplicación donde se muestra la implementación de las herramientas propuestas. El caso de estudio es utilizado en 4 divisiones la cátedra de Diseño de Sistemas, de la Universidad Tecnológica Nacional, Facultad Regional Córdoba.</p><p>El ejercicio está basado en la gestión de una empresa concesionaria de peaje. Para caracterizar el caso práctico se presentan sus objetivos y alcances: Objetivo: gestionar pasadas de usuarios de un peaje y el cobro correspondiente, según la definición de tarifas y las formas de pago vigentes.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Alcances:</head><p>• Gestión de pasadas de vehículos por las casillas el peaje. • Administración de tarifas en función de categorías de vehículos y rutas. • Administración de clientes y de sus vehículos.</p><p>• Administración de casillas de peaje.</p><p>• Gestión del cobro en efectivo y con tarjeta de crédito. • Administración de usuarios, roles, empleados y turnos de atención. Para la práctica y evaluación de la temática Diseño Arquitectónico, se plantea una descripción del dominio planteado, donde se explica el caso, incluyendo en el texto requerimientos no funcionales. Al momento de trabajar con el Proceso de Diseño Arquitectónico, comenzamos con la etapa de Determinar los Requerimientos Arquitectónicos <ref type="bibr" target="#b3">(Gorton, 2006)</ref>. Los estudiantes deben identificar los requerimientos no funcionales en la descripción del dominio, y determinar cuáles son los significativos para la arquitectura. Para esto se les entregan las dos herramientas mencionadas. El modelo de calidad de producto los ayuda a encontrar requerimientos no funcionales en el dominio planteado. Por ejemplo, ante la siguiente descripción: Para las fechas pico el sistema debe soportar la pasada de vehículos en simultáneo por las 10 casillas de cada una de las rutas donde se encuentra un peaje de la empresa (son 9 rutas en total). Además, debe trabajar eficientemente con este tráfico considerando que en un minuto pueden pasar hasta 10 vehículos. Se considera que el sistema es eficiente si procesa una pasada en hasta 4 segundos. Utilizando el modelo de calidad de producto, si buscamos requerimientos asociados a la característica de Eficiencia de Desempeño, podemos identificar uno de ellos en la descripción anterior. A partir de la plantilla presentada anteriormente, se especifica el requerimiento eligiendo un nombre para representativo con una frase breve. Se selecciona la característica correspondiente del modelo de calidad de producto. Esto tiene por objetivo que el estudiante tenga que hacer un análisis respecto a establecer si están cubiertas las características que garantizan la calidad de producto. Aunque no es necesario indicar la subcaracterística, los estudiantes cuentan con la descripción de la jerarquía completa, de tal manera que les facilite la identificación. En el ejemplo que venimos desarrollando, el estudiante se puede ayudar con las siguientes definiciones de la ISO 25010:2011 (ISO/IEC, 2011). La característica eficiencia de desempeño se define como el desempeño relativo a la cantidad de recursos utilizados bajo determinadas condiciones establecidas. Las sub-características asociadas son: 1. Comportamiento temporal: el grado con el cual la respuesta, los tiempos de procesamiento, tasas de rendimiento de un producto o sistema cuando ejecuta sus funciones cumple con los requerimientos. 2. Utilización de recursos: el grado con el cual las cantidades y los tipos de recursos utilizados por un producto o sistema cuando ejecuta sus funciones cumplen con los requerimientos. 3. Capacidad: el grado con el cual los límites máximos de los parámetros de un producto o sistema cumplen con los requerimientos. Los parámetros pueden ser ítems almacenados, usuarios concurrentes, ancho de banda, rendimiento de las transacciones y tamaño de base de datos. Puede observarse que la descripción provista responde a las sub-características de capacidad: para las fechas pico el sistema debe soportar la pasada de vehículos en simultáneo por las 10 casillas de cada una de las rutas, y de comportamiento temporal: se considera que el sistema es eficiente si procesa una pasada en hasta 4 segundos. De esta forma, el estudiante podrá identificar fácilmente un requerimiento no funcional a partir de la descripción provista. Requerimiento de concurrencia y tiempo de respuesta que afecta la arquitectura ya que requiere el desarrollo de un módulo de lectura y procesamiento de pasadas que debe cumplir con este requerimiento de performance.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Resultados</head><p>La aplicación de las dos herramientas propuestas se ha llevado a cabo en el aula desde hace varios años. Se mostrarán resultados de los últimos 5 años. El modelo de calidad de producto ISO/IEC comenzó a utilizarse en 2018, por lo que aún está probándose su aplicación. Sin embargo, los resultados son comparables ya que esta herramienta se entregaba a los estudiantes en años anteriores. El modelo anterior era un cuadro similar que plasmaba modelos de otros autores: Ian Somerville <ref type="bibr" target="#b10">(Sommerville, 2011)</ref>, Ian Gorton <ref type="bibr" target="#b3">(Gorton, 2006)</ref>  A continuación, se presenta una tabla con la cantidad de horas cátedra consumidas para ver el tema de requerimientos no funcionales, como parte de la primera etapa del proceso de diseño arquitectónico, desde la clase práctica. Se puede observar la mejora en los porcentajes de aprobación a medida que se afianza la utilización de las herramientas propuestas.</p><p>Respecto a un análisis cualitativo de los resultados de la aplicación de las herramientas propuestas, se percibe en el aula que los estudiantes logran comprender los conceptos, basados en los conocimientos previos y valiéndose de las herramientas mencionadas para identificar los requerimientos no funcionales.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Conclusiones</head><p>Podemos concluir que los estudiantes utilizan ambas herramientas simplificando el trabajo de identificación de los requerimientos no funcionales, a partir de un modelo de calidad de producto avalado por una organización internacional de estandarización: la ISO/IEC. El contar con estas herramientas también en las instancias de evaluación logra que los estudiantes se enfoquen en aprender a utilizarlas y no en memorizar su contenido.</p><p>De esta manera se logra tanto una buena identificación y descripción de requerimientos no funcionales, como así también una correcta justificación de la implicancia en la arquitectura del software. En función de los resultados cuantitativos, podemos aseverar que la dedicación a este tema en el aula se puede minimizar a no más de 5 horas cátedra. Esto permite optimizar los tiempos y reforzar el tema de diseño arquitectónico, sin afectar los resultados en las evaluaciones. Estas herramientas abordan la temática en forma simple y didáctica, y los estudiantes pueden utilizarla en ambientes educativos y profesionales.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 -</head><label>1</label><figDesc>Fig. 1 -Modelo de Calidad de Producto -ISO 25010:2011</figDesc><graphic coords="2,74.15,56.85,455.00,226.05" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Tabla 1 -Extracto de Ejemplo de Requerimiento de Calidad/No Funcional en Ejercicio de Peaje</head><label></label><figDesc></figDesc><table><row><cell>Tabla 2 -</cell></row><row><cell>Como segundo paso el estudiante deberá</cell></row><row><cell>determinar si este requerimiento afecta la</cell></row><row><cell>arquitectura de software. Para esto también</cell></row><row><cell>utiliza el modelo de referencia de calidad de</cell></row><row><cell>producto de la ISO 25010:2011 (ISO/IEC,</cell></row><row><cell>2011). A partir de las definiciones de la</cell></row><row><cell>ISO/IEC los estudiantes deben ser capaces</cell></row><row><cell>de identificar si el requerimiento afecta la</cell></row><row><cell>arquitectura del software, y debe justificar</cell></row><row><cell>su elección.</cell></row><row><cell>En el ejemplo dado el requerimiento</cell></row><row><cell>identificado afecta la arquitectura de</cell></row><row><cell>software, por lo que se requiere una</cell></row><row><cell>justificación. Cabe aclarar que la</cell></row><row><cell>justificación enunciada por los estudiantes</cell></row><row><cell>evoluciona con el tiempo. En las primeras</cell></row><row><cell>justificaciones que realizan, cuando aun no</cell></row><row><cell>tienen vastos conocimientos para expresar</cell></row><row><cell>justificaciones más completas, se espera</cell></row><row><cell>que indiquen una aproximación de una</cell></row><row><cell>decisión arquitectónica.</cell></row><row><cell>A modo ejemplificador, se presenta la</cell></row><row><cell>solución:</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Extracto de Ejemplo de Justificación de Requerimiento de Calidad/No Funcional que afecta la Arquitectura de Software Nombre Justificación</head><label></label><figDesc></figDesc><table><row><cell>Performance</cell></row><row><cell>de</cell></row><row><cell>procesamiento</cell></row><row><cell>en horario</cell></row><row><cell>pico</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Tabla 3 -Hs Cátedra de Trabajos Prácticos Consumidas para el tema Requerimientos No Funcionales</head><label></label><figDesc></figDesc><table><row><cell cols="3">clase de requerimientos no funcionales con</cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="3">la aplicación de decisiones arquitectónicas</cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="3">relacionadas a su identificación. Esto</cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="3">justifica un leve aumento en la cantidad de</cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="3">horas cátedras dedicadas al tema.</cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="3">Respecto a los resultados de las evaluaciones</cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="3">Nombre en donde se incluye este tema, se presenta la Característica Descripción</cell><cell></cell><cell></cell><cell></cell></row><row><cell>siguiente tabla:</cell><cell></cell><cell>Para las horas</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Tabla 4 -</cell><cell></cell><cell>pico el sistema debe poder</cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell>soportar el</cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell>procesamiento</cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell>en simultáneo</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Performance de procesamiento en horario pico</cell><cell>Eficiencia de desempeño</cell><cell>de 90 transacciones, procesando cada transacción en hasta 4</cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell>segundos</cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell>considerando</cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell>que en un</cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell>minuto pueden</cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell>pasar hasta 10</cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell>vehículos.</cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>Curso</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>1</cell><cell>2</cell><cell>3</cell><cell>4</cell></row><row><cell></cell><cell></cell><cell></cell><cell>2018</cell><cell>5</cell><cell>5</cell><cell>5</cell><cell>4</cell></row><row><cell></cell><cell></cell><cell></cell><cell>2017</cell><cell>5</cell><cell>5</cell><cell>5</cell><cell>5</cell></row><row><cell></cell><cell></cell><cell>Año</cell><cell>2016</cell><cell>4</cell><cell>3</cell><cell>5</cell><cell>3</cell></row><row><cell></cell><cell></cell><cell></cell><cell>2015</cell><cell>3</cell><cell>3</cell><cell>3</cell><cell>3</cell></row><row><cell></cell><cell></cell><cell></cell><cell>2014</cell><cell>3</cell><cell>3</cell><cell>3</cell><cell>S/D</cell></row><row><cell></cell><cell></cell><cell cols="5">Durante 2018, a partir de la utilización del</cell></row><row><cell></cell><cell></cell><cell cols="5">modelo de calidad de producto propuesto</cell></row><row><cell></cell><cell></cell><cell cols="5">por la ISO 25010:2011 (ISO/IEC, 2011)</cell></row><row><cell></cell><cell></cell><cell cols="5">notamos que es posible avanzar en la misma</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head>Porcentaje de Aprobación de Parcial Donde se Incluye el Tema de Requerimientos No Funcionales</head><label></label><figDesc></figDesc><table><row><cell></cell><cell></cell><cell cols="2">Curso</cell><cell></cell><cell>Tipo de</cell></row><row><cell>Añ o</cell><cell>1</cell><cell>2</cell><cell>3</cell><cell>4</cell><cell>evaluació n</cell></row><row><cell>2018</cell><cell>No evalu ado</cell><cell>No evalu ado</cell><cell>No evalu ado</cell><cell>No evalu ado</cell><cell>2do parcial práctico</cell></row><row><cell cols="5">2017 100% 92% 100% 94%</cell><cell>3er parcial práctico</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>3er parcial</cell></row><row><cell cols="5">2016 92% 96% 55% 62%</cell><cell>teórico/prá</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>ctico</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>2do parcial</cell></row><row><cell cols="5">2015 71% 61% 58% 83%</cell><cell>teórico/prá</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>ctico</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>2do parcial</cell></row><row><cell cols="3">2014 71% 54%</cell><cell>S/D</cell><cell>S/D</cell><cell>teórico/prá</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>ctico</cell></row></table></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">L</forename><surname>Bass</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Clemens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kazman</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title level="m" type="main">Software Architecture in Practice -Segunda Edición</title>
+		<imprint>
+			<publisher>Addison Weasley</publisher>
+			<pubPlace>Boston</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title level="m" type="main">Ordenanza 1150 -Diseño Curricular Carrera Sistemas de Información</title>
+		<imprint>
+			<date type="published" when="2007" />
+			<pubPlace>Buenos Aires</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Consejo Superior Universidad Tecnológica Nacional.</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title level="m" type="main">Essential Software Architecture</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Gorton</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2006" />
+			<publisher>Editorial Springer</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Recommended Practice for Software Requirements Specifications. En IEEE</title>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Std</title>
+		<imprint>
+			<biblScope unit="volume">830</biblScope>
+			<biblScope unit="page" from="6" to="1998" />
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+	<note>IEEE</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<title/>
+		<author>
+			<persName><surname>Iso/Iec</surname></persName>
+		</author>
+		<idno>ISO/IEC 9126-1. Ginebra: ISO/IEC©</idno>
+		<imprint>
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title level="m" type="main">Ginebra: ISO/IEC©</title>
+		<author>
+			<persName><surname>Iso/Iec</surname></persName>
+		</author>
+		<idno>ISO/IEC 25010:2011</idno>
+		<ptr target="Obtenidodewww.iso.org" />
+		<imprint>
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<title/>
+		<author>
+			<persName><surname>Iso/Iec</surname></persName>
+		</author>
+		<idno>ISO/IEC 25000:2014. Ginebra: ISO/IEC©</idno>
+		<imprint>
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mannion</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Keepence</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1995" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+		<title level="m" type="main">Sofware Engineering Notes Volumen 2 Número 2</title>
+		<imprint>
+			<publisher>ACM SIGSOFT</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<monogr>
+		<author>
+			<persName><forename type="first">I</forename><surname>Sommerville</surname></persName>
+		</author>
+		<title level="m">Ingeniería de Software</title>
+				<meeting><address><addrLine>Mexico</addrLine></address></meeting>
+		<imprint>
+			<publisher>Addison Weasley</publisher>
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

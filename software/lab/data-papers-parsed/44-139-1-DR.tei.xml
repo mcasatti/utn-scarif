@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="es">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Tendencias de las TI/SI en Pymes de la Región Centro</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Blanca</forename><surname>Carrizo</surname></persName>
+							<email>bcarrizo@frc.utn.edu.ar</email>
+						</author>
+						<author>
+							<persName><surname>Rosa</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Carlos</forename><surname>Colazo</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Kunda</forename><surname>Beatriz</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Adriana</forename><surname>Olmedo</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Olivo</forename><surname>Federico</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Simieli</forename><surname>Paola</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Nacional</forename><surname>Maestro</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Marcelo</forename><surname>López</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Argentina</forename><forename type="middle">C P</forename><surname>Cruz Roja</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">)</forename><surname>Facultad</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Ingeniería Industrial</orgName>
+								<orgName type="institution" key="instit2">Facultad Regional Córdoba</orgName>
+								<orgName type="institution" key="instit3">Universidad Tecnológica</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="institution">Universidad Tecnológica Nacional</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="department">PYMEs. Tecnologías de la Información y Sistemas de Información (TI/SI). Competitividad</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Tendencias de las TI/SI en Pymes de la Región Centro</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">83B333CA7AEA4E48C117C717169F745B</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.7.0" ident="GROBID" when="2022-04-09T01:35+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>GICAPP "Grupo de Investigación en Control Avanzado de Procesos y Producción" (1)(2)(4)(5)(6) Dpto.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="es">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Resumen</head><p>Las PYMEs desempeñan un importante rol en la economía de los países desarrollados y para ellas es esencial aprovechar las ventajas que ofrecen las Tecnologías de la Información y los Sistemas de Información (TI/SI) para volver su negocio más eficiente, sobre todo en los procesos productivos y como una forma de diferenciarse de la competencia. Las TI/SI pueden transformar los procesos productivos, aumentando la movilidad y rapidez con que estos se realizan, disminuyendo los costos y facilitando la inserción de las mismas en la economía global. La configuración organizativa, el estilo de gestión y la interacción con los mercados difieren notoriamente de las grandes corporaciones, y enfrentan desafíos como: infraestructura, logística, acceso a recursos humanos, financieros, educación, ciencia y tecnología. En este contexto, las TI/SI han cobrado una importancia fundamental como instrumento de mejora de la competitividad y productividad de las economías modernas en general, y de las empresas en particular. Con el objetivo de "Estudiar, analizar, describir y diagnosticar recursos de TI/SI en las PYMEs de la región centro", se seleccionó una muestra representativa de la población y en el marco de una encuesta, se inició un relevamiento de campo que pretende graficar un escenario regional de la situación actual de las mismas a nivel informático.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Identificación</head><p>Código del PID: IFN 4346. Denominación: "Diagnóstico e impacto de las TI/SI en Pymes de la Región Centro. Diseño de estrategias de mejora". Disp. SCTy P N° 263/16 del 18/11/16. Fechas de inicio y finalización: 01/01/2017 hasta 31/12/2019 Unidad Ejecutora: GICAPP "Grupo de Investigación en Control Avanzado de Procesos y Producción". Dpto. Ingeniería Industrial. Facultad Regional Córdoba. Coejecutora: Facultad Regional Villa María. Calendar. De a poco, se empiezan a utilizar las tecnologías en la nube (cloud computing) para almacenamiento, aplicaciones, gestión de datos y recursos virtuales compartidos (redes, servidores); donde el costo mensual es bajo y accesible. Es decir que, esta aplicaciones requieren una baja inversión y son muy flexibles ya que la cantidad de usuarios puede incrementarse o disminuirse rápidamente, se actualizan continuamente, tienen soporte y confiabilidad de nivel mundial, permite el acceso tanto desde la empresa como desde el teléfono y las computadoras personales. En este contexto, las PYMEs evitan el uso de la tecnología en la modalidad in-house y apuestan por servicios en la nube, que les permitan contar con una solución llave en mano que no requiera realizar grandes desembolsos de dinero. La tendencia no es sólo llevar infraestructura a la nube -servidores, capacidad de cómputo y almacenamiento, entre otros -sino adoptar esta tecnología y los modelos "como servicio" para diferentes tipos de aplicaciones, especialmente aquellas que no sean parte de los procesos core del negocio.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Introducción</head><p>La tendencia es delegar la gestión de la infraestructura de hardware y software a proveedores de servicios. Es decir que, la nube híbrida se configura como una alternativa que permite a las PYMEs alcanzar los beneficios de la nube, al mismo tiempo que evitan las preocupaciones sobre dónde está alojada la información relevante para el negocio. La tendencia futura es migrar a modelos en la nube, no solo por una cuestión de costos y flexibilidad, sino también por requerimientos de modelos de movilidad que hoy exige el mercado global. El escenario de las PYMEs es un mercado incipiente donde hay mucho por crecer y si bien se reconoce que ese es el camino, se sacrifica hoy la innovación por un problema de costos.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Objetivos, Avances y Resultados</head><p>Objetivo Principal: "Estudiar, analizar, describir y diagnosticar recursos de TI/SI en las Pymes cordobesas", determinando indicadores que reflejen la situación actual y permitan el diseño de modelos que optimicen su gestión competitiva. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Objetivos</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Avances:</head><p>La investigación comenzó a realizarse inicialmente con encuestas a través de un cuestionario estructurado y autoaplicado dadas las característica cuantitativas de las preguntas de investigación, además de entrevistas que permitan realizar un análisis preliminar del estado actual de las TI/SI en las Pymes consultadas. La selección de las empresas encuestadas se realizó por muestreo aleatorio a fin de evitar sesgo propio de la intervención de los investigadores Posteriormente se contará con datos proveniente de fuentes primarias y secundarias que serán recolectadas y evaluadas con métodos cualitativos y cuantitativos.</p><p>Este estudio surge de la necesidad de contar con elementos de juicio válidos para sustentar un proceso de capacitación, basado en la educación de las personas a cargo de PYMEs que ya tengan conformada un área de TI/SI o requieran constituirla, con la finalidad de mejorar la toma de decisiones a nivel empresarial y contribuir a su competitividad.</p><p>Si bien existen estudios similares, tienen otro enfoque; por ello este análisis preliminar es inédito en su tipo ya que al momento de analizar antecedentes no se han encontrado estudios con rigurosidad científica y de esta envergadura en la región.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Resultados Obtenidos a la fecha:</head><p>Actualmente, se están relevando PYMEs con un cuestionario estructurado orientado a directivos de TI/SI localizadas en Córdoba y responden a perfiles metalmecánico, alimenticias y de servicios. Dado que el presente relevamiento está en constante retroalimentación, es necesario destacar que la misma enriquece y actualiza el dictado de los contenidos que se imparten en las cátedras "Informática I" de Ingeniería Industrial y "Fundamentos de Informática" de Ingeniería Mecánica e innova en su metodología ya que se cuenta con datos y problemas reales y en tiempo real. En ambas cátedras, los alumnos del turno noche ya están insertos en el mercado laboral regional y día a día participan de procesos que se realizan manualmente (en general, todo se registra en planillas de cálculo) y que podrían automatizarse para contribuir a la toma de decisiones en forma clara, oportuna e ilustrativa. Gráficamente, se presentan las siguientes tendencias:</p><p>Gráfico 1: ¿A qué rubro pertenece la Empresa?</p><p>Gráfico 2: ¿Cuál es el mercado que abarca?</p><p>Gráfico 3: ¿Qué cantidad de empleados aproximadamente tiene en total la empresa? Gráfico 4: ¿Existe un área de TI/SI a nivel formal? La primera impresión a la que se puede arribar es que la mayoría de las PYMEs no cuentan con un conocimiento del valor del uso de las TI/SI tanto en lo comercial como en lo organizacional. Se infiere que la mayoría de ellas utiliza estas herramientas en procesos primarios, enfocado a equipos locales con integración en red y con buena apertura a utilizar la nube. No obstante, se observa buena predisposición a la oportunidad de incorporar nuevas tecnologías en sus procesos negocios como estrategia de competitividad y diferenciación. A través de esta propuesta a medida de los requerimientos locales, se pretende brindar un marco referencia de la situación de las PYMEs hoy en la región, diagnosticar sus debilidades y potenciales amenazas; así como sus oportunidades y fortaleces en un contexto nacional y global que exige desarrollar e implementar una planificación estratégica informática con un enfoque sistemático y disciplinado que permita identificar las tecnologías y las herramientas que brinden beneficios a la Empresa a través de herramientas de TI/SI que optimicen la operatoria diaria de las mismas. Se pretender contribuir a cambiar la visión tradicional de las TI/SI donde se hacía foco en la tecnología, en administrar la infraestructura, dar soporte a usuarios a través de la modalidad "bombero", respondiendo a necesidades puntuales y aisladas a través de procesos informales; hacia una visión de gestión de servicios con foco en el negocio, que provee servicios al cliente, que prevea y controles posibles contingencias, generando nuevas posibilidades de negocio en forma integrada, estandarizada y aplicando las mejores prácticas que provean al negocio servicios de calidad.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Formación de Recursos Humanos</head><p>La estructura del PID IFN 4346. y los respectivos niveles de categorización de cada integrante son: Directora: Ing. Blanca Carrizo ("C" y "III") Maestrando Co-Directores: Ing. Jorge E. Abet ("C" y "IV") Maestrando Mg. Ing. Carlos Colazo ("C" y "III"). Integrantes: Ing. Adriana Olmedo ("E" y "IV"). Ing. Beatriz Kunda ("E" y "V"). Ing. Olivo Federico ("E") Ing. Simieli, Paola. Maestrando Becarios: Flageat, Soledad Huide, Gabriela Alejandra Aprile, Leopoldo (BINID) Cátedras involucradas: "Informática I" de Ing. Industrial y "Fundamentos de Informática" de Ing. Mecánica de Facultad Regional Córdoba y "Estadística" de la Facultad Regional Villa María. Si bien uno de los objetivos específicos es muy ambicioso, "Diseñar un instrumento operativo para monitorear las actividades de las Pymes en la región Córdoba, desde el seno de la Universidad", se está analizando la forma de iniciar su proceso desarrollo para el mediano plazo. A corto plazo, continuamos el proceso de concientización en el uso de TI/SI responsables con los alumnos de la cátedras involucradas; mientras que a nivel transferencia se participa a través de la Secretaría de Extensión Universitaria, del centro de innovación y emprendimientos tecnológicos ANDÉN, que es una incubadora de empresas que está diseñada para acelerar el crecimiento y asegurar el éxito de proyectos emprendedores, a través de una amplia gama de recursos y servicios. También se participa de asesorías a PYMEs por el proyecto Nodos.  <ref type="bibr">ISBN 978-987-1896-74-5</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Publicaciones relacionadas con el PID</head></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Gráfico 5 :</head><label>5</label><figDesc>Cantidad de computadoras por escritorio Gráfico 6: Software de Base: Sistemas Operativos Gráfico 7: Software de Oficina Gráfico 8: Software de Aplicación Gráfico 9: Software: Base de Datos Gráfico 10: Lenguajes de Programación Gráfico 11: Internet: Utilidad Página Web Gráfico 12: Internet: Servicios en la Nube</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head></head><label></label><figDesc> JEIN 2018. V Jornada de Enseñanza de la Ingeniería -Facultad Regional San Nicolás, 2017. "Diagnóstico de las TI/SI en Pymes de la Región Centro". Autores: Abet Jorge Eduardo, Carrizo Blanca Rosa, Colazo Carlos. ISSN 2313-9056.  WICC 2017. XVI. Workshop de Investigadores de Ciencias de la Computación, realizado el 27 y 28 de Abril de 2017 -Instituto Tecnológico de Buenos Aires. "Diagnóstico e impacto de las TI/SI en Pymes de la Región Centro. Autores: Abet Jorge Eduardo, Carrizo Blanca Rosa,</figDesc><table><row><cell cols="2">Colazo Carlos.</cell><cell></cell><cell></cell></row><row><cell cols="3">ISBN: 978-987-42-5143-5.</cell><cell></cell></row><row><cell cols="4"> II JATIC 2016. Jornadas Argentinas de</cell></row><row><cell cols="4">Tecnología, Innovación y Creatividad. Mar</cell></row><row><cell cols="4">del Plata, 2, 3 y 4 de Noviembre de 2016.</cell></row><row><cell cols="4">"Una visión sinérgica e integradora de una</cell></row><row><cell cols="4">experiencia práctica aplicada en una</cell></row><row><cell cols="4">asignatura troncal de 4to. Nivel de ISI".</cell></row><row><cell cols="3">Autora: Carrizo Blanca Rosa</cell><cell></cell></row><row><cell cols="3">ISBN 978-987-46267-0-7.</cell><cell></cell></row><row><cell cols="4"> COINI 2016. VIII Congreso Argentino de</cell></row><row><cell cols="4">Ingeniería Industrial. 3 y 4 de Noviembre</cell></row><row><cell cols="4">de 2016. Universidad Nacional de Salta</cell></row><row><cell>(UNSA).</cell><cell>Salta.</cell><cell>"Propuesta</cell><cell>de</cell></row><row><cell cols="4">Investigación: Diagnóstico e impacto de</cell></row><row><cell cols="4">las TI/SI en Pymes de la Región Centro".</cell></row><row><cell cols="4">Carrizo Blanca Rosa, Abet Jorge Eduardo,</cell></row><row><cell cols="2">Colazo Carlos.</cell><cell></cell><cell></cell></row></table></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title level="m" type="main">Uso de TIC en empresas PyMEs de la Cámara Empresaria de la ciudad de Tandil. Técnica administrativa</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Lorenzo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Elissondo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Errandosoro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Peirano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Suárez</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2004" />
+			<biblScope unit="volume">9</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title level="m" type="main">Estrategias empresariales de uso y aprovechamiento de las TICs por parte de las PyMEs de Argentina en</title>
+		<imprint>
+			<date type="published" when="2004" />
+		</imprint>
+		<respStmt>
+			<orgName>Simposio sobre la Sociedad de la Información</orgName>
+		</respStmt>
+	</monogr>
+	<note>InPonencia presentada en el 33 JAIIO</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title level="m" type="main">Las Tic En Las Pymes: Estudio De Resultados Y Factores De Adopción</title>
+		<author>
+			<persName><forename type="first">Martínez</forename><surname>Pérez Pérez Manuela</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">De</forename><surname>Sánchez Ángel</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Luis Carnicer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Vela</forename><surname>Pilar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ma</forename><surname>Jiménez</surname></persName>
+		</author>
+		<author>
+			<persName><surname>José</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2002" />
+		</imprint>
+		<respStmt>
+			<orgName>Economía y Dirección de Empresas. Universidad de Zaragoza. Scarabino, J. C</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title level="m" type="main">Difusión de TICs en las PyMEs. Invenio: Revista de investigación académica</title>
+		<author>
+			<persName><forename type="first">Argentina</forename></persName>
+		</author>
+		<imprint>
+			<biblScope unit="page" from="93" to="108" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title level="m" type="main">Planeación estratégica de tecnologías informáticas y sistemas de información</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Trujillo</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2007" />
+		</imprint>
+		<respStmt>
+			<orgName>Universidad de Caldas</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Molina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Buffone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Molinari</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Situación de las PYMEs argentinas frente a las tendencias en las TICS. Revista Argentina de Ingeniería. Año 3. Volumen III. Ministerio de Ciencia</title>
+	</analytic>
+	<monogr>
+		<title level="j">Tecnología e Innovación Productiva -Argentina</title>
+		<imprint>
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<title level="m" type="main">Boletín estadístico tecnológico N° 2 enero/marzo</title>
+		<imprint>
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

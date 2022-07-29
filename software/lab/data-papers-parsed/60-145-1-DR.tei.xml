@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="es">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Desarrollo de Entornos Accesibles para la Educación Superior en Ingeniería: Aplicación a la carrera Ingeniería en Sistemas de Información</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><roleName>María</roleName><forename type="first">Alejandra</forename><surname>Jewsbury</surname></persName>
+							<email>ajewsbury@gmail.com</email>
+							<affiliation key="aff0">
+								<orgName type="department">Departamento Ingeniería en Sistemas de Información Facultad Regional Córdoba</orgName>
+								<orgName type="institution">Universidad Tecnológica Nacional Maestro López esq</orgName>
+								<address>
+									<country>Cruz Roja Argentina. Córdoba</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Laura</forename><surname>Destefanis</surname></persName>
+							<email>mldestafanis@gmail.com</email>
+							<affiliation key="aff0">
+								<orgName type="department">Departamento Ingeniería en Sistemas de Información Facultad Regional Córdoba</orgName>
+								<orgName type="institution">Universidad Tecnológica Nacional Maestro López esq</orgName>
+								<address>
+									<country>Cruz Roja Argentina. Córdoba</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Fanny</forename><surname>Montoya</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Departamento Ingeniería en Sistemas de Información Facultad Regional Córdoba</orgName>
+								<orgName type="institution">Universidad Tecnológica Nacional Maestro López esq</orgName>
+								<address>
+									<country>Cruz Roja Argentina. Córdoba</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Elizabeth</forename><surname>Jeinson</surname></persName>
+							<email>ejeinson@gmail.com</email>
+							<affiliation key="aff0">
+								<orgName type="department">Departamento Ingeniería en Sistemas de Información Facultad Regional Córdoba</orgName>
+								<orgName type="institution">Universidad Tecnológica Nacional Maestro López esq</orgName>
+								<address>
+									<country>Cruz Roja Argentina. Córdoba</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Desarrollo de Entornos Accesibles para la Educación Superior en Ingeniería: Aplicación a la carrera Ingeniería en Sistemas de Información</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">A6BB06D73EE522FC7D6D71D0069A165A</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.7.0" ident="GROBID" when="2022-04-09T01:35+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="es">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Resumen</head><p>La sociedad actual se encuentra en el desafío de construir espacios inclusivos para todos aquellos que desean realizarse en sus intereses, motivaciones y anhelos. Desde distintas esferas de la sociedad civil y de las instituciones políticas emergen acciones en ese sentido, y en el caso de la accesibilidad a los estudios universitarios en la Argentina se expresa en una ley de alcance nacional. Por lo cual, la universidad, y en especial las carreras de ingeniería deben observarse y modificar sus aspectos formativos, sus didácticas y sus espacios edilicios para hacer posible una universidad inclusiva. Este proyecto analiza la enseñanza de la ingeniería desde la visión de la accesibilidad y propone modelos de enseñanza y recursos tecnológicos que permitan el acceso, la permanencia y el desarrollo pleno de personas con discapacidad.</p><p>Palabras clave: accesibilidad, didáctica, currícula.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Identificación</head><p>El PID en el que se basa esta presentación es el identificado como TEUTCO0004981. Tema prioritario del Programa de Tecnología Educativa y Enseñanza de la Ingeniería en que se inserta: La enseñanza de la ingeniería y la formación de los ingenieros. Fecha de inicio: 01/05/2018. Fecha de finalización: 30/04/2020</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Introducción</head><p>Para comenzar consideraremos el concepto de accesibilidad en la universidad. En primer lugar accesibilidad es definida como (Peralta Morales, 2007) "el conjunto de características que debe disponer un entorno, producto o servicio para ser utilizable en condiciones de confort, seguridad e igualdad por todas las personas y, en particular, por aquellas que tienen alguna discapacidad". En el marco de la educación superior se observan en el concepto de accesibilidad tres aspectos <ref type="bibr">(López, 2015)</ref>, el primero referido al entorno presencial (universidad, aula, aula de laboratorio) o virtual (plataforma de aprendizaje, aula virtual, redes sociales), el segundo referido al producto (asimilable a los recursos educativos seleccionados por los docentes, sean en formato físico o digital) y el tercero asociado a los servicios educativos (las prácticas docentes de enseñanza, incluyendo las estrategias e instrumentos de evaluación). En referencia a la presencia de plataforma de educación virtual se encuentra mucha bibliografía e importantes portales con investigaciones y producciones. Se destaca el trabajo realizado en el marco del Proyecto de Educación Superior Virtual Inclusiva en América Latina (ESVIAL), enmarcado en el Programa Alfa# de la Unión Europea, que tiene por objeto mejorar la educación virtual en América Latina a través de la creación de metodologías que establecen un conjunto de estándares de accesibilidad para la incorporación de personas con discapacidad a los estudios universitarios. Este proyecto finalizado en el año 2015 coloca a disposición de académicos, investigadores y gestores universitarios una Guía Metodológica. El modelo de Acreditación ESVIAL es abierto y está disponible en www.esvial.org. La inserción y difusión de la accesibilidad en estudios universitarios en Argentina se encuentra enmarcada en la Ley de Educación Superior Nro. 24521 sancionada en el año 1995 y la modificación del año 2002, Ley 25573. El Artículo 1 de la Ley 24521 establece que es el Estado el que tiene la responsabilidad indelegable de la prestación del servicio de educación superior de carácter público y reconoce y garantiza el derecho a cumplir con ese nivel de la enseñanza a todos aquellos que quieran hacerlo y cuenten con la formación y capacidad requeridas. En la modificación del año 2002 se incorpora, en el artículo 1, la declaración de que es el Estado el garante de la accesibilidad al medio físico, servicios de interpretación y los apoyos técnicos necesarios y suficientes, para las personas con discapacidad. La modificación del Artículo 2 de la Ley 25573 agrega el inciso f) que expone "Las personas con discapacidad, durante las evaluaciones, deberán contar con los servicios de interpretación y los apoyos técnicos necesarios y suficientes". El Artículo 3 incorpora la importancia de que el desarrollo profesional atienda las demandas individuales de las personas con discapacidad y en el Articulo 29 incluye el inciso e) indicando que cada universidad deberá incluir en sus planes de estudio, en sus actividades de investigación y de extensión la formación y capacitación sobre la problemática de la discapacidad. En este análisis introducimos el aporte de Sebastián Rositto (Rositto, 2012) que analiza la normativa y agrega "Otro avance, es el reconocimiento de los derechos de los estudiantes universitarios en situación de discapacidad a ser evaluados dignamente, ya que se prevé que, durante las evaluaciones, deberán contar con los servicios de interpretación y los apoyos técnicos necesarios y suficientes. Estimamos que quien puede lo más, puede lo menos, por lo tanto, si para las evaluaciones (que son las instancias máximas) cuentan con esos servicios, también debe serlo para las clases en el aula y para cualquier gestión ante una oficina administrativa de dicha institución". Reconociendo entonces que la legislación vigente establece la obligación del sistema universitario a ser accesible en las dimensiones expresadas al inicio de este apartado (en el espacio educativo, en los recursos didácticos y en los servicios y prácticas de educación). Con respecto a la propuesta de este proyecto de elaborar un modelo de observatorio de accesibilidad para contener información sistematizada de la inserción académica de personas con discapacidad en las aulas, se han analizado la preexistencia de distintos observatorios en las sedes universitarias. Como antecedentes de Observatorio de accesibilidad encontramos el que existe en la Universidad Nacional de Litoral. También algunas instituciones presentan observatorios para evaluar el acceso a los sistemas web, este es el caso del Observatorio Argentino de Accesibilidad Web que se propone evaluar sitios web particulares usando herramientas de testeo para verificar y validar el nivel de accesibilidad. Para ello utilizan un conjunto de estándares y normas que conforman las Pautas de accesibilidad para entornos web WCAG 2.0. Este observatorio forma parte de una red de observatorios en Iberoamérica En el orden internacional España es el país que presenta el mayor desarrollo en la materia.</p><p>INDRA es una empresa multinacional de Tecnología de la Información que impulsa la creación de Cátedras de Tecnología Accesible. Las Cátedras de Tecnologías Accesibles son espacios asociativos entre las universidades y la empresa de tecnología para el desarrollo de actividades de investigación e innovación al servicio de las personas con discapacidad. Los proyectos desarrollados tienen como objetivo utilizar tecnología de punta para dar soluciones innovadoras a las necesidades del colectivo de personas con discapacidad. El Observatorio de accesibilidad tiene por objetivo estudiar y dar a conocer los avances tecnológicos actuales en la materia. En España hay once Universidades que han participado en esta iniciativa y tres en América Latina. Según se informa en la web de este emprendimiento, actualmente hay siete proyectos activos en España y dos en Latinoamérica, entre los cuales se encuentra la Facultad de Matemática, Astronomía y Física de la Universidad Nacional de Córdoba. En el año 2010 INDRA promociona la conformación en Córdoba de la vinculación con la FAMAF y la puesta en marcha de un observatorio de accesibilidad. No se encuentran referencias ni publicaciones sobre este observatorio en la actualidad. En España encontramos amplias legislaciones con respecto a la accesibilidad para la educación superior y la presencia de Observatorios de accesibilidad desarrollados desde las universidades, como los que comentamos de INDRA. La Confederación Española de personas con discapacidad física y orgánica (COCEMFE) tiene un importante progreso de observatorio de accesibilidad, que contempla investigaciones, prácticas y productos tecnológicos para la plena formación de la vida en sociedad de las personas con discapacidad. También en España se destaca el trabajo que concreta la Fundación ONCE. Con respecto a la tecnología, esta fundación, persigue la divulgación de las buenas prácticas en materia de accesibilidad a las TIC, formación en materia de diseño universal en tecnología, y colaboración en la creación de estándares y normas para una mayor accesibilidad del medio tecnológico. En todos los documentos analizados se destaca que la producción de artefactos tecnológicos que permitan la accesibilidad para todos y el desarrollo de nuevos elementos siempre implican un cambio de actitud de los equipos técnicos de ingenieros y diseñadores. Como dice Francisca Negre Bennsar (Negre, 2015) "Debemos ser conscientes de la trascendencia que puede tener para las personas con discapacidad un acceso más sencillo y generalizado a las tecnologías de la información y la comunicación para poder conseguir una igualdad de posibilidades en la educación, el trabajo y la sociedad". En el ámbito de la Universidad Tecnológica Nacional se observa en la Facultad Regional Buenos Aires un Área de Orientación y Apoyo para personas con discapacidad (ORADIS) que tiene por propósito coordinar, asesorar, promover y difundir todas aquellas acciones que contribuyan directa o indirectamente a la inclusión de personas con movilidad y/o comunicación reducida, asegurando un equitativo acceso a la educación. El portal de ingreso contiene una ficha para contactarse con el área tanto para estudiantes como para interesados no participantes de la comunidad académica. Conforma entonces un relevamiento de estudiantes con discapacidad que ya tiene cuatro años de recolección de información (se desconoce si esta información luego es analizada en el marco de los datos que se proveen desde el sistema de gestión académica de la facultad regional). Para la formulación de este proyecto se han analizado las estadísticas presentadas por el Servicio Nacional de Rehabilitación dependiente del Ministerio de Salud de la Nación, en el Anuario Estadístico sobre Discapacidad del año 2016. Son datos relevantes para el proyecto los siguientes: el 12,9% de la población tiene discapacidad permanente, en su mayor proporción son mujeres y viven en zonas urbanas, el 59,5 % posee discapacidad visual y el 90% ha asistido a escolarización común.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Objetivos, Avances y Resultados</head><p>La presentación que hoy realizamos es la formulación del proyecto y la presentación de las inquietudes iniciales, que a la espera de la aprobación final, los integrantes del grupo han desarrollo en los primeros meses del año. Se marca entonces que este proyecto no posee aún resultados finales ni intermedios y que esta presentación tiene el objeto de socializar la temática. Los objetivos generales de este PID son: 1. Desarrollar un sistema de registro de información de personas con discapacidad en estudiantes. 2. Diseñar recursos didácticos que permitan la inclusión de personas con discapacidad en las aulas universitarias de carreras de ingeniería.</p><p>3. Generar un observatorio de accesibilidad para la carrera de ingeniería en sistemas de información de la UTN-FRC. El logro de estos objetivos generales se concreta con los siguientes objetivos específicos:</p><p> Evaluar en la carrera de Ingeniería en Sistemas de Información de la UTN-FRC las dimensiones: a) entorno de aprendizaje (presencial o virtual). b) recurso didáctico y c) servicio educativo.  Realizar un instrumento de registro.  Concretar un primer registro de personas con discapacidad en estudiantes.  Establecer un modelo conceptual para un sistema de información de personas con discapacidad.  Desarrollar los modelos conceptuales de recursos didácticos que permitan acceder a personas con discapacidad a los estudios universitarios.  Evaluar los modelos de prototipos elaborados con una comunidad significativa.  Identificar las dimensiones, variables e indicadores pertinentes para contar con un registro fiel de personas con discapacidad.  Desarrollar el modelo conceptual de un sistema de monitoreo de la accesibilidad en la carrera.</p><p>Durante el año pasado se ha participado de las reuniones de formación de la Red IDUC (Red de Inclusión de la discapacidad en las Universidades de Córdoba). Y se ha iniciado la recopilación de información estadística de la participación estudiantil universitaria de estudiantes con discapacidad, en registros propios de la universidad y en bases de datos de acceso público.</p><p>En el plano de la carrera de Ingeniería en Sistemas de Información se participó de las reuniones docentes de inicio de año explicando la importancia de la inclusión de la accesibilidad en los trayectos curriculares y en especial en las asignaturas de Trabajo Final.</p><p>Se han realizado entrevistas con foco en descubrir espacios no abordados por la enseñanza actual y necesidades de las personas con discapacidad en vista de su experiencia como estudiantes. El análisis realizado (siempre en la carrera de ingeniería en sistemas) ha permitido contar con primeras aproximaciones para temáticas que se profundizarán en el desarrollo del proyecto. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Formación de Recursos Humanos</head><p>Participa como investigador del proyecto la Ing. María Laura Destefanis que se encuentra realizando su tesis de la Maestría en Desarrollo de Entornos Virtuales en la Universidad Nacional de la Patagonia Austral en temática de accesibilidad a los espacios educativos y actualmente se encuentra realizando el curso "Experto en TIC, inclusión y discapacidad. Aplicación práctica de modelos inclusivos con computadoras, tablets y celulares", dictado por Creática FREE Iberoamericana para la Cooperación y con la colaboración de la UNC-FCEFyN También participa como investigador tesista la Lic. Elizabeth Jeinson que se encuentra desarrollando su proyecto de tesis de la Maestría en Calidad de Software de la Universidad Nacional de San Luis. Tema: Satisfacción del cliente interno en servicios de tecnología y tecnologías de la información en instituciones educativas de educación superior. Los alumnos becarios poseen inquietudes previas para el desarrollo de software aplicado a dar soluciones de accesibilidad a personas con discapacidad por lo que esta instancia de participación formal fortalecerá su innovación.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Publicaciones relacionadas con el PID</head><p>En el encuentro de JEIN 2017 se realizó una presentación preliminar de los contenidos del proyecto que se encontraba en proceso de evaluación. El título de la ponencia presentada es "Construcción de la accesibilidad en los estudios universitarios de ingeniería". Autor: Alejandra Jewsbury. El proyecto avanzará en la investigación durante el año en curso y prevé realizar una publicación a principio del año próximo.</p></div>		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0" />			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title level="m" type="main">República Argentina. Sancionada el 20 de julio de 1995 y Modificación de Ley de Educación Superior</title>
+		<ptr target="Nro.25573.República" />
+		<imprint>
+			<biblScope unit="page">24521</biblScope>
+		</imprint>
+		<respStmt>
+			<orgName>Ley de Educación Superior</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

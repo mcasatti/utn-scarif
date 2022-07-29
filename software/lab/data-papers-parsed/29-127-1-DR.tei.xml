@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="es">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Aplicación de Patrones de Negocio para el modelado de procesos de una organización</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Claudia</forename><surname>Castro</surname></persName>
+							<email>ingclaudiacastro@gmail.com</email>
+							<affiliation key="aff0">
+								<orgName type="department">Departamento de Ingeniería en Sistemas de Información Facultad Regional Córdoba</orgName>
+								<orgName type="institution">Universidad Tecnológica Nacional</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Andrea</forename><surname>Delgado</surname></persName>
+							<email>andreafdelgado@gmail.com</email>
+							<affiliation key="aff0">
+								<orgName type="department">Departamento de Ingeniería en Sistemas de Información Facultad Regional Córdoba</orgName>
+								<orgName type="institution">Universidad Tecnológica Nacional</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Marcelo</forename><surname>Marciszack</surname></persName>
+							<email>marciszack@gmail.com</email>
+							<affiliation key="aff0">
+								<orgName type="department">Departamento de Ingeniería en Sistemas de Información Facultad Regional Córdoba</orgName>
+								<orgName type="institution">Universidad Tecnológica Nacional</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Claudia</forename><surname>Sánchez</surname></persName>
+							<email>claudiasanchez001@gmail.com</email>
+							<affiliation key="aff0">
+								<orgName type="department">Departamento de Ingeniería en Sistemas de Información Facultad Regional Córdoba</orgName>
+								<orgName type="institution">Universidad Tecnológica Nacional</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Maestro</forename><forename type="middle">M</forename><surname>López</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Departamento de Ingeniería en Sistemas de Información Facultad Regional Córdoba</orgName>
+								<orgName type="institution">Universidad Tecnológica Nacional</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Esq</forename><surname>Cruz</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Departamento de Ingeniería en Sistemas de Información Facultad Regional Córdoba</orgName>
+								<orgName type="institution">Universidad Tecnológica Nacional</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Roja</forename><surname>Argentina</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Departamento de Ingeniería en Sistemas de Información Facultad Regional Córdoba</orgName>
+								<orgName type="institution">Universidad Tecnológica Nacional</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Aplicación de Patrones de Negocio para el modelado de procesos de una organización</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">674F576F1572ED42B46A56C74204B671</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.7.0" ident="GROBID" when="2022-04-09T01:35+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="es">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Resumen</head><p>La intención del presente trabajo es brindar una conceptualización acerca del uso de patrones en el Modelado de los Procesos de Negocio. Para ello, se realiza un acercamiento general a los temas de referencia a los fines de dar un marco conceptual y contextualizar la aplicación de los PPN (Patrones de Procesos de Negocio), especificando la esencia de cada patrón. El modelo de negocio es el punto focal alrededor del cual se realizan los negocios o en torno al cual las operaciones de negocio mejoran. Trabajar con los modelos aumenta su comprensión del negocio y, con suerte, la conciencia de nuevas oportunidades para mejorar el negocio. En la materia Sistemas y Organizaciones de la Carrera de Ing. en Sistemas de Información, esta propuesta de trabajo se aplica para el desarrollo del contenido de la Unidad 3: Procesos de la Organización.</p><p>Palabras clave: Proceso de Negocio, Patrones, Modelado.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introducción</head><p>El proceso de desarrollo de software se encuentra organizado por etapas, la primera de ellas es la etapa de "Análisis" que tiene por objetivo la identificación de requerimientos. Para poder identificar los requerimientos, validarlos y desarrollar el software es necesario, por no decir indispensable, conocer el negocio involucrado.</p><p>Para conocer el negocio lo que se hace es modelarlo.</p><p>Un modelo de negocio es una abstracción de cómo funciona un negocio. Los detalles difieren de acuerdo a la perspectiva de la persona que crea el modelo, cada uno de los cuales, naturalmente, tendrá un punto de vista ligeramente diferente de los objetivos y la visión de la empresa, incluyendo su eficiencia y los diferentes elementos que están actuando en concierto dentro de la empresa. Lo que el modelo de negocio va a hacer es ofrecer una visión simplificada de la estructura de negocios que servirá de base para la comunicación, mejoras o innovaciones, así como definir los sistemas de información sobre los requisitos que son necesarios para apoyar el negocio.</p><p>Con la aplicación de patrones se facilita la actividad de modelado, permitiendo lograr uno de los aspectos más difíciles de validar que es la completitud del Modelo. También se logra un entendimiento general de la temática del negocio, se puede visualizar gráficamente, obteniendo una comprensión más simplificada del mismo.</p><p>En este trabajo se demuestra, a partir de la aplicación de patrones al modelado de negocio de una situación particular, lo expresado anteriormente.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Marco teórico</head><p>Un proceso puede ser definido como el conjunto de actividades, interacciones y recursos con una finalidad común: transformar las entradas en salidas que agregan valor a los clientes. El proceso es realizado por personas organizadas según cierta estructura, disponen de tecnología de apoyo y manejan información. <ref type="bibr" target="#b4">[Carrasco, 2010]</ref>. Un proceso es una serie organizada de actividades relacionadas que conjuntamente crean un resultado de valor para los clientes. <ref type="bibr">[Hammer, 2006]</ref>.</p><p>La visión de proceso es una forma integradora de acercamiento a la organización que permite comprender la compleja interacción entre acciones y personas distantes en el tiempo y en el espacio. Más allá de las actividades, un proceso ayuda a entender la globalidad de la tarea desempeñada.</p><p>El proceso ofrece una visión horizontal de la organización y da respuesta a un ciclo completo, desde cuando se produce el contacto con el cliente hasta cuando el producto o servicio es recibido satisfactoriamente.</p><p>El modelado del negocio es la técnica por excelencia para alinear los desarrollos con las metas y objetivos de las empresas e instituciones. Si se realiza de tal forma en que el modelo quede consensuado entre los grupos interesados (es decir, los stakeholders), las posibilidades de éxito del proyecto aumentarán considerablemente.</p><p>El modelado de negocios, y más específicamente el modelado de procesos de negocio, es la forma idónea para comunicarnos con los usuarios de todos los niveles.</p><p>Contar con un modelo de negocio para modelar la arquitectura de software permite:  Obtener un buen conocimiento de los requisitos del negocio sobre sus sistemas de apoyo.  Contar con gran cantidad de información vital que aumenta la calidad del sistema de software.  Utilizar el mismo lenguaje de modelado lo cual aumenta la trazabilidad entre los modelos. Esto significa que una función específica en el sistema de información se remonta a un requerimiento específico en el negocio y un cambio posterior en el modelo de negocio puede más fácilmente ser propagado al modelo de software.</p><p>Frente a esta realidad de las organizaciones modernas y frente a las necesidades de comprensión de las mismas al momento de encarar un proyecto de desarrollo de Sistema de software es que se plantea una manera de ver, comprender, pensar y modelar los Procesos de Negocio a través del uso de Patrones para dicho modelado, con el fin de facilitar una de las labores más desafiantes para los desarrolladores de software: conocer el problema a analizar en el menor tiempo posible en el marco de la Ingeniería de software.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Patrones de Procesos de Negocio</head><p>En el ámbito del desarrollo de software, un patrón es una descripción de un problema y la solución, a la que se le da un nombre, y se la puede aplicar a nuevos contextos, idealmente proporciona consejos sobre el modo de aplicarlo en distintas circunstancias. <ref type="bibr" target="#b7">[Larman, 2003]</ref>.</p><p>Los Patrones de Procesos de Negocio (PPN) son estructuras genéricas que establecen en forma sistémica los macroprocesos, procesos, subprocesos y actividades que deben existir en cualquier organización para hacer posible su funcionamiento.</p><p>La estructura es jerárquica y entrega mayor detalle en los niveles más bajos de ella. En el nivel más alto, se definen Macro Procesos (agrupaciones de procesos), que permiten modelar todos los procesos que ocurren en cualquier organización y sus relaciones. En estos niveles de detalle aparecen mejores prácticas que recomiendan la manera más adecuada de ejecutar un proceso de negocio.</p><p>Los PPN están orientados a modelar la estructura sistémica de un negocio, enfatizando las relaciones entre los diferentes procesos que existen y cómo se puede optimizar la coordinación entre ellos, por medio de lógica de negocio bien diseñada y automatizada parcial o totalmente por medio del apoyo de las TI.</p><p>Los patrones de procesos de negocio <ref type="bibr" target="#b6">[Eriksson, Penker, 2000]</ref> permiten:</p><p> Modelar y rediseñar los procesos de negocios de una organización.</p><p> Resolver problemas del ámbito empresarial.</p><p> Capturar y describir los problemas de modelado de negocio y sus correspondientes soluciones.</p><p>Los patrones de modelo de negocio se clasifican en (Ver Figura 1):</p><p> Patrones de Recursos y Reglas: Proporcionan directrices para el modelado de las reglas y recursos en el ámbito empresarial.  Patrones de Meta: Se usan precisamente en el modelado de meta. El modelado de objetivo es un tema muy crítico, un modelo de validar y verificar objetivo apoya todo el trabajo de modelado.</p><p> Patrones de Procesos: Son los patrones de comportamiento y funcionalidades, cuya intención es aumentar la calidad en los modelos de flujo de trabajo y otros modelos orientados al proceso.</p><p>Para el desarrollo de software, es necesario conocer el comportamiento y las funcionalidades del negocio, es por eso que los patrones seleccionados para modelar el negocio son los "Patrones de Procesos", y dentro de éstos específicamente: Proceso de Suministro en capas, Estructura básica del proceso, Línea de Montaje o Interacción y Flujo de acción o trabajo. Estos patrones permiten identificar los procesos de la organización, la relación entre ellos, los recursos necesarios para el cumplimiento del objetivo, entre otros.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Objetivos y Metodología</head><p>Objetivos:</p><p> Facilitar la comprensión del negocio de todas las personas involucradas.</p><p> Definir, describir y analizar los procesos para perfeccionar los resultados deseados.</p><p> Obtener una visualización integral del negocio, mediante una representación gráfica.</p><p> Facilitar la comprensión del negocio para la posterior identificación de los requerimientos del sistema de información.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Metodología:</head><p>Para comenzar el análisis de una organización, es indispensable identificar y definir los procesos de la misma. Cada organización lleva a cabo sus actividades de diversas formas. Para poder ejecutarlas, las agrupan en procesos, los cuales se interrelacionan entre sí, logrando cumplir con el objetivo esperado.</p><p>Las actividades que forman cada uno de los diferentes procesos de una organización no siempre resultan fácil de identificar. Es por Figura 1: Clasificación de los Procesos de Negocio ello que cuando hablamos de identificar las actividades que se lleva a cabo en una organización, hacemos referencia a definir e identificar de la manera más real posible todas las funciones. Para poder hacerlo, es necesario poder llegar hasta el mayor nivel de detalle con la finalidad de identificar cada uno de los procesos que la componen y los límites de cada uno de ellos. Para poder definir los procesos de una organización podemos utilizar un mapa de procesos basados en la Norma ISO 9001 2015. Otra forma de plantear los procesos es mediante un Listado de Procesos de Negocio y sus respectivos objetivos y, en algunos casos, una breve descripción de lo que abarcan.</p><p>Una vez que hemos identificado y definido los diferentes procesos de la organización, nos enfocaremos en el proceso esencial. Para llevar a cabo el análisis del proceso principal y la influencia que tienen los otros procesos de la organización sobre éste, trabajaremos sobre los siguientes patrones:</p><p> Proceso de Suministro en capas</p><p>Este patrón muestra los diferentes procesos de la organización y cómo se relacionan entre ellos. Los procesos se organizan de izquierda a derecha ubicándose el proceso esencial en la parte superior. Cada uno de los procesos que forman parte de la organización, muestra cómo se relacionan y el recurso que cada uno de ellos brinda a los otros procesos. Mediante la aplicación de éste patrón, es posible ver la interrelación que existe, los recursos con los que cuentan y a qué proceso se los brinda. Los recursos que consideramos para el caso de estudio bajo análisis pueden ser humanos, materiales, tecnológicos y de información.</p><p>(ver Figura 2)</p><p> Línea de Montaje o Interacción Éste patrón muestra cómo modelar y organizar las múltiples interacciones que ocurren entre los diferentes procesos del negocio. Todos los procesos de negocio interactúan con otros procesos de negocio, normalmente a través de la transmisión e intercambio de recursos o de información (que es un tipo de recurso) entre los procesos. Este patrón puede utilizarse siempre que se necesite modelar interacciones complejas entre procesos de negocio. (Ver Figura 3) La aplicación del patrón Suministro en Capas y Línea de Montaje o interacción permite tener un conocimiento de los procesos de la organización y de la interrelación entre ellos.</p><p>Una vez definidos los procesos de la organización, nos centraremos en el proceso esencial mediante la aplicación del siguiente patrón:</p><p> Estructura básica del proceso:</p><p>Este patrón proporciona la descripción de un proceso de negocio. Permite expresar el concepto de procesos de negocio considerando:  Objetivo: define las metas a alcanzar por el proceso;  Recursos que aporta al proceso. Se consideran sólo los recursos humanos, materiales y de información;</p><p> Entrada, en este aspecto consideramos al evento que da origen al inicio del proceso; Este patrón es una herramienta para el análisis de la comunicación entre las partes. La finalidad que persigue, es comprender y optimizar esta comunicación. En la aplicación de éste patrón tenemos una mirada en el interior del proceso esencial. Para ello definimos las actividades principales y la secuencia en que ellas se deben llevar a cabo. (Ver Figura 5)</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Resultados</head><p>Luego de haber aplicado los patrones a varias situaciones reales, desarrollamos una propuesta de enseñanza de procesos de una organización aplicando patrones en la cátedra de Sistemas y Organizaciones, perteneciente a la carrera de Ingeniería en Sistemas de Información, de la Facultad Regional Córdoba, Universidad Tecnológica Nacional, se observa lo siguiente:  Representan de una manera visual el proceso donde se muestra la unión de entradas, objetivo, recursos y resultados.  Resulta más lógica la derivación al sistema de información a partir del modelado del negocio.  Evita los errores comunes a la hora de definir el sistema de información, como incluir en éste actividades manuales.  En cuanto a las calificaciones obtenidas en el tema, fueron considerablemente más altas las de los estudiantes que vieron el tema con patrones que las que lo vieron de la forma tradicional los años anteriores.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Conclusiones</head><p>La aplicación de los patrones a un dominio bajo estudio permite conocer los procesos de la organización y poder definir de manera detallada el o los procesos esenciales de la organización. En base a ese análisis arribamos a las siguientes conclusiones:</p><p> Desde la prehistoria el hombre ha sentido la necesidad de representar gráficamente el entorno que lo rodea. Así, la representación gráfica de una visión global del negocio es una de las principales ventajas que presenta la aplicación de los patrones mencionados.  Facilita la comprensión del negocio de todas las personas involucradas independientemente del vocabulario que se utilice. Explica los procesos más claros que las palabras.  Los patrones están representados gráficamente lo que logró que se tuviera una visión global de todos los procesos de la organización.  Además de colaborar en la identificación de requerimientos, permite definir, describir y analizar los procesos para perfeccionar los resultados deseados.  Permite una visualización integral del negocio. </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figura 3 :</head><label>3</label><figDesc>Figura 3: Línea de Montaje e Iteración</figDesc><graphic coords="4,341.65,260.40,204.05,147.30" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figura</head><label></label><figDesc>Figura 4: Estructura Básica</figDesc><graphic coords="5,86.65,114.80,222.25,158.90" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="3,55.15,317.85,219.85,269.75" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Patrones de Procesos de Gestión -Compartiendo Conocimiento para Aumentar la Productividad -. Patrones de Proceso. La arquitectura general de un proceso</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Barros</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Documento de Trabajo Nro</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<date type="published" when="1999" />
+		</imprint>
+		<respStmt>
+			<orgName>Departamento de ingeniería. Universidad de Chile</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title level="m" type="main">Rediseño de Procesos de Negocios mediante el Uso de Patrones, Comunicaciones Noreste Ltda</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Barros</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+	<note>Dr</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title level="m" type="main">Wisconsin) líder de la industria de Tecnologías de la</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Barros</surname></persName>
+		</author>
+		<ptr target="http://www.obarros.cl/index.html" />
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title level="m" type="main">Entrevista por Ricardo Seguel P. a Dr</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Barros</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2008" />
+			<pubPlace>Oscar Barros</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Profesor del Departamento de Ingeniería Industrial y director del Master in Business Engineering (MBE) de la Universidad de Chile</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bravo Carrasco</surname></persName>
+		</author>
+		<title level="m">Gestión de Procesos (La Participación es la clave)</title>
+				<imprint>
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">Editorial Evolución S.A</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<author>
+			<persName><forename type="first">H</forename><surname>Eriksson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Penker</surname></persName>
+		</author>
+		<title level="m">Busines Modeling with UML Business Patterns at Work</title>
+				<imprint>
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<title level="m" type="main">UML y Patrones: Una introducción al análisis y diseño orientado a objetos y al proceso unificado</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Larman</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+		<title level="m" type="main">Ingeniería del software. Un enfoque práctico. 7ma</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Pressman</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

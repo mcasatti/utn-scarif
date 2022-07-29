@@ -1,0 +1,861 @@
+{
+    "result": [
+        {
+            "@type": "d",
+            "@rid": "#48:31",
+            "@version": 18,
+            "@class": "Institucion",
+            "tipo": "institution",
+            "in_filiacionA": [
+                "#90:141",
+                "#92:141",
+                "#90:142",
+                "#93:149",
+                "#91:150",
+                "#93:150",
+                "#91:151",
+                "#93:151",
+                "#91:152",
+                "#93:152",
+                "#91:153",
+                "#93:153",
+                "#91:170",
+                "#90:171",
+                "#93:171",
+                "#92:172",
+                "#91:173"
+            ],
+            "nombre": "Universidad Tecnológica Nacional Maestro Marcelo López esq. Cruz Roja Argentina -Ciudad Universitaria -Córdoba",
+            "@fieldTypes": "in_filiacionA=g"
+        },
+        {
+            "@type": "d",
+            "@rid": "#40:64",
+            "@version": 4,
+            "@class": "Autor",
+            "out_autorDe": [
+                "#80:62"
+            ],
+            "out_filiacionA": [
+                "#93:140",
+                "#90:141"
+            ],
+            "oid": null,
+            "nombre": "Cynthia, Corso ",
+            "email": "corso.cynthia@gmail.com",
+            "pais": null,
+            "@fieldTypes": "out_autorDe=g,out_filiacionA=g"
+        },
+        {
+            "@type": "d",
+            "@rid": "#48:31",
+            "@version": 18,
+            "@class": "Institucion",
+            "tipo": "institution",
+            "in_filiacionA": [
+                "#90:141",
+                "#92:141",
+                "#90:142",
+                "#93:149",
+                "#91:150",
+                "#93:150",
+                "#91:151",
+                "#93:151",
+                "#91:152",
+                "#93:152",
+                "#91:153",
+                "#93:153",
+                "#91:170",
+                "#90:171",
+                "#93:171",
+                "#92:172",
+                "#91:173"
+            ],
+            "nombre": "Universidad Tecnológica Nacional Maestro Marcelo López esq. Cruz Roja Argentina -Ciudad Universitaria -Córdoba",
+            "@fieldTypes": "in_filiacionA=g"
+        },
+        {
+            "@type": "d",
+            "@rid": "#41:64",
+            "@version": 4,
+            "@class": "Autor",
+            "out_autorDe": [
+                "#81:61"
+            ],
+            "out_filiacionA": [
+                "#91:141",
+                "#92:141"
+            ],
+            "oid": null,
+            "nombre": "Analía, Guzmán ",
+            "email": "analia.guzman@the-group.com.ar",
+            "pais": null,
+            "@fieldTypes": "out_autorDe=g,out_filiacionA=g"
+        },
+        {
+            "@type": "d",
+            "@rid": "#48:31",
+            "@version": 18,
+            "@class": "Institucion",
+            "tipo": "institution",
+            "in_filiacionA": [
+                "#90:141",
+                "#92:141",
+                "#90:142",
+                "#93:149",
+                "#91:150",
+                "#93:150",
+                "#91:151",
+                "#93:151",
+                "#91:152",
+                "#93:152",
+                "#91:153",
+                "#93:153",
+                "#91:170",
+                "#90:171",
+                "#93:171",
+                "#92:172",
+                "#91:173"
+            ],
+            "nombre": "Universidad Tecnológica Nacional Maestro Marcelo López esq. Cruz Roja Argentina -Ciudad Universitaria -Córdoba",
+            "@fieldTypes": "in_filiacionA=g"
+        },
+        {
+            "@type": "d",
+            "@rid": "#38:67",
+            "@version": 4,
+            "@class": "Autor",
+            "out_autorDe": [
+                "#78:64"
+            ],
+            "out_filiacionA": [
+                "#93:141",
+                "#90:142"
+            ],
+            "oid": null,
+            "nombre": "Marcelo, Marciszack ",
+            "email": "marciszack@gmail.com",
+            "pais": null,
+            "@fieldTypes": "out_autorDe=g,out_filiacionA=g"
+        },
+        {
+            "@type": "d",
+            "@rid": "#48:31",
+            "@version": 18,
+            "@class": "Institucion",
+            "tipo": "institution",
+            "in_filiacionA": [
+                "#90:141",
+                "#92:141",
+                "#90:142",
+                "#93:149",
+                "#91:150",
+                "#93:150",
+                "#91:151",
+                "#93:151",
+                "#91:152",
+                "#93:152",
+                "#91:153",
+                "#93:153",
+                "#91:170",
+                "#90:171",
+                "#93:171",
+                "#92:172",
+                "#91:173"
+            ],
+            "nombre": "Universidad Tecnológica Nacional Maestro Marcelo López esq. Cruz Roja Argentina -Ciudad Universitaria -Córdoba",
+            "@fieldTypes": "in_filiacionA=g"
+        },
+        {
+            "@type": "d",
+            "@rid": "#41:69",
+            "@version": 5,
+            "@class": "Autor",
+            "out_autorDe": [
+                "#81:66",
+                "#81:73"
+            ],
+            "out_filiacionA": [
+                "#92:149",
+                "#93:149"
+            ],
+            "oid": null,
+            "nombre": "Roberto, Muñoz ",
+            "email": "robertmunioz@gmail.com",
+            "pais": null,
+            "@fieldTypes": "out_autorDe=g,out_filiacionA=g"
+        },
+        {
+            "@type": "d",
+            "@rid": "#48:31",
+            "@version": 18,
+            "@class": "Institucion",
+            "tipo": "institution",
+            "in_filiacionA": [
+                "#90:141",
+                "#92:141",
+                "#90:142",
+                "#93:149",
+                "#91:150",
+                "#93:150",
+                "#91:151",
+                "#93:151",
+                "#91:152",
+                "#93:152",
+                "#91:153",
+                "#93:153",
+                "#91:170",
+                "#90:171",
+                "#93:171",
+                "#92:172",
+                "#91:173"
+            ],
+            "nombre": "Universidad Tecnológica Nacional Maestro Marcelo López esq. Cruz Roja Argentina -Ciudad Universitaria -Córdoba",
+            "@fieldTypes": "in_filiacionA=g"
+        },
+        {
+            "@type": "d",
+            "@rid": "#38:72",
+            "@version": 4,
+            "@class": "Autor",
+            "out_autorDe": [
+                "#78:69"
+            ],
+            "out_filiacionA": [
+                "#90:150",
+                "#91:150"
+            ],
+            "oid": null,
+            "nombre": "Luis, Damiano ",
+            "email": "luis.damiano@gmail.com",
+            "pais": null,
+            "@fieldTypes": "out_autorDe=g,out_filiacionA=g"
+        },
+        {
+            "@type": "d",
+            "@rid": "#48:31",
+            "@version": 18,
+            "@class": "Institucion",
+            "tipo": "institution",
+            "in_filiacionA": [
+                "#90:141",
+                "#92:141",
+                "#90:142",
+                "#93:149",
+                "#91:150",
+                "#93:150",
+                "#91:151",
+                "#93:151",
+                "#91:152",
+                "#93:152",
+                "#91:153",
+                "#93:153",
+                "#91:170",
+                "#90:171",
+                "#93:171",
+                "#92:172",
+                "#91:173"
+            ],
+            "nombre": "Universidad Tecnológica Nacional Maestro Marcelo López esq. Cruz Roja Argentina -Ciudad Universitaria -Córdoba",
+            "@fieldTypes": "in_filiacionA=g"
+        },
+        {
+            "@type": "d",
+            "@rid": "#39:71",
+            "@version": 4,
+            "@class": "Autor",
+            "out_autorDe": [
+                "#79:69"
+            ],
+            "out_filiacionA": [
+                "#92:150",
+                "#93:150"
+            ],
+            "oid": null,
+            "nombre": "Maldonado, Esteban ;",
+            "email": "calixtomaldonado@gmail.com",
+            "pais": null,
+            "@fieldTypes": "out_autorDe=g,out_filiacionA=g"
+        },
+        {
+            "@type": "d",
+            "@rid": "#48:31",
+            "@version": 18,
+            "@class": "Institucion",
+            "tipo": "institution",
+            "in_filiacionA": [
+                "#90:141",
+                "#92:141",
+                "#90:142",
+                "#93:149",
+                "#91:150",
+                "#93:150",
+                "#91:151",
+                "#93:151",
+                "#91:152",
+                "#93:152",
+                "#91:153",
+                "#93:153",
+                "#91:170",
+                "#90:171",
+                "#93:171",
+                "#92:172",
+                "#91:173"
+            ],
+            "nombre": "Universidad Tecnológica Nacional Maestro Marcelo López esq. Cruz Roja Argentina -Ciudad Universitaria -Córdoba",
+            "@fieldTypes": "in_filiacionA=g"
+        },
+        {
+            "@type": "d",
+            "@rid": "#40:70",
+            "@version": 4,
+            "@class": "Autor",
+            "out_autorDe": [
+                "#80:68"
+            ],
+            "out_filiacionA": [
+                "#90:151",
+                "#91:151"
+            ],
+            "oid": null,
+            "nombre": "María, Romero ",
+            "email": "",
+            "pais": null,
+            "@fieldTypes": "out_autorDe=g,out_filiacionA=g"
+        },
+        {
+            "@type": "d",
+            "@rid": "#48:31",
+            "@version": 18,
+            "@class": "Institucion",
+            "tipo": "institution",
+            "in_filiacionA": [
+                "#90:141",
+                "#92:141",
+                "#90:142",
+                "#93:149",
+                "#91:150",
+                "#93:150",
+                "#91:151",
+                "#93:151",
+                "#91:152",
+                "#93:152",
+                "#91:153",
+                "#93:153",
+                "#91:170",
+                "#90:171",
+                "#93:171",
+                "#92:172",
+                "#91:173"
+            ],
+            "nombre": "Universidad Tecnológica Nacional Maestro Marcelo López esq. Cruz Roja Argentina -Ciudad Universitaria -Córdoba",
+            "@fieldTypes": "in_filiacionA=g"
+        },
+        {
+            "@type": "d",
+            "@rid": "#41:70",
+            "@version": 4,
+            "@class": "Autor",
+            "out_autorDe": [
+                "#81:67"
+            ],
+            "out_filiacionA": [
+                "#92:151",
+                "#93:151"
+            ],
+            "oid": null,
+            "nombre": "Quinteros, Soledad ;",
+            "email": "ser.quinteros@gmail.com",
+            "pais": null,
+            "@fieldTypes": "out_autorDe=g,out_filiacionA=g"
+        },
+        {
+            "@type": "d",
+            "@rid": "#48:31",
+            "@version": 18,
+            "@class": "Institucion",
+            "tipo": "institution",
+            "in_filiacionA": [
+                "#90:141",
+                "#92:141",
+                "#90:142",
+                "#93:149",
+                "#91:150",
+                "#93:150",
+                "#91:151",
+                "#93:151",
+                "#91:152",
+                "#93:152",
+                "#91:153",
+                "#93:153",
+                "#91:170",
+                "#90:171",
+                "#93:171",
+                "#92:172",
+                "#91:173"
+            ],
+            "nombre": "Universidad Tecnológica Nacional Maestro Marcelo López esq. Cruz Roja Argentina -Ciudad Universitaria -Córdoba",
+            "@fieldTypes": "in_filiacionA=g"
+        },
+        {
+            "@type": "d",
+            "@rid": "#38:73",
+            "@version": 4,
+            "@class": "Autor",
+            "out_autorDe": [
+                "#78:70"
+            ],
+            "out_filiacionA": [
+                "#90:152",
+                "#91:152"
+            ],
+            "oid": null,
+            "nombre": "Ramón, Sergio ",
+            "email": "",
+            "pais": null,
+            "@fieldTypes": "out_autorDe=g,out_filiacionA=g"
+        },
+        {
+            "@type": "d",
+            "@rid": "#48:31",
+            "@version": 18,
+            "@class": "Institucion",
+            "tipo": "institution",
+            "in_filiacionA": [
+                "#90:141",
+                "#92:141",
+                "#90:142",
+                "#93:149",
+                "#91:150",
+                "#93:150",
+                "#91:151",
+                "#93:151",
+                "#91:152",
+                "#93:152",
+                "#91:153",
+                "#93:153",
+                "#91:170",
+                "#90:171",
+                "#93:171",
+                "#92:172",
+                "#91:173"
+            ],
+            "nombre": "Universidad Tecnológica Nacional Maestro Marcelo López esq. Cruz Roja Argentina -Ciudad Universitaria -Córdoba",
+            "@fieldTypes": "in_filiacionA=g"
+        },
+        {
+            "@type": "d",
+            "@rid": "#39:72",
+            "@version": 4,
+            "@class": "Autor",
+            "out_autorDe": [
+                "#79:70"
+            ],
+            "out_filiacionA": [
+                "#92:152",
+                "#93:152"
+            ],
+            "oid": null,
+            "nombre": "Bueno, ; ",
+            "email": "",
+            "pais": null,
+            "@fieldTypes": "out_autorDe=g,out_filiacionA=g"
+        },
+        {
+            "@type": "d",
+            "@rid": "#48:31",
+            "@version": 18,
+            "@class": "Institucion",
+            "tipo": "institution",
+            "in_filiacionA": [
+                "#90:141",
+                "#92:141",
+                "#90:142",
+                "#93:149",
+                "#91:150",
+                "#93:150",
+                "#91:151",
+                "#93:151",
+                "#91:152",
+                "#93:152",
+                "#91:153",
+                "#93:153",
+                "#91:170",
+                "#90:171",
+                "#93:171",
+                "#92:172",
+                "#91:173"
+            ],
+            "nombre": "Universidad Tecnológica Nacional Maestro Marcelo López esq. Cruz Roja Argentina -Ciudad Universitaria -Córdoba",
+            "@fieldTypes": "in_filiacionA=g"
+        },
+        {
+            "@type": "d",
+            "@rid": "#40:71",
+            "@version": 4,
+            "@class": "Autor",
+            "out_autorDe": [
+                "#80:69"
+            ],
+            "out_filiacionA": [
+                "#90:153",
+                "#91:153"
+            ],
+            "oid": null,
+            "nombre": "Peretti, Matías ;",
+            "email": "peretti.juan@gmail.com",
+            "pais": null,
+            "@fieldTypes": "out_autorDe=g,out_filiacionA=g"
+        },
+        {
+            "@type": "d",
+            "@rid": "#48:31",
+            "@version": 18,
+            "@class": "Institucion",
+            "tipo": "institution",
+            "in_filiacionA": [
+                "#90:141",
+                "#92:141",
+                "#90:142",
+                "#93:149",
+                "#91:150",
+                "#93:150",
+                "#91:151",
+                "#93:151",
+                "#91:152",
+                "#93:152",
+                "#91:153",
+                "#93:153",
+                "#91:170",
+                "#90:171",
+                "#93:171",
+                "#92:172",
+                "#91:173"
+            ],
+            "nombre": "Universidad Tecnológica Nacional Maestro Marcelo López esq. Cruz Roja Argentina -Ciudad Universitaria -Córdoba",
+            "@fieldTypes": "in_filiacionA=g"
+        },
+        {
+            "@type": "d",
+            "@rid": "#41:71",
+            "@version": 4,
+            "@class": "Autor",
+            "out_autorDe": [
+                "#81:68"
+            ],
+            "out_filiacionA": [
+                "#92:153",
+                "#93:153"
+            ],
+            "oid": null,
+            "nombre": "Guevara, Juan ;",
+            "email": "",
+            "pais": null,
+            "@fieldTypes": "out_autorDe=g,out_filiacionA=g"
+        },
+        {
+            "@type": "d",
+            "@rid": "#48:31",
+            "@version": 18,
+            "@class": "Institucion",
+            "tipo": "institution",
+            "in_filiacionA": [
+                "#90:141",
+                "#92:141",
+                "#90:142",
+                "#93:149",
+                "#91:150",
+                "#93:150",
+                "#91:151",
+                "#93:151",
+                "#91:152",
+                "#93:152",
+                "#91:153",
+                "#93:153",
+                "#91:170",
+                "#90:171",
+                "#93:171",
+                "#92:172",
+                "#91:173"
+            ],
+            "nombre": "Universidad Tecnológica Nacional Maestro Marcelo López esq. Cruz Roja Argentina -Ciudad Universitaria -Córdoba",
+            "@fieldTypes": "in_filiacionA=g"
+        },
+        {
+            "@type": "d",
+            "@rid": "#41:83",
+            "@version": 5,
+            "@class": "Autor",
+            "out_autorDe": [
+                "#79:83"
+            ],
+            "out_filiacionA": [
+                "#93:169",
+                "#90:170",
+                "#91:170"
+            ],
+            "oid": null,
+            "nombre": "Corso, Cynthia L",
+            "email": "corso.cynthia@gmail.com",
+            "pais": null,
+            "@fieldTypes": "out_autorDe=g,out_filiacionA=g"
+        },
+        {
+            "@type": "d",
+            "@rid": "#48:31",
+            "@version": 18,
+            "@class": "Institucion",
+            "tipo": "institution",
+            "in_filiacionA": [
+                "#90:141",
+                "#92:141",
+                "#90:142",
+                "#93:149",
+                "#91:150",
+                "#93:150",
+                "#91:151",
+                "#93:151",
+                "#91:152",
+                "#93:152",
+                "#91:153",
+                "#93:153",
+                "#91:170",
+                "#90:171",
+                "#93:171",
+                "#92:172",
+                "#91:173"
+            ],
+            "nombre": "Universidad Tecnológica Nacional Maestro Marcelo López esq. Cruz Roja Argentina -Ciudad Universitaria -Córdoba",
+            "@fieldTypes": "in_filiacionA=g"
+        },
+        {
+            "@type": "d",
+            "@rid": "#38:86",
+            "@version": 5,
+            "@class": "Autor",
+            "out_autorDe": [
+                "#80:82"
+            ],
+            "out_filiacionA": [
+                "#92:170",
+                "#93:170",
+                "#90:171"
+            ],
+            "oid": null,
+            "nombre": "Maldonado, Calixto ",
+            "email": "calixtomaldonado@gmail.com",
+            "pais": null,
+            "@fieldTypes": "out_autorDe=g,out_filiacionA=g"
+        },
+        {
+            "@type": "d",
+            "@rid": "#48:31",
+            "@version": 18,
+            "@class": "Institucion",
+            "tipo": "institution",
+            "in_filiacionA": [
+                "#90:141",
+                "#92:141",
+                "#90:142",
+                "#93:149",
+                "#91:150",
+                "#93:150",
+                "#91:151",
+                "#93:151",
+                "#91:152",
+                "#93:152",
+                "#91:153",
+                "#93:153",
+                "#91:170",
+                "#90:171",
+                "#93:171",
+                "#92:172",
+                "#91:173"
+            ],
+            "nombre": "Universidad Tecnológica Nacional Maestro Marcelo López esq. Cruz Roja Argentina -Ciudad Universitaria -Córdoba",
+            "@fieldTypes": "in_filiacionA=g"
+        },
+        {
+            "@type": "d",
+            "@rid": "#39:85",
+            "@version": 5,
+            "@class": "Autor",
+            "out_autorDe": [
+                "#81:81"
+            ],
+            "out_filiacionA": [
+                "#91:171",
+                "#92:171",
+                "#93:171"
+            ],
+            "oid": null,
+            "nombre": "Claudio, Luque ",
+            "email": "",
+            "pais": null,
+            "@fieldTypes": "out_autorDe=g,out_filiacionA=g"
+        },
+        {
+            "@type": "d",
+            "@rid": "#48:31",
+            "@version": 18,
+            "@class": "Institucion",
+            "tipo": "institution",
+            "in_filiacionA": [
+                "#90:141",
+                "#92:141",
+                "#90:142",
+                "#93:149",
+                "#91:150",
+                "#93:150",
+                "#91:151",
+                "#93:151",
+                "#91:152",
+                "#93:152",
+                "#91:153",
+                "#93:153",
+                "#91:170",
+                "#90:171",
+                "#93:171",
+                "#92:172",
+                "#91:173"
+            ],
+            "nombre": "Universidad Tecnológica Nacional Maestro Marcelo López esq. Cruz Roja Argentina -Ciudad Universitaria -Córdoba",
+            "@fieldTypes": "in_filiacionA=g"
+        },
+        {
+            "@type": "d",
+            "@rid": "#40:84",
+            "@version": 5,
+            "@class": "Autor",
+            "out_autorDe": [
+                "#78:84"
+            ],
+            "out_filiacionA": [
+                "#90:172",
+                "#91:172",
+                "#92:172"
+            ],
+            "oid": null,
+            "nombre": "Martín, Casatti ",
+            "email": "mcasatti@gmail.com",
+            "pais": null,
+            "@fieldTypes": "out_autorDe=g,out_filiacionA=g"
+        },
+        {
+            "@type": "d",
+            "@rid": "#48:31",
+            "@version": 18,
+            "@class": "Institucion",
+            "tipo": "institution",
+            "in_filiacionA": [
+                "#90:141",
+                "#92:141",
+                "#90:142",
+                "#93:149",
+                "#91:150",
+                "#93:150",
+                "#91:151",
+                "#93:151",
+                "#91:152",
+                "#93:152",
+                "#91:153",
+                "#93:153",
+                "#91:170",
+                "#90:171",
+                "#93:171",
+                "#92:172",
+                "#91:173"
+            ],
+            "nombre": "Universidad Tecnológica Nacional Maestro Marcelo López esq. Cruz Roja Argentina -Ciudad Universitaria -Córdoba",
+            "@fieldTypes": "in_filiacionA=g"
+        },
+        {
+            "@type": "d",
+            "@rid": "#41:84",
+            "@version": 5,
+            "@class": "Autor",
+            "out_autorDe": [
+                "#79:84"
+            ],
+            "out_filiacionA": [
+                "#93:172",
+                "#90:173",
+                "#91:173"
+            ],
+            "oid": null,
+            "nombre": "Gimena, Martínez ",
+            "email": "gimemartinez05@gmail.com",
+            "pais": null,
+            "@fieldTypes": "out_autorDe=g,out_filiacionA=g"
+        }
+    ],
+    "executionPlan": {
+        "@type": "d",
+        "@version": 0,
+        "cost": 0,
+        "prettyPrint": "+ PREFETCH inst\n  + FETCH FROM CLASS Institucion\n    + FETCH FROM CLUSTER 46 ASC\n    + FETCH FROM CLUSTER 47 ASC\n    + FETCH FROM CLUSTER 48 ASC\n    + FETCH FROM CLUSTER 49 ASC\n    + FETCH NEW RECORDS FROM CURRENT TRANSACTION SCOPE (if any)\n  + FILTER ITEMS WHERE \n    @rid = #48:31\n+ SET \n   inst\n  AS\n  + FETCH FROM CLASS Institucion\n    + FETCH FROM CLUSTER 46 ASC\n    + FETCH FROM CLUSTER 47 ASC\n    + FETCH FROM CLUSTER 48 ASC\n    + FETCH FROM CLUSTER 49 ASC\n    + FETCH NEW RECORDS FROM CURRENT TRANSACTION SCOPE (if any)\n  + FILTER ITEMS WHERE \n    @rid = #48:31\n+ MATCH      <----\n  {aut}.both(\"filiacionA\"){inst}\n+ UNROLL $elements",
+        "type": "QueryExecutionPlan",
+        "steps": [
+            {
+                "@type": "d",
+                "@version": 0,
+                "cost": -1,
+                "subSteps": [
+                    
+                ],
+                "name": "MatchPrefetchStep",
+                "description": "+ PREFETCH inst\n   + FETCH FROM CLASS Institucion\n      + FETCH FROM CLUSTER 46 ASC\n      + FETCH FROM CLUSTER 47 ASC\n      + FETCH FROM CLUSTER 48 ASC\n      + FETCH FROM CLUSTER 49 ASC\n      + FETCH NEW RECORDS FROM CURRENT TRANSACTION SCOPE (if any)\n   + FILTER ITEMS WHERE \n     @rid = #48:31",
+                "type": "MatchPrefetchStep",
+                "targetNode": "MatchPrefetchStep",
+                "javaType": "com.orientechnologies.orient.core.sql.executor.MatchPrefetchStep",
+                "@fieldTypes": "cost=l"
+            },
+            {
+                "@type": "d",
+                "@version": 0,
+                "cost": -1,
+                "subSteps": [
+                    
+                ],
+                "name": "MatchFirstStep",
+                "description": "+ SET \n   inst\n  AS\n   + FETCH FROM CLASS Institucion\n      + FETCH FROM CLUSTER 46 ASC\n      + FETCH FROM CLUSTER 47 ASC\n      + FETCH FROM CLUSTER 48 ASC\n      + FETCH FROM CLUSTER 49 ASC\n      + FETCH NEW RECORDS FROM CURRENT TRANSACTION SCOPE (if any)\n   + FILTER ITEMS WHERE \n     @rid = #48:31",
+                "type": "MatchFirstStep",
+                "targetNode": "MatchFirstStep",
+                "javaType": "com.orientechnologies.orient.core.sql.executor.MatchFirstStep",
+                "@fieldTypes": "cost=l"
+            },
+            {
+                "@type": "d",
+                "@version": 0,
+                "cost": -1,
+                "subSteps": [
+                    
+                ],
+                "name": "MatchStep",
+                "description": "+ MATCH      <----\n  {aut}.both(\"filiacionA\"){inst}",
+                "type": "MatchStep",
+                "targetNode": "MatchStep",
+                "javaType": "com.orientechnologies.orient.core.sql.executor.MatchStep",
+                "@fieldTypes": "cost=l"
+            },
+            {
+                "@type": "d",
+                "@version": 0,
+                "cost": -1,
+                "subSteps": [
+                    
+                ],
+                "name": "ReturnMatchElementsStep",
+                "description": "+ UNROLL $elements",
+                "type": "ReturnMatchElementsStep",
+                "targetNode": "ReturnMatchElementsStep",
+                "javaType": "com.orientechnologies.orient.core.sql.executor.ReturnMatchElementsStep",
+                "@fieldTypes": "cost=l"
+            }
+        ],
+        "javaType": "com.orientechnologies.orient.core.sql.executor.OSelectExecutionPlan",
+        "@fieldTypes": "cost=l,steps=z"
+    },
+    "elapsedMs": 22,
+    "notification": "Query executed in 0.128 sec. Returned 34 record(s)"
+}

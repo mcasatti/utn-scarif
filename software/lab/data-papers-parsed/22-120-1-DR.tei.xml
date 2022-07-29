@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="es">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Participación de los estudiantes en una comunidad de software libre como criterio de evaluación</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Ricardo</forename><surname>Medel</surname></persName>
+							<email>rmedel@frc.utn.edu.ar</email>
+							<affiliation key="aff0">
+								<orgName type="department">Departamento de Ingeniería en Sistemas de Información</orgName>
+								<orgName type="institution">Universidad Tecnológica Nacional -Facultad Regional Córdoba Maestro M. Lopez esq</orgName>
+								<address>
+									<settlement>Ciudad de Córdoba</settlement>
+									<country>Cruz Roja Argentina, Argentina</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Año Inscriptos Asistentes Aprobados</orgName>
+								<address>
+									<addrLine>31 19 14, 29 13 12, 53 42 33, 45 37 27</addrLine>
+									<postCode>2015, 2016, 2017, 2018</postCode>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Participación de los estudiantes en una comunidad de software libre como criterio de evaluación</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">7BF5F512D2F9303328EA8EE97CEB4A95</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.7.0" ident="GROBID" when="2022-04-09T01:35+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="es">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Resumen</head><p>El sofware libre es creado por comunidades de desarrolladores voluntarios, usuarios y empresas distribuidos globalmente. Debido a que puede ser utilizado, modificado y distribuido libremente por cualquier persona o entidad con cualquier propósito, el software de este tipo tiene gran difusión, tanto en ambientes educativos como comerciales e industriales. Nuestra universidad, sin embargo, tiene una larga tradición de no utilizarlo. Es por esto que desde el año 2015 se ofrece una asignatura electiva sobre software libre a estudiantes del último año de la Ingeniería en Sistemas de Información. La principal innovación es que, como parte de los criterios de evaluación del curso para su aprobación, los estudiantes deben participar activamente en una comunidad de software libre de su elección. En este trabajo reportamos los resultados, en general positivos, de esta exposición de los alumnos a la realidad del ambiente de desarrollo y utilización del software libre.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Palabras clave:</head><p>Software libre, Metodologías de desarrollo, Ingeniería de Sistemas de Información</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introducción</head><p>El software libre y su similar, el software de código abierto o de fuentes abiertas, son tan antiguos como las computadoras. En los inicios de la era de las computadoras, el valor comercial de un sistema provenía solo de hardware, mientras que el software era compartido libremente por las usualmente pequeñas comunidades de desarrolladores y operadores creada alrededor de un hardware en particular <ref type="bibr">(Dibona, Ockman y Stone, 1999)</ref>. Recién en 1984 Richard Stallman definió formalmente el término "software libre" en El Manifiesto de GNU <ref type="bibr">(Stallman, 2016)</ref>. Más tarde, la creación de Open Source Initiative aportó la definición de software de código abierto <ref type="bibr" target="#b15">(OSI, 2007)</ref>. A pesar de algunas diferencias entre el software libre y el software de código abierto, ambos comparten la misma filosofía de construcción colectiva, libertad de uso y modificación colaborativa del código. Técnicamente, el software libre no se diferencia del software propietario (aquel software cuya licencia de uso no es libre). Sin embargo, su gran diferencia es la estructura de desarrollo y mantenimiento que se genera alrededor de cada proyecto de software libre. Incluso cuando algunos de estos proyectos son guiados por empresas, la mayoría de los proyectos son creados y mantenidos por una comunidad de desarrolladores y usuarios siguiendo distintos modelos de organización <ref type="bibr" target="#b17">(Raymond, 2009)</ref>. Este enfoque novedoso para la construcción de software, así como sus aspectos filosóficos, sociales, legales y económicos, requieren que los profesionales de software estén informados sobre sus características, ventajas y limitaciones. Este conocimiento les permitirá tomar decisiones informadas sobre el desarrollo y uso de software libre durante su práctica profesional. Debido a su bajo o nulo costo, y a la posibilidad de modificar y distribuir libremente el código fuente, este tipo de software se utiliza comúnmente en educación, especialmente en universidades con programas de informática o ingeniería de software <ref type="bibr">(Lakhan y Jhunjhunwala, 2008;</ref><ref type="bibr" target="#b18">Wilson, 2013)</ref>. Sin embargo, nuestra Universidad tiene una larga tradición en no utilizarlo. En los pocos cursos donde se lo utiliza, sus características no técnicas (filosofía, licenciamiento, comunidades de desarrollo, etc.) no se estudian ni analizan. Es por esto que desde el año 2015 se ofrece una asignatura electiva sobre software libre a estudiantes del último año de la Ingeniería en Sistemas de Información <ref type="bibr" target="#b1">(Cabral et al., 2014;</ref><ref type="bibr" target="#b11">Medel, 2016)</ref>. Además del objetivo de ampliar el cuerpo de conocimientos de los futuros ingenieros de sistemas de información, un aspecto crucial de esta propuesta es que, como parte de los criterios de evaluación del curso para su aprobación, todos los estudiantes deben elegir una comunidad de software libre ya existente y participar activamente en ella. En este trabajo presentamos los resultados de nuestras experiencias durante los cuatro años en que se ha ofrecido el curso. Cabe destacar que este curso no fue diseñado como un experimento sobre Educación, en cuyo caso requeriría un grupo de control y evaluaciones previas y posteriores de los estudiantes. Nuestro objetivo aquí es más bien modesto: comunicar las lecciones aprendidas durante la implementación de este curso en la carrera de Ingeniería de Sistemas de Información, con la esperanza de ser útiles para otras universidades o carreras que estén en situaciones similares.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Marco teórico</head><p>El "software libre" es aquel software que asegura al usuario cuatro libertades esenciales (FSF, 2018): 0. La libertad de ejecutar el programa como se desee, con cualquier propósito. 1. La libertad de estudiar cómo funciona el programa, y cambiarlo para que haga lo que el usuario quiera (el acceso al código fuente es una condición necesaria para ello). 2. La libertad de redistribuir copias para ayudar a otros. 3. La libertad de distribuir copias de sus versiones modificadas a terceros (el acceso al código fuente es una condición necesaria para ello).</p><p>Desde hace décadas, el software libre está presente en una gran cantidad de sistemas informáticos <ref type="bibr" target="#b5">(Feller et al., 2005)</ref>. En particular, fue y es clave en la infraestructura de Internet (Newman, 1999), y se puede encontrar incluso en los teléfonos inteligentes que usamos diariamente <ref type="bibr" target="#b9">(Hoffman, 2014)</ref> El participar en el desarrollo de software libre permite a los alumnos experimentar el proceso de desarrollo de software in-thelarge, a diferencia de la experiencia usual in-the-small, la cual es realizar pequeños programas de práctica, con requerimientos, usuarios y demás restricciones ficticias, provistas por la cátedra. Es decir, permite a los estudiantes contribuir a la producción de software real, en un ámbito de desarrollo real <ref type="bibr" target="#b0">(Buffardi, 2015;</ref><ref type="bibr">Wachenchauzer, 2013)</ref>. Desde 2010 las conferencias POSSE (Professors Open Source Software Experience) impulsan la participación de alumnos en proyectos de software libre humanitarios (HFOSS: Humanitarian Free/Open Source Software), cuyo principal objetivo es social <ref type="bibr" target="#b3">(Dziallas, 2012;</ref><ref type="bibr">Ellis, Morelli e Hislop, 2008;</ref><ref type="bibr" target="#b13">Morelli et al., 2009)</ref>. Los resultados de estas experiencias evidencian mejoras en las habilidades técnicas y sociales de los estudiantes, aunque se requiere un esfuerzo extra de los profesores y, en particular, de los alumnos al involucrarse en una comunidad y realizar un aporte significativo <ref type="bibr" target="#b16">(Pinto et al., 2017)</ref>. El principal motivador, desde el punto de vista de los alumnos es el poder aplicar habilidades de desarrollo de software a proyectos de la vida real, para clientes reales, en un ambiente de producción, todo dentro de los límites de un semestre. Sin embargo, los desafíos no son menores: ¿se conseguirán los objetivos de aprendizaje? ¿los proyectos son adecuados para el nivel de los estudiantes? ¿utilizan lenguajes de programación que el estudiante conoce? <ref type="bibr" target="#b8">(Hislop, 2009)</ref>. En el caso argentino debemos sumar la cuestión del lenguaje de comunicación entre miembros de la comunidad, que usualmente es el inglés. ¿Podrán nuestros alumnos comunicarse en ese idioma?</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Objetivos y Metodología</head><p>Como se estableció previamente, el objetivo de esta asignatura es completar la formación del egresado de la carrera a fin de que sea capaz de tomar decisiones informadas sobre el uso y desarrollo de software libre. La asignatura se desarrolla durante el primer cuatrimestre, con una duración de 35 horas de clases teórico-prácticas (una clase de dos horas y media por semana). Si bien hubo variaciones en el orden y profundidad a lo largo de los años, los temas que se estudian son los siguientes.  Conceptos básicos del software libre  Historia del software libre  Licencias de software  Gestión de comunidades de software libre  Calidad de proyectos de software libre  Modelos de negocios basados en software libre  Sistemas operativos libres  Reglas de diseño y programación aplicadas en comunidades de software libre  La filosofía del software libre en otros ámbitos: educación, movimientos sociales y gobierno. La asignatura ofrece aprobación directa con una nota igual o superior a 7 (siete), tomada como el promedio de los resultados de las evaluaciones aprobadas del alumno. Las evaluaciones se basan en:</p><p> Un examen parcial teórico-práctico y su correspondiente recuperatorio.  Un informe escrito sobre la experiencia del estudiante en una comunidad de software libre.</p><p> Una presentación oral sobre la experiencia del estudiante en dicha comunidad. Mientras que el informe escrito es individual, la presentación oral puede compartirse entre alumnos que han participado de la misma comunidad. La selección de la comunidad la realiza libremente cada alumno, aunque el equipo de cátedra provee un listado de comunidades (en las que se han realizado participaciones exitosas o se tiene cierta relación con la comunidad) que sirven como sugerencias. En los primeros años se requería al alumno la realización de algunos ensayos cortos, a modo de ejericicios prácticos, dejando los dos últimos meses del cuatrimestre para la práctica en la comunidad. Desde el año 2017 se decidió eliminar dichos ejercicios prácticos y fortalecer la práctica comunitaria, comenzando antes el proceso de selección e inserción en la comunidad. Por otra parte, desde ese año la asignatura se desarrolló aplicando la modalidad de "aula invertida", lo cual no afecta a las prácticas en las comunidades de software libre.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Resultados</head><p>En esta sección resumimos los resultados de esta asignatura respecto de la cantidad de alumnos, las comunidades donde se realizaron las prácticas y la naturaleza de dichas prácticas. A fin de cuantificar los resultados, mostramos en la Tabla 1 la cantidad de alumnos inscriptos, la cantidad de alumnos que comenzaron la asignatura y la cantidad de alumnos que obtuvieron la aprobación directa en cada año.</p><p>Creemos que es necesario diferenciar entre las dos primeras columnas, ya que la primera incluye alumnos que sólo se inscribieron y nunca asistieron a ninguna clase de la asignatura. De esta manera, consideramos el índice de aprobación como la relación entre la cantidad de alumnos que efectivamente asistieron al menos a una clase y la cantidad de alumnos que aprobaron el curso. Por su parte, la Figura 1 muestra los mismos datos en forma gráfica, lo que permite ver la variación en la cantidad de alumnos inscriptos, asistentes y aprobados a lo largo del tiempo. Respecto a la participación de los alumnos en las comunidades de software libre, la Tabla 2 indica la comunidad, la cantidad de alumnos que participaron a lo largo de todos los años de la asignatura y el tipo de actividades realizadas. Se indica con ES las comunidades cuyo principal idioma de comunicación es el español, y con L las comunidades que son predominantemente locales, con la mayoría de sus integrantes habitando en nuestra ciudad. Consideramos relevante diferenciar la participación en comunidades globales respecto de las participaciones en comunidades locales, pues en ambos casos la problemática de la comunicación es diferente.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Discusión</head><p>Realizamos un análisis de los resultados de esta experiencia teniendo en cuenta la satisfacción de los alumnos, el índice de aprobación, la variedad de comunidades en las que se participó y el nivel de participación. Al finalizar cada cuatrimestre se realizaron encuestas informales requiriendo la opinión de los alumnos respecto del curso y sus propuestas de mejoras. Las respuestas fueron mayormente positivas, mientras que las mejoras propuestas se centraron en extender el tiempo de la intervención en las comunidades (algo que se comenzó a hacer desde 2017) y en ofrecer el curso como asignatura electiva en tercer año. Esto tiene como motivo dos aspectos: por un lado, al aprobar tercer año los alumnos reciben el título de Analista en Sistemas y muchos de ellos no continúan la carrera de ingeniería; por otro lado, algunos alumnos indicaron que tener suficiente conocimiento sobre software libre durante el cursado de los últimos años de la ingeniería les hubiera permitido aprovechar mejor algunas de las enseñanzas impartidas. El índice de aprobación, como lo muestra la Tabla 1, es muy elevado, rondando entre el 73% (2018) y 92% (2016). La Tabla 2 muestra la variedad de comunidades en las que participaron los alumnos y la complejidad de intervención alcanzada. Si bien hubo muchas participaciones realizando traducciones y documentación, consideradas entre las actividades más básicas en un proyecto, hubo un importante número de participaciones que implicaron la corrección de errores o inclusión de nuevas funcionalidades, actividades que requieren de habilidades de programación y pruebas de calidad. Sin embargo, más allá del nivel de participación, es importante recalcar que participar por primera vez de una comunidad de software libre requiere obtener un nivel de confianza en la comunidad que es difícil de lograr en apenas dos meses. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.">Conclusiones</head><p>En base a nuestro análisis consideramos que los objetivos fueron cumplidos: exponer a los alumnos a una práctica real de proyectos de software en ambientes de producción, al tiempo que se aprenden los principios técnicos, legales, filosóficos y sociales del software libre. Nuestros próximos pasos son realizar una evaluación más profunda de la participación de los alumnos y las características de tales comunidades a fin de seleccionar las mejores comunidades para participar y, en caso de nuevas comunidades, tratar de anticipar si la participación será enriquecedora. Por otra parte, continuaremos planteando a las autoridades la necesidad de ofrecer esta asignatura como electiva en tercer año o antes. </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figura 1 :</head><label>1</label><figDesc>Figura 1: Cantidad de alumnos.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head></head><label></label><figDesc>Refactorización de tests, desarrollo de juegos de ejemplo, reporte y corrección de errores, creación de fondos de pantalla, documentación, creación y actualización de tutoriales</figDesc><table><row><cell cols="3">Tabla 2. Participación en comunidades de software libre</cell></row><row><cell>Comunidad</cell><cell>Alumnos</cell><cell>Actividades</cell></row><row><cell>pilas-engine (ES)</cell><cell>17</cell><cell></cell></row><row><cell>PseInt (ES)</cell><cell>7</cell><cell>Creación de tutorial y FAQ, documentación</cell></row><row><cell>Node-open-pilot (ES, L)</cell><cell>6</cell><cell>Traducción al inglés y mejora de página web, agregado de funcionalidades, mejoras en el código</cell></row><row><cell>Reconocedor de billetes (ES, L)</cell><cell>6</cell><cell>Mejora de performance, reporte y corrección de errores, documentación de código</cell></row><row><cell>OpenSource.Guide</cell><cell>5</cell><cell>Traducción al castellano</cell></row><row><cell>PumaScript (ES, L)</cell><cell>5</cell><cell>Agregado de tests, documentación, nuevas funcionalidades</cell></row><row><cell>Hola</cell><cell>3</cell><cell>Traducción al castellano</cell></row><row><cell>OpenStreetMap</cell><cell>3</cell><cell>Agregado de información, traducción al castellano</cell></row><row><cell>Pilas Bloques (ES)</cell><cell>3</cell><cell>Desarrollo de capacitación</cell></row><row><cell>BabelZilla</cell><cell>2</cell><cell>Traducción al castellano, reporte de errores</cell></row><row><cell>Google Search API</cell><cell>2</cell><cell>Corrección de errores de instalador, reporte, revisión y corrección de errores</cell></row><row><cell>Ícaro (ES, L)</cell><cell>2</cell><cell>Desarrollo de placa ejemplo, documentación, traducción al inglés</cell></row><row><cell>Tails</cell><cell>2</cell><cell>Traducción al castellano</cell></row><row><cell>Airesis</cell><cell>1</cell><cell>Documentación</cell></row><row><cell>ASP .Net Core</cell><cell>1</cell><cell>Reporte de errores</cell></row><row><cell>CIAA (ES)</cell><cell>1</cell><cell>Mejoras en página web</cell></row><row><cell>Elastic Search</cell><cell>1</cell><cell>Detección de errores</cell></row><row><cell>Epoptes</cell><cell>1</cell><cell>Creación de tutorial</cell></row><row><cell>FullCalendar</cell><cell>1</cell><cell>Reporte de errores, nueva funcionalidad</cell></row><row><cell>HaxeFlixel</cell><cell>1</cell><cell>Desarrollo de juego de ejemplo</cell></row><row><cell>Koha</cell><cell>1</cell><cell>Traducción al castellano</cell></row><row><cell>LibreOffice</cell><cell>1</cell><cell>Reporte de errores</cell></row><row><cell>Match-it</cell><cell>1</cell><cell>Mejoras de performance</cell></row><row><cell>Mindfulness at the computer</cell><cell>1</cell><cell>Traducción al castellano, mejora de procesos, reporte y corrección de errores</cell></row><row><cell>Moodle</cell><cell>1</cell><cell>Traducción al castellano, reporte de errores</cell></row><row><cell>MySQL Workbench</cell><cell>1</cell><cell>Reporte de errores</cell></row><row><cell>Nelson</cell><cell>1</cell><cell>Traducción al castellano</cell></row><row><cell>Ninja-IDE (ES)</cell><cell>1</cell><cell>Mejora de procesos</cell></row><row><cell>OkHttp</cell><cell>1</cell><cell>Corrección de errores, mejora de procesos</cell></row><row><cell>Rayo.js</cell><cell>1</cell><cell>Traducción al castellano, mejoras en página web</cell></row><row><cell>Red-DiscordBot</cell><cell>1</cell><cell>Corrección de errores, traducción al castellano</cell></row><row><cell>REngine</cell><cell>1</cell><cell>Nueva funcionalidad y fork del proyecto</cell></row><row><cell>rst2html5 (ES)</cell><cell>1</cell><cell>Corrección de errores</cell></row><row><cell>Sakai</cell><cell>1</cell><cell>Detección de errores</cell></row><row><cell>Terasology</cell><cell>1</cell><cell>Agregado de música</cell></row><row><cell>VLC Media Player</cell><cell>1</cell><cell>Traducción al castellano</cell></row></table></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Localized open source collaboration in software engineering education</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Buffardi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">IEEE Frontiers in Education Conference (FIE)</title>
+				<imprint>
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title level="m" type="main">Propuesta de incorporación de la Ingeniería de Software Libre y de Código Abierto al currículo de Ingeniería en Sistemas de Información y carreras afines. 1° Simposio Argentino de Tecnología y Sociedad</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Cabral</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Medel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Navarro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Reingart</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2014" />
+			<biblScope unit="page">43</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title level="m" type="main">Open Sources: Voices from the Open Source Revolution</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Dibona</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ockman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Stone</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1999" />
+			<pubPlace>O&apos;Reilly Media</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Teaching open source: involving students in free and open source software (FOSS) project communities (abstract only)</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Dziallas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ellis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Chua</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Huss-Lederman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Wurst</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">43rd ACM technical symposium on Computer Science Education</title>
+				<imprint>
+			<date type="published" when="2012" />
+			<biblScope unit="page">676</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Work in progress -Challenges to educating students within the Community of Open Source Software for Humanity</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ellis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Morelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Hislop</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Education Conference (FIE)</title>
+				<imprint>
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Perspectives on Free and Open Source Software</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Feller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Fitzgerald</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Hissam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">R</forename><surname>Lakhani</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">¿Qué es el software libre? Free Software Foundation</title>
+				<imprint>
+			<publisher>The MIT Press. FSF</publisher>
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title level="m" type="main">El software libre en el EEES. Innovación Educativa para la Educación Superior: Hacia el Proceso de Convergencia</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>García-Domínguez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Rodríguez Galván</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Palomo-Duarte</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2008" />
+			<pubPlace>Madrid</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Colleges Turning Out Open Source Talent</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gittlen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Network World</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Using open source software to engage students in computer science education</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Hislop</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ellis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Tucker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Dexter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">40th SIGCSE Technical Symposium on Computer Science Education</title>
+				<imprint>
+			<date type="published" when="2009" />
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page" from="134" to="135" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Android is Based on Linux</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Hoffman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">But What Does That Mean? How-to-Geek</title>
+				<imprint>
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Open Source Software in Education</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Lakhan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Jhunjhunwala</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Quarterly</title>
+		<imprint>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">31</biblScope>
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<monogr>
+		<title level="m" type="main">Experiencia del primer año de dictado de una asignatura electiva sobre Software Libre en la carrera de Ingeniería en Sistemas. 3° Simposio Argentino de Tec. y Sociedad, 45°</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Medel</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Jaiio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Meiszner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Glott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Sowe</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Open Source Software (FLOSS) communities as an example of successful open participatory learning ecosystems</title>
+		<author>
+			<persName><surname>Free / Libre</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">European Journal for the Informatics Profession, UPGRADE. IX</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="62" to="68" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Revitalizing Computing Education Through Free and Open Source Software for Humanity</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Morelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Tucker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Danner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>De Lanerolle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ellis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Izmirli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Krizanc</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Parker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Communications of the ACM</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="67" to="75" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Innovación educativa con software libre</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Neira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Palomo-Duarte</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">The Origins and Future of Open Source Software: A Net-Action White Paper</title>
+				<meeting><address><addrLine>Newman, N</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1999" />
+		</imprint>
+		<respStmt>
+			<orgName>VI Jornadas Int. de Innovación Universitaria</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<monogr>
+		<title level="m" type="main">Open Source Definition. Open Source Initiative</title>
+		<author>
+			<persName><surname>Osi</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<monogr>
+		<author>
+			<persName><forename type="first">G</forename><surname>Pinto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Figueira Filho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Steinmacher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Gerosa</surname></persName>
+		</author>
+		<title level="m">Training Software Engineers Using Open-Source Software: The Professors&apos; Perspective. 30th IEEE Conference on Software Engineering Education and Training (CSEE&amp;T)</title>
+				<imprint>
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Los desafíos de la cultura participativa: Software libre y universidad. Edutec: Revista electrónica de Tecnología Educativa</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Raymond</surname></persName>
+		</author>
+		<author>
+			<persName><surname>O'reilly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Vera</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wachenchauzer, R</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="130" to="140" />
+			<date type="published" when="2009" />
+		</imprint>
+		<respStmt>
+			<orgName>Trabajos de Carreras de Informática en Comunidades de Código Abierto. Jornadas Argentinas de Software Libre</orgName>
+		</respStmt>
+	</monogr>
+	<note>Stallman, R.</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<monogr>
+		<title level="m" type="main">Open source in higher education: how far have we come? The Guardian</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wilson</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

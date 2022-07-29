@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="es">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Habilidades matemáticas y digitales en actividades de números complejos usando software</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">A</forename><surname>Favieri</surname></persName>
+							<email>afavieri@frh.utn.edu.ar</email>
+							<affiliation key="aff0">
+								<orgName type="department">Departamento de Aeronáutica Facultad Regional Haedo</orgName>
+								<orgName type="institution">Universidad Tecnológica Nacional</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Habilidades matemáticas y digitales en actividades de números complejos usando software</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">FF6CC929076B65A392BE2DA740D313C9</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.7.0" ident="GROBID" when="2022-04-09T01:35+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="es">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Resumen</head><p>Este proyecto se centraliza en el estudio de habilidades matemáticas y digitales al utilizar software matemático durante el proceso de enseñanza aprendizaje del tema flujo potencial de fluidos. Uno de sus objetivos es diferenciar la clase de actividades con uso de software Wolfram Mathematica que resultarían adecuadas para desarrollar dichas habilidades matemáticas y digitales en torno al tema en cuestión. En este trabajo se reportan una de las actividades diseñadas, las habilidades matemáticas y digitales asociadas y los comandos del software que son necesarios utilizar. Se concluye con algunas reflexiones sobre el diseño de actividades matemáticas con uso de software y las acciones futuras. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Palabras clave: habilidades matemáticas Wolfram Mathematica, diseño actividades, Wolfram Development Platform</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Identificación</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Introducción</head><p>Este PID se centraliza en el estudio de habilidades matemáticas y digitales al utilizar software matemático durante el proceso de enseñanza aprendizaje del tema flujo potencial de fluidos. El contexto implicado es la asignatura Matemáticas Aplicadas a la Aeronáutica, de la carrera Ingeniería Aeronáutica de la Facultad Regional Haedo. Esta asignatura se dicta en el segundo cuatrimestre de cada año lectivo y comprende dos cursos uno de turno tarde y otro de turno noche, con un promedio de 20 alumnos en cada uno de ellos. La experiencia se llevó a cabo en los dos cursos, como parte de las actividades de clase obligatorias del ciclo lectivo 2017. Se realizaron en los laboratorios de la Facultad que cuentan con 20 computadoras con acceso a Internet. El software seleccionado es Wolfram Mathematica pues ofrece un entorno, sintaxis y lenguaje aptos para realizar análisis de manera simbólica, numérica y visualizaciones de datos claras y precisas. Por otro lado, da la posibilidad de producir documentos interactivos de manera sencilla, que pueden ser usados en el aula. En estos documentos pueden incluirse ingreso de comandos, visualización de las salidas y textos para agregar explicaciones, justificaciones o interpretaciones de gráficos y resultados obtenidos. Estas características hacen que resulte apropiado para el desarrollo del tema en cuestión. El software fue utilizado en su plataforma "Wolfram Development Platform" que es de acceso gratuito a través de Internet y que sólo requiere registro a través de una cuenta de mail. De esta manera se puede trabajar en la nube, todos los archivos quedan guardados en un disco virtual y el alumno puede acceder a ellos desde cualquier dispositivo o computadora. La misma permite compartir documentos, lo que facilitó la entrega de las producciones de los alumnos.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Marco teórico Sobre las habilidades matemáticas y digitales</head><p>Varios autores, Hernández Fernández, Delgado Rubí, Fernández de Alaíza, Valverde Ramírez y Rodríguez Hung (1998), Delgado Rubí (1998) aludiendo a Talízina <ref type="bibr">(1984)</ref>, <ref type="bibr" target="#b12">Zabala (2007)</ref>, <ref type="bibr" target="#b11">Sánchez (2002)</ref>, <ref type="bibr" target="#b7">Godino (2002a)</ref>, <ref type="bibr" target="#b10">Nickerson, Perkins y Smith (1987)</ref>, hablan de procedimientos como los modos de actuación, de un saber hacer, de contenidos procedimentales, de competencia, pensamiento hábil. Es conveniente distinguir los conceptos de procedimiento y habilidad vinculados a la Matemática. Por una parte, el procedimiento es la acción o tarea que debemos realizar para lograr un objetivo o fin en el cual la Matemática está involucrada. En el año de 1956, Benjamín Bloom, desarrolló su taxonomía de Objetivos Educativos, que categoriza y ordena habilidades de pensamiento y el proceso del aprendizaje. Parte de Habilidades de Pensamiento de Orden Inferior y va hacia Habilidades de Pensamiento de Orden Superior; que abarcan las categorías conocimiento, comprensión, aplicación, análisis, síntesis y evaluación <ref type="bibr">(Churches, 2009)</ref>. En los años 90, Lorin <ref type="bibr" target="#b0">Anderson (2014)</ref>, revisó la Taxonomía de Bloom y publicó, en el año 2001, la Taxonomía Revisada de Bloom, que como novedad incorpora el uso de verbos en lugar de sustantivos para cada categoría y el cambio de la secuencia de éstas dentro de la taxonomía.  <ref type="bibr" target="#b2">Duval (1993)</ref> investigó sobre el aprendizaje de la matemática y el papel de los registros de representación semiótica para la aprehensión de los conocimientos matemáticos. Su teoría de registros de representación semiótica se basa en un modelo constructivista y sostiene que los objetos matemáticos son accesibles a la percepción a través de representaciones mentales.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sobre los registros de representación</head><p>Estas dependen de las representaciones semióticas que se refieren a algún sistema de signos que tiene como función principal la de comunicación. Y en matemática en particular, ofician de mediadoras entre los objetos matemáticos y su entendimiento. Las representaciones semióticas utilizan registros diferentes como el gráfico, el analítico, el numérico, el verbal. <ref type="bibr" target="#b3">Duval (2004)</ref> sostiene que el empleo de diversos registros de representación semiótica está relacionado con el desarrollo de las habilidades matemáticas</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Objetivos, Avances y Resultados</head><p>Objetivo del trabajo El objetivo es detallar el diseño de actividades con uso de software Wolfram Mathematica sobre números complejos y su relación con las habilidades matemáticas y digitales.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Metodología</head><p>Las acciones llevadas a cabo para cumplir con el objetivo fueron: − Selección y justificación de los temas a incluir en las actividades La selección de los temas es: uso de números complejos para representar regiones en el plano. La razón de tal elección está relacionada con su utilización en los gráficos de los flujos potenciales. Por eso las regiones comprenden, hipérbolas, rectas, familias de rectas, circunferencias desplazadas y familia de circunferencias concéntricas.  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>− Distinción de los registros de representación de las actividades</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Análisis del diseño de las actividades con respecto a las habilidades matemáticas y digitales</head><p>Con el fin de analizar si el diseño de las actividades propuestas podría favorecer el desarrollo de habilidades matemáticas y digitales elegidas, las mismas se resolvieron utilizando el software, y se establecieron relaciones entre los contenidos matemáticos, las habilidades matemáticas y digitales. Este análisis permitió establecer que la categorización de habilidades matemáticas expresadas en el marco teórico no se corresponden con compartimentos estancos ya que, la ejecución de algún comando resulta del uso de varias habilidades matemáticas juntas. Por ejemplo, en la actividad 1, el alumno debe interpretar la información dada en registro analítico, identificar conceptos, recodificar en registro gráfico utilizando los comandos adecuados y graficar, incluyendo así habilidades conceptuales, traductoras y operativas que se ponen en juego de manera conjunta. Otra de las consecuencias de este análisis es que es necesario que el docente conozca el software a utilizar en profundidad ya que, en este caso en particular, es preciso saber las diferentes opciones que pueden agregar a los comandos y las combinaciones que son posibles hacer con ellos para que los gráficos representen lo mejor posible las regiones del plano complejo. Se estableció que las evidencias de las habilidades relativas a la interpretación de las salidas del software, a la verificación de resultados y justificación de lo realizado estarían expresadas en la inclusión de textos en las producciones de los alumnos hechos en el software. En el caso de la actividad 2, existe la posibilidad de justificar analítica y/o gráficamente utilizando el software.</p><p>A continuación, se muestra la vinculación de cada actividad con el contenido matemático y los comandos del software:</p><p>Actividad 1 (Registro analítico) − Habilidades conceptuales:</p><p>• Definir variable compleja en el software (Comando I) </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Reflexiones</head><p>Las actividades diseñadas para ser resueltas con el software Wolfram Mathematica están pensadas para favorecer el desarrollo de habilidades matemáticas y digitales. Las habilidades matemáticas adquieren una dimensión digital al incorporar software en la resolución. El diseño demanda que el docente conozca el software, su sintaxis y comandos, las formas de expresión y salidas que el mismo ofrece. Esto ayuda a prever posibles dificultades a las que los alumnos podrían enfrentarse.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Trabajos a futuro</head><p>A futuro se prevé analizar los resultados de la implementación de las actividades en el aula, con el fin de determinar el grado de desarrollo de las habilidades matemáticas y digitales.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Formación de Recursos Humanos</head><p>El equipo de investigación está compuesto por: Favieri, A., director, Vescovo E., codirector, Igareta, D. y Agotegaray, S., como investigadores de apoyo.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Publicaciones relacionadas con el PID</head><p>• Análisis preliminar de habilidades matemáticas y digitales asociadas a la enseñanza de flujo potencial</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head></head><label></label><figDesc>De acuerdo al marco teórico se distinguieron tres registros de representación de las actividades: analítico, gráfico y verbal. − Elección de los comandos del software Wolfram Mathematica Se analizaron los comandos disponibles y se seleccionaron: − Definición de variable compleja: z:=x + I y − Parte real de una variable compleja: Re[z] − Parte imaginaria de una variable compleja: Im[z] − Módulo de una variable compleja: Abs[z] − Comando para simplificar expresiones complejas en forma simbólica: "Refine" − Comando que genera un gráfico de líneas de funciones que dependen de x e y, como las regiones en el plano complejo: "ContourPlot" − Comando para evaluar expresiones complejas en un rango de valores: "Evaluate" − Decisión sobre las habilidades matemáticas y digitales de las actividades En consonancia con el marco teórico se decidió por las siguientes habilidades − Habilidades conceptuales: Definir e Identificar − Habilidades traductoras: Interpretar, Recodificar y Modelar. − Habilidades operativas: Graficar − Habilidades heurísticas: Analizar y Explorar − Habilidades meta-cognitivas: Verificar y Justificar Actividades Las actividades diseñadas, presentadas en los tres registros de representación seleccionados son: Actividad 1 (Registro analítico) Graficar las regiones del plano representadas por los siguientes conjuntos: Verificar los resultados obtenidos. Actividad 2 (Registro gráfico) Dados las siguientes regiones en el plano (fig. 1), escribirlas como un conjunto de números complejos que la represente. Justificar los procedimientos realizados. Actividad 3 (Registro verbal) a) Representar gráficamente el conjunto de números complejos cuyo argumento es . b) Escribir por comprensión el conjunto de números complejos cuya distancia al origen se mantiene mayor que 2. Justificar el procedimiento realizado.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 1 :</head><label>1</label><figDesc>Fig. 1: Gráficos actividad 2</figDesc><graphic coords="3,344.50,504.25,171.85,84.00" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0" />			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">It&apos;s a bit hard to believe: Reflections on an unforseen career trajectory</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Anderson</surname></persName>
+		</author>
+		<ptr target="http://cor.to/1GgQ" />
+	</analytic>
+	<monogr>
+		<title level="m">Leaders in Educational Research: Intellectual Self Portraits by Fellows of the International Academy of Education</title>
+				<editor>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Ibarrola</surname></persName>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Phillips</surname></persName>
+		</editor>
+		<imprint>
+			<date type="published" when="2009" />
+			<biblScope unit="volume">7</biblScope>
+		</imprint>
+	</monogr>
+	<note>Taxonomía de Bloom para la Era Digital. Recuperado el 2018</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Las habilidades generales matemáticas y la estructuración del conocimiento</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Delgado Rubí</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">México: Grupo Editorial Iberoamérica</title>
+				<editor>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>En</surname></persName>
+		</editor>
+		<imprint>
+			<date type="published" when="1998" />
+			<biblScope unit="page" from="88" to="91" />
+		</imprint>
+	</monogr>
+	<note>Actas de la Undécima Reunión Latinoamericana de Matemática Educativa (págs</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Registres de preséntations sémiotiques et fonction nement cognitif de la pensée</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Duval</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annales de Didactique et de Science Cognitives</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="37" to="65" />
+			<date type="published" when="1993" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Semiosis y pensamiento humano. Registros semióticos y aprendizajes intelectuales. Vega, M. Trad.). (Obra original publicada en 1995, Sémiosis et pensée humaine</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Duval</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Registres sémiotiques et apprentissages intellectuels)</title>
+				<imprint>
+			<date type="published" when="2004" />
+		</imprint>
+		<respStmt>
+			<orgName>Cali: Universidad del Valle, Grupo de Educación Matemática</orgName>
+		</respStmt>
+	</monogr>
+	<note>2da ed.</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title level="m" type="main">Mapa de alfabetismo en TIC: Matemáticas</title>
+		<author>
+			<persName><surname>Eduteka</surname></persName>
+		</author>
+		<ptr target="http://cor.to/L5wG" />
+		<imprint>
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+	<note>Recuperado el 2018</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<title level="m" type="main">¡Cómo usan los profesores de Química las representaciones semióticcas?</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>García</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Perales</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">Revista Electrónica de Enseñanza de las Ciencias</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="247" to="259" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Competencia y comprensión matemática: ¿qué son y cómo se consiguen? Uno</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Godino</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Revista de Didáctica de las Matemáticas</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="9" to="19" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Cuestiones de didáctica de la Matemática</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hernández Fernández</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Delgado</forename><surname>Rubí</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Fernández De Alaíza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Valverde</forename><surname>Ramírez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rodríguez</forename><surname>Hung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Serie Educación: Homo Sapiens Ediciones</title>
+				<meeting><address><addrLine>Rosario</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Los registros semióticos en Matemáticas como elemento personalizado en el aprendizaje</title>
+		<author>
+			<persName><forename type="first">Macías</forename><surname>Sánchez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Revista de Investigación Educativa. Conect@</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="27" to="57" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<monogr>
+		<title level="m" type="main">Enseñar a pensar. Aspectos de la aptitud intelectual</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Nickerson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Perkins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Smith</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1987" />
+			<pubPlace>Barcelona</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Paidós. Ministerio de Educación y Ciencia</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">La investigación sobre el desarrollo y la enseñanza de las habilidades del pensamiento</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sánchez</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Revista Electrónica de Investigación Educativa</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<monogr>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zabala</surname></persName>
+		</author>
+		<title level="m">Los enfoques didácticos. En E. M. C. Coll, El constructivismo en el aula</title>
+				<meeting><address><addrLine>Barcelona</addrLine></address></meeting>
+		<imprint>
+			<publisher>GRAÓ</publisher>
+			<date type="published" when="2007" />
+			<biblScope unit="page" from="125" to="161" />
+		</imprint>
+	</monogr>
+	<note>18va ed.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

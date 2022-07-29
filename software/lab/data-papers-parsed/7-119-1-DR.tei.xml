@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="es">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Avances del proyecto &quot;Innovaciones en la enseñanza y su influencia en el aprendizaje&quot;</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Marta</forename><forename type="middle">G</forename><surname>Caligaris</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Grupo Ingeniería &amp; Educación</orgName>
+								<orgName type="institution" key="instit1">Facultad Regional San Nicolás</orgName>
+								<orgName type="institution" key="instit2">Universidad Tecnológica Nacional Colón 332</orgName>
+								<address>
+									<settlement>San Nicolás</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Georgina</forename><forename type="middle">B</forename><surname>Rodriguez</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Grupo Ingeniería &amp; Educación</orgName>
+								<orgName type="institution" key="instit1">Facultad Regional San Nicolás</orgName>
+								<orgName type="institution" key="instit2">Universidad Tecnológica Nacional Colón 332</orgName>
+								<address>
+									<settlement>San Nicolás</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">M</forename><forename type="middle">Elena</forename><surname>Schivo</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Grupo Ingeniería &amp; Educación</orgName>
+								<orgName type="institution" key="instit1">Facultad Regional San Nicolás</orgName>
+								<orgName type="institution" key="instit2">Universidad Tecnológica Nacional Colón 332</orgName>
+								<address>
+									<settlement>San Nicolás</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">M</forename><forename type="middle">Rosa</forename><surname>Romiti</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Grupo Ingeniería &amp; Educación</orgName>
+								<orgName type="institution" key="instit1">Facultad Regional San Nicolás</orgName>
+								<orgName type="institution" key="instit2">Universidad Tecnológica Nacional Colón 332</orgName>
+								<address>
+									<settlement>San Nicolás</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Lorena</forename><forename type="middle">F</forename><surname>Laugero</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Grupo Ingeniería &amp; Educación</orgName>
+								<orgName type="institution" key="instit1">Facultad Regional San Nicolás</orgName>
+								<orgName type="institution" key="instit2">Universidad Tecnológica Nacional Colón 332</orgName>
+								<address>
+									<settlement>San Nicolás</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jordán</forename><forename type="middle">M</forename><surname>Tello</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Grupo Ingeniería &amp; Educación</orgName>
+								<orgName type="institution" key="instit1">Facultad Regional San Nicolás</orgName>
+								<orgName type="institution" key="instit2">Universidad Tecnológica Nacional Colón 332</orgName>
+								<address>
+									<settlement>San Nicolás</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Avances del proyecto &quot;Innovaciones en la enseñanza y su influencia en el aprendizaje&quot;</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">E550E2C73E0D1EB7154EF265165369EF</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.7.0" ident="GROBID" when="2022-04-09T01:35+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>evaluación</term>
+					<term>resultados de aprendizaje</term>
+					<term>competencias</term>
+				</keywords>
+			</textClass>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="es">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Resumen</head><p>En el marco del proyecto "Innovaciones en la enseñanza y su influencia en el aprendizaje" se diseñarán aplicaciones personalizadas para la enseñanza de distintos temas de matemática, laboratorios virtuales y sitios web. Estos objetos de aprendizaje podrán ser utilizados como herramientas en las asignaturas o integrar cursos en línea para proponer como alternativa al cursado habitual en las carreras de Ingeniería. Incorporando nuevas herramientas, se realizarán cambios en el proceso de enseñanza, que estimulen el aprendizaje activo. Para la elaboración de las distintas secuencias didácticas, se tendrán en cuenta los estilos de aprendizaje de los alumnos y la taxonomía de objetivos de Bloom. Se analizarán las diferencias en el desempeño de los estudiantes que participen de clases innovadoras y de los que mantengan el cursado tradicional. Para ellos, se estudiarán cambios en la evaluación. La evaluación debe contribuir al aprendizaje del estudiante y no sólo tratar de medirlo, debe ser una forma de acompañarlo en su proceso. Con esta idea, y el marco que brinda la Ordenanza 1549, se diseñarán diferentes actividades que puedan utilizarse para evaluar resultados de aprendizaje. Se tendrán en cuenta conocimientos, habilidades y actitudes, considerando que un ingeniero debe tener una sólida formación científico-técnica y la capacidad de comunicarse y de trabajar en equipo, entre otras.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Identificación</head><p>El proyecto "Innovaciones en la enseñanza y su influencia en el aprendizaje", código UTI4933, se ha iniciado el 1 de enero de 2018 y finalizará el 31 de diciembre de 2021. Sus líneas se insertan en distintas áreas prioritarias del Programa de Tecnología Educativa y Enseñanza de la Ingeniería, como:  Las tecnologías aplicadas en educación.  La enseñanza de la ingeniería y la formación de los ingenieros.  La evaluación de los aprendizajes y de la enseñanza.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Introducción</head><p>Para el IEEE (Institute of Electrical and Electronic Engineers), un objeto de aprendizaje (OA) se define como cualquier entidad -digital o no digital -que se puede utilizar para el aprendizaje, la educación o la formación <ref type="bibr">(IEEE, 2002)</ref>. Así, el equipamiento de un laboratorio tradicional puede considerarse un OA <ref type="bibr" target="#b7">(Pavani, 2016)</ref>. Si bien las actividades de laboratorio son un requisito importante en los cursos de ingeniería, en este proyecto se consideran como OA sólo los recursos digitales. Estos objetos de aprendizaje tienen sus propias características. Deben poder ser utilizados en contextos educativos diferentes de aquél para el que fueron creados, ser independientes de la plataforma utilizada, adaptables, flexibles y actualizables <ref type="bibr" target="#b1">(Ceylan, Balci &amp; Inceoglu, 2009)</ref>. Para la elaboración de las distintas secuencias didácticas se tendrán en cuenta los estilos de aprendizaje de los alumnos, que sirven como indicadores relativamente estables de cómo ellos perciben, interactúan y responden al entorno de aprendizaje. Para la determinación de los estilos de aprendizaje específicos se utilizan distintos cuestionarios, que difieren no sólo en el tiempo que demandan, el número de preguntas y la evaluación, sino también en su estructura <ref type="bibr" target="#b5">(Klement, 2014)</ref>. El aprendizaje activo se asemeja a la práctica de ingeniería y motiva a los estudiantes a aprender, abordando la mayoría de los estilos de aprendizaje <ref type="bibr" target="#b6">(Morell, 2017)</ref>. Se espera que la incorporación de los cambios en las clases estimule el aprendizaje activo. Para el diseño de las secuencias didácticas también se tendrá en cuenta la taxonomía de objetivos de aprendizaje, conocida como taxonomía de objetivos de Bloom, que es una clasificación de los objetivos y habilidades a lograr por los estudiantes en el proceso de aprendizaje. La taxonomía de Bloom proporciona una jerarquía que ordena los procesos cognitivos desde el simple recuerdo hasta el pensamiento crítico y creativo. El estudiante debe superar distintos niveles para producir un verdadero proceso de aprendizaje. Estos niveles, desde el más simple hasta el más complejo, son: recordar, comprender, aplicar, analizar, evaluar y crear <ref type="bibr" target="#b0">(Anderson &amp; Krathwohl, 2001)</ref>. Esta taxonomía describe cómo se construye sobre lo anteriormente aprendido para desarrollar niveles más complejos de comprensión <ref type="bibr" target="#b4">(Kennedy, 2007)</ref>, siendo el concepto central que cada nivel indefectiblemente involucra al anterior: no se puede comprender si no se conoce, no puede haber análisis, si previamente no se alcanzó la aplicación, y así sucesivamente. La última revisión conduce a la taxonomía de Bloom para la era digital. Esta revisión aborda los nuevos objetivos planteados por la integración de las Tecnologías de la Información y la Comunicación en el aula y en la vida de los estudiantes <ref type="bibr">(Churches, 2008)</ref>. Cada nivel retiene los verbos clave asociados y añade nuevos "verbos digitales" como resaltar o googlear (nivel recordar), ejecutar o cargar (nivel aplicar) y programar o filmar (nivel crear), por ejemplo.</p><p>En las instancias evaluativas se considerarán no sólo conocimientos sino habilidades y actitudes, es decir, competencias. El concepto de competencia adoptado por CONFEDI es: la capacidad de articular eficazmente un conjunto de esquemas (estructuras mentales) y valores, permitiendo movilizar (poner a disposición) distintos saberes, en un determinado contexto con el fin de resolver situaciones profesionales.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Objetivos, Avances y Resultados</head><p>El objetivo general del proyecto es diseñar objetos de aprendizaje, elaborar secuencias didácticas innovadoras utilizando, entre otras cosas, estos objetos y preparar instrumentos de evaluación apropiados. Así, se proponen actividades de enseñanza que aportan a las competencias genéricas de egreso. Los avances realizados se presentan a continuación.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Objetos de aprendizaje</head><p>La Figura 1 muestra una de las aplicaciones de diseño propio, para estudiar el movimiento de un péndulo. Teniendo en cuenta, como sucede en realidad, que el péndulo oscila en un medio viscoso, el problema de valor inicial a resolver es: con condiciones iniciales apropiadas. Para usar la aplicación, desarrollada en SciLab, se deben seleccionar los parámetros de la ecuación (longitud y masa del péndulo y coeficiente de fricción viscosa), junto con las condiciones iniciales del problema y el número de puntos en los que la solución numérica se calculará utilizando el método de Runge-Kutta de cuarto orden. Los resultados se presentan tanto numérica como gráficamente. En el lado derecho de la ventana, se muestran los valores numéricos de posición y velocidad, en diez puntos, independientemente del tiempo analizado. En la parte inferior, se grafican la posición y la velocidad en función del tiempo. Williamson y Kaput sostienen que una consecuencia importante del uso de recursos tecnológicos en la enseñanza de las matemáticas es la posibilidad de pensar la educación matemática de una manera más inductiva. Por lo tanto, cuando los estudiantes interactúan con la tecnología, pueden percibir las matemáticas de una manera experimental; pueden encontrar ideas, manipular el fenómeno y, en consecuencia, descubrir posibles relaciones. Esta herramienta y una secuencia de enseñanza en la que se analiza la solución para distintas discretizaciones y se discute, en cada caso, si son adecuadas las soluciones numéricas obtenidas y por qué, se usarán en los cursos de Análisis Numérico durante el segundo semestre de 2018. Las experiencias se evaluarán para medir su efectividad. Se utilizarán de manera similar otros recursos didácticos, que estarán disponibles en el botón Recursos, en el sitio del GIE: http://www.frsn.utn.edu.ar/gie.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Análisis de competencias de ingreso</head><p>En el año 2008 se plantearon las competencias requeridas para el ingreso a las carreras de Ingeniería <ref type="bibr">(CONFEDI, 2014)</ref>. Éstas deben ser consideradas como referencia para los ingresantes a carreras de ingeniería.</p><p>Entre las competencias básicas se encuentran la lectura comprensiva y rápida, la escritura y la interpretación y solución de situaciones problemáticas.</p><p>En 2018, se analizó la competencia comunicacional de los alumnos que se encuentran en primer año de ingeniería de la FRSN-UTN. En particular, la comunicación relacionada con el lenguaje natural, el manejo simbólico propio de la matemática y las representaciones gráficas. Se trabajó el segundo día de clases, con los 35 ingresantes a la especialidad de Ingeniería Electrónica (54% de escuelas medias de modalidad técnica) y los 30 de Ingeniería Industrial del turno tarde (todos de escuela media con modalidad no técnica). Para que no fuera un obstáculo el contenido a comunicar, se valoró el desempeño individual de los estudiantes en una actividad que involucró conceptos simples, recientemente tratados y evaluados en el curso introductorio a la FRSN-UTN. Los resultados obtenidos se muestran en la Figura 2.</p><p>Figura 2. Desempeño en la comunicación en los distintos registros de representación.</p><p>Estos resultados muestran que los alumnos que inician el cursado de Ingeniería de la FRSN-UTN en las especialidades Electrónica e Industrial tienen serias deficiencias a la hora de expresarse en el lenguaje simbólico, propio de la matemática, y en el natural. La diferencia de procedencia de los estudiantes de escuelas de modalidad técnica y no técnica sólo se evidenció en el trabajo sobre el registro gráfico ya que en los otros dos, los resultados fueron muy similares y con errores comunes. Se intensificará el trabajo en el aula para colaborar en el logro de una de las competencias del egresado, la de ser capaz de utilizar y articular de manera eficaz distintos lenguajes: formal, gráfico y natural.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.">Desarrollo de competencias blandas</head><p>El CONFEDI (2018) propone un esquema con diez competencias de egreso para la Ingeniería, cinco tecnológicas y cinco sociales, políticas y actitudinales (competencias blandas). Una de estas últimas es la competencia para desempeñarse de manera efectiva en equipos de trabajo. Esta competencia requiere la articulación efectiva de diversas capacidades: capacidad para identificar las metas y responsabilidades individuales y colectivas y actuar de acuerdo a ellas; capacidad para reconocer y respetar los puntos de vista y opiniones de otros miembros del equipo y llegar a acuerdos y capacidad para asumir responsabilidades y roles dentro del equipo de trabajo. Como experiencia piloto, se diseñó una tarea especial para introducir el aprendizaje y la evaluación de alguna de estas competencias. En la misma, los estudiantes tenían que resolver un problema de valor inicial real, aunque simplificado, seleccionando y aplicando los métodos adecuados y analizar la validez de la solución obtenida. La tarea estaba pensada para ser llevada a cabo en equipo, y cada grupo tenía que escribir un informe y hacer una presentación oral. Los resultados de una encuesta realizada a los alumnos revelaron que ellos reconocían y valoraban las distintas habilidades que se pretendía desarrollar en esta experiencia.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Formación de Recursos Humanos</head><p>El proyecto está integrado actualmente por cinco investigadores y un alumno con beca de la SCTyP. El desarrollo del proyecto implica también la contribución a la formación de recursos humanos en distintos niveles:  Formación de recursos humanos desde las aulas, con la aplicación de los materiales desarrollados.</p><p> Formación de becarios, estudiantes de distintas carreras de Ingeniería.  Formación de jóvenes docentesinvestigadores que se integren al proyecto. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Publicaciones relacionadas con el PID</head></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figura 1 .</head><label>1</label><figDesc>Figura 1. Una aplicación diseñada para analizar el movimiento de un péndulo.</figDesc><graphic coords="3,77.05,56.65,203.85,210.95" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head></head><label></label><figDesc>Cuarto CADI y Décimo CAEDI, Córdoba, 19 al 21 de septiembre de 2018.  Caligaris, M., Rodríguez, G. &amp; Laugero, L. Diseño de una herramienta para analizar soluciones en el estudio de la deflexión de una viga. VI Congreso Argentino de Ingeniería Mecánica (CAIM 2018), Tucumán, 10 al 12 de octubre de 2018.</figDesc><table><row><cell cols="5">En los primeros siete meses del PID, se han</cell></row><row><cell cols="5">presentado los siguientes trabajos en</cell></row><row><cell cols="3">distintos congresos:</cell><cell></cell></row><row><cell cols="5"> Caligaris, M.G. &amp; Rodríguez, G.B.</cell></row><row><cell cols="5">(2018) Assessing Soft Skills in a</cell></row><row><cell cols="5">Numerical Analysis Course, 12 th Annual</cell></row><row><cell cols="5">International Technology, Education and</cell></row><row><cell cols="5">Development Conference, Valencia,</cell></row><row><cell cols="5">España, 5 al 7 de marzo de 2018.</cell></row><row><cell cols="5">Publicado por IATED Academy en</cell></row><row><cell cols="5">INTED18 Proc. pp. 2041-2050.</cell></row><row><cell cols="5"> Caligaris, M., Rodríguez, G. &amp; Laugero,</cell></row><row><cell cols="5">L. (2018) Teaching Numerical Analysis</cell></row><row><cell>Based</cell><cell>on</cell><cell cols="3">Mathematical</cell><cell>Skills</cell></row><row><cell cols="5">Development, 12 th Annual International</cell></row><row><cell cols="5">Technology, Education and Development</cell></row><row><cell cols="5">Conference, Valencia, España, 5 al 7 de</cell></row><row><cell cols="5">marzo de 2018. Publicado por IATED</cell></row><row><cell cols="5">Academy en INTED18 Proc. pp. 2041-</cell></row><row><cell>2050.</cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="5"> Caligaris, M., Rodríguez, G. &amp; Laugero,</cell></row><row><cell cols="5">L. (2018) Desarrollo de habilidades en el</cell></row><row><cell cols="5">aprendizaje de la aproximación numérica</cell></row><row><cell cols="5">de ecuaciones no lineales, VI Jornadas</cell></row><row><cell cols="5">Nacionales y II Latinoamericanas de</cell></row><row><cell cols="5">Ingreso y Permanencia en Carreras</cell></row><row><cell cols="5">Científico-Tecnológicas -IPECyT 2018,</cell></row><row><cell cols="5">Olavarría, 16 al 18 de mayo de 2018.</cell></row><row><cell cols="5"> Caligaris, M., Rodríguez, G., Favieri, A.</cell></row><row><cell cols="5">&amp; Laugero, L. (2018) Development of</cell></row><row><cell cols="5">mathematical skills during numerical</cell></row><row><cell cols="5">resolution of initial value problems, 10 th</cell></row><row><cell cols="5">Annual International Conference on</cell></row><row><cell cols="2">Education</cell><cell>and</cell><cell>New</cell><cell>Learning</cell></row><row><cell cols="5">Technologies, Palma de Mallorca,</cell></row><row><cell cols="5">España, 2 al 4 de julio de 2018.</cell></row><row><cell cols="5">Publicado por IATED Academy en</cell></row><row><cell cols="5">EDULEARN18 Proc. pp. 8236-8245.</cell></row><row><cell cols="5">Además, se enviaron y han sido aceptados:</cell></row><row><cell cols="5"> Caligaris, M.G., Schivo, M.E. y Romiti,</cell></row><row><cell>M.R.</cell><cell>¿Los</cell><cell cols="2">alumnos</cell><cell>comunican</cell></row><row><cell cols="5">efectivamente lo que saben?</cell></row></table></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title level="m" type="main">A taxonomy for learning, teaching and assessing: A revision of Bloom&apos;s taxonomy of educational objectives</title>
+		<author>
+			<persName><forename type="first">Anderson</forename><forename type="middle">L</forename><surname>Krathwohl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2001" />
+			<publisher>Addison, Wesley Longman</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">An application of creating and packaging learning objects</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Ceylan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Balci</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Inceoglu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Procedia Social and Behavioral Sciences</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="2051" to="2056" />
+			<date type="published" when="2008" />
+			<publisher>CONFEDI</publisher>
+		</imprint>
+	</monogr>
+	<note>Bloom&apos;s Taxonomy Blooms Digitally</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title level="m" type="main">Competencias Requeridas para el Ingreso a los Estudios Universitarios en Argentina</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title level="m" type="main">Propuesta de Estándares de Segunda Generación para la Acreditación de Carreras de Ingeniería en la República Argentina. Libro rojo</title>
+		<author>
+			<persName><surname>Confedi</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2002" />
+			<publisher>IEEE -Institute of Electrical and Electronic Engineers</publisher>
+		</imprint>
+	</monogr>
+	<note>Standard for Learning Object Metadata</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title level="m" type="main">Redactar y utilizar resultados de aprendizaje</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Kennedy</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2007" />
+		</imprint>
+		<respStmt>
+			<orgName>Cork: University College Cork</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">How do my students study? An analysis of students` of educational disciplines favorite learning styles according to VARK classification</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Klement</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Procedia -Social and Behavioral Sciences</title>
+		<imprint>
+			<biblScope unit="volume">132</biblScope>
+			<biblScope unit="page" from="384" to="390" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">L</forename><surname>Morell</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<title level="m" type="main">An Overview of Repositories of Learning Objects. IFAC-PapersOnLine 49-6</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M B</forename><surname>Pavani</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2016" />
+			<biblScope unit="page" from="174" to="179" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Mathematics and virtual culture: an evolutionary perspective on technology and mathematics education</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Williamson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kaput</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Mathematical Behavior</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">21</biblScope>
+			<biblScope unit="page" from="265" to="281" />
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

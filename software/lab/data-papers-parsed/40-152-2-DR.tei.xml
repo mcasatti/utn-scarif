@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="es">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Verónica</forename><surname>Stillger</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Franco</forename><surname>Sassaroli</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Estrategias de Enseñanza para el Desarrollo de Competencias Específicas de Química</orgName>
+								<orgName type="institution" key="instit1">con Incorporación de TIC Carreño Claudia</orgName>
+								<orgName type="institution" key="instit2">Colasanto Carina</orgName>
+								<orgName type="institution" key="instit3">Aiassa Ivana</orgName>
+								<address>
+									<addrLine>Ochoa Pablo</addrLine>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="institution">Berdiña Verónica</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="department">Departamento Ingeniería Química Facultad Regional Córdoba, Universidad Tecnológica Nacional Maestro López esq</orgName>
+								<address>
+									<country>Cruz Roja Argentina</country>
+								</address>
+							</affiliation>
+						</author>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">576BDBD94ED99B8264C52C78E5A41377</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.7.0" ident="GROBID" when="2022-04-09T01:35+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="es">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Resumen</head><p>Con el objetivo de diseñar, implementar y evaluar estrategias para el desarrollo de competencias específicas, en el marco del proceso de enseñanza y de aprendizaje de la asignatura Química General en carreras de Ingeniería se propuso un plan de trabajo tendiente a fortalecer el desarrollo de competencias a través de un aprendizaje centrado en el estudiante. Para ello, se plantearon actividades presenciales no obligatorias y virtuales a través de un entorno de aprendizaje digital. A partir de encuestas y entrevistas a estudiantes y docentes, se pudo concluir que quienes trabajaron en la plataforma tuvieron un mejor desempeño al momento de resolver el examen. Esto permite plantear como hipótesis que el estudio y el trabajo autónomo se logra a través de la propia organización de tarea lo cual implica que el alumno se formule metas, organice el conocimiento y construya significados empleando distintas estrategias. Posiblemente, la clave esté en el conjunto de estrategias desplegadas, entre ellas las actividades experimentales realizadas y la necesidad de los estudiantes de aprender química.</p><p>Palabras clave: Competencias Específicas -Química -TIC</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Identificación</head><p>Código del PID 4886. Tema prioritario del Programa de Tecnología Educativa y Enseñanza de la Ingeniería en que se inserta: Práctica docente y Didáctica Universitaria. -Tecnología educativa. Fecha de inicio 01/01/2018 y fecha de finalización 31/12/2019. En coejecución con la FCEFyN-UNC.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Introducción</head><p>Al preguntarle a los estudiantes de primer o segundo año de carreras de ingeniería sobre ¿qué es un ingeniero?, ¿qué hace un ingeniero? casi sin dudar, como teniendo memorizada la respuesta responden cosas como "un ingeniero es quien resuelve problemas", "es la persona que busca satisfacer las necesidades de la gente". Pero estas respuestas dan idea de estar a mitad de camino. Si tenemos en cuenta la definición de Ingeniería y a qué se dedica esta disciplina, encontramos que "la ingeniería es la profesión en la que el conocimiento de las ciencias matemáticas y naturales adquiridas mediante el estudio, la experiencia y la práctica, se emplea con buen juicio a fin de desarrollar modos en que se puedan utilizar, de manera óptima, materiales, conocimiento, y las fuerzas de la naturaleza en beneficio de la humanidad, en el contexto de condiciones éticas, físicas, económicas, ambientales, humanas, políticas, legales, históricas y culturales". (CONFEDI, 2018). En cuanto a su práctica vemos que ésta "comprende el estudio de factibilidad técnico-económica, investigación, desarrollo e innovación, diseño, proyecto, modelación, construcción, pruebas, optimización, evaluación, gerenciamiento, dirección y operación de todo tipo de componentes, equipos, máquinas, instalaciones, edificios, obras civiles, sistemas y procesos. Las cuestiones relativas a la seguridad y la preservación del medio ambiente constituyen aspectos fundamentales que la práctica de la ingeniería debe observar". . Es decir que si queremos formar ingenieros, el trabajo que hay por delante comprende un camino largo, arduo; que de ninguna manera culmina a lo largo de los 5 años que dura la carrera (independientemente del tiempo que pudiera demandar a cada alumno), el cual se proyectará más allá de las aulas (reales o virtuales) de las universidades. A este problema conceptual debemos sumarle la escasa formación que en general han manifestado los estudiantes de escuelas secundarias a través de las pruebas Aprender 2016. Entre sus resultados, se puede observar que el 46,4% de los alumnos de 5° y 6° año del colegio secundario no comprende un texto básico, el 70,2% no puede resolver cuentas o problemas matemáticos muy sencillos, el 36,3% tuvo el rendimiento más bajo en las Ciencias Naturales, mientras que en Sociales el resultado negativo lo obtuvieron el 41,1% de los evaluados (MED, 2016). Este escenario plantea la necesidad de promover cambios que permitan gestar los profesionales que la sociedad demanda, tanto desde lo científico, como en aspectos técnicos y profesionales. En este sentido, R. Giordano-Lerena y S. Cirimelo (2013) expresaron que "el antiguo paradigma de formación de profesionales basado en la enseñanza como simple esquema de transferencia de conocimientos que el alumno oportunamente sabrá abstraer, articular y aplicar eficazmente, ha ido perdiendo espacio en la realidad actual. La visión actual de la sociedad propone ver al egresado universitario como un ser competente (con un conjunto de competencias), capaz de ejercer su profesión en la realidad que lo rodea". Por su parte, el Consejo Federal de Decanos de Ingeniería (Anónimo, 2014) expresó que "hay consenso en cuanto a que el ingeniero no sólo debe saber, sino también saber hacer, y que el saber hacer no surge de la mera adquisición de conocimientos, sino que es el resultado de la puesta en funciones de una compleja estructura de conocimientos, habilidades, destrezas, etcétera, que requiere ser reconocida expresamente en el proceso de enseñanza-aprendizaje, para que la propuesta pedagógica incluya las actividades que permitan su desarrollo". En este sentido, desde hace tiempo, se comenzó a trabajar desde diferentes asociaciones e instituciones de enseñanza superior latinoamericanas buscando generar un paradigma que sea adecuado para la formación de ingenieros. Se llegó a la conclusión que dicho modelo debe basarse en el aprendizaje centrado en el estudiante (ACE), con un enfoque orientado hacia la formación de competencias (CONFEDI, 2018). En el ACE "el foco está puesto en lo que el estudiante hace para aprender y el profesor es el guía o "facilitador" ya que, desde su conocimiento y experiencia, tanto de su papel docente como de la disciplina de que se trate, configura las estrategias y acciones necesarias para que sea el alumno el que construya el conocimiento". (CONFEDI -ACOFI, 2018). En cuanto al concepto de competencia, se la define como "la capacidad de articular eficazmente un conjunto de esquemas (estructuras mentales) y valores, permitiendo movilizar (poner a disposición) distintos saberes, en un determinado contexto con el fin de resolver situaciones profesionales" (CONFEDI, 1997). Éstas se dividen en competencias de acceso a las carreras de ingeniería y en competencias de egreso. En el primer caso, se subdividen en competencias básicas, transversales y específicas, mientras que las segundas se clasifican en genéricas y específicas. De igual modo se estableció el nivel esperado en cada caso. (Fernández Gauna, C. et al., 2016). Para las competencias específicas que son el objeto de estudio del presente trabajo, el nivel esperado, según lo establecido por el CONFEDI, corresponde a un estándar "alto", hecho que se contrapone de modo notable con lo observable en los cursos de primer año y verificados a través de los resultados de las pruebas Aprender 2016. Con este escenario, se propuso desarrollar un proyecto cuyo objetivo es diseñar, implementar y evaluar estrategias de enseñanza para el desarrollo de competencias específicas, en el marco del proceso de enseñanza y aprendizaje de Química General. Para lo cual, se planeó llevar adelante un estudio exploratorio orientado a detectar estrategias destinadas a promocionar competencias, analizando previamente aquellas empleadas por docentes y su impacto en los estudiantes. Para la recolección de datos e información, se propuso realizar encuestas y entrevistas a estudiantes y docentes de la asignatura en cuestión de la Universidad Tecnológica Nacional-Facultad Regional Córdoba. La inclusión de un Aula Virtual (AV), permite a los estudiantes contar con un entorno educativo complementario a las clases presenciales, que posibilita transitar el proceso de aprendizaje según sus intereses de tiempo y espacio, como así también sociales y tecnológicos. El impacto de la utilización del aula virtual, será analizado sobre los resultados de evaluaciones, obtenidos por los estudiantes. La valoración de competencias específicas se realizará según indicadores propuestos por el CONFEDI. El desarrollo de este proyecto contribuirá a la formación de las competencias específicas en Química en el marco de las materias de las ciencias básicas que el futuro ingeniero requiere.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Objetivos, Avances y Resultados</head><p>Objetivos: El objetivo general del proyecto es diseñar, implementar y evaluar estrategias para el desarrollo de competencias específicas, en el marco del proceso de enseñanza y de aprendizaje de la asignatura Química General en carreras de Ingeniería. Entre los objetivos específicos se destacan: conocer las competencias específicas que los estudiantes poseen al ingreso de las carreras de Ingeniería; determinar estrategias para el desarrollo y evaluación de competencias específicas a implementar en la asignatura Química General para Ingeniería; promover el uso de un entorno de aprendizaje digital para el desarrollo y evaluación de competencias específicas.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Plan de acción</head><p>Durante el primer semestre del año 2018 se diseñaron y desarrollaron diversas estrategias tendientes a la formación y adquisición de competencias en estudiantes que se encuentran recursando la asignatura Química General. Este grupo constituye un curso de 173 estudiantes de diversas especialidades de ingeniería que cursan la materia de modo cuatrimestral. Se planearon actividades presenciales no obligatorias (clases teóricas dialogadas, seminarios prácticos y actividades experimentales) y virtuales (a través de un aula virtual alojada en la plataforma MOODLE, allí se trabajó con cuadros sinópticos, cuestionarios de autoevaluación obligatorios, simuladores, etc.). Para valorar el impacto del modelo propuesto y analizar las competencias específicas que pudieran haber adquirido los estudiantes, se partió de una evaluación diagnóstica tomada el primer día de clases. La misma contemplaba la formación y nomenclatura de compuestos inorgánicos, resolución de ejercicios de estequiometria y uso de tablas de aniones y cationes. Luego del primer parcial se analizaron los resultados alcanzados en relación a éstos ítems, comparando los estudiantes que asistieron a clases, quienes utilizaron el entorno de aprendizaje virtual y quienes no utilizaron ninguna de las herramientas propuestas. Las clases presenciales tenían la siguiente estructura: al iniciar se planteaba una actividad experimental, a partir de una guía que describía preguntas disparadoras, material necesario, las tareas, etc.). Se daba un espacio para buscar posibles respuestas a las preguntas disparadoras y con el material disponible, los estudiantes pudieran demostrar las hipótesis planteadas. Con estas estrategias se buscaba también promover la integración de conceptos, autonomía en el trabajo y el trabajo grupal. Al finalizar la actividad experimental, cada grupo de trabajo debía presentar un informe que incluyera las observaciones y conclusiones de dicha experiencia. La clase continuaba con interrogantes propuestos por los docentes tendientes a recuperar e integrar contenidos conceptuales, salvar dudas y por último un espacio para la puesta en común de conclusiones de dicha experiencia. Al finalizar el cursado se realizó una encuesta en formato papel para conocer el valor que los estudiantes le asignaron a las experiencias prácticas según el plan diseñado. Por otra parte para conocer la opinión de docentes de asignaturas correlativas a Química se realizó una encuesta a profesores de diversas especialidades de ingeniería, indagando sobre competencias genéricas que poseen sus estudiantes.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Resultados Obtenidos</head><p>Al comparar las evaluaciones diagnósticas y los primeros parciales, y tras un exhaustivo análisis se puede concluir que aquellos alumnos que utilizaron el entorno de aprendizaje digital y resolvieron los ejercicios propuestos en el mismo, tuvieron un mejor desempeño al momento de resolver el examen. Esto permite plantear como hipótesis que el estudio y el trabajo autónomos se logran a través de la propia organización de tarea lo cual implica que el alumno se formule metas, organice el conocimiento y construya significados empleando distintas estrategias. Estas características son claves para el desarrollo exitoso de un ingeniero cuyo objetivo profesional será proveer soluciones a diversos problemas, para lo cual será necesario poner en juego no sólo su conocimiento, sino también su capacidad resolutiva. En este sentido, el uso del aula virtual como herramienta, proporciona un aprendizaje flexible y colaborativo. Ahora bien, si centramos nuestra atención sólo en las competencias específicas de Química propuestas por el CONFEDI y analizamos las respuestas de los estudiante, es probable que los modelos pedagógicos que hacen hincapié en actividades experimentales arrojen resultados favorables en el desarrollo de dicho tipo de competencias; e incluso se podría ir más allá de ellas ya que los alumnos valoran los trabajos experimentales como un medio de desarrollo de trabajos grupales organizados con buenos niveles de participación y producción de tareas conjuntas en grupos de trabajo, aspectos propios de las competencias transversales. Parecería, que contactar a los alumnos con hechos reales que los enfrenta a situaciones problemáticas variadas y solicitarles explicaciones desde el marco científico tiende a estimular a los estudiantes, quienes lograrían realizar transferencias de conocimientos científicos con el reconocimiento correspondiente de fenómenos físicos y químicos. Si colocamos la mirada en los estudiantes podríamos decir que tal vez la clave esté en el grupo de estrategias desplegadas conjuntamente con las experiencias y la necesidad de los estudiantes de aprender química. Esto es algo que demandará un plan de trabajo más profundo y detallado. Si atendemos la opinión de los docentes de asignaturas correlativas a Química General, podemos observar que los estudiantes cuentan con competencias genéricas en niveles que podríamos considerar como aceptables al momento de tener que trabajar en equipo, con buenos niveles de organización para plantear y resolver problemas generales que se les presenten. No obstante, los docentes muestran la importancia de gestar estrategias tendientes a mejorar el trabajo y estudio autónomo, competencias que no deben ser descuidadas en un mundo donde los cambios son tan vertiginosos y si bien manifiestan que los estudiantes muestran una buena capacidad de adaptación, el no poder aprender de modo autónomo podría constituir una limitación importante a futuro. Quizás sea importante comenzar a pensar en un plan de trabajo que incluya actividades que puedan visualizar el desarrollo de competencias genéricas, especialmente en esta primera etapa de formación de los futuros ingenieros de modo integral e incluso transversal entre todas las áreas.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Trabajo a Futuro…</head><p>En el modelo pedagógico presentado se consideraron algunas estrategias que combinaron la presencialidad y la virtualidad, las cuales deberán ser sometidas a evaluaciones que vayan más allá de los interesados con quienes se desarrolló dicho modelo. No obstante, es de suma importancia lograr involucrar a todos los actores del proceso educativo, ya que desde ese lugar se pueden generar cambios y modificaciones que potencien la mejora continua.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Formación de Recursos Humanos</head><p>El equipo está integrado por un director y codirector, ambos especialistas en docencia universitaria y especialistas docentes de nivel superior en educación y TIC; 3 investigadores de apoyo, uno especialista en docencia universitaria; otro especialista en calidad y por último un becario de doctorado. Además 2 becarios alumnos de investigación, un estudiante Ingeniería Industrial y otro estudiante de Ingeniería Mecánica. Entre las capacitaciones realizadas, hasta el momento se encuentran: </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head></head><label></label><figDesc>IV Jornadas de TIC e Innovación en el Aula: "Más allá del aula virtual. Otros horizontes, otros desafíos". ISBN: 978-950-34-1591-7. Pág. 146 -152. Dirección de Educación a Distancia y Tecnologías de la Universidad Nacional de la Plata. 30 de octubre al 3 de noviembre de 2017 en modalidad virtual. La Plata, Argentina.</figDesc><table><row><cell></cell><cell></cell><cell></cell><cell></cell><cell cols="3">5. Publicaciones relacionadas</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>con el PID</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell cols="3">• Carreño C., Colasanto C. y Stillger V.</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell cols="3">(2018) Un modelo pedagógico para el</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell cols="3">desarrollo de competencias básicas y</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell cols="3">transversales: la mirada de los</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell cols="3">estudiantes. VI Jornadas Nacionales y II</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>Latinoamericanas</cell><cell>de</cell><cell>Ingreso</cell><cell>y</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell cols="3">Permanencia en Carreras Científico-</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>Tecnológicas.</cell><cell></cell><cell>Olavarría,</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell cols="3">Argentina. file:///C:/Users/Business/Dow</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell cols="3">nloads/Ebook_VI%20IPECyT%202018_</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell cols="3">Libro%20de%20resumenes.pdf</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell cols="3">• Carreño C., Colasanto C. y Stillger V.</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell cols="3">(2018) Prácticas experimentales en el</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell cols="3">aula durante la clase de Química como</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell cols="3">recurso para mejorar competencias: la</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell cols="3">mirada de los estudiantes. VI Jornadas</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell cols="3">Nacionales y II Latinoamericanas de</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell cols="3">Ingreso y Permanencia en Carreras</cell></row><row><cell cols="4">• Taller "Educación por competencias.</cell><cell cols="2">Científico-Tecnológicas.</cell><cell>Olavarría,</cell></row><row><cell cols="4">Desafío para la innovación en la</cell><cell cols="3">Argentina. file:///C:/Users/Business/Dow</cell></row><row><cell cols="4">Ingeniería". Resol 1504/2017. Programa</cell><cell cols="3">nloads/Ebook_VI%20IPECyT%202018_</cell></row><row><cell cols="4">de Mejoramiento de la Enseñanza (2016)</cell><cell cols="3">Libro%20de%20resumenes.pdf</cell></row><row><cell cols="4">Duración: 10 hs. Organizado por UNC-</cell><cell cols="3">• Carreño C., Saldis N., Colasanto C.,</cell></row><row><cell cols="4">FCEFyN y la Secretaría Académica, Área</cell><cell cols="3">Gómez M. (2017). Construcción de</cell></row><row><cell cols="2">Ingeniería. (27/10/2017).</cell><cell></cell><cell></cell><cell>Competencias</cell><cell>Genéricas</cell><cell>utilizando</cell></row><row><cell cols="4">• Seminario Virtual "Introducción general a las neurociencias aplicadas a la educación". Centro de Altos Estudios Universitarios de la Organización de los Estados Iberoamericanos para la Educación, la Ciencia y la Cultura de Argentina y el Instituto de Neurociencia y Educación de la fundación (INECO). (4/12/17 al 29/12/17). • Taller "La interdisciplinariedad en la</cell><cell cols="3">Material Multimedia. • Carreño C., Colasanto C., Berdiña V.;</cell></row><row><cell cols="4">enseñanza y aprendizaje de la matemática</cell><cell cols="3">estudiantes: Stillger V., Sasarolli F.</cell></row><row><cell cols="4">en carreras científico-tecnológicas", en el</cell><cell cols="3">(2017). Competencias involucradas en el</cell></row><row><cell cols="4">marco de las VI Jornadas Nacionales y II</cell><cell cols="3">estudio de un proceso químico utilizando</cell></row><row><cell>Latinoamericanas</cell><cell>de</cell><cell>Ingreso</cell><cell>y</cell><cell>un</cell><cell cols="2">audiovisual. Congreso</cell></row><row><cell cols="4">Permanencia en Carreras Científico-</cell><cell cols="3">latinoamericano de Ingeniería. ISBN 978-</cell></row><row><cell cols="4">Tecnológicas IPECyT 2018. Olavarría.</cell><cell cols="3">987-1896-84-4. Entre Ríos -Argentina.</cell></row><row><cell cols="3">Duración: 4 hs. 16 al 18 de mayo 2018.</cell><cell></cell><cell cols="3">• Colasanto C., Carreño C., Saldis N.,</cell></row><row><cell cols="4">• Curso de posgrado "Experto en Formación por Competencias en carreras</cell><cell cols="3">Bielewicz A. Estudiantes: Peckarek G., Delfino I. (2017) Animaciones científicas</cell></row><row><cell cols="4">de Ingeniería", organizada por la facultad</cell><cell></cell><cell></cell></row><row><cell cols="4">de Ingeniería de la UNaM y auspiciado</cell><cell></cell><cell></cell></row><row><cell cols="4">por el CONFEDI. Duración 220 hs. En</cell><cell></cell><cell></cell></row><row><cell>curso.</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table><note>para la enseñanza y el aprendizaje de la química en carreras de ingeniería: la evaluación de expertos en medios audiovisuales. IV Jornadas de TIC e Innovación en el Aula: "Más allá del aula virtual. Otros horizontes, otros desafíos</note></figure>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>modalidad virtual).</head><p>Dirección de Educación a Distancia y Tecnologías de la UN de la Plata. La Plata, Argentina. 30 de octubre al 3 de noviembre de 2017. </p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title/>
+		<author>
+			<persName><surname>Anónimo</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title level="m" type="main">de carreras de ingeniería en la República Argentina</title>
+		<author>
+			<persName><forename type="first">Confedi</forename><surname>Documentos</surname></persName>
+		</author>
+		<idno>22/05/2015) 2. CONFEDI</idno>
+		<ptr target="http://redi.ufasta.edu.ar:8080/xmlui/bitstream/handle/123456789/409/Comp_Confedi_978-987-1312-62-7_red.pdf?sequence=1" />
+		<imprint>
+			<date type="published" when="2018" />
+		</imprint>
+		<respStmt>
+			<orgName>Competencias en Ingeniería. Universidad Fasta</orgName>
+		</respStmt>
+	</monogr>
+	<note>Rojo del CONFEDI</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">Acofi</forename><surname>Confedi</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Experiencias en América Latina</title>
+		<author>
+			<persName><forename type="first">Aseguramiento</forename><surname>De La Calidad Y Mejora De La Educación En La Ingeniería</surname></persName>
+		</author>
+		<ptr target="http://www.diec.uns.edu.ar/docs/docentes/competencias/CONFEDI_Competencias_Genericas_de_Egreso_en_Carreras_de_Ingenieria.pdf" />
+	</analytic>
+	<monogr>
+		<title level="m">Resumen XLC Plenario CONFEDI. Acuerdo sobre Competencias Genéricas</title>
+				<imprint>
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+	<note>Impreso en Colombia 4. Accedido el 13 de marzo de</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title level="m" type="main">Diseño de un test diagnóstico para evaluación de &quot;competencias de acceso&quot; a estudios universitarios en ciencias exactas y naturales. Actas de las V Jornadas Nacionales y I Latinoamericanas de Ingreso y Permanencia en Carreras Científico-Tecnológicas</title>
+		<author>
+			<persName><forename type="first">Fernández</forename><surname>Gauna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Nodaro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Dias</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Rubau</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2016" />
+			<biblScope unit="page" from="295" to="300" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Competencias en ingeniería y eficacia institucional</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Giordano-Lerena R. Y Cirimelo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ingeniería Solidaria</title>
+		<idno type="ISSN">1900-3102 / e- 2357-6014</idno>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">16</biblScope>
+			<biblScope unit="page" from="119" to="127" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title level="m" type="main">Aprender 2016 -Primer informe de resultados</title>
+		<ptr target="http://www.educacion.gob.ar/data_storage/file/documents/primer-informe-nacional-aprender-2016-58e67474a4d2e.pdf(consultado26/04/2017" />
+		<imprint>
+			<date type="published" when="2016" />
+		</imprint>
+		<respStmt>
+			<orgName>Ministerio de Educación y Deportes Presidencia de la Nación</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="es">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Aportes para la Enseñanza de Teoría de Autómatas y Lenguajes Formales</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Juan</forename><surname>Carlos Vázquez</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Departamento de Ingeniería en Sistemas de Información Facultad Regional Córdoba</orgName>
+								<orgName type="institution">Universidad Tecnológica Nacional Maestro López y Cruz Roja Argentina -5016 Ciudad Universitaria -Córdoba</orgName>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Leticia</forename><surname>Constable</surname></persName>
+							<email>lconstable@frc.utn.edu.ar</email>
+							<affiliation key="aff0">
+								<orgName type="department">Departamento de Ingeniería en Sistemas de Información Facultad Regional Córdoba</orgName>
+								<orgName type="institution">Universidad Tecnológica Nacional Maestro López y Cruz Roja Argentina -5016 Ciudad Universitaria -Córdoba</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Aportes para la Enseñanza de Teoría de Autómatas y Lenguajes Formales</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">864FC00413F69FDF30FA0F1B52E56E4E</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.7.0" ident="GROBID" when="2022-04-09T01:35+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="es">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Resumen</head><p>La teoría de autómatas y lenguajes formales conforma la base conceptual de numerosas áreas de la Informática. Su contenido resulta abstracto por su fuerte sabor matemático, lo que dificulta la comprensión de los estudiantes de ingeniería en los primeros años. Como productos del proyecto "Detección de errores sintácticos bajo el algoritmo <ref type="bibr">de Earley"</ref> se han desarrollado explicaciones detalladas, módulos de software y ejemplos de aplicación, que pueden ser de utilidad como elementos didácticos para la enseñanza de estos temas y para la práctica efectiva de la teoría en laboratorio. Además, se han desarrollado seminarios de actualización para docentes y una propuesta de cambio en la teoría de autómatas con el objetivo de acercar la teoría a la práctica real.</p><p>Palabras clave: Autómatas, Lenguajes, Análisis Sintáctico.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Identificación</head><p>EIUTNCO02168: Detección de errores sintácticos bajo el algoritmo <ref type="bibr">de Earley.</ref> Formalmente el proyecto se encuentra enmarcado en el anterior Programa de Electrónica, Informática y Telecomunicaciones de la Secretaría de Ciencia, Tecnología y Posgrado de nuestra Universidad, debido a su primer objetivo general (técnico-científico), aunque por su segundo objetivo (académico) se podría identificar con el tema prioritario del Programa de Tecnología Educativa y Enseñanza de la Ingeniería denominado "la didáctica en la Universidad y la práctica docente universitaria". Fechas de inicio y finalización: 01/01/2014 y 31/12/2016, con prórroga al 31/12/2017.</p><p>El proyecto se formula y desarrolla en la Facultad Regional Córdoba de UTN.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Introducción</head><p>Toda carrera de Informática cuenta con algún curso introductorio de teoría de lenguajes y autómatas; en las ingenierías este curso aporta al currículo fundamentos de lcomputación indispensables para el perfil profesional y además exigidos por los actuales estándares. Dependiendo del plan de la carrera, los conocimientos logrados se limitarán sólo a fundamentos teóricos, o eventualmente se profundizarán en otras materias de diseño de herramientas de software de base, construcción de compiladores, inteligencia artificial, métodos formales de ingeniería de software u otras, que aplican la teoría a temas específicos. Muchas veces, estas otras asignaturas son optativas y por ello no todos los alumnos las cursarán.</p><p>Pero el modo de pensar acerca de los problemas, de enfrentarlos y de solucionarlos "al estilo ingenieril" (esto es, usando lógica, matemática, procedimientos efectivos, haciendo estudios de factibilidad y de eficiencia de las soluciones propuestas) que enseña la teoría de autómatas y lenguajes formales, es aplicable en general a todas las áreas de la disciplina. Por lo que, no solo es importante enseñar los fundamentos (Ciencias de la Computación), sino lograr en los estudiantes la destreza y las habilidades de aplicarlos en situaciones reales (tecnología asociada), ya sea que cursen o no otras asignaturas electivas que los utilicen.</p><p>Hace tiempo que los profesores de la asignatura Sintaxis y Semántica de los Lenguajes (SSL), correspondiente al tercer cuatrimestre de la carrera de Ingeniería en Sistemas de Información en nuestra Facultad, vienen desarrollado distintos proyectos de investigación y desarrollo con fines mixtos: a) técnica y científicamente, investigar problemas no resueltos de la teoría de autómatas y lenguajes para aportar nuevos conocimientos en ese campo (como todo proyecto de investigación); b) académicamente, lograr conocimiento práctico real en el uso de los conceptos teóricos, generando nuevas herramientas didácticas y obteniendo experiencia en aquellas ya existentes, para aprovecharlas en la enseñanza y que sirvan como elementos de práctica que, en los alumnos noveles de segundo año, mejoren la comprensión de temas difíciles y abstractos, y ayuden a conseguir ese "modo ingenieril de pensar y de solucionar problemas".</p><p>Este artículo se refiere a experiencias y propuestas logradas durante el desarrollo de uno de estos proyectos: Detección de errores sintácticos bajo el algoritmo de Earley.</p><p>En 1970, el psicólogo Jay Earley presentó en su tesis doctoral <ref type="bibr">(Earley,1970)</ref> el algoritmo de análisis sintáctico que lleva su nombre y que permite analizar cadenas de símbolos de cualquier lenguaje independiente del contexto, sin imponer restricciones a sus reglas gramaticales. Sin embargo, el algoritmo es no determinista y se consideró poco eficiente en su momento como para ser puesto a funcionar en computadoras <ref type="bibr">(Aho,1990)</ref>, a pesar de que Earley analizó su complejidad máxima como O(n 3 ) al operar sobre gramáticas ambiguas. Por otro lado, en su artículo a la comunidad, el autor especificó el funcionamiento del algoritmo, pero no cómo utilizarlo para indicar específicamente los errores en las cadenas analizadas.</p><p>Trabajos posteriores <ref type="bibr">(McLean,1996)</ref>, <ref type="bibr">(Aycock,2002)</ref>, <ref type="bibr">(Trevor,2010)</ref>, han propuesto formas más eficientes del algoritmo de Earley, pero no se encuentran fácilmente referencias respecto de su uso efectivo en un lenguaje de programación, y en especial, del tema de cómo informar errores detectados. Por ello se llega al planteo de las siguientes preguntas:</p><p>• ¿Cómo se puede indicar la presencia de un error en una cadena de entrada de un lenguaje independiente del contexto, usando el algoritmo de análisis sintáctico de Earley?</p><p>• ¿Qué tan específica (en cuanto a su localización y causa) puede ser esta indicación para que se pueda entender y corregir el error?</p><p>• ¿Cuán eficiente puede hacerse esta operación?</p><p>Como investigadores, nos preocupan estas preguntas per sé, pero además nos interesan en comparación con la respuesta que dan a las mismas los clásicos algoritmos de análisis sintáctico predictivo (descenso recursivo, LL(k) y LR(k)). Por ello también se cree aconsejable tener estos algoritmos claramente implementados para lograr contrastar funcionamientos y desempeño entre ellos y el de Earley.</p><p>Se piensa en la programación de estos algoritmos, ya que habiendo utilizado los generadores de compiladores (lex, flex, jflex, yacc, byacc, bison, jcup y otros), puede decirse que incorporan tantas alternativas debido a su gran versatilidad y al largo tiempo de vida, que los analizadores lexicográficos y sintácticos que producen no son manejables por alumnos con poca experiencia en programación, y son ciertamente difíciles de analizar aún para profesionales con experiencia.</p><p>Como docentes de la cátedra SSL y coautores del libro <ref type="bibr">(Giró,2015)</ref> en uso actualmente en la misma, durante largo tiempo hemos estudiado y enseñado en forma introductoria temas de lingüística matemática, teoría de autómatas, compiladores y complejidad. La materia es del segundo año de la carrera, los alumnos son recién iniciados en programación y los temas abordados bastante abstractos. Una estrategia para fijar conocimientos y bajar las abstracciones a la realidad es el uso de simuladores (tanto de desarrollo local -proyecto GHD de UTN-FRC, simulador de Máquina de Turing de la cátedra SSL-como externos), para que los alumnos comprueben la ejercitación propuesta y realicen trabajos prácticos; otra estrategia es hacer que los alumnos programen sus propias soluciones, pero aún no están preparados para ello en nuestro caso. Sin embargo, se estima que sí están preparados para entender un código al verlo, por lo cual una tercera posibilidad sería mostrar las soluciones ya desarrolladas, tal vez con errores a corregir, comentarios a completar, o sencillamente para discutir su funcionamiento paso a paso. En esto pueden inclusive ayudar herramientas de visualización del proceso de análisis sintáctico (Almeida,2011), las cuales han sido identificadas por nuestro equipo de trabajo, aunque aún no evaluadas.</p><p>Es de interés por lo anterior, aprovechar este proyecto para efectivizar la construcción de código sencillo y claro de analizadores léxicos y sintácticos de distinto tipo, en lenguajes que el alumno conozca, con el fin de generar la tercera alternativa indicada, que se cree redundará en una mejor comprensión de los temas impartidos en la asignatura SSL.</p><p>Se intenta que estos programas (práctica) sigan al pie de la letra la teoría, para mapear una en otra muy claramente. Sin embargo, hemos visto que no puede transitarse directamente de la teoría que enseñamos a la práctica en máquina; deben agregarse conceptos y técnicas que no están en la teoría como el principio de la subcadena más larga y la incorporación de símbolo de fin de cadena en las definiciones de autómatas, hechos detallados en nuestros anteriores artículos, indicados en el quinto punto del presente trabajo.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Objetivos, Avances y Resultados</head><p>Como se indicó el proyecto tiene un objetivo científico/técnico:</p><p>• Determinar con qué especificidad pueden informarse errores sintácticos, usando el método de Earley de análisis sintáctico.</p><p>y uno académico:</p><p>• Generar código y explicaciones claras para acrecentar el material didáctico para la enseñanza de Sintaxis y Semántica de los Lenguajes.</p><p>El primero de ellos intenta responder las preguntas formuladas anteriormente; el segundo da origen al presente artículo.</p><p>Además de haber participado los integrantes del proyecto de la confección del libro en uso actualmente por la cátedra SSL, el proyecto ha logrado para el objetivo académico señalado los siguientes avances:</p><p>• Diseño formal del lenguaje de programación para la máquina RAM, con descripción detallada de su sintaxis y semántica.</p><p>• Ejecutor de programas escritos en lenguaje RAM, para PC de escritorio y en web.</p><p>• Analizador léxico para programas RAM.</p><p>• Analizador sintáctico por descenso recursivo de programas RAM.</p><p>• Analizador sintáctico LL(1) y LR(0) del lenguaje RAM.</p><p>• Documentos de explicación de funcionamiento detallado y fundamentos de los algoritmos de análisis sintáctico por descenso recursivo, LL(1), LR(0), SLR(1), LR(1) y de Earley, con ejemplos aplicados a varias gramáticas simples y a la gramática del lenguaje RAM.</p><p>• Distintos seminarios de capacitación sobre estos temas para docentes de SSL.</p><p>• Una propuesta de modificación de la teoría de autómatas, para su mejor enseñanza y didáctica en carreras de Ingeniería.</p><p>• Propuesta de creación de un Grupo I+D en la Facultad (Grupo de Investigación, Desarrollo y Transferencia en Aprendizaje Automático, Lenguajes y Autómatas), que genere un ámbito apropiado para reunir a proyectos de estudio de lenguajes.</p><p>• Diseño de un lenguaje de programación procedural simple en español, con estudio sobre su gramática y semántica.</p><p>Están en desarrollo los módulos de análisis sintáctico LR(1) y de Earley para el lenguaje RAM, y un sencillo análisis semántico, ya que el lenguaje intermedio que se generará en los distintos algoritmos es también RAM, por lo que puede correrse en el simulador ya desarrollado.</p><p>Tenemos como deuda aún, la aplicación de los algoritmos desarrollados al lenguaje de programación en español lo cual se espera pueda ser realizado en una segunda fase. Una derivación posible es también el estudio de la posible aplicación del algoritmo de Earley a la paralelización de la compilación, ya que se ha visto preliminarmente que estaría actuando como una red de Petri al procesar una cadena de entrada (un programa).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Formación de Recursos Humanos</head><p>El equipo de investigación está compuesto por docentes-investigadores que se desempeñan como profesores de teórico, práctico y ayudantes en la cátedra SSL de nuestra Facultad. Se ha contado además con el apoyo de tres becarios alumnos y de un graduado de la carrera de Ingeniería en Sistemas de Información.</p><p>Uno de los integrantes tiene en curso la Maestría en Sistemas de Información, siendo ya Magister en Docencia Universitaria.</p><p>Otro integrante es doctorando en ingeniería, mención Sistemas de Información, aunque su tesis no tiene relación directa con el proyecto. Además, en los ciclos de capacitación docente que la cátedra SSL realiza año a año, se han presentado algunos de los resultados del proyecto y de las propuestas generadas en el mismo para la enseñanza. También se ha convenido con otros proyectos de nuestra Facultad que utilizan lenguajes de aplicación específica, poner a disposición nuestras herramientas para que los mismos utilicen en sus desarrollos.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Publicaciones relacionadas con el PID</head><p>Todos los productos de software una vez pulidos y probados, serán registrados en el registro nacional de la propiedad intelectual y serán puestos a disposición de la cátedra SSL para su evaluación y uso.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head></head><label></label><figDesc>Se presentó también el proyecto en Jornadas Internas de I+D del Departamento de Ingeniería en Sistemas de Información de UTN, frente a docentes, investigadores y alumnos.</figDesc><table><row><cell>Vázquez J., Constable L., Jornet W., Meloni</cell></row><row><cell>B. (2015); Enseñanzas de la Implementación</cell></row><row><cell>de un Analizador Léxico; Congreso Nacio-</cell></row><row><cell>nal de Ingeniería Informática/Sistemas de</cell></row><row><cell>Información 2015; Buenos Aires, Argentina.</cell></row><row><cell>Vázquez J., Constable L., Jornet W., Meloni</cell></row><row><cell>B., Carballo N. (2016); Enseñanzas de la</cell></row><row><cell>Implementación de un Analizador Sintáctico</cell></row><row><cell>por Descenso Recursivo; Congreso Nacional</cell></row><row><cell>de Ingeniería Informática/Sistemas de In-</cell></row><row><cell>formación 2016; Salta, Argentina.</cell></row><row><cell>Vázquez J., Constable L., Meloni B., Jornet</cell></row><row><cell>W., Arcidiácono M. (2018); Propuesta de</cell></row><row><cell>Cambio en la Teoría de Autómatas para Me-</cell></row><row><cell>jorar su Enseñanza en Ingeniería; Cuarta</cell></row><row><cell>Conferencia Iberoamericana en Compleji-</cell></row><row><cell>dad, Informática y Cibernética; Orlando,</cell></row><row><cell>Florida, EE.UU.</cell></row><row><cell>Vázquez J., Castillo J., Constable L., Carde-</cell></row><row><cell>nas M. (2018); GAALA: Grupo de Aprendi-</cell></row><row><cell>zaje Automático, Lenguajes y Autómatas;</cell></row><row><cell>Workshop de Investigadores en Ciencias de</cell></row><row><cell>la Computación 2018; Corrientes, Argenti-</cell></row><row><cell>na.</cell></row><row><cell>Está enviado además para su evaluación este</cell></row><row><cell>año 2018:</cell></row><row><cell>Vázquez J., Constable L. (2018); Detección</cell></row><row><cell>de errores sintácticos bajo el algoritmo de</cell></row><row><cell>Earley. Informe Final; Congreso Nacional</cell></row><row><cell>de Ingeniería Informática/Sistemas de In-</cell></row><row><cell>formación 2018; Mar del Plata, Buenos Ai-</cell></row><row><cell>res, Argentina.</cell></row><row><cell>Vázquez J., Constable L., Meloni B., Jornet</cell></row><row><cell>W., Arcidiácono M., Parisi G. (2015); De-</cell></row><row><cell>tección de errores sintácticos bajo el algo-</cell></row><row><cell>ritmo de Earley; Workshop de Investigado-</cell></row><row><cell>res en Ciencias de la Computación 2015;</cell></row><row><cell>Salta, Argentina.</cell></row></table></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Aho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Sethi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ullman</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1990" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title level="m" type="main">Compiladores: principios, técnicas y herramientas</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A D F</forename><surname>Addison Wesley Iberoamericana</surname></persName>
+		</author>
+		<author>
+			<persName><surname>México</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">Almeida</forename><surname>Martínez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><surname>Aycock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Horspool</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Practical Earley Parsing</title>
+		<idno>Nr. 6 -pp 620-630</idno>
+	</analytic>
+	<monogr>
+		<title level="j">The Computer Journal, British Computer Society</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<date type="published" when="2002-04" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><surname>Earley</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1970" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">An Efficient Context-Free Parsing Algorithm</title>
+	</analytic>
+	<monogr>
+		<title level="j">Communications of ACM</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="94" to="102" />
+			<date type="published" when="1970-02" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><surname>Giró</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Vázquez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Meloni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Constable</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+		<title level="m">Lenguajes Formales y Teoría de Autómatas; Alfaomega; Buenos Aires</title>
+				<imprint>
+			<publisher>Argentina</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<monogr>
+		<author>
+			<persName><forename type="first">P</forename><surname>Mclean</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Horspool</surname></persName>
+		</author>
+		<title level="m">A Faster Earley Parser; Proceedings of International Conference on Compiler Construction</title>
+				<imprint>
+			<publisher>Canada</publisher>
+			<date type="published" when="1996" />
+			<biblScope unit="page" from="281" to="293" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<monogr>
+		<author>
+			<persName><forename type="first">J</forename><surname>Trevor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Mandelbaum</surname></persName>
+		</author>
+		<title level="m">Efficient Early Parsing with Regular Right-Hand Sides; Electronic Notes in Theoretical Computer Science</title>
+				<imprint>
+			<publisher>Elsevier</publisher>
+			<date type="published" when="2010" />
+			<biblScope unit="volume">253</biblScope>
+			<biblScope unit="page" from="137" to="148" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">The</forename><surname>Amsterdam</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Netherlands</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

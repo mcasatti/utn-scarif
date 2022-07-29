@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="es">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">La ciencia ficción como herramienta didáctica en carreras tecnológicas</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Martín</forename><surname>Casatti</surname></persName>
+							<email>mcasatti@frc.utn.edu.ar</email>
+							<affiliation key="aff0">
+								<orgName type="department">Departamento de Ingeniería en Sistemas de Información</orgName>
+								<orgName type="institution">Facultad Regional Córdoba -Universidad Tecnológica Nacional Maestro Marcelo López esq</orgName>
+								<address>
+									<postCode>0351 -4686385</postCode>
+									<country>Cruz Roja Argentina -Córdoba</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">La ciencia ficción como herramienta didáctica en carreras tecnológicas</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">684501310996FBFC832750B9CEC1F018</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.7.0" ident="GROBID" when="2022-04-09T01:35+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="es">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESUMEN</head><p>El presente trabajo expondrá los beneficios de la inclusión de obras de ciencia ficción como auxiliar didáctico en el dictado de materias de carreras científico/tecnológicas. Se revisarán las bases del género, tanto en su expresión literaria como audiovisual, y su utilidad académica así como experiencias desarrolladas en otros países y sus resultados. Por último se presentará un proyecto, que está surgiendo en ámbitos académicos y divulgativos locales, que podría traer los beneficios mencionados a las universidades Argentinas.</p><p>Palabras clave: instrumentos didácticos, educación, ciencia ficción</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">INTRODUCCIÓN 1.¿Qué es la ciencia ficción?</head><p>Todo lo que nos rodea son elementos que ayudan a forjar la cultura, lo que define la sociedad y lo que se produce en torno a ello (películas, literatura, música, videojuegos, entre otros) es un fiel reflejo de la época en que vivieron quienes los crearon.</p><p>Cada género, cada corriente artística y cada tendencia de la cultura pop tiene un sentido y busca llenar una necesidad. Desde esta perspectiva se podría afirmar que la ciencia ficción ha cumplido un rol importante y necesario en el devenir científico de la humanidad.</p><p>La ciencia ficción tiene tantas definiciones como autores y estudiosos decidan tocar el tema, pero la más precisa es quizá la que sostiene:</p><p>"La ciencia ficción es un género de narraciones imaginarias que no pueden darse en el mundo que conocemos, debido a una transformación del escenario narrativo, basado en una alteración de coordenadas científicas, espaciales, temporales, sociales o descriptivas, pero de tal modo que lo relatado es aceptable como especulación racional". <ref type="bibr">(Sánchez y Gallego, 2003)</ref> También existen algunas definiciones un tanto poéticas como por ejemplo la de Rod Serling, el creador de la conocida serie de ciencia ficción "La dimensión desconocida":</p><p>"La fantasía es lo imposible hecho probable. La ciencia ficción es lo improbable hecho posible".</p><p>-Rod Serling La ciencia ficción, que se inicia como género literario, es, desde todo punto de vista, un género artístico y como tal no necesita justificaciones más allá de ser una forma de expresión de su autor y una fuente de placer para quienes la leen.</p><p>Pero el verdadero valor de la ciencia ficción no radica tanto en sus causas y orígenes sino en los efectos que produce.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.2.">La "ficción científica"</head><p>En sus orígenes, el término anglosajón Sci Fi, diminutivo de Science Fiction, tenía una interpretación mucho más acabada y exacta que el término que se utiliza hoy en día. Eso es por la inexacta traducción de Science Fiction como Ciencia Ficción (literal) y no con su interpretación correcta, que sería Ficción Científica.</p><p>Analizada desde este punto de vista la Ciencia Ficción tiene un aire de ciencia imaginaria, ficticia, inexistente y hasta absurda, que se aleja mucho del verdadero sentido que tenían en mente quienes acuñaron el término original.</p><p>Por el contrario, si una Ciencia Ficción tiene un aire imaginario, una Ficción Científica habla de una obra de ficción sustentada con teorías científicas, con hipótesis, con proyecciones futuras y aún con máquinas y dispositivos factibles o al menos plausibles.</p><p>Parte de esos preconceptos han hecho que con el correr de los tiempos el uso de la ciencia ficción como herramienta especulativa no sea aprovechada en ámbitos académicos formales, aún a pesar de que muchos de los más grandes exponentes del género cuentan con estudios formales en ciencias.</p><p>Sin pretender una enumeración exhaustiva se podría mencionar a Isaac Asimov <ref type="bibr" target="#b0">(Asimov, 1995)</ref> (Fundación, Robots), que fue doctor en química, Larry Niven <ref type="bibr" target="#b13">(Niven, 1974)</ref> (Mundo Anillo,La Paja en el Ojo de Dios) es psicólogo y matemático, Michael Crichton <ref type="bibr" target="#b6">(Crichton, 2011)</ref> (Jurassic Park, Presa) era antropólogo y médico, mientras Arthur C. Clarke <ref type="bibr" target="#b5">(Clarke, 2013)</ref> (2001, Cita con Rama) era matemático y físico, entre muchos otros.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">MARCO TEÓRICO</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.">La ciencia ficción y los límites del conocimiento</head><p>Un pre-requisito inherente a toda obra de ciencia ficción es que debe desarrollarse más allá de algún tipo de límite, real o ficticio.</p><p>Considerando que la búsqueda del conocimiento científico tiene como premisa básica y fundamental, el expandir el conocimiento humano más allá de los límites actualmente existentes, se puede apreciar un paralelo significativo entre ambos enfoques, el de la ciencia y el de la ficción.</p><p>No en vano cada vez más científicos, ingenieros y tecnólogos, reconocen abiertamente la influencia fundamental que ha tenido el género, tanto en su elección de carrera como en sus trabajos y líneas de investigación.</p><p>Sin embargo, hasta el día de hoy, es notable la falta de presencia que la ciencia ficción tiene en las aulas de universidades e institutos superiores. Los científicos que se mencionaron anteriormente reconocen la influencia del género pero no de manera formal, sino como un hobby o pasatiempo de índole privada. Todos ellos han disfrutado del desafío intelectual de la ciencia ficción pero en sus vidas privadas, en sus tiempos libres, y luego han llevado esas inquietudes a sus ámbitos profesionales.</p><p>Estudios muestran que uno de los principales problemas a afrontar para la enseñanza de la ciencia radica en la percepción de la misma que tiene la sociedad en general y los alumnos en particular, quienes describen a la ciencia como: "difícil, aburrida, sólo apta para genios y en gran parte responsable de algunos de los grandes problemas de nuestro tiempo, como el armamentismo, la contaminación, etc." <ref type="bibr">(Pérez y Matarredona, 2012)</ref> Aún así, existen multitud de experiencias piloto realizadas en universidades que han obtenido resultados muy prometedores, tanto en el ámbito de las Ciencias Exactas (en este caso Física) <ref type="bibr" target="#b13">(Palacios, 2007)</ref>, como por parte de las Ciencias Sociales (Ciencia, Tecnología y Sociedad) <ref type="bibr" target="#b20">(Vesga Vinchira, 2015)</ref> o la Ingeniería <ref type="bibr" target="#b4">(Casatti, 2016)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">¿Para qué sirve la ciencia ficción en las aulas?</head><p>Se podría analizar el género de ciencia ficción desde un punto de vista literario y quizá desde un punto de vista especulativo y no se tardaría en encontrarle beneficios. Pero ¿qué se puede esperar de la inclusión de la ciencia ficción en los ámbitos académicos? La ciencia ficción se caracteriza por partir de premisas científicamente plausibles para construir sus historias. Esta construcción generalmente parte de conocimiento actual que se extrapola a futuro para analizar una posible evolución de la ciencia, la técnica, el ambiente, etc. y en base a esa posible condición futura se construye un relato.</p><p>La ciencia ficción es una narrativa que nos presenta especulaciones arriesgadas y, muy a menudo, francamente intencionadas que hacen meditar sobre el mundo actual y la organización social o sobre los efectos y las consecuencias de la ciencia y la tecnología en las sociedades que las utilizan.</p><p>Desde ese punto de vista la incorporación del género es útil en cualquier ámbito académico que se precie de fomentar espíritu crítico en la juventud.</p><p>Por otra parte, las carreras de índole científica o tecnológica se pueden ver muy favorecidas por incluir en su temática el análisis de soluciones a problemas actuales pero tratados desde la óptica de la ciencia ficción. Se puede partir de condiciones ficticias y luego someterlas a análisis para determinar los puntos fuertes en la propuesta y explorar distintos medios por los cuales se podría llegar a un resultado favorable.</p><p>En tal sentido, en el año 1970 se funda la Asociación para la Investigación de la Ciencia Ficción (SFRA, por sus siglas en inglés), una asociación sin fines de lucro cuyo objetivo es el estudio de la ciencia ficción y su impacto en la sociedad y en la academia.</p><p>Formada por académicos, bibliotecarios, estudiantes, escritores, editores y aficionados en general, se dedica principalmente al estudio y análisis de libros, películas, cómics, a la vez que elabora trabajos de investigación asociados al género. Su longevidad es una muestra de la importancia que se le atribuye a la temática en algunos círculos académicos.</p><p>La organización desarrolla eventos anuales en donde, además de escuchar a expertos en el tema, se hacen entrega de diversos premios a los trabajos más destacados. En dichos eventos se han tratado temas de actual relevancia tales como perspectivas de género y feminismo (Feminism, Fans, and the Future: Traveling the Shifting Worlds of Writers, Readers, Gender, and Race in Science Fiction (2014)), teorías de la información, gestión del conocimiento (Systems and Knowledge ( <ref type="formula">2016</ref>)) y la actualidad del trabajo y sus perspectivas (The Future of Labor ( <ref type="formula">2018</ref>)) ("Science Fiction Research Association -Home", 2018).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">OBJETIVO Y METODOLOGÍA</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">¿Qué podemos estudiar con el auxilio de la ciencia ficción?</head><p>La gama de temas que se pueden analizar como contrapunto con obras de ciencia ficción es enorme y abarca tanto ciencia exactas, físicas y naturales como ciencias sociales y humanidades. En las próximas líneas se expondrán sólo algunos ejemplos, de algunas áreas en donde se han tratado mencionado o elaborado temáticas relacionadas, las cuales se enunciaran de manera no exhaustiva.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Astrofísica con Interstellar</head><p>La película Interstellar <ref type="bibr">(James, von Tunzelmann, Franklin y Thorne, 2015)</ref>, del director Christopher Nolan, presenta una de las representaciones más realistas del aspecto y el funcionamiento de un agujero negro supermasivo de la que se tenga noticia. Tal hecho es reconocido por el famoso físico teórico Kip Thorne, quien colaboró en la creación del film y suministró a los equipos de efectos visuales las fórmulas matemáticas que debían describir el fenómeno <ref type="bibr" target="#b19">(Thorne, 2014)</ref>.</p><p>El análisis de la ciencia y la ficción tras la representación de Gargantúa (tal es el nombre del agujero negro) así como de la representación del hipercubo de dimensión cinco (Luminet, en el que el protagonista se encuentra en un momento del filme, servirían para tener entretenido a un curso no menos de un semestre.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.">Ingeniería y Física con Mundo Anillo</head><p>En la novela Mundo Anillo, del escritor, psicólogo y matemático Larry Niven, los protagonistas deben explorar una extraña estructura artificial en forma de anillo que orbita un pequeño sol, y que se desplaza alejándose de un peligroso fenómeno galáctico, en dirección a la Nube de Magallanes <ref type="bibr" target="#b2">(Besla et al. 2007</ref>). La parte interna de la estructura, que mira al sol central, ha sido terraformada <ref type="bibr" target="#b15">(Ruiz, 2015)</ref> y es apta para la vida.</p><p>Tanto sea desde el punto de vista de la estabilidad de la estructura <ref type="bibr" target="#b11">(McInnes, 2003)</ref>, en el análisis de la dureza del material necesario para construirla, considerando que soporta tensiones extremas, o estudiando los mecanismos que impiden que el aire sea expulsado de la zona interna y se pierda en el espacio, pasando por los fenómenos climáticos de una estructura circular, la novela brinda una colección de temas que son fascinantes de explorar con una clase motivada.</p><p>Y no es cuestión sencilla refutar las especulaciones de Niven, quien ha sido conocido como el "primer autor moderno de ciencia ficción hard" debido a la precisión y exactitud con que utiliza las leyes físicas y principios de ingeniería en sus trabajos.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4.">Inteligencia artificial con Blade Runner</head><p>Aún cuando el título original de la novela de Philip K. Dick, que dio lugar a la película, es ¿Sueñan los androides con ovejas eléctricas?, la amplia difusión del filme (considerado ahora "de culto") hace que la denominación más popular sea la de Blade Runner.</p><p>Los educadores de las áreas de informática, computación y estudios similares pueden extraer multitud de tópicos interesantes para analizar, tanto de la película como del libro, y no solamente desde un punto de vista técnico o tecnológico sino ético y moral.</p><p>Novela y película comparten un eje argumental común, en donde un conjunto de androides (robots con apariencia humana) autoconcientes, denominados replicantes, se utilizan en el espacio profundo para realizar trabajos en condiciones infrahumanas. Deckard, el protagonista, es el encargado de "retirar" a los androides fugitivos que se refugien en la Tierra.</p><p>La novela plantea una sociedad tecnificada y decadente y coloca en medio de este escenario el dilema moral de una máquina que es consciente de si misma y se rebela contra sus creadores y explotadores. Plantea asimismo la falta de empatía tanto de los androides como de sus perseguidores y se pregunta si cualquier "autoridad moral" por parte de alguno de ellos no es sino una ilusión <ref type="bibr" target="#b18">(Sims, 2009)</ref>.</p><p>La evolución de la IA, al punto de reconocer emociones y empatizar con el otro, está representada magistralmente en la escena en la que Roy Batty, el último replicante, le dice a su perseguidor que cuelga de una cornisa: "Es toda una experiencia vivir con miedo ¿verdad? Eso es lo que significa ser un esclavo" -Roy Batty, Blade Runner</p><p>Estas son sólo algunas de las posibles aplicaciones de la ciencia ficción en las aulas, pero la lista es interminable y abarca todo tipo de disciplinas, desde la biología y la genética con Gattaca o The Andromeda Strain, la sociología de 1984 o Fahrenheit 451, la ecología en toda la obra de Jack Vance o en películas como Wall-E o Avatar y por último la joya matemática y cinematográfica que es la película argentina Moebius, que tiene, además, el valor agregado de ser el trabajo de fin de carrera de estudiantes universitarios de cine <ref type="bibr" target="#b21">(Zunino, 2008)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">RESULTADOS</head><p>Existen instituciones, docentes y escritores que han dado pasos concretos para la integración de la temática de ciencia ficción con el dictado de las materia en el aula, algunos de los cuales se expondrán a continuación.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1.">De King Kong a Einstein: La física de la ciencia ficción (1999)</head><p>Los profesores José Pont y Manuel Moreno Lupiañez, de la Universidad Politecnica de Cataluña, publican en el año 1999 un libro titulado ''De King Kong a Einstein: La física de la ciencia ficción" (Lupiáñez y Pont, 1999) que tiene dentro de su resume la sugestiva frase: "[la ciencia ficción] constituye una vía alternativa de aproximación a la ciencia. La búsqueda de los principios que rigen el universo se convierte así en un reto fascinante, lúdico, sorprendente, que permite desarrollar un espíritu crítico y escéptico."</p><p>-De King Kong a Einstein : la física en la ciencia ficción</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.">Paradojas: Ciencia en la ciencia ficción (2000)</head><p>El conocido estudioso y divulgador español Miquel Barceló publicó en el año 2000 el libro "Paradojas: Ciencia y ciencia ficción" <ref type="bibr" target="#b1">(Barceló, 2000)</ref> en el que su prólogo habla por si mismo:</p><p>"En cierta forma, la creación tecnocientífica, la divulgación o popularización de la ciencia y la buena ciencia-ficción se presentan como tres niveles de la necesaria comunicación de las ideas científicas entre los seres humanos de una sociedad como la actual que vive directamente las consecuencias de las realidades tecnocientíficas".</p><p>-Miquel Barceló. Paradojas: Ciencia en la ciencia ficción</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3.">Física de la Ciencia Ficción (2007)</head><p>En el año 2007, Sergio L. Palacios publica en Eureka, una revista sobre enseñanza y divulgación de la ciencia, un artículo titulado "El cine y la literatura de ciencia ficción como herramientas didácticas en la enseñanza de la física: una experiencia en el aula" <ref type="bibr" target="#b13">(Palacios, 2007)</ref>.</p><p>En el mismo describe la metodología utilizada en el dictado de la materia (electiva) "Física de la Ciencia Ficción", de la Facultad de Ciencias de la Universidad de Oviedo, en España. En el artículo, además de la metodología, se publica una lista de material bibliográfico y audiovisual y algunas guías para la adecuación de estos conceptos para su uso en otras disciplinas, como son la química, la biología, e incluso el dictado en el colegio secundario.</p><p>Es de destacar el programa propuesto de la materia, en donde un aficionado se sentiría extasiado de leer títulos como: La ley de escala y su aplicación a criaturas gigantes y diminutas, La física de los superhéroes o incluso La física de Star Wars y Star Trek, entre otros.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.4.">Entre la ciencia ficción y las ciencias sociales: el "lado oscuro"de las ciudades americanas (2007)</head><p>En este artículo el autor, Alain Mussei, de la Escuela de Altos Estudios en Ciencias Sociales, de Paris <ref type="bibr" target="#b12">(Mussei, 2007)</ref>, analiza distintas metrópolis imaginarias evaluando las descripciones que hacen sus autores sobre los pobladores, los servicios públicos, las oportunidades de empleo, la seguridad, la atención sanitaria y muchos otros aspectos.</p><p>Asimismo estudia los problemas actuales en las grandes ciudades a la luz de las soluciones que los autores de ciencia ficción han propuesto en sus obras y se detiene a analizar detenidamente la viabilidad de cada una de ellas así como sus pro y sus contras.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.5.">La ciencia ficción y la enseñanza de las ciencias (2012)</head><p>En el año 2012 se publica un interesante trabajo, por parte de las investigadoras Petit Perez y Solbes Matarredona <ref type="bibr">(Pérez y Matarredona, 2012)</ref>, que trata sobre el efecto en el alumnado del uso de la ciencia ficción para la enseñanza de las ciencias.</p><p>Es un artículo encuadrado dentro de la pedagogía de la enseñanza, pero que hace especial foco en la actitud de los estudiantes con y sin conocimiento del género hacia los científicos y la ciencia en general. Analiza también las posturas de los estudiantes con respecto a los avances científicos y tecnológicos y su capacidad para evaluar los potenciales efectos futuros de esos avances.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.6.">Cine y ciencia: cuantificación y análisis de la utilización del cine de Ciencia Ficción en papers académicos (2014)</head><p>En septiembre de 2014 Luciano Levin, de la Universidad de La Pampa (Argentina) y Daniela de Filipo, de la Universidad Carlos III de Madrid (España) publicaron este artículo en el "Journal of Science Communication" en el que analizan cuantitativamente la aparición de menciones a películas de ciencia ficción dentro de papers académicos <ref type="bibr">(Levin y De Filippo, 2014)</ref>.</p><p>El análisis que se realiza es sumamente interesantes ya que incluye como criterios bajo estudio la mención del filme de acuerdo a la sección del paper (abstract, cuerpo, conclusiones), al tipo de mención que se realiza (ejemplo, descripción, contraste, análisis, validación), la frecuencia con que se menciona en el texto y quién nombra el film (el propio autor, un tercero conocido, un tercero desconocido), así como el tipo de paper (paper de investigación, presentación en congreso, articulo de revista) y la rama de la ciencia a la que pertenece (ciencias puras, ciencia aplicada, ingeniería, ciencias sociales, etc.).</p><p>También tiene en cuenta el nivel multidisciplinario que tienen estos trabajo, es decir, el grado con el cual investigadores de diversas disciplinas trabajaron en conjunto para producir el documento y es notable la cantidad de trabajos multidisciplinarios, generalmente de ciencias duras combinadas con ciencias sociales, que utilizan la ciencia ficción como argumento en sus investigaciones.</p><p>Como se puede ver hay una creciente actitud de apertura hacia la ciencia ficción en general y un interés genuino en la utilización del género como una herramienta de educación.</p><p>Este tipo de actitud respecto de la ciencia ficción ha llevado también a la aparición de bibliotecas universitarias especializadas. Las mejores y más completas colecciones bibliográficas sobre ciencia ficción se encuentran hoy en día en algunas de las mejores universidades norteamericanas.</p><p>Son famosas en este aspecto la Science Fiction Society Library del conocido Massachusetts Institute of Techonology (MIT) de Boston o la Science Fiction Research Collection de la Texas A&amp;M University entre otras. Y ello sin olvidar la importante Sección de Ciencia Ficción de la Biblioteca Gabriel Ferraté de la Universidad Politécnica de Cataluña en Barcelona, que dispone ya de más de 4500 volúmenes.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.7.">UNIVAC: Red Universitaria de Artes y Ciencias</head><p>Recientemente ha surgido, por parte de alumnos, docentes y no docentes de diversas universidades públicas de Argentina, el proyecto de generar la Red Universitaria de Artes y Ciencias.</p><p>UNIVAC <ref type="bibr" target="#b3">(Casatti, 2015)</ref>, tal es el nombre del proyecto, busca propiciar la inclusión de la temática del género de ciencia ficción en actividades académicas, de extensión y de divulgación en los ámbitos universitarios, como una forma de reducir la brecha entre las aulas, el aficionado y la sociedad en general.</p><p>El proyecto aspira a proveer espacios de estudio de la temática, desde los puntos de vista tanto artístico como científico, y desarrollará actividades concretas tendientes a la incorporación del género como parte de las herramientas didácticas al alcance de docentes de las casas de altos estudios. Asimismo buscará la difusión de las carreras científico-tecnológicas dentro de la comunidad de aficionados al género y del público en general y brindará un enfoque alternativo de divulgación de las ciencias.</p><p>Pórtico -Encuentro de Ciencia Ficción, un evento enmarcado dentro de las actividades de UNIVAC, ha desarrollado ya cuatro ediciones en la Universidad Nacional de La Plata (UNLP) y una en la Universidad Tecnológica Nacional, Facultad Regional Córdoba (UTN FRC). En el transcurso de 2018 se realizarán ediciones del evento en UNLP, UTN FRC y en la Facultad de Filosofía y Letras de la Universidad Nacional de Cuyo, en Mendoza, demostrando de esta manera un crecimiento sostenido y una gradual dispersión territorial.</p><p>El evento, si bien de marcado espíritu popular y divulgativo, incorpora una sección académica de importancia, con ponencias de profesionales de diversos sectores, investigadores, escritores y mesas de debate. Muchos de esos trabajos han sido publicados en el Repositorio Institucional de la UNLP ("Repositorio Institucional de la Universidad Nacional de La Plata", 2018) y se prevé la publicación en papel de las Memorias de cada una de las ediciones, a fines de 2018 o principios de 2019.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">CONCLUSIONES</head><p>Como se ha visto la incorporación de la ciencia ficción dentro de las actividades académicas va en paulatino aumento y los resultados que se pueden esperar no son menos que prometedores.</p><p>Aunque en nuestro país las iniciativas de este tipo están todavía en una etapa muy incipiente, proyectos como UNIVAC pueden impulsar un trabajo serio y consensuado en un marco académico que pueda explotar con creces los beneficios que hemos mencionado en las lineas anteriores.</p><p>Durante el desarrollo de una reciente edición del evento Pórtico -Encuentro de Ciencia Ficción (noviembre de 2017), en la Universidad Tecnológica Nacional, Facultad Regional Córdoba, se ha manifestado un importante interés en el desarrollo de este tipo de actividades, materializado en la participación de las actividades, en el envío de trabajos de investigación y ponencias, en la participación de mesas de debate y presentación de material literario y como parte integral de la organización del evento.</p><p>Un punto destacable de esta participación es que incluyó tanto a alumnos y graduados como a docentes e investigadores tanto con títulos de grado como de posgrado, evidenciando una interés transversal a todas las etapas de formación.</p><p>Encuestas posteriores al desarrollo del evento también mostraron un marcado interés en el público asistente en conocer más sobre las carreras dictadas en la Universidad Tecnológica, su ámbito de aplicación y sus incumbencias, evidenciando que este tipo de eventos pueden ser un excelente vehículo de divulgación por la gran difusión del género de ciencia ficción en la cultura general, sobre todo en el rango de edades de personas próximo al ingreso universitario.</p><p>Por otra parte, actualmente se encuentra bajo estudio la posibilidad de constituir un Grupo de Estudio de Ciencia Ficción, dentro de la Universidad Tecnológica Nacional, Facultad Regional Córdoba, con la finalidad de explorar diversos usos del género en las carreras de ingeniería y en la producción de material de investigación y literario por parte de alumnos, docentes e investigadores.</p><p>Dicho grupo proveería un marco de trabajo ordenado y consistente que contribuiría a la generación de técnicas, materiales y lineamientos didácticos para el uso de las diversas cátedras, así como una ámbito de discusión y debate para quienes tengan otras inquietudes como la investigación pura del género, la literatura o el desarrollo de eventos y actividades de extensionismo universitario asociadas a la ciencia ficción.</p></div>		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title level="m" type="main">I. Asimov: a memoir</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Asimov</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1995" />
+			<pubPlace>Bantam</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title level="m" type="main">Paradojas: ciencia en la cienciaficción</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Barceló</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2000" />
+			<publisher>Equipo Sirius</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Are the magellanic clouds on their first passage about the milky way?</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Besla</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Kallivayalil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Hernquist</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Robertson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Cox</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Van Der Marel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Alcock</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Astrophysical Journal</title>
+		<imprint>
+			<biblScope unit="volume">668</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">949</biblScope>
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title level="m" type="main">UNIVAC. En I Pórtico-Encuentro de Ciencia Ficción</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Casatti</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2015" />
+			<pubPlace>La Plata</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title level="m" type="main">Advertencias del futuro: ¿Qué tiene la ciencia ficción que enseñarnos a los ingenieros? En II Pórtico-Encuentro de Ciencia Ficción</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Casatti</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2016" />
+			<pubPlace>La Plata</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<title level="m" type="main">Profiles of the Future</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Clarke</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2013" />
+			<pubPlace>Hachette UK</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title level="m" type="main">Conversations with Michael Crichton</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Crichton</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2011" />
+			<publisher>University Press</publisher>
+			<pubPlace>Mississippi</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Gravitational lensing by spinning black holes in astrophysics, and in the movie Interstellar</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>James</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Von Tunzelmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Franklin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">S</forename><surname>Thorne</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Classical and Quantum Gravity</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page">65001</biblScope>
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Cine y Ciencia: cuantificacion y analisis de la utilizacion del cine de Ciencia Ficcion en papers académicos</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">G</forename><surname>Levin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>De Filippo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Science Communication -SISSA -International School for Advanced Studies</title>
+		<imprint>
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">The Warped Science of Interstellar</title>
+		<author>
+			<persName><forename type="first">J.-P</forename><surname>Luminet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Inference -International Review of Science</title>
+		<imprint>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">1</biblScope>
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<monogr>
+		<title level="m" type="main">De King Kong a Einstein</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Lupiáñez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Pont</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1999" />
+		</imprint>
+		<respStmt>
+			<orgName>Univ. Politèc. de Catalunya</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Non-linear dynamics of ring world systems</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Mcinnes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the British Interplanetary Society</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="308" to="313" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Entre la ciencia ficción y las ciencias sociales: el&quot;lado oscuro&quot;de las ciudades americanas</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mussei</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">EURE (Santiago)</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="issue">99</biblScope>
+			<biblScope unit="page" from="65" to="78" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<monogr>
+		<title level="m" type="main">El cine y la literatura de ciencia ficción como herramientas didácticas en la enseñanza de la física: una experiencia en el aula. Revista Eureka sobre enseñanza y divulgación de las ciencias</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Niven</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Palacios</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1974" />
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="106" to="122" />
+		</imprint>
+	</monogr>
+	<note>Bigger than worlds. A Hole in Space</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<monogr>
+		<title level="m" type="main">La ciencia ficción y la enseñanza de las ciencias. Enseñanza de las ciencias: revista de investigación y experiencias didácticas</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F P</forename><surname>Pérez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Matarredona</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2012" />
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="55" to="72" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<monogr>
+		<title level="m" type="main">Terraformación::¿ Ciencia o Ficción? MoleQla: revista de Ciencias de la Universidad Pablo de Olavide</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Ruiz</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2015" />
+			<biblScope unit="page" from="11" to="13" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<monogr>
+		<title level="m" type="main">¿Qué es la ciencia ficción? acceso: Julio</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Sánchez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Gallego</surname></persName>
+		</author>
+		<ptr target="https://www.ciencia-ficcion.com/opinion/op00842.htm" />
+		<imprint>
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">acceso: Julio</title>
+		<ptr target="http://www.sfra.org/" />
+	</analytic>
+	<monogr>
+		<title level="j">Science Fiction Research Association -Home</title>
+		<imprint>
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">The Dangers of Individualism and the Human Relationship to Technology in Philip K. Dick&apos;s&quot;Do Androids Dream of Electric Sheep?</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Sims</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Science fiction studies</title>
+				<imprint>
+			<date type="published" when="2009" />
+			<biblScope unit="page" from="67" to="86" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<monogr>
+		<title level="m" type="main">The science of Interstellar</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Thorne</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2014" />
+			<publisher>WW Norton &amp; Company</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<monogr>
+		<title level="m" type="main">La ciencia ficción como herramienta pedagógica en un curso de estudios en ciencia, tecnología y sociedad: descripción de una experiencia docente. Revista Eureka sobre Enseñanza y Divulgación de las Ciencias</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Vesga Vinchira</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2015" />
+			<biblScope unit="page" from="520" to="528" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Moebius: Buenos Aires subterránea y un relato de fuga</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Zunino</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Bifurcaciones: revista de estudios culturales urbanos</title>
+				<imprint>
+			<date type="published" when="2008" />
+			<biblScope unit="volume">8</biblScope>
+		</imprint>
+	</monogr>
+	<note>reseña de cine</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="es">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Contenidos digitales con aplicaciones tecnológicas como mediadoras de aprendizajes significativos</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Gloria</forename><surname>Alzugaray</surname></persName>
+							<email>galzugar@frsf.utn.edu.ar</email>
+							<affiliation key="aff0">
+								<orgName type="department">Grupo de Investigación en Enseñanza de la Ingeniería</orgName>
+								<orgName type="institution" key="instit1">Facultad Regional Santa Fe</orgName>
+								<orgName type="institution" key="instit2">Universidad Tecnológica Nacional Lavaisse 610</orgName>
+								<address>
+									<postCode>3000</postCode>
+									<settlement>Santa Fe</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Matías</forename><surname>Orué</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Grupo de Investigación en Enseñanza de la Ingeniería</orgName>
+								<orgName type="institution" key="instit1">Facultad Regional Santa Fe</orgName>
+								<orgName type="institution" key="instit2">Universidad Tecnológica Nacional Lavaisse 610</orgName>
+								<address>
+									<postCode>3000</postCode>
+									<settlement>Santa Fe</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Facundo</forename><surname>Casarotto</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Grupo de Investigación en Enseñanza de la Ingeniería</orgName>
+								<orgName type="institution" key="instit1">Facultad Regional Santa Fe</orgName>
+								<orgName type="institution" key="instit2">Universidad Tecnológica Nacional Lavaisse 610</orgName>
+								<address>
+									<postCode>3000</postCode>
+									<settlement>Santa Fe</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Dpto</forename><surname>De Ingeniería Mecánica</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Grupo de Investigación en Enseñanza de la Ingeniería</orgName>
+								<orgName type="institution" key="instit1">Facultad Regional Santa Fe</orgName>
+								<orgName type="institution" key="instit2">Universidad Tecnológica Nacional Lavaisse 610</orgName>
+								<address>
+									<postCode>3000</postCode>
+									<settlement>Santa Fe</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Dpto</forename><surname>De Ingeniería Eléctrica</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Grupo de Investigación en Enseñanza de la Ingeniería</orgName>
+								<orgName type="institution" key="instit1">Facultad Regional Santa Fe</orgName>
+								<orgName type="institution" key="instit2">Universidad Tecnológica Nacional Lavaisse 610</orgName>
+								<address>
+									<postCode>3000</postCode>
+									<settlement>Santa Fe</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Contenidos digitales con aplicaciones tecnológicas como mediadoras de aprendizajes significativos</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">E8B84F0917D7201E46C989288601E322</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.7.0" ident="GROBID" when="2022-04-09T01:35+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="es">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Resumen</head><p>En este trabajo se propone abordar la potencialidad de los contenidos digitales para promover aprendizaje significativo asumiendo que, en la actualidad, existe consenso en la vigencia de este marco teórico sumado a las TIC que posibilitan el acceso masivo a la información, generando instancias de aprendizaje soportadas sobre una gran variedad de aplicaciones y recursos disponibles en Internet. Estas modificaciones en los usos, en la participación y en los consumos, hacen indispensable asumir cómo docentes dentro de una institución educativa, re-pensar sus lógicas, sus dinámicas y, por lo tanto, las formas de comunicación. Este trabajo se enfoca en la generación de contenidos digitales significativos en el área de la Electrónica y el Control para su uso didáctico en carreras de ingeniería, con fuerte enfoque hacia estas nuevas dinámicas comunicacionales alumnos-docentes. Esto implica el abordaje hacia la enseñanza de la ingeniería, con la premisa que el alumnado tiene capacidades de aprendizaje muy diversas, de modo que permitiría llegar de alguna manera a los distintos actores de la enseñanza, promoviendo y creando las bases para una personalización de la enseñanza, de acuerdo a estas múltiples y diversas capacidades.</p><p>Palabras clave: contenidos digitales, aprendizaje significativo, ingeniería.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introducción</head><p>El cambio en las dinámicas de funcionamiento de la clase tradicional con el advenimiento de las TICs, permite transformar el aula, normalmente estática, en una red abierta en la que los alumnos interactúan entre ellos, con el resto de compañeros y con el entorno, formando así un sistema abierto en continua retroalimentación. Con la incorporación de contenidos digitales, se resignifican los conocimientos adquiridos a lo largo del ciclo formativo en la carrera de Ingeniería. Estas modificaciones en los usos, en la participación y en los consumos, hacen indispensable asumir cómo docentes dentro de una institución educativa, re-pensar sus lógicas, sus dinámicas y, por lo tanto, su comunicación. De esta manera, se generan las condiciones que exigen la formación de profesionales capacitados para insertarse en nuevos puestos de trabajo que demandarán de un conocimiento profundo, analítico, crítico y estratégico de las lógicas de la comunicación digital. Este trabajo presenta la generación de contenidos digitales significativos en el área de la Electrónica y el Control para su uso didáctico en carreras de ingeniería, haciendo especial énfasis en las tecnologías de PLC y Arduino de amplia utilización en la automatización de procesos industriales. Estos se podrán transformar en instrumentos para la enseñanza y el aprendizaje de contenidos curriculares específicos de las carreras que involucren conocimientos tecnológicos de uso en carreras técnicas (ingeniería, mecatrónica, profesorados técnicos, etc.).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Marco teórico</head><p>Los cambios en las prácticas de los estudiantes producto del constante avance de las TIC introducen cambios en los procesos sociales y en las pautas de actividad. En este sentido, la relación de las personas con la tecnología es bilateral <ref type="bibr">(Burbules y Callister, 2008)</ref>. Una concepción relacional de las TIC propone una mirada no sólo sobre lo que se hace con la tecnología sino sobre las "pautas de uso" que se instalan en las prácticas sociales y producen un gran impacto social. Según Burbules y Callister, al hablar de las "nuevas" tecnologías debe quedar en claro que lo más nuevo tal vez no sea la tecnología sino todos los otros cambios que la acompañan. Los contenidos digitales habilitan nuevas posibilidades para el acceso a la educación. Las instancias de aprendizaje se amplían ante las múltiples aplicaciones y recursos disponibles en Internet. Las aplicaciones específicas para la distribución y acceso a la información, la resolución de problemas y la comunicación aumentan las condiciones para configurar el aprendizaje significativo <ref type="bibr" target="#b4">(Castro-Garcia et. al., 2016)</ref>. Teniendo en cuenta la vigencia y los aportes realizados desde el marco teórico del Aprendizaje Significativo (AS), los contenidos digitales tienen el potencial para promover ese tipo de aprendizaje. Siendo instrumentos óptimos para apoyar actividades de aprendizaje cuyo propósito es integrar distintos sistemas semióticos que amplían las posibilidades cognitivas <ref type="bibr" target="#b6">(Coll y Martí, 2001)</ref>. También son útiles para personalizar los aprendizajes de acuerdo a las necesidades específicas de cada alumno. A la tecnología se le atribuye un rol transformador de la educación, como si estuviese en su naturaleza. Sin embargo, el fenómeno educativo involucra al estudiante, los conocimientos disciplinares y al docente. Con frecuencia la integración de las TIC en las prácticas educativas se impone a partir de un recurso o aplicación específica, por ejemplo, cuando se elabora una actividad de aprendizaje para utilizar determinada aplicación.</p><p>Desde esta visión instrumentalista se subordina la práctica educativa al aprendizaje de una aplicación informática, perdiendo el sentido de uso de la tecnología. El conocimiento requerido para enseñar con tecnología se obtendría de la simbiosis entre el conocimiento del contenido, el conocimiento pedagógico y el conocimiento tecnológico <ref type="bibr">(Harris y Hofer, 2009)</ref>. La planificación debería seguir organizándose en torno a los requisitos de los diseños curriculares, las prácticas pedagógicas y, por último, en función de las posibilidades y limitaciones de las tecnologías disponibles. Con esto tampoco se quiere decir que el docente no deba enseñar conocimiento tecnológico, sino que su uso debe subordinarse a los contenidos curriculares a desarrollar.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Objetivos y Metodología</head><p>La integración de los contenidos digitales a las prácticas educativas permite vincular los contenidos, las estrategias de enseñanza y los procesos de aprendizaje. Por ejemplo, incorporar un objeto de aprendizaje elaborado con tecnología basada en sistemas de control y automatización industrial (PLC) o Arduino, que facilite la comprensión en programación <ref type="bibr">(Deitel et.al.;</ref> (Aguilar, J.e Martínez Z.; 2004), refleja la forma en que un alumno ha conceptualizado un determinado contenido en un cierto momento. Respecto del material utilizado, debe ser potencialmente significativo, es decir debe tener un significado lógico potencialmente relacionable, de forma no arbitraria y sustantiva con la estructura cognitiva del sujeto <ref type="bibr">(Ausubel et.al;</ref><ref type="bibr">1991, Moreira, M.A.;</ref><ref type="bibr" target="#b11">2000)</ref>. Cuando esas condiciones no se cumplen, el tipo de aprendizaje logrado es mecánico. Es importante entonces realizar un análisis conceptual de los contenidos que se aborden y de las relaciones existentes entre los mismos.</p><p>También es fundamental organizarlos secuencialmente, considerando que el alumno no aprende un contenido con sólo tomar contacto una vez con el mismo, es necesario que los materiales que se le proporcionen contemplen sucesivas aproximaciones a los contenidos y revisiones permanentes. Bajo estas condiciones, el alumno puede ir discriminando significados de los conceptos involucrados, corregir y ponderar significados en la interacción permanente con el docente, sus pares y el material. La utilización de aplicaciones de comunicación audiovisual como los videos, implica un desafío para generar contenidos. Estos se transforman en instrumentos para la enseñanza y el aprendizaje de contenidos curriculares específicos de las carreras de ingeniería. En la figura 1 se sintetiza la relación del aprendizaje significativo con los contenidos digitales y los aspectos e indicadores relacionados con el aprendizaje. La metodología del trabajo en el aula plantea un cambio en las dinámicas de funcionamiento de la clase, que va a permitir transformar el aula, normalmente estática, en una red abierta en la que los alumnos interactúan entre ellos, con el resto de sus compañeros y con el entorno, formando así un sistema abierto en continua retroalimentación. Se implicarán los conocimientos adquiridos a lo largo del ciclo formativo con el objetivo de dar coherencia y aplicación a todo lo estudiado.</p><p>El desarrollo del trabajo se realizará, con Controlador Lógico Programable (PLC) y la plataforma Arduino; explicando conceptos sobre la tecnología a utilizar, características eléctricas y electrónicas de los mismos, principales componentes, dispositivos de entrada (sensores o captadores), de salida (actuadores), módulos de comunicación, conexiones con una computadora para su programación y principales usos en la industria moderna.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Resultados</head><p>Luego de la clase presencial donde se desarrolla una introducción a la automatización y la tecnología PLC o la plataforma Arduino, se presentan los videos abordando las potencialidades y ejemplos de aplicación de esta tecnología, como un disparador de procesos cognitivos, y creativos, las cuales facilitan a los alumnos, la consulta de los contenidos, situaciones, referencias, casos de estudio y ejemplos que se muestren en los mismos. La estructura del video sobre PLC tiene una secuencia, que recorre desde la historia hasta sus acciones principales Qué es un PLC? Es un dispositivo electrónico con formato físico y robusto, diseñado para automatizar y controlar procesos secuenciales (una etapa después de la otra) que se ejecutan en un ambiente industrial. Van asociados a la maquinaria que desarrollan los procesos de producción y controlan su trabajo. Historia: Con la llegada de los autómatas programables, los llamados PLC, la industria sufrió un impulso importante, que ha facilitado de forma notable que los procesos de producción o control se hayan flexibilizado mucho. PLC es la sigla en inglés de Controlador Lógico Programable (Programmable Logic Controller). En Europa se denominan autómatas programables.</p><p>Sin embargo, una definición global general sería: Sistema Industrial de Control Automático que trabaja bajo una secuencia almacenada en memoria, de instrucciones lógicas.</p><p>Qué hace un PLC? Un PLC (figura 2) realiza, entre otras, las siguientes funciones: Recoger datos de las fuentes de entrada a través de señales digitales y analógicas. Tomar decisiones en base a criterios preprogramados.</p><p>Almacenar datos en la memoria. Generar ciclos de tiempo.</p><p>Realizar cálculos matemáticos. Actuar sobre los dispositivos externos mediante las salidas analógicas y digitales.</p><p>Comunicarse con otros sistemas externos. Además de poder ser programados, son automáticos, es decir son aparatos que comparan las señales emitidas por la máquina controlada y toman decisiones en base a las instrucciones programadas, para mantener estable la operación de dicha máquina.</p><p>Las instrucciones almacenadas en la memoria pueden ser modificadas, además de monitorizadas.</p><p>Figura 2: Funciones de un PLC Para el caso de PLC, se explican a través del video algunas estructuras básicas del lenguaje de programación (figura 3) y técnicas más comunes, buscando disparar en el estudiante los procesos cognitivos que lleven a la motivación del uso de esta tecnología.  En la figura 6 se muestran las etapas para el uso del microcontrolador Arduino, a través del aprendizaje basado en proyectos, implementando algunos ejemplos básicos para medir y controlar variables de un entorno controlado, como ser temperatura y humedad ambiente, niveles de líquidos, distancia y posición, entre otros, como así también aplicaciones de accionamiento controlado, tales como encendido/apagado de equipos, robótica, domótica, geolocalización, entre otros.</p><p>Figura 6: Etapas de uso de un microcontrolador</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Conclusiones</head><p>Para las cátedras relacionadas a las temáticas de electrónica, automatización y control, principalmente en carreras como la Ingeniería Mecánica, donde es un tema relativamente abstracto a su formación de base (si bien esto ha ido cambiando por la presión que ejerce la industria sobre su tecnificación con nuevas tecnologías), se vio necesario encontrar algún método capaz de transferir criterios y conocimientos básicos sobre dichas tecnologías, y que además pudiera generar un efecto motivacional sobre el alumno, demostrando la facilidad, versatilidad, escalabilidad, etc., en suma, su potencial. La respuesta que se obtuvo por parte del curso, fue un entusiasmo por hacer pruebas básicas, y así despejar dudas sobre su facilidad de uso y programación; este efecto se evidenció en el incremento de alumnos que se acercaron al laboratorio por mayor información al respecto (modelos, técnicas de programación, soluciones para mediciones, etc.). Los videos exponen la automatización de una máquina o proceso consiste en la incorporación de un dispositivo tecnológico que se encarga de controlar su funcionamiento. Como se discutió anteriormente, los resultados son ampliamente satisfactorios, ya que se han notado incrementos en las consultas referidas al uso de la tecnología descripta, inclusive de alumnos interesados, no pertenecientes al curso anual que se dicta sobre esta temática. Por otra parte se observa que gran cantidad de alumnos han incursionado en proyectos de aplicación de la tecnología por propio interés, sin una relación directa con las exigencias de las cátedras correspondientes; implementando soluciones a problemas que antes parecían corresponder a un terreno circunscrito solo para idóneos de disciplinas como "electrónica" o "control automático", por ejemplo en automatización o medición de variables en aplicaciones de control de procesos productivos de alimentos, automatización de accesos a recintos y predios, control de variables ambientales de edificios o cultivos biológicos, entre muchas otras. Ante lo dicho es apropiado asumir que alumnos de carreras de ingenierías y otras carreras técnicas, más o menos afines a la temática (PLC, Arduino) se ven interesados a los fines de resolver problemas abiertos propios del área de interés o ambiente en el que realizan sus actividades laborales. Por último, las innovaciones, como los contenidos digitales, en la enseñanza en las carreras de ingeniería, alienta la creación de comunidades de aprendizaje, donde se ven efectivizadas y enriquecidas las relaciones colaborativas entre sus miembros que potencian el aprendizaje significativo.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Comentarios Finales</head><p>El video ofrece una variedad de aplicaciones didácticas que propicia el desarrollo cognitivo, efectivo o psicomotores, Cabero, Llorente y Román (2004) propone diversas formas en las que se puede utilizar el vídeo en la enseñanza: • Instrumento motivador.</p><p>• Instrumento de conocimiento por parte de los estudiantes.</p><p>• Instrumento de evaluación.</p><p>• Para la formación y el perfeccionamiento del profesorado en estrategias didácticas y metodológicas.</p><p>• Para la formación y el perfeccionamiento del profesorado en contenidos de su área curricular.</p><p>• Herramienta de investigación psicodidáctica.</p><p>• Para la investigación de procesos desarrollados en laboratorio.</p><p>• Como instrumento de comunicación y alfabetización icónica de los estudiantes.</p><p>• Como medio de expresión de los estudiantes.</p><p>• Como instrumento para el análisis de los medios. Para evaluar los videos producidos <ref type="bibr" target="#b5">(Diaz, Marvin, 2015)</ref> se propone emplear indicadores de aprendizaje utilizando la rúbrica como instrumento. Tomando en consideración las variables (contenidos, usos didácticos tecnológicos de los videos y alumnos), las dimensiones socioeducativa y tecnológica y los indicadores asociados como se describen en la tabla 1. El análisis de los videos a través la aplicación de la rúbrica dará origen a nuevos trabajos que validen la metodología de un nuevo medio de comunicación, estableciendo un acercamiento de los contenidos y una manera de abrir nuevas posibilidades en el ámbito educativo <ref type="bibr" target="#b12">(Pérez, 2007)</ref>. De este modo, se identifican tres modos básicos de uso educativo del vídeo digital, como herramienta de comunicación, como herramienta de observación y análisis y como herramienta de reflexión <ref type="bibr" target="#b13">(Schuck y Kearney, 2004)</ref>. </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figura 1 :</head><label>1</label><figDesc>Figura 1: Relación del Aprendizaje Significativo con los contenidos digitales, indicadores y dimensiones de aprendizaje</figDesc><graphic coords="3,70.90,339.58,218.61,113.64" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figura 3 :</head><label>3</label><figDesc>Figura 3: programación PLClenguaje LADDER En cuanto al microcontrolador Arduino, (figura 4) se explican conceptos sobre la tecnología a utilizar, sus características eléctricas y arquitectura electrónica, sus virtudes sobre el tipo de señales que utiliza posibles configuraciones y aplicaciones de sus pines de conexión (entradas y salidas).</figDesc><graphic coords="4,322.45,56.65,218.75,155.85" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figura 4 .Figura 5</head><label>45</label><figDesc>Figura 4. Procedimiento básico y tipos de señales que se manipulan con la plataforma Arduino.Seguidamente se explican algunas estructuras básicas del lenguaje de programación (figura 5)</figDesc><graphic coords="4,330.60,372.25,199.70,157.55" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title level="m" type="main">Algoritmos y estructuras de datos: una perspectiva en C</title>
+		<author>
+			<persName><forename type="first">Aguilar</forename><surname>Joyanes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zahonero Martínez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+	<note>Primera edición</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">Editorial</forename><surname>Mcgraw-Hill</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Psicología Educativa, un punto de vista cognoscitivo</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Ausubel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Novak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hanesian</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Riesgos y promesas de las nuevas tecnologías de la Información</title>
+				<editor>
+			<persName><forename type="first">Ed</forename><surname>Trillas</surname></persName>
+			<persName><surname>Burbules</surname></persName>
+			<persName><forename type="first">T</forename><surname>Callister</surname></persName>
+		</editor>
+		<meeting><address><addrLine>México; Buenos Aires</addrLine></address></meeting>
+		<imprint>
+			<publisher>Editorial Granica</publisher>
+			<date type="published" when="1991" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Las herramientas de comunicación en el aprendizaje mezclado</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cabero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Llorente</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Román</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PíxelBit</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="27" to="41" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Technology for Communication and Problem Solving in the Classroom</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Castro-Garcia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Olarte Dussán</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Corredor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Effects on Meaningful Learning. Digital Education Review</title>
+		<imprint>
+			<biblScope unit="issue">30</biblScope>
+			<biblScope unit="page" from="207" to="219" />
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<title level="m" type="main">Uso de las tic como estrategias que facilitan a los estudiantes la construcción de aprendizajes significativos</title>
+		<author>
+			<persName><forename type="first">Marvin</forename><surname>Diaz</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2015" />
+		</imprint>
+		<respStmt>
+			<orgName>Universidad Rafael Landívar Facultad de Humanidades. Licenciatura en Educación y Aprendizaje</orgName>
+		</respStmt>
+	</monogr>
+	<note>Tesis de grado</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title level="m" type="main">La educación escolar ante las nuevas tecnologías de la información y de la comunicación</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Coll</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Martí</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2001" />
+			<pubPlace>En C</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<title level="m" type="main">Desarrollo Psicológico y Educación 2. Psicología de la Educación Escolar</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Coll</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Palacios Y</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Marchesi</surname></persName>
+		</author>
+		<imprint>
+			<publisher>Madrid: Alianza</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">M</forename><surname>Deitel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Deitel</surname></persName>
+		</author>
+		<editor>Programar en C/C++ y Java. (Cuarta edición). Ed. Pearson Educación</editor>
+		<imprint>
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Grounded&quot; technology integration: Planning with curriculum-based learning activity types</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Harris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hofer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Learning &amp; Leading With Technology</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="22" to="25" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<monogr>
+		<title level="m" type="main">El uso de las TICs y los estudiantes Universitarios. Congreso Iberoamericano de Ciencia, Tecnología, Innovación y Educación</title>
+		<author>
+			<persName><forename type="first">Fernández</forename><surname>Zalazar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Neri</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2014" />
+			<pubPlace>Buenos Aires. Argentina</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<monogr>
+		<title level="m" type="main">Aprendizaje Significativo: teoría y práctica</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Moreira</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2000" />
+			<publisher>Madrid: Visor</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">El vídeo digital en la clase de educación física</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Pérez</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Escuela Abierta</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="195" to="212" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<monogr>
+		<title level="m" type="main">Students in the directo&apos;s seat. Teaching and Learning across the curriculum with studentgenerated</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Schuck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kearney</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2004" />
+		</imprint>
+		<respStmt>
+			<orgName>University of Technology: Sidney</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

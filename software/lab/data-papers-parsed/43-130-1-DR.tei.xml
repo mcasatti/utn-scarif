@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="es">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Una experiencia en formación de recursos humanos en Investigación para la Ingeniería -Automatización de un sistema de medición hidráulico</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Francisco</forename><forename type="middle">G</forename><surname>Gutiérrez</surname></persName>
+							<email>fggutierrez@gmail.com</email>
+							<affiliation key="aff0">
+								<orgName type="department">Centro Universitario de Desarrollo en Automación y Robótica</orgName>
+								<orgName type="institution">Universidad Tecnológica Nacional Facultad Regional Córdoba</orgName>
+								<address>
+									<country key="AR">Argentina</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Sergio</forename><forename type="middle">Julián</forename><surname>Farchetto</surname></persName>
+							<email>sfarchetto@gmail.com</email>
+							<affiliation key="aff0">
+								<orgName type="department">Centro Universitario de Desarrollo en Automación y Robótica</orgName>
+								<orgName type="institution">Universidad Tecnológica Nacional Facultad Regional Córdoba</orgName>
+								<address>
+									<country key="AR">Argentina</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Sergio</forename><surname>Carrara</surname></persName>
+							<email>sercarrara@gmail.com</email>
+							<affiliation key="aff0">
+								<orgName type="department">Centro Universitario de Desarrollo en Automación y Robótica</orgName>
+								<orgName type="institution">Universidad Tecnológica Nacional Facultad Regional Córdoba</orgName>
+								<address>
+									<country key="AR">Argentina</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Gustavo</forename><surname>Daniel</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Centro Universitario de Desarrollo en Automación y Robótica</orgName>
+								<orgName type="institution">Universidad Tecnológica Nacional Facultad Regional Córdoba</orgName>
+								<address>
+									<country key="AR">Argentina</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">José</forename><forename type="middle">María</forename><surname>González</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Centro Universitario de Desarrollo en Automación y Robótica</orgName>
+								<orgName type="institution">Universidad Tecnológica Nacional Facultad Regional Córdoba</orgName>
+								<address>
+									<country key="AR">Argentina</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><surname>Maffei</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Centro Universitario de Desarrollo en Automación y Robótica</orgName>
+								<orgName type="institution">Universidad Tecnológica Nacional Facultad Regional Córdoba</orgName>
+								<address>
+									<country key="AR">Argentina</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Una experiencia en formación de recursos humanos en Investigación para la Ingeniería -Automatización de un sistema de medición hidráulico</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">A54818730BDADC2F4202AF39DE71D27A</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.7.0" ident="GROBID" when="2022-04-09T01:35+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="es">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Resumen</head><p>La investigación aplicada durante los estudios de grado de Ingeniería posee un carácter formativo especial, ya que los actores que participan (estudiantes y docentes) son protagonistas del proceso de construcción del conocimiento sobre el objeto de estudio, colaborando en la detección de problemas y en la elaboración de respuestas: en el caso particular presentado, se trata de la automatización del perfilado topográfico de un canal hidráulico de fondo móvil. En este trabajo se presenta un proceso de formación de becarios estudiantes de grado en el Centro Universitario de Desarrollo en Automación y Robótica (CUDAR) perteneciente a la UTN Facultad Regional Córdoba (UTN-FRC). El proceso se funda en el trabajo conjunto multidisciplinar para que el estudiante vivencie la construcción e integración del conocimiento para el desarrollo interactivo de proyectos reales. Los resultados positivos obtenidos, que resultan tangibles por tratarse de aplicaciones concretas, sugieren lo ventajoso de la extrapolación de esta experiencia práctica a otras instancias académicas de formación. Con estas acciones se intenta disminuir la brecha observada entre los conocimientos teóricos adquiridos y su aplicación práctica, contribuyendo a la formación de competencias tecnológicas, sociales y actitudinales de los futuros profesionales en consonancia con las «Competencias Genéricas de Egreso del Ingeniero Argentino» establecidas por el Consejo Federal de Decanos de Ingeniería.</p><p>Palabras clave: conocimiento, formación, práctica.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introducción</head><p>Anualmente el Centro Universitario de Desarrollo en Automación y Robótica -CUDAR incorpora becarios alumnos para hacerlos participar en los proyectos que en el Centro se desarrollan y dar cumplimiento así a uno de sus objetivos institucionales, que es la formación de recursos humanos. Se constató la existencia de una falencia en los estudiantes cuando tienen que volcar los conocimientos teóricos adquiridos a la solución de problemas concretos. Además se observó falta de competencia social y actitudinal para interactuar entre sí, con docentes profesionales y/o futuros profesionales de otras aéreas era un aspecto a mejorar. El CUDAR está integrado por docentes investigadores de diversas disciplinas de la Ingeniería, y en conjunto, se preparó una actividad que podría ser concebida como un trabajo integrador, pero cuyo objetivo principal es acelerar la incorporación de los estudiantes a la dinámica del Centro, para que puedan de esa manera participar de forma más concreta de los proyectos en desarrollo. El trabajo propuesto es el desarrollo del automatismo para la toma de mediciones del perfil topográfico de un canal de fondo móvil perteneciente al Laboratorio de Hidráulica de la Facultad Regional Córdoba. En la Fig. <ref type="figure" target="#fig_0">1</ref> se observa el sistema a automatizar: sobre el canal hidráulico se encuentra montado el dispositivo de medición, que es posicionado en dos grados de libertad mediante una mesa x-y, cada uno de cuyos ejes es accionado por un motor de corriente continua a través de su correspondiente acoplamiento mecánico. Los sensores de posición se encuentran montados sobre los ejes de los motores, tratándose de encoders incrementales desarrollados en el CUDAR, cuyo principio de funcionamiento los becarios deben analizar y comprender. El sistema se comunica con una PC a través de una interfaz serie con capa física RS485, utilizando protocolo MODBUS. Todo ello es compatible con lo que el futuro profesional encontrará en la industria. La función de la PC es comandar las posiciones de medición y almacenar los datos correspondientes para posteriormente elaborar el perfil del fondo. La interfaz de comando para el accionamiento de los motores se materializa mediante un microcontrolador ARM Cortex-m3, que se programa en una plataforma de desarrollo libre (Eclipse y compilador GCC).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Marco teórico</head><p>Una de las premisas subyacentes en este trabajo es impulsar aspectos del constructivismo en las carreras de ingeniería como uno de los medios para mejorar el desempeño de los estudiantes en su formación profesional y en su futura experiencia laboral <ref type="bibr" target="#b1">(Menin, 2004</ref><ref type="bibr">y Perkins, 2003</ref>. Consecuentemente, se priorizó la elaboración de los análisis del modelo, diseño, construcción, procesamiento de señales, adaptación de encoder, ensayos y verificaciones necesarias para el cumplimiento de las especificaciones de diseño establecidas. Todo ello contribuyendo a la formación de competencias tecnológicas, sociales y actitudinales de los futuros profesionales de la Ingeniería en de acuerdo a lo establecido por CONFEDI (2014).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Objetivos y Metodología</head><p>El docente investigador acompaña al estudiante en el proceso de formación específica, a la búsqueda activa de información que, posteriormente será aplicada en el diseño del sistema, con lo cual se dio una situación de cierta naturalidad en el descubrimiento conjunto de los diferentes pasos para la concreción del trabajo. El docente investigador en el ámbito técnico profesional actuando como ingeniero delimita la tarea, tiempos y la dinámica de trabajo.</p><p>Los becarios pueden realizar consultas referidas a la mecánica o al sistema en general, pero los docentes no brindan la solución directa al problema, sino una guía, acompañando la construcción del conocimiento. Más allá de la diagramación de los objetivos por parte del docente investigador, el desarrollo del trabajo implicó la asistencia del estudiante al laboratorio de electrónica del CUDAR tres veces por semana, tres horas cada día. Se trabajó en equipos de dos o tres estudiantes. Se trabajó en paralelo sobre cada uno de los desafíos en que se pudo dividir el problema completo. Resultó valioso que los integrantes del equipo de trabajo fueran compartiendo resultados y experiencias ayudándose mutuamente para mantener equilibrado el grado de avance en la resolución de la tarea planteada (corroborando así, una vez más, la teoría sociocultural <ref type="bibr">de Vygotski, 1978)</ref>. Esta implementación de un aprendizaje colaborativo implicó para los estudiantes poder reconocer y aprovechar el potencial de un trabajo en equipo y para construir conocimientos y resolver problemas. Adicionalmente se fomentó en los estudiantes el uso de bibliografía específica actualizada, con la finalidad explícita de hacerles descubrir el potencial de la cognición distribuida. La obligada interacción con los miembros del Laboratorio de Hidráulica (el organismo comitente del sistema de medición), contribuyó a que los alumnos desarrollaran competencias sociales y comunicacionales con interlocutores externos, ajenos al grupo de trabajo. Como consecuencia de lo precedentemente expuesto, la tarea del docente investigador abarcó los siguientes aspectos:</p><p>• presentar conceptos claves transversales a las asignaturas integradas en el trabajo, • plantear y organizar objetivos en función del trabajo a realizar, • guiar el funcionamiento interno del equipo y las interacciones, • trabajar a la par de los estudiantes en el descubrimiento del conocimiento para alcanzar el objetivo planteado Es importante manifestar que estas actividades propuestas por el Centro para la formación de estudiantes avanzados, tiene el fin de brindar experiencia pre profesional antes de la inserción laboral en el campo industrial, como así también para despertar en entusiasmo por la investigación e integrarlos al ámbito de la ciencia y la tecnología.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Ámbito de trabajo y recursos</head><p>El becario desarrolló su actividad en el CUDAR, área electrónica, que cuenta con suficientes elementos didácticos (computadoras, pizarrón, pantalla de LCD, bancos de ensayo, motores, etc.). Además, se dispone de bibliografía actualizada en la biblioteca del Centro, suscripciones a páginas web, etc.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Requerimientos</head><p>Al estudiante se le plantea un problema que involucra el control preciso de velocidad y posición del sistema de medición, para ello resulta imprescindible implementar control realimentado. Para llevar a cabo esta tarea se propone el diseño y construcción de:</p><p>• Sistema mecánico para transmisión de movimiento, • Sistema embebido para el control de posición. El sistema debe cumplir con ciertos requerimientos:</p><p>• Ser de fácil mantenimiento,</p><p>• Poseer transmisión mecánica de bajo costo,</p><p>• Tener una resolución de posicionamiento de ± 0,5 mm, Como elemento de realimentación se utiliza un encoder óptico incremental, elemento típico en la industria, pero en este caso se aborda su diseño y fabricación, lo cual brinda al estudiante un entendimiento completo de su funcionamiento.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Resultados</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1.">Determinación y diseño del patrón para el encoder</head><p>El encoder óptico incremental consiste en un disco metálico maquinado que se fija al eje del motor. El disco posee en su periferia una serie de ranuras respondiendo a un patrón que permiten o interrumpen el paso de una señal lumínica. Se propone al estudiante el diseño del encoder empleando dos sensores ópticos situados uno al lado del otro, lo cual permite tener algunas referencias de longitud que el estudiante debe aplicar para encontrar un método general de diseño del patrón de distribución de dientes del encoder. El sensor óptico recomendado es el TCST2103 de ranura abierta (Vishay Semic. 2009), ver Fig. <ref type="figure">3</ref>. El esquema conceptual del encoder se presenta en la Fig. <ref type="figure" target="#fig_1">4</ref>. Se induce al alumno a analizar las relaciones geométricas que muestra esquemáticamente la Fig. <ref type="figure" target="#fig_2">5</ref> para establecer las dependencias funcionales entre el tamaño y el espacio entre ranuras con el comportamiento del patrón y las dimensiones de las bandas. En definitiva se debe establecer la relación:</p><p>( )</p><formula xml:id="formula_0">1 2 2 2 1 r X b b n + = − (1)</formula><p>en base a cuyo análisis, el alumno debe ser capaz de deducir que -para los valores de X r y b 1 que son parámetros constructivos de los sensores ópticos-existen ciertos valores enteros de n, que se corresponden con el número de bandas posibles entre ranuras, esto determinará el ancho y separación de las ranuras del patrón. Se ha de elegir un valor conveniente y según un criterio para la fácil implementación del patrón (p.ej n=2 para b2=4 mm).</p><p>A continuación el estudiante debe enfrentar la pregunta: ¿qué diámetro deberá tener el disco del encoder para acomodar un número entero de ranuras de modo tal que la discriminación angular obtenible por el procesamiento de las señales ópticas resulte compatible con la precisión posicionamiento lineal requerida? La respuesta no es inmediata y requiere de un proceso recursivo de análisis que tenga en cuenta las relaciones de transmisión mecánicas (caja reductora + polea de arrastre), las dimensiones de las ranuras del encoder y la geometría del par de sensores ópticos seleccionados.</p><p>Como en todo problema de ingeniería, la solución no es única y el alumno debe proporcionar una solución aproximadamente minimizada en costo: el menor diámetro posible de disco que permita el montaje de los sensores ópticos (minimización de material) y el menor número entero de ranuras compatible con los requerimientos de precisión (minimización del costo de maquinado). La solución implementada -que el alumno deberá comparar con su propuesta-es un disco de 60 mm de diámetro con 22 ranuras (Fig. <ref type="figure">6</ref>). El próximo aspecto a considerar es el material con que se fabricará el disco del encoder, que debe reunir características de rigidez, durabilidad y baja densidad. El alumno deberá discutir la importancia relativa de estas características y justificar el empleo de una placa de aluminio de 1.6 mm de espesor, como la utilizada en la implementación real.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.">Acondicionamiento de señales</head><p>Se presenta a los alumnos las señales proporcionadas por los sensores ópticos (Fig. <ref type="figure" target="#fig_3">7</ref>) y una vez acondicionadas (Fig. <ref type="figure">8</ref>), invitándolos a discutir las ventajas derivadas de una señal de flancos netos. Los estudiantes deben proponer circuitos de acondicionamiento de señal (el más elemental de los cuales es un comparador utilizando un amplificador operacional). Las señales del encoder son conectadas al periférico dedicado del microcontrolador que permite obtener de ellas velocidad y posición. El estudiante tiene que familiarizarse con la configuración de periféricos específicos provistos en el procesador. Se solicita al estudiante que configure al periférico para máxima resolución, esto es, contando cada flanco proporcionado por el encoder.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3.">Lazo de control PI embebido en el microcontrolador</head><p>El estudiante debe diseñar en el microcontrolador un lazo de control típico PI, para lo cual debe investigar cómo llevar los conceptos teóricos de tiempo continuo a un sistema digital. Para ello el equipo docente lo guía en el uso de la aproximación de Tustin y herramientas de diseño en tiempo discreto. En este punto se le solicita una simulación preliminar en Matlab Simulink, donde el estudiante se enfrenta con los temas relacionados con la frecuencia de muestreo y la sintonía del controlador.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.4.">Driver de Potencia</head><p>Como driver de potencia se utiliza una llave H empleando LDM18200 (Texas Instruments, 2013), que posee 3 entradas: Sentido (Direction), Freno (Brake) y Modulación de ancho de pulso (PWM) de 20kHz cuyo ciclo de trabajo depende del algoritmo de control. La Fig. <ref type="figure" target="#fig_4">9</ref> muestra el diagrama en bloques. El estudiante es conducido a analizar cada uno de los modos de operación del driver y a discutir su empleo en las diversas situaciones normales y anormales (fallos) en que puede encontrarse el sistema de posicionamiento, llevándolo a reconocer que, además del compensador PI, en el microcontrolador se deben incorporar asimismo los algoritmos de detección y reacción ante situaciones anormales. Ello conduce a los estudiantes a construir conocimientos sobre la jerarquización de las acciones de comando y control.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.5.">Comunicación ModBUS</head><p>La etapa final de las actividades propuestas a los becarios, consiste en el estudio de la implementación del protocolo ModBUS [5], sobre una capa física RS485. Se seleccionó este protocolo por ser ampliamente empleado en la industria y porque el estudiante puede desarrollarlo utilizando plataformas de desarrollo libre.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Conclusiones</head><p>Hasta el presente, las acciones descriptas han sido llevadas a cabo por dos grupos de becarios alumnos, en dos períodos académicos consecutivos. A los efectos del presente artículo, y pedimos perdón por ello, se ha privilegiado la descripción de las acciones relacionadas con el diseño del encoder, dado que este aspecto es más accesible a nivel general y no requiere -por parte del lector-de conocimientos especializados a nivel de electrónica, informática y sistemas de control. Por otra parte, por cuestiones de espacio, otro enfoque de la exposición hubiera resultado -si no imposible-por lo menos muy difícil. Hecha esta salvedad, pasemos ahora a las conclusiones. Tras la experiencia que se acaba de describir, se ha observado una mejora en la forma en que los becarios abordan los problemas de ingeniería e integran sus conocimientos teóricos. Además se ha comprobado un aumento en su predisposición a encarar problemas de control y automatización que involucren retos investigativos para la construcción de nuevos conocimientos. En cuanto a la formación de competencias sociales, se debe destacar que el aprendizaje colaborativo ha significado en el presente caso un notable incremento en la cohesión de los grupos de trabajo formados por los educandos, lo que se tradujo en una potenciación conjunta de aptitudes y en un mutuo apoyo para la construcción de conocimientos, facilitándose así el ataque grupal a los problemas tecnológicos planteados.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Agradecimientos</head><p>Se agradece al Laboratorio de Hidráulica de la Facultad Regional Córdoba (director Mg. Ing. J. F. Weber) por la colaboración brindada para la realización de la presente experiencia.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figura 1 :</head><label>1</label><figDesc>Figura 1: Canal de fondo móvil y posicionadores.</figDesc><graphic coords="2,70.92,125.28,215.88,108.36" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>FiguraFigura 4 :</head><label>4</label><figDesc>Figura 2: Sensor óptico.</figDesc><graphic coords="4,70.92,194.64,172.80,68.88" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figura 5 :</head><label>5</label><figDesc>Figura 5: Disco para el encoder óptico.</figDesc><graphic coords="4,380.04,608.64,100.80,93.96" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figura 7 :</head><label>7</label><figDesc>Figura 7: Señales de salida del encoder sin acondicionamiento.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figura 9 :</head><label>9</label><figDesc>Figura 9: Diagrama en bloques del LDM18200</figDesc><graphic coords="5,337.56,410.88,185.88,96.48" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>•</head><label></label><figDesc>Ser de velocidad de traslado constante,</figDesc><table><row><cell cols="5">• Contar con protección del sistema</cell></row><row><cell>mecánico,</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="5">• Tener fines de carrera mecánicos y</cell></row><row><cell cols="2">electrónicos,</cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="5">• Contar con dispositivo de arrastre de</cell></row><row><cell>cables.</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="5">Los requerimientos generales del sistema de</cell></row><row><cell cols="3">control de posición son:</cell><cell></cell><cell></cell></row><row><cell cols="5">• Repetitividad • Bajo costo • Posicionamiento en todo el rango útil</cell></row><row><cell>del canal</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="4">• Interfaz de control intuitiva</cell><cell></cell></row><row><cell cols="5">Con estos requerimientos los estudiantes se</cell></row><row><cell cols="5">enfrentan al proceso de diseño. En la Fig. 2</cell></row><row><cell cols="5">se puede observar un diagrama en bloques</cell></row><row><cell cols="2">del sistema completo:</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Registro de Posición</cell><cell>PID</cell><cell>Salida de Contról</cell><cell>llave H</cell><cell>Motor</cell></row><row><cell>Uc</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell>Posición Actual</cell><cell>Encoder</cell><cell></cell></row><row><cell>RS-485</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>PC</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="5">Figura 1: Esquema del control de posición.</cell></row></table></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title level="m" type="main">Competencias Genéricas de Egreso del Ingeniero Argentino</title>
+		<imprint>
+			<date type="published" when="2014" />
+		</imprint>
+		<respStmt>
+			<orgName>CONFEDI -Consejo Federal de Decanos de Ingeniería</orgName>
+		</respStmt>
+	</monogr>
+	<note>en Documentos de CONFEDI Competencias en Ingeniería. 1ª edición, Mar del Plata: Edit. FASTA</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<author>
+			<persName><forename type="first">O</forename><surname>Menin</surname></persName>
+		</author>
+		<title level="m">Pedagogía y universidad. Currículum, didáctica y evaluación. Edit. Homo Sapiens</title>
+				<imprint>
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title level="m" type="main">MODBUS over serial line specification and implementation guide</title>
+		<author>
+			<persName><surname>Modbus</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Org</surname></persName>
+		</author>
+		<idno>V1.0</idno>
+		<ptr target="http://www.modbus.org/docs/Modbus_over_serial_line_V1.pdf" />
+		<imprint>
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title level="m" type="main">La escuela inteligente-Del adiestramiento de la memoria a la educación de la mente</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Perkins</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+	<note>Edit. GEDISA</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<ptr target="http://www.ti.com/lit/ds/symlink/lmd18200.pdf" />
+		<title level="m">Datasheet of LMD18200 3A, 55V H-Bridge</title>
+				<imprint>
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Datasheet of Transmissive Optical Sensor with Phototransistor Output</title>
+		<ptr target="www.vishay.com/docs/81147/tcst2103.pdf" />
+	</analytic>
+	<monogr>
+		<title level="m">Vishay Semiconductors</title>
+				<imprint>
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">Lev</forename><forename type="middle">S</forename><surname>Vygotsky</surname></persName>
+		</author>
+		<editor>Pensamiento y lenguaje. Madrid: Edit. PAIDÓS. </editor>
+		<imprint>
+			<date type="published" when="1978" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

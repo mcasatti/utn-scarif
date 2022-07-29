@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="es">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Propuesta de modelo de multiclasificación aplicado a la enseñanza Blended learning</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Cynthia</forename><forename type="middle">L</forename><surname>Corso</surname></persName>
+							<email>corso.cynthia@gmail.com</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Centro de Investigación</orgName>
+								<orgName type="department" key="dep2">Desarrollo y Transferencia de Sistemas de Información (CIDS) Facultad Regional Córdoba</orgName>
+								<orgName type="institution">Universidad Tecnológica Nacional Maestro Marcelo López esq. Cruz Roja Argentina -Ciudad Universitaria -Córdoba</orgName>
+								<address>
+									<postCode>0351 -4686385</postCode>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Calixto</forename><surname>Maldonado</surname></persName>
+							<email>calixtomaldonado@gmail.com</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Centro de Investigación</orgName>
+								<orgName type="department" key="dep2">Desarrollo y Transferencia de Sistemas de Información (CIDS) Facultad Regional Córdoba</orgName>
+								<orgName type="institution">Universidad Tecnológica Nacional Maestro Marcelo López esq. Cruz Roja Argentina -Ciudad Universitaria -Córdoba</orgName>
+								<address>
+									<postCode>0351 -4686385</postCode>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Luque</forename><surname>Claudio</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Centro de Investigación</orgName>
+								<orgName type="department" key="dep2">Desarrollo y Transferencia de Sistemas de Información (CIDS) Facultad Regional Córdoba</orgName>
+								<orgName type="institution">Universidad Tecnológica Nacional Maestro Marcelo López esq. Cruz Roja Argentina -Ciudad Universitaria -Córdoba</orgName>
+								<address>
+									<postCode>0351 -4686385</postCode>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Casatti</forename><surname>Martín</surname></persName>
+							<email>mcasatti@gmail.com</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Centro de Investigación</orgName>
+								<orgName type="department" key="dep2">Desarrollo y Transferencia de Sistemas de Información (CIDS) Facultad Regional Córdoba</orgName>
+								<orgName type="institution">Universidad Tecnológica Nacional Maestro Marcelo López esq. Cruz Roja Argentina -Ciudad Universitaria -Córdoba</orgName>
+								<address>
+									<postCode>0351 -4686385</postCode>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Martínez</forename><surname>Gimena</surname></persName>
+							<email>gimemartinez05@gmail.com</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Centro de Investigación</orgName>
+								<orgName type="department" key="dep2">Desarrollo y Transferencia de Sistemas de Información (CIDS) Facultad Regional Córdoba</orgName>
+								<orgName type="institution">Universidad Tecnológica Nacional Maestro Marcelo López esq. Cruz Roja Argentina -Ciudad Universitaria -Córdoba</orgName>
+								<address>
+									<postCode>0351 -4686385</postCode>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Propuesta de modelo de multiclasificación aplicado a la enseñanza Blended learning</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">79B194ED58AF81D055E47456E0563529</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.7.0" ident="GROBID" when="2022-04-09T01:35+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="es">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Resumen</head><p>Bagging IFS-CoEvolution (Bagging Instance Future Selection CoEvolución) es un modelo de multiclasificación diseñado para la generación de modelos de conocimiento de carácter predictivo, que será transferido para fortalecer el proceso de toma en el ámbito de la enseñanza Blended learning. Los objetivos principales son: a) Desarrollar una nueva técnica de minería de datos que permita mejorar la calidad de los patrones y modelos de predicción que pueden extraerse con las técnicas de clasificación actualmente existentes.b) Brindar a los docentes modelos de predicción, referidos a los procesos de aprendizaje, que sean de calidad y precisión. c) Detección temprana y tratamiento de comportamientos irregulares entre los estudiantes matriculados en cursos virtuales, con la finalidad de mejoramiento en el rendimiento académico.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Palabras</head><p>clave: método de multiclasificación, Blended learning, modelos de conocimiento predictivos.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Identificación</head><p>Código del PID: UTN3931 Programa: Ciencias de la Computación e Informática. El proyecto tiene fecha de inicio el 01 de Enero de 2016, con finalización programada para el 31 de Diciembre del corriente año. El mismo es ejecutado en la Facultad Regional Córdoba. La propuesta de multiclasificación resultante de la ejecución del PID, es una tecnología diseñada que será transferida para mejorar el proceso de enseñanza y aprendizaje en el contexto de la cátedra de Paradigmas de Programación; asignatura del segundo año de la carrera de Ingeniería en Sistemas de Información. Por tal motivo el tema del Programa de Tecnología Educativa y Enseñanza de la Ingeniería en que se inserta es: "Las tecnologías aplicadas en educación".</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Introducción</head><p>Actualmente la modalidad presencial de las universidades enfrenta un desafío; proporcionar estrategias de aprendizaje que respondan a las necesidades de la sociedad del siglo XXI, en la cual las Tics tienen un papel preponderante. Estas nuevas tendencias exigen a las universidades el desarrollo y adaptación a las nuevas condiciones de enseñanza, generación y distribución del conocimiento, así como a su aprendizaje. El Blended learning constituye un enfoque de aprendizaje que combina el elearning (encuentros asincrónicos) con encuentros presenciales (sincrónicos), considerando las ventajas de ambos tipos de aprendizajes. Esta nueva tendencia implica la utilización de recursos tecnológicos, comunicación como entornos virtuales de aprendizaje, recursos multimedia, video conferencias, educación por competencias entre otros. Un entorno virtual de aprendizaje o LMS es una aplicación informática diseñada para facilitar la comunicación pedagógica entre los actores del proceso educativo. Combina una variedad de herramientas con la finalidad de dar soporte a docentes y estudiantes y, al mismo tiempo, optimizar las distintas fases del proceso de enseñanza y de aprendizaje. Fueron diseñados con el propósito de facilitar la comunicación pedagógica entre los participantes en un proceso educativo, sea éste completamente a distancia, presencial, o de naturaleza mixta, es decir, un proceso que combina ambas modalidades en diversas proporciones (blended). Funcionan utilizando redes telemáticas como soporte, principalmente Internet. Si bien en un primer momento los entornos virtuales de aprendizaje se utilizaron casi con exclusividad en la educación a distancia, hace mucho tiempo que se han incorporado muy fuertemente a la educación presencial, generando así las modalidades conocidas como aula extendida, con un mayor grado de mediación. Justamente el uso de entornos virtuales de aprendizaje genera una cantidad significativa de interacciones que queda registrada, ya que cada recurso accedido genera una huella digital. Estos se relacionan con los contenidos impartidos, actividades que desarrollan los estudiantes en dichos entornos, y la interacción que surge entre los diferentes actores del curso, como son los estudiantes y los docentes. Sin embargo, aunque existe un volumen significativo de datos, sigue siendo una tarea compleja el hecho de verificar hipótesis, extraer conclusiones o tomar decisiones basadas en hechos o situaciones detectadas no deseables. Gracias a que los entornos de aprendizaje virtual disponen bases de datos en las que almacenan toda la actividad que los estudiantes desarrollan, es posible modelar el comportamiento de estos estudiantes mediante aplicación de técnicas de minería de datos. Existe una gran variedad de métodos de minería de datos de carácter predictivo que son aplicados en el ámbito de la educación. Con el propósito de brindar un aporte teórico respecto a los métodos de minería de datos de carácter predictivo, la finalidad es el desarrollo de un modelo que pueda inferir una variable a partir de alguna combinación de otras incluidas en los datos recolectados por el uso de entornos virtuales de aprendizaje. Con este tipo de modelo, los docentes pueden obtener conocimiento fiable para poder adaptar sus cursos y favorecer el rendimiento académico disminuyendo la tasa de deserción. Algunos otros aspectos que se pueden llegar a detectar, entre muchos otros, son los relacionados con problemas como la falta de motivación, el bajo rendimiento, o el poco uso de los recursos más significativos que son de utilidad para la aprobación del cursado. La cátedra bajo estudio está permanentemente en la búsqueda de estrategias de mejoras y revisión de las prácticas docentes, teniendo antecedentes en: generación de material teórico y para trabajos prácticos y uso de aula virtual. Es por ello que la misma considera como una oportunidad de mejora la incorporación del modelo de multiclasificación propuesto, que se espera sea beneficioso para facilitar a los docentes el diseño de estrategias que permitan el mejoramiento del proceso de aprendizaje en la enseñanza Blended learning.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Síntesis de aspectos técnicos.</head><p>El diseño del modelo propuesto, se basó en los fundamentos de uno de los métodos clásicos de multiclasificación como lo es Bagging. Esta propuesta combina de manera eficaz, la incorporación de los métodos de reducción de datos con un enfoque basado en un esquema evolutivo, lo que constituye una propuesta novedosa en el campo del aprendizaje automático. La integración de métodos de reducción de datos a este modelo, facilita la selección simultanea de atributos e instancias significativas en el proceso de descubrimiento de conocimiento. El mismo será implementado usando el lenguaje de desarrollo R (versión 3.5), su elección se fundamenta en la disposición de una amplia variedad de librerías que facilita el manejo de metaheuristicas para el manejo de algoritmos de reducción de datos y evolutivos.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Objetivos, Avances y Resultados</head><p>Objetivo General Desarrollar un modelo de multiclasificación con el propósito de generar conclusiones confiables y precisas respecto a los procesos de aprendizaje en la enseñanza blended learning. Objetivos Específicos a) Relevar alternativas referidas a mecanismos de optimización basados en un esquema de funcionamiento evolutivo; como estrategias para la mejora en términos de precisión, del modelo de multiclasificación propuesta. b) Diseñar la estrategia de multiclasificación considerando la integración del mecanismo de optimización seleccionado. c) Apoyar el proceso de selección de lenguajes de programación y tecnología de persistencia de datos para la implementación del modelo propuesto. d) Efectuar diferentes pruebas de validación del modelo de multiclasificación, con distintos conjuntos de datos a los que se utilizará en la cátedra bajo estudio, con el propósito de determinar el grado de precisión alcanzado del modelo de conocimiento resultante. e) Identificar la situación actual relacionada con el rendimiento académico, a los fines de determinar los requerimientos de la cátedra sobre los aspectos de aprendizaje a optimizar. f) Analizar los logs del entorno virtual de aprendizaje usado en la cátedra bajo estudio, con el propósito de identificar el conjunto de datos de interés relacionados con el proceso de enseñanza-aprendizaje. g) Realizar tareas de preprocesado de los datos recolectados, esto incluye tipificaciones o transformaciones, con el propósito de obtener un conjunto de datos con el formato apropiado para lograr la entrada adecuada para el modelo de multiclasificación propuesto. h) Interpretación de las conclusiones arrojadas por el modelo de multiclasificación propuesto. i) Difusión de los resultados obtenidos a los docentes de la cátedra bajo estudio.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Avances</head><p>Se ha logrado diseñar el modelo de multiclasificación que será de utilidad para la elaboración de conclusiones y recomendaciones por parte de los docentes. Para su diseño fue necesario el relevamiento y evaluación de estrategias para el mejoramiento en términos de precisión, acerca del conocimiento predictivo generado. En esta búsqueda se ha detectado que una de las posibles estrategias factibles de ser integradas en el diseño del modelo, son los métodos de reducción de datos simultáneo. Hay una gran variedad de estos y con variados enfoques. El enfoque seleccionado se basa en un funcionamiento coevolución cooperativa, que es una variante de los algoritmos genéticos. Queda pendiente la etapa de implementación del modelo de multiclasificación propuesto.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Oportunidades de mejora</head><p>Hacia el futuro se prevé el diseño y la implementación de una herramienta administrativa con una interfaz amigable, que facilite a los docentes la generación de nuevos modelos de datos e interpretación de los mismos. Este desarrollo constituirá un proyecto de investigación a futuro.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Formación de Recursos Humanos</head><p>El equipo de trabajo está constituido por: un director de proyecto, un codirector, dos docentes investigadores, dos estudiantes becarios y un graduado. La participación de becarios ha facilitado la capacitación mediante la ejecución de diversas tareas, complementando su formación académica con un acercamiento al ámbito de la investigación científica. El aporte del desarrollo de este proyecto involucra i)desarrollar estrategias para la creación de antecedentes en quienes se inician en investigación; ii)profundizar antecedentes de investigadores formados; iii)lograr promoción en categorizaciones de la Universidad y del M.E.N.; iv)gestionar la incorporación de estudiantes de la carrera a través de becas de investigación. Es importante mencionar la participación de alumnos avanzados en la carrera de Ingeniería en Sistemas de Información que realizaron su práctica supervisada como requisito para el otorgamiento del título de grado de Ingeniero.   Transferencias realizadas: La metodología y herramientas desarrolladas en el contexto del presente PID han sido incluidas en el prototipo "Sistema de tratamiento integral de eventos de fallos", el cual ha sido registrado en la Dirección Nacional de Derecho de Autor como Depósito de Obra inédita en custodia -No Musical, Título: Metodología para la generación de modelo descriptivo para la prevención de fallos informáticos, Expediente: 5289040. Desarrollado dentro del Grupo GIDTSI "Grupo de Investigación, Desarrollo y Transferencia en Sistemas de Información". Uno de los objetivos del PID es que el diseño e implementación del modelo de multiclasificación propuesto pueda ser transferido como un recurso que fortalezca el proceso de toma de decisiones en diferentes ámbitos de aplicación. En breve se planifica otra transferencia del desarrollo al ámbito de la cátedra de Paradigmas de Programación de la Carrera Ingeniería en Sistemas de Información, de la Facultad Regional Córdoba. La misma tiene como objetivo proponer acciones correctivas a través que permitan fortalecer el mejoramiento en el proceso de aprendizaje en la enseñanza blended learning.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Publicaciones relacionadas con el PID</head></div>		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ávila</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Diana</forename><surname>Martha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Bosco</surname></persName>
+		</author>
+		<title level="m">Virtual Environment for Learning</title>
+				<imprint>
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<ptr target="http://investigacion.ilce.edu.mx/panel_control/doc/c37ambientes.pdf" />
+		<title level="m">Disponible</title>
+				<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title level="m" type="main">En Anales del Congreso Internacional Educación Superior y Nuevas Tecnologías</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Cataldi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Figueroa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Lage</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Kraus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Britos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">G</forename><surname>Martínez</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2005" />
+			<pubPlace>Santa Fe. Argentina</pubPlace>
+		</imprint>
+	</monogr>
+	<note>El rol del profesor en la modalidad de blearning tutorial</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title level="m" type="main">Social Networking, knowledge sharing, and student learning: The case of universitary students</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Eid</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Al-Jabri</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2016" />
+			<publisher>Computers and Education</publisher>
+			<biblScope unit="volume">99</biblScope>
+			<biblScope unit="page" from="14" to="27" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title level="m" type="main">Factores asociados al rendimiento académico en estudiantes universitarios, una reflexión desde la calidad de la educación superior pública</title>
+		<author>
+			<persName><forename type="first">Garbanzo</forename><surname>Vargas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename></persName>
+		</author>
+		<ptr target="http://www.redalyc.org/articulo.oa?id=44031103" />
+		<editor>Universidad de Costa Rica. San Pedro, Montes de Oca</editor>
+		<imprint>
+			<date type="published" when="2007" />
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="43" to="63" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">SIPREU: An Intelligent System for characterization and Prediction of University Students performance</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Garino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Haderne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Catania</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Pacini</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Advances in New Technologies, Interactive Interfaces and Communicability</title>
+				<meeting><address><addrLine>Córdoba</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title level="m" type="main">Uso de Tecnologías de la Información para detectar posibles deserciones universitarias. VII Congreso de Tecnología en Educación y Educación en Tecnología</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Haderne</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2012" />
+			<publisher>TE &amp; ET</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Hacia una educación de calidad: uso de minería de datos para la detección precoz de factores de riesgo académico</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Haderne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Marín</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="s">Tecnologías y aprendizaje. Avances en Iberoamérica</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="90" to="102" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+		<title level="m" type="main">Estado actual y futuro de las plataformas elearning: estándares y especificaciones IMS</title>
+		<author>
+			<persName><forename type="first">Hernández</forename><surname>Schäfer</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2002" />
+			<pubPlace>Chile</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Universidad Católica del Norte</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+		<ptr target="http://reposital.cuaed.unam.mx:8080/jspuir-Gim%20Ivy.pdf" />
+		<title level="m">Disponible en</title>
+				<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<monogr>
+		<title level="m" type="main">Aprender y enseñar en entornos virtuales: Actividad conjunta, ayuda pedagógica y construcción del conocimiento. RED. Revista de Educación a Distancia</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Onrubia</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<monogr>
+		<title level="m" type="main">La importancia de la modalidad &quot;blended learning</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">V</forename><surname>Sanz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Madoz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Gorga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">H</forename><surname>González</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2007" />
+		</imprint>
+		<respStmt>
+			<orgName>En II Congreso de Tecnología en Educación y Educación en Tecnología</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Marzo 2017) Hacia un modelo de evaluación de entornos virtuales de enseñanza y aprendizaje. La importancia de la usabilidad</title>
+		<author>
+			<persName><forename type="first">Cecilia</forename><forename type="middle">V</forename><surname>Szpiniak</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Sanz</surname></persName>
+		</author>
+		<ptr target="http://teyet-revista.info.unlp.edu.ar/numero-4-octubre-de-2009" />
+	</analytic>
+	<monogr>
+		<title level="j">Revista TEyET</title>
+		<imprint>
+			<biblScope unit="page" from="10" to="14" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">M</forename><surname>Tessio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Di Stefano</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<monogr>
+		<title level="m" type="main">Nuevas herramientas para la evaluación a distancia, hacia un nuevo rol docente</title>
+		<imprint>
+			<publisher>Educación y Tecnología</publisher>
+			<biblScope unit="page" from="1" to="17" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Evaluación de competencias en entornos virtuales de aprendizaje y docencia universitaria</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zapata</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Revista de Educación a Distancia</title>
+		<imprint>
+			<biblScope unit="issue">1DU</biblScope>
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

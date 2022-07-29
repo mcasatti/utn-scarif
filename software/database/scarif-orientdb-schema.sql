@@ -17,6 +17,11 @@ create property Persona.nombre string (notnull true);
 # Clase Artículo, que va a ser central en la parte de cienciometría
 create class Articulo if not exists extends V;
 create property Articulo.titulo string (notnull true);
+create property Articulo.keywords EMBEDDEDLIST STRING;
+create property Articulo.text string;
+create property Articulo.oid string;
+create property Articulo.orcid string;
+
 
 ######################################################
 # AUTOR
@@ -52,6 +57,7 @@ create property Publicacion.pais string;
 ######################################################
 create class Institucion if not exists extends V;
 create property Institucion.nombre string;
+create property Institucion.tipo string;
 
 ######################################################
 # EVENTO
@@ -82,6 +88,7 @@ create property Categoria.codigoScopus string;
 # Las entidades PUBLICACION y REFERENCIA son mejor modeladas como relaciones entre Articulos, Publicaciones, etc
 create class publicadoEn if not exists extends E; # Articulo -> Publicacion
 create property publicadoEn.fechaPublicacion date (notnull true);
+create property publicadoEn.oid string;
 # el modelo original plantea la fecha en el articulo
 # creo que es un mejor enfoque que la fecha esté en la relación
 # de esa manera un articulo publicado en distintos lados
@@ -122,3 +129,6 @@ https://github.com/plreyes/Scopus/blob/master/ASJC%20Codes%20with%20levels.csv
 https://pg.edu.pl/documents/611754/75313317/asjc
 https://arxiv.org/pdf/1511.00735.pdf
 */
+
+# Un autor tiene una o más filiaciones que lo asocia a una o mas instituciones
+create class filiacionA if not exists extends E;
