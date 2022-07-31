@@ -1,9 +1,11 @@
 
 from typing import Dict, List,Tuple
-from .dbmanager import DBManager
+from managers.dbmanager import DBManager
 import re
 import json
-from rich import print,inspect
+import logging
+from entities.scarifentities import Articulo, ArticuloReferencia,Autor, Institucion
+from managers.parser import parseArticulo
 
 class CiencioException (Exception):
     message : str = None
@@ -18,7 +20,7 @@ class CiencioManager:
     Concept Manager:
     Clase que engloba todas las operaciones de gestión de entidades cienciométricas y relaciones en OrientDB
     """
-    def __init__ (self, host='http://localhost', port=2480, database='PPR', user='admin', password='admin'):        
+    def __init__ (self, host='http://localhost', port=2480, database='utn-scarif', user='admin', password='admin'):        
         self.db = DBManager(host=host,port=port,database=database,user=user,password=password)   
     
     '''
@@ -36,18 +38,253 @@ class CiencioManager:
     ''' 
 
     #--------------------------------------------------------------------------------------------
-    # GESTION DE CONCEPTOS
+    # GESTION DE Autores
     # --------------------------------------------------------------------------------------------
     '''
-    def insConcepto (self,concepto : Concepto) -> Tuple[str,int]:
-        result,id = self.db.insVertex(
-            classname="Concepto",
-            fields={
-                "Nombre":concepto.Nombre
-                }
+    Grabar un autor en la base de datos.
+    Si tiene instituciones las graba y asocia
+    '''
+    def insAutor (self, aut : Autor) -> Tuple[str,int]:
+        # Ignorar si viene un autor llamado , (que quiere decir que no se detectó el nombre)
+        if aut.nombre.strip() == ',' or aut.nombre.strip() == '' or aut.nombre == None:
+            return None,0
+
+        if not self.db.existVertex(classname="Autor",keys={"nombre":aut.nombre}):
+            result,id = self.db.insVertex(
+                classname="Autor",
+                fields={
+                    "nombre" : aut.nombre,
+                    "email" : aut.email,
+                    "oid" : aut.oid,
+                    "pais" : aut.pais,
+                    #instituciones : List[Institucion] = dataclasses.field(default_factory=list)
+                    }
+                )
+        else:
+            
+            result = self.db.getVertex(classname="Autor",keys={"nombre":aut.nombre})
+            id = self.db.extractId(result)
+
+        logging.info ("Result insAutor: {} - ID: {}".format(result,id))
+        # Si el autor tiene instituciones asociadas grabarlas y relacionarlas
+        for inst in aut.instituciones:
+            result_inst, id_inst = self.insInstitucion(inst=inst)
+            # Despues de grabar la institucion grabar la relacion
+            if id_inst:
+                self.insFiliacionA (autor=aut,institucion=inst)
+
+        return result,id    
+    '''
+    Graba la relacion entre un autor y un articulo
+    '''
+    def insAutorDe (self, autor : Autor, articulo : Articulo):
+        result = self.db.insEdge(
+            sourceClass='Autor',
+            sourceCondition={'nombre':autor.nombre},
+            destClass='Articulo',
+            destCondition={'titulo':articulo.titulo},
+            edgeClass='autorDe',
+            unique=True
             )
+        logging.info ("Result insAutorDe: {}->{} - ID: {}".format(autor.nombre,articulo.titulo,result))
+        return result
+
+    #--------------------------------------------------------------------------------------------
+    # GESTION DE Instituciones
+    # --------------------------------------------------------------------------------------------
+    '''
+    Graba una institucion en la base de datos
+    '''
+    def insInstitucion (self, inst : Institucion) -> Tuple[str,int]:
+        # Ver si la institucion no existe
+        if not self.db.existVertex(classname="Institucion",keys={"nombre" : inst.nombre}):
+            logging.info ("La institucion no existe, darla de alta")
+            result,id = self.db.insVertex(
+                classname="Institucion",
+                fields={
+                    "nombre" : inst.nombre,
+                    "tipo" : inst.tipo
+                    }
+                )
+            logging.info ("Result insInstitucion: {} - ID: {}".format(result,id))
+            return result,id
+        else:
+            res_qry = self.db.getVertex(classname="Institucion",keys={"nombre" : inst.nombre})
+            rid = self.db.extractId(result=res_qry)
+            # Si se encontró volver con el result y el id encontrados
+            logging.info ("La institucion ya existe: {} - RID: {}".format(res_qry,rid))
+            return res_qry,rid
+
+    '''
+    Graba la relacion entre un autor y una institucion (filiacion)
+    '''
+    def insFiliacionA (self, autor : Autor, institucion : Institucion):
+        result = self.db.insEdge(
+            sourceClass='Autor',
+            sourceCondition={'nombre':autor.nombre},
+            destClass='Institucion',
+            destCondition={'nombre':institucion.nombre},
+            edgeClass='filiacionA',
+            unique=True
+            )
+        logging.info ("Result insFiliacionA: {}->{} - ID: {}".format(autor.nombre,institucion.nombre,result))
+        return result
+
+    '''
+    Graba la relacion entre un articulo y otro articulo (referenciado)
+    '''
+    def insReferenciaA (self, art : Articulo, artref : ArticuloReferencia):
+        result = self.db.insEdge(
+            sourceClass='Articulo',
+            sourceCondition={'titulo':art.titulo},
+            destClass='Articulo',
+            destCondition={'titulo':artref.titulo},
+            edgeClass='referenciaA',
+            unique=True
+            )
+        logging.info ("Result insReferenciaA: {}->{} - ID: {}".format(art.titulo,artref.titulo,result))
+        return result
+
+    #--------------------------------------------------------------------------------------------
+    # GESTION DE Articulos
+    # --------------------------------------------------------------------------------------------
+
+    def getArticulos(self, filter : str = None, limit : int = 5):
+        condicion = "1=1"
+        if filter:
+            condicion = filter
+        if limit:
+            limite = 'LIMIT {limit}'.format(limit=limit)
+        else:
+            limite = ''
+        query = "match {{class: Articulo, as: c, where: ({condicion})}} return expand(c) as result {limite}".format(condicion=condicion,limite=limite)
+        articulosDb = self.db.execCommand(query)
+        if articulosDb:
+            return [parseArticulo(articulo) for articulo in articulosDb]
+        else:
+            return None
+
+    '''
+    Graba un articulo en la base de datos.
+    Graba y asocia todas las entidades relacionadas, como ser autores,
+    instituciones, keywords, referencias, etc.
+    '''
+    def insArticulo (self,art : Articulo) -> Tuple[str,int]:
+        if not self.db.existVertex (classname="Articulo",keys={"titulo":art.titulo}):
+            result,id = self.db.insVertex(
+                classname="Articulo",
+                fields={
+                    "titulo" : art.titulo,
+                    #autores : List[Autor] = dataclasses.field(default_factory=list)
+                    #publicacion : Publicacion = None
+                    #pubEn : publicadoEn = None
+                    #keywords : List[str] = dataclasses.field(default_factory=list)
+                    "text" : art.text,
+                    "oid" : art.oid,
+                    "orcid" : art.orcid
+                    }
+                )
+
+            logging.info ("Result insArticulo: {} - ID: {}".format(result,id))
+            # Si se insertó bien y el articulo incluye una lista de autores grabarlos
+            if id :
+                for autor in art.autores:
+                    result_aut, id_aut = self.insAutor(autor)
+                    # Despues de grabar el autores grabar la relacion entre articulo y autor
+                    if id_aut:
+                        result_rel = self.insAutorDe(autor=autor,articulo=art)
+
+            # Si se insertó bien y el articulo incluye una lista de keywords grabarlos
+            if id :
+                for keyword in art.keywords:
+                    result_key, id_key = self.insKeyword(art=art,keyword=keyword)
+
+            # Si se insertó bien y el articulo incluye una lista de articulos de referencia, insertarlos
+            if id:
+                for artref in art.referencias:
+                    result_artref, idart_ref = self.insArticuloReferencia(artref=artref)
+                    # Despues de grabar el articulo referenciado, grabar la referencia
+                    if idart_ref:
+                        result_rel = self.insReferenciaA(art=art,artref=artref)
+
+        else:
+            result = self.db.getVertex(classname="Articulo",keys={"titulo":art.titulo})
+            id = self.db.extractId(result)
+            logging.info ("El Artículo ya existe. ID: {}".format(id))
+        return result,id
+    
+    '''
+    Graba un articulo de referencia (resumido) en la base de datos.
+    Graba y asocia todas las entidades relacionadas, como ser autores,
+    instituciones, keywords, referencias, etc.
+    '''
+    def insArticuloReferencia (self,artref : ArticuloReferencia) -> Tuple[str,int]:
+        if not self.db.existVertex (classname="Articulo",keys={"titulo":artref.titulo}):
+            result,id = self.db.insVertex(
+                classname="Articulo",
+                fields={
+                    "titulo" : artref.titulo,
+                    #autores : List[Autor] = dataclasses.field(default_factory=list)
+                    #publicacion : Publicacion = None
+                    #pubEn : publicadoEn = None
+                    #keywords : List[str] = dataclasses.field(default_factory=list)
+                    "oid" : artref.oid,
+                    "orcid" : artref.orcid
+                    }
+                )
+
+            logging.info ("Result insArticuloReferencia: {} - ID: {}".format(result,id))
+            # Si se insertó bien y el articulo incluye una lista de autores grabarlos
+            if id :
+                for autor in artref.autores:
+                    result_aut, id_aut = self.insAutor(autor)
+                    # Despues de grabar el autores grabar la relacion entre articulo y autor
+                    if id_aut:
+                        result_rel = self.insAutorDe(autor=autor,articulo=artref)
+
+        else:
+            result = self.db.getVertex(classname="Articulo",keys={"titulo":artref.titulo})
+            id = self.db.extractId(result)
+            logging.info ("El Artículo ya existe. ID: {}, creando relaciones...".format(id))
+            
+            # El artículo ya existía, dar de alta la relacion con sus autores
+            if id :
+                for autor in artref.autores:
+                    result_aut, id_aut = self.insAutor(autor)
+                    # Despues de grabar el autores grabar la relacion entre articulo y autor
+                    if id_aut:
+                        result_rel = self.insAutorDe(autor=autor,articulo=artref)
+
         return result,id
 
+    '''
+    Gestión de keywords asociadas a los artículos
+    '''
+    def insKeyword (self,art : Articulo, keyword : str):
+        result = None
+        count = 0
+        query = "update Articulo SET keywords = keywords||'{keyword}' where (titulo = '{titulo}')".format(titulo=art.titulo,keyword=keyword)
+        result = self.db.execCommand(query)
+        if result:
+            count = self.db.extractCount(result)
+            logging.debug ("Insertado KEYWORD: {}. ID: {}".format(keyword,id))
+        else:
+            count = 0
+            logging.debug ("Error al insertar KEYWORD: {}.".format(keyword))
+        return result,count
+
+    def delKeyword (self,art : Articulo, keyword : str):
+        result = None
+        count = 0
+        query = "update Articulo REMOVE keywords = '{keyword}' where (titulo = '{titulo}')".format(titulo=art.titulo,keyword=keyword)
+        result = self.db.execCommand(query)
+        if result:
+            count = self.db.extractCount(result)
+        else:
+            count = 0
+        return result,count
+    
+    '''
     def updConcepto (self,oldConcepto : Concepto,newConcepto : Concepto) -> Tuple[str, int]:
         result = self.db.updVertex(
             classname="Concepto",
@@ -170,7 +407,7 @@ class CiencioManager:
     '''
 
     #--------------------------------------------------------------------------------------------
-    # GESTION DE RELACIONES
+    # GESTION DE AUTORIAS
     # --------------------------------------------------------------------------------------------
     '''
     def insRelacion (self,conceptoOrigen : Concepto, relacion : Relacion, conceptoDestino : Concepto):

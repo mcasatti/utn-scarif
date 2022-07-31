@@ -1,0 +1,6 @@
+fastapi
+uvicorn[standard]
+fastapi-utils
+starlette
+rich
+requests

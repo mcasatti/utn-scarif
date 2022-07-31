@@ -9,8 +9,7 @@ from entities.scarifentities import *
 import logging
 from rich.logging import RichHandler
 from rich import print,inspect
-# TODO: Corregir este import que falla
-#import ftfy
+
 
 class DBException (Exception):
     reason : int = None
